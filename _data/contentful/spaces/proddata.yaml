@@ -1,0 +1,23 @@
+---
+initiatives:
+- sys:
+    id: 7udm6iSqOc4ecywi2yq6kW
+  name: Thrivefoundation
+  picture:
+    title: King
+    url: //images.contentful.com/q8yrepkn2bph/1MPXOSluHKcAyWMSKSa0uO/93e276265041e5de3ba9b2698d9a06fc/premium-services_318-31765.jpg
+  blurb: this is the blurb
+  description: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+    tempor incididunt ut labore et dolore magna aliqua. '
+staff:
+- sys:
+    id: 6lWDrknPhK0qiEqukkS4oK
+  name: Lionel Jospin
+  title: Premier ministre
+- sys:
+    id: 75yDcrmAb68owGOeaaC2Ui
+  name: Jacques Chirac
+  title: President
+  profile:
+    title: Chirac
+    url: //images.contentful.com/q8yrepkn2bph/2m6E7A3RGMKEGCmWgGMqMI/2a87600f0ed1a71ad9bea86a7d1ff83c/ChiracUSA.jpg

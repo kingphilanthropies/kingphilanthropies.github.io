@@ -1,0 +1,47 @@
+# Site settings
+title: King Philanthropies
+email: contact@kingphilanthropies.org
+description: >
+  Welcome to the future home of King Philanthropies.
+baseurl: ""
+url: "http://www.kingphilanthropies.org/" # the base hostname & protocol for your site
+
+# Build settings
+markdown: kramdown
+permalink: /:title
+exclude: ['_src', '_grunt', 'node_modules', 'Gruntfile.js', 'package.json', 'README.md', 'Gemfile']
+
+# Enabling gems
+gems: [jekyll-contentful]
+
+defaults:
+  -
+    scope:
+      type: "posts"
+    values: 
+      layout: "post"
+      permalink: /blog/:title
+  -
+    scope:
+      path: "/category"
+    values:
+      permalink: /blog/category/:title
+      layout: "category"
+
+
+contentful:
+  preview: No 
+  production_access_token: 'fb48399fd46b8b707a47a0e8e3519ff3555457f3c4c8a9fbe5b87e5dcd9e0833'
+  preview_access_token: '41d2c9f921069b0480db20adc789624a6b6b3515ba7e80ada264fb7f72eea409'
+  space: 'q8yrepkn2bph'
+  content_types:
+   - "initiatives"
+  spaces:
+    - proddata: # Jekyll _data folder identifier - Required
+        space: q8yrepkn2bph        # Required
+        access_token: fb48399fd46b8b707a47a0e8e3519ff3555457f3c4c8a9fbe5b87e5dcd9e0833 # Required
+        cda_query:                 # Optional
+          include: 2
+          limit: 100
+        content_types:             # Optional
+          cat: staff

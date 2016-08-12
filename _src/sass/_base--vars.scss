@@ -1,0 +1,68 @@
+// Colors
+$grey 		: #00B8B9; // original one:#b1bc93; option1: #34DBAC; option2: #007E90; option3: #00B8B9;
+$gold	 	: #007E90;
+$white-light: #f1f1f1;
+$blue		: #91caee;
+$orange 	: #AC0222;
+$red		: #f15c27;
+
+//	Gray Shades
+$color-gray-dark			: #2A2A2A;  // for background
+$color-gray-background		: #F2F2F2;	// light gray 
+$color-border-light			: #C5C5C5;  // gray
+$color-border-dark			: #979797;	// gray
+$color-gray-light			: #D8D8D8;  // for icons background
+$color-blue-dark			: #167292;
+
+ // Font Stacks
+ $stack-sans-serif	: Helvetica, Arial, sans-serif;
+ $stack-serif 		: 'Times New Roman', Times, serif;
+ $Gotham			: 'Gotham', $stack-serif;
+ $Open-sans			: 'Open Sans', $stack-sans-serif;
+ $Merriweather 		: 'Merriweather', $stack-sans-serif;
+
+ // Media Query Breakpoints
+ $brk-narrow 	: '(max-width:768px)';
+ $brk-wide 		: '(max-width:1024px)';
+
+ $assets-path	: '/assets/img/';
+
+  // Mixins
+ @mixin transition($length) {
+ 	-webkit-transition: all $length ease-out; 
+	-moz-transition: all $length ease-out;
+	-ms-transition: all $length ease-out;
+	-o-transition: all $length ease-out;
+	transition: all $length ease-out;
+ }
+
+
+ @mixin border-radius($radius) {
+ 	-webkit-border-radius: $radius;
+	-moz-border-radius: $radius;
+	border-radius: $radius;
+ }
+
+
+@mixin border-radius-left($radius) {
+ 	-webkit-border-bottom-left-radius: $radius;
+	-moz-bottom-left-radius: $radius;
+	border-bottom-left: $radius;
+	-webkit-border-top-left-radius: $radius;
+	-moz-top-left-radius: $radius;
+	border-top-left: $radius;
+ }
+
+@mixin transform($angle) {
+	-ms-transform: rotate($angle); /* IE 9 */
+    -webkit-transform: rotate($angle); /* Chrome, Safari, Opera */
+    -moz-transform: rotate($angle); /* Firefox */
+    transform: rotate($angle);
+}
+
+
+// Helpers
+
+.no-margin {
+	margin:0 !important;
+}
