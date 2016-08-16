@@ -11,13 +11,16 @@ initiatives:
     tempor incididunt ut labore et dolore magna aliqua. '
 staff:
 - sys:
-    id: 6lWDrknPhK0qiEqukkS4oK
-  name: Lionel Jospin
-  title: Premier ministre
-- sys:
     id: 75yDcrmAb68owGOeaaC2Ui
   name: Jacques Chirac
   title: President
   profile:
     title: Chirac
     url: //images.contentful.com/q8yrepkn2bph/2m6E7A3RGMKEGCmWgGMqMI/2a87600f0ed1a71ad9bea86a7d1ff83c/ChiracUSA.jpg
+- sys:
+    id: 6lWDrknPhK0qiEqukkS4oK
+  name: Lionel Jospaing
+  title: Premier ministre
+  profile:
+    title: Lionel Jospin
+    url: //images.contentful.com/q8yrepkn2bph/3bc16chBvO0iauEW0Is6iA/e76cb2ac071962d9e153725437e00e7d/Lionel_Jospin__mai_2014__Rennes__France__cropped_.jpg

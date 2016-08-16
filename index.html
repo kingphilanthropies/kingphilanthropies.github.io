@@ -22,7 +22,14 @@ layout: default
     {% for staff in site.data.contentful.spaces.proddata.staff %}
       <li>
         <h2><a href="#">{{ staff.name }}</a> - {{staff.title}}</h2>
-        <img src="{{ staff.profile.url }}"/> 
+        <!-- <img src="{{ staff.profile.url }}"/>  -->
+      </li>
+    {% endfor %}
+
+    <h1 class="page-heading">Initiatives</h1>
+    {% for initiative in site.data.contentful.spaces.proddata.initiatives %}
+      <li>
+        <h2><a href="#">{{ initiative.name }}</a> - {{initiative.blurb}}</h2>
       </li>
     {% endfor %}
 
