@@ -1,8 +1,8 @@
 module.exports = {
     serve: [
         'sass',
-        'watch',
-        'shell:jekyllServe'
+        'shell:jekyllServe',
+        'watch'
     ],
     options: {
         logConcurrentOutput: true

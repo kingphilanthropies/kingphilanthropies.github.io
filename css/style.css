@@ -208,3 +208,9 @@ body {
 
 .no-margin {
   margin: 0 !important; }
+
+h1 {
+  font-family: "Playfair Display", Times, serif;
+  font-size: 48pt; }
+
+/*# sourceMappingURL=style.css.map */

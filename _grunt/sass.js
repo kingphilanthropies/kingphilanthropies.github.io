@@ -1,11 +1,11 @@
 module.exports = {
   compile: {
     options: {
-      style: 'compressed',
-      sourceMap: false
+      style: 'compact',
+      sourceMap: true
     },
     files: {
-      'assets/css/style.css': '_src/sass/index.scss',
+      'css/main.css': '_src/sass/index.scss',
     }
   }
 }

@@ -1,0 +1,33 @@
+// Headline
+h1 {
+	font-family: $stack-serif;
+	font-size: 48pt;
+} 
+
+h2, h3, p, p.caption, p.button {
+	font-family: $stack-sans-serif;
+}
+
+// Display Text
+h2 {
+	font-size: 30pt;
+}
+
+//Title
+h3 {
+	font-size:14pt;
+}
+
+//Body 
+p {
+	font-size:18pt;
+	//caption
+	&.caption {
+		font-size: 12pt;
+	}
+	//Button
+	&.button {
+		font-size:14pt;
+		text-transform: uppercase;
+	}
+}

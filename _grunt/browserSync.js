@@ -1,11 +1,11 @@
 module.exports = {
   dev: {
     bsFiles: {
-      src : 'dist/css/style.css'
+      src : '_site/css/main.css'
     },
     options: {
       watchTask: true,
-      proxy: "uplift.dev:8888"
+      proxy: "http://127.0.0.1:4000/"
     }
   }
 }

@@ -208,3 +208,26 @@ body {
 
 .no-margin {
   margin: 0 !important; }
+
+h1 {
+  font-family: "Playfair Display", Times, serif;
+  font-size: 48pt; }
+
+h2, h3, p, p.caption, p.button {
+  font-family: "Open Sans", Helvetica, sans-serif; }
+
+h2 {
+  font-size: 30pt; }
+
+h3 {
+  font-size: 14pt; }
+
+p {
+  font-size: 18pt; }
+  p.caption {
+    font-size: 12pt; }
+  p.button {
+    font-size: 14pt;
+    text-transform: uppercase; }
+
+/*# sourceMappingURL=main.css.map */
