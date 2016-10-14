@@ -3,6 +3,7 @@ h1 {
 	font-family: $stack-serif;
 	font-size: 45px; 
 	line-height:1;
+	text-align:center;
 } 
 
 // Display Text
@@ -10,6 +11,7 @@ h2 {
 	font-family: $stack-serif;
 	font-size: 30px;
 	line-height:1;
+	text-align:center;
 }
 
 h3, p, p.caption, p.button, a, ul, li {
@@ -23,6 +25,7 @@ h3 {
 	letter-spacing: 0.3px;
 	line-height:1;
 	text-transform:uppercase;
+	text-align:center;
 }
 
 //Body 
@@ -37,6 +40,7 @@ p {
 		font-size:14px;
 		letter-spacing: 0.5px;
 		text-transform: uppercase;
+		text-align:center;
 	}
 }
 

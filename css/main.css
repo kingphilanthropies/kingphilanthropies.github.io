@@ -209,15 +209,38 @@ body {
 .no-margin {
   margin: 0 !important; }
 
+.button a {
+  border: 1px solid;
+  display: inline-block;
+  padding: 9px 25px;
+  text-decoration: none;
+  -webkit-transition: all 0.2s ease-out;
+  -moz-transition: all 0.2s ease-out;
+  -ms-transition: all 0.2s ease-out;
+  -o-transition: all 0.2s ease-out;
+  transition: all 0.2s ease-out; }
+
+.button.black a {
+  color: #000; }
+  .button.black a:hover {
+    background: #eaeaec; }
+
+.button.olive a {
+  color: #D1B894; }
+  .button.olive a:hover {
+    background: #42404e; }
+
 h1 {
   font-family: "Playfair Display", Times, serif;
   font-size: 45px;
-  line-height: 1; }
+  line-height: 1;
+  text-align: center; }
 
 h2 {
   font-family: "Playfair Display", Times, serif;
   font-size: 30px;
-  line-height: 1; }
+  line-height: 1;
+  text-align: center; }
 
 h3, p, p.caption, p.button, a, ul, li {
   font-family: "Open Sans", Helvetica, sans-serif;
@@ -227,7 +250,8 @@ h3 {
   font-size: 14px;
   letter-spacing: 0.3px;
   line-height: 1;
-  text-transform: uppercase; }
+  text-transform: uppercase;
+  text-align: center; }
 
 p {
   font-size: 14px; }
@@ -236,10 +260,14 @@ p {
   p.button {
     font-size: 14px;
     letter-spacing: 0.5px;
-    text-transform: uppercase; }
+    text-transform: uppercase;
+    text-align: center; }
 
 a {
   color: #C13A53; }
+
+div.clearfix {
+  clear: both; }
 
 header {
   height: 85px;
@@ -254,6 +282,7 @@ nav {
     margin-right: 25px;
     color: #333832; }
     nav h3.active {
+      padding-bottom: 10px;
       border-bottom: 3px solid #C13A53; }
 
 .site-title img {
@@ -261,8 +290,19 @@ nav {
   margin-left: 21px;
   margin-top: 5px; }
 
-.page-content {
+.content {
   padding: 30px; }
+
+section {
+  padding: 90px 0 70px 0; }
+  section.blue {
+    background: #333447;
+    color: #D1B894; }
+  section.light-grey {
+    background: #f7f7f6; }
+  section.red {
+    background: #C13A53;
+    color: #D1B894; }
 
 footer {
   background: #F0F0ED;

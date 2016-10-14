@@ -1,6 +1,13 @@
+// Helpers
+div.clearfix {
+	clear:both;
+}
+
 header {
 	height:85px;
 	width:100%;
+	// background:#fff;
+	// position: fixed;
 }
 
 nav {
@@ -12,6 +19,7 @@ nav {
 		margin-right:25px;
 		color: #333832;
 		&.active {
+			padding-bottom:10px;
 			border-bottom: 3px solid $red;
 		}
 	}
@@ -25,8 +33,23 @@ nav {
 	}
 }
 
-.page-content {
+.content {
 	padding:30px;
+}
+
+section {
+	padding: 90px 0 70px 0;
+	&.blue {
+		background: $blue;
+		color: $olive;
+	}
+	&.light-grey {
+		background: $light-grey;
+	}
+	&.red {
+		background: $red;
+		color: $olive;
+	}
 }
 
 footer {

@@ -1,0 +1,21 @@
+.button {
+	a {
+		border: 1px solid;
+		display: inline-block;
+		padding: 9px 25px;
+		text-decoration:none;
+		@include transition(.2s);
+	}
+	&.black a {
+		color: #000;
+		&:hover {
+			background: #eaeaec;
+		}
+	}
+	&.olive a {
+		color: $olive;
+		&:hover {
+			background: #42404e;
+		}
+	}
+}
