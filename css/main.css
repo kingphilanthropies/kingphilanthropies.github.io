@@ -211,23 +211,63 @@ body {
 
 h1 {
   font-family: "Playfair Display", Times, serif;
-  font-size: 48pt; }
-
-h2, h3, p, p.caption, p.button {
-  font-family: "Open Sans", Helvetica, sans-serif; }
+  font-size: 45px;
+  line-height: 1; }
 
 h2 {
-  font-size: 30pt; }
+  font-family: "Playfair Display", Times, serif;
+  font-size: 30px;
+  line-height: 1; }
+
+h3, p, p.caption, p.button, a, ul, li {
+  font-family: "Open Sans", Helvetica, sans-serif;
+  font-weight: 400; }
 
 h3 {
-  font-size: 14pt; }
+  font-size: 14px;
+  letter-spacing: 0.3px;
+  line-height: 1;
+  text-transform: uppercase; }
 
 p {
-  font-size: 18pt; }
+  font-size: 14px; }
   p.caption {
-    font-size: 12pt; }
+    font-size: 12px; }
   p.button {
-    font-size: 14pt;
+    font-size: 14px;
+    letter-spacing: 0.5px;
     text-transform: uppercase; }
 
-/*# sourceMappingURL=main.css.map */
+a {
+  color: #C13A53; }
+
+header {
+  height: 85px;
+  width: 100%; }
+
+nav {
+  float: right;
+  padding: 25px; }
+  nav h3 {
+    text-decoration: none;
+    display: inline-block;
+    margin-right: 25px;
+    color: #333832; }
+    nav h3.active {
+      border-bottom: 3px solid #C13A53; }
+
+.site-title h1 {
+  text-indent: -999999px;
+  position: absolute; }
+
+.site-title img {
+  width: 220px;
+  margin-left: 21px;
+  margin-top: 5px; }
+
+.page-content {
+  padding: 30px; }
+
+footer {
+  background: #F0F0ED;
+  padding: 50px 100px; }

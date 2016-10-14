@@ -4,36 +4,24 @@ layout: default
 
 <div class="home">
 
-  <h1 class="page-heading">Posts</h1>
+<h1> Creating opportunity for those who need it most</h1>
+<h2>Display Text</h2>
+<h3>Title</h3>
+<p>Body text Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
 
-  <ul class="post-list">
-    {% for post in site.posts %}
-      <li>
-        <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
+<p class="caption">Caption Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
 
-        <h2>
-          <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-        </h2>
-      </li>
-    {% endfor %}
-  </ul>
-
-<h1 class="page-heading">Staff</h1>
-    {% for staff in site.data.contentful.spaces.proddata.staff %}
-      <li>
-        <h2><a href="#">{{ staff.name }}</a> - {{staff.title}}</h2>
-        <!-- <img src="{{ staff.profile.url }}"/>  -->
-      </li>
-    {% endfor %}
-
-    <h1 class="page-heading">Initiatives</h1>
-    {% for initiative in site.data.contentful.spaces.proddata.initiatives %}
-      <li>
-        <h2><a href="#">{{ initiative.name }}</a> - {{initiative.blurb}}</h2>
-      </li>
-    {% endfor %}
-
-  <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
+<p class="button">Button</p>
 
 </div>
  

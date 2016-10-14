@@ -1,0 +1,39 @@
+header {
+	height:85px;
+	width:100%;
+}
+
+nav {
+	float: right;
+	padding:25px;
+	h3 {
+		text-decoration: none;
+		display: inline-block;
+		margin-right:25px;
+		color: #333832;
+		&.active {
+			border-bottom: 3px solid $red;
+		}
+	}
+}
+
+.site-title {
+	h1{		
+		text-indent: -999999px;
+		position: absolute;
+	}
+	img {
+		width: 220px;
+		margin-left: 21px;
+		margin-top:5px;
+	}
+}
+
+.page-content {
+	padding:30px;
+}
+
+footer {
+	background: $grey;
+	padding: 50px 100px; 
+}

@@ -1,33 +1,45 @@
 // Headline
 h1 {
 	font-family: $stack-serif;
-	font-size: 48pt;
+	font-size: 45px; 
+	line-height:1;
 } 
-
-h2, h3, p, p.caption, p.button {
-	font-family: $stack-sans-serif;
-}
 
 // Display Text
 h2 {
-	font-size: 30pt;
+	font-family: $stack-serif;
+	font-size: 30px;
+	line-height:1;
+}
+
+h3, p, p.caption, p.button, a, ul, li {
+	font-family: $stack-sans-serif;
+	font-weight:400;
 }
 
 //Title
 h3 {
-	font-size:14pt;
+	font-size:14px;
+	letter-spacing: 0.3px;
+	line-height:1;
+	text-transform:uppercase;
 }
 
 //Body 
 p {
-	font-size:18pt;
+	font-size:14px;
 	//caption
 	&.caption {
-		font-size: 12pt;
+		font-size: 12px;
 	}
 	//Button
 	&.button {
-		font-size:14pt;
+		font-size:14px;
+		letter-spacing: 0.5px;
 		text-transform: uppercase;
 	}
+}
+
+a {
+	color: $red;
 }

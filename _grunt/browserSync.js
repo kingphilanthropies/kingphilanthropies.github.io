@@ -1,11 +1,17 @@
 module.exports = {
-  dev: {
-    bsFiles: {
-      src : '_site/css/main.css'
+	files: {
+        src : ['_site/css/*.css']
     },
     options: {
-      watchTask: true,
-      proxy: "http://127.0.0.1:4000/"
+        watchTask: true,
+        ghostMode: {
+            clicks: true,
+            scroll: true,
+            links: true,
+            forms: true
+        },
+        server: {
+            baseDir: '_site'
+        }
     }
-  }
 }
