@@ -256,10 +256,6 @@ nav {
     nav h3.active {
       border-bottom: 3px solid #C13A53; }
 
-.site-title h1 {
-  text-indent: -999999px;
-  position: absolute; }
-
 .site-title img {
   width: 220px;
   margin-left: 21px;
