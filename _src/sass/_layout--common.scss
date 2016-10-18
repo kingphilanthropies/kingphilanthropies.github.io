@@ -3,6 +3,13 @@ div.clearfix {
 	clear:both;
 }
 
+.text-left {
+	text-align: left !important;
+}
+.text-right {
+	text-align: right !important;
+}
+
 header {
 	height:85px;
 	width:100%;
@@ -55,4 +62,33 @@ section {
 footer {
 	background: $grey;
 	padding: 50px 100px; 
+	.links {
+		text-align: right;
+	}
+	.social-icons {
+		display: inline-block;
+		img {
+			height: 25px;
+			margin-right: 5px;
+			vertical-align: sub;
+		}
+	}
+	ul {
+		display: inline-block;
+		list-style: none;
+		li {
+			display: inline-block;
+			margin-right: 10px;
+			font-size: 14px;
+		    letter-spacing: 0.3px;
+		    text-transform: uppercase;
+			&:after {
+				margin-left: 15px;
+				content: "|";
+			}
+			&:last-of-type:after {
+					content: "";
+				}
+		}
+	}
 }

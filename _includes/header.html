@@ -3,14 +3,14 @@
   <div class="wrapper">
 
     <a class="site-title" href="{{ site.baseurl }}/">
-      <img src="/assets/img/logo.svg" alt="King logo" /> 
+      <img src="{{ site.image_path }}/logo.svg" alt="King logo" /> 
     </a>
 
     <nav class="site-nav">
 
         {% assign sorted_pages = site.pages | sort:"order" %}
         {% for my_page in sorted_pages %}
-          {% if my_page.title %}
+          {% if my_page.title and my_page.title != 'Letter' and my_page.title != 'Contact' %}
           <a class="page-link" href="{{ my_page.url | prepend: site.baseurl }}"><h3 class="{% if my_page.title == page.title %}active{%endif%}">{{ my_page.title }}</h3></a>
           {% endif %}
         {% endfor %}

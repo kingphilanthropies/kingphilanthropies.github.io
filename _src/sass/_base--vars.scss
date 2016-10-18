@@ -25,31 +25,6 @@ $assets-path			: '/assets/img/';
 transition: all $length ease-out;
 }
 
-
-@mixin border-radius($radius) {
-	-webkit-border-radius: $radius;
--moz-border-radius: $radius;
-border-radius: $radius;
-}
-
-
-@mixin border-radius-left($radius) {
-	-webkit-border-bottom-left-radius: $radius;
--moz-bottom-left-radius: $radius;
-border-bottom-left: $radius;
--webkit-border-top-left-radius: $radius;
--moz-top-left-radius: $radius;
-border-top-left: $radius;
-}
-
-@mixin transform($angle) {
--ms-transform: rotate($angle); /* IE 9 */
--webkit-transform: rotate($angle); /* Chrome, Safari, Opera */
--moz-transform: rotate($angle); /* Firefox */
-transform: rotate($angle);
-}
-
-
 // Helpers
 
 .no-margin {
