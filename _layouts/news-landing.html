@@ -7,72 +7,25 @@ layout: default
 	</div>
 </section>
 
+
+{% for post in site.data.contentful.spaces.proddata.newsPost %}
 <div class="content">
-<section class="light-grey">
+<section class="{{ post.color }}">
 		<div class="grid">
 			<div class="col-3-12">
-      			<img src="//placehold.it/200x100">
+      			<img src="{{ post.sourceLogo.url }}" alt="{{ post.sourceLogo.title }}" style="max-width: 100%;">
 			</div>
 			<div class="col-9-12">
-				<h2>Couple Donate $150 Million to Fight Poverty in Developing Nations</h2>
-				<p class="caption">New York Times - 2011</p>
-				<p> Stanford University will open an institution aimed at alleviating poverty in developing nations, using $150 million donated by a Silicon Valley investor and his wife. “More than a billion people live on less than $1.25 a day,” said Robert E. King, who, together with his wife, Dorothy, made the gift. “That’s just not right.” The new Stanford Institute for Innovation in Developing Economies, which has been nicknamed SEED, will be housed in the Graduate School of Business but will draw students and faculty from around the university.</p>
-				<p class="button black"><a href="#">Read More</a></p>
+				<h2>{{ post.title }}</h2>
+				<p class="caption">{{ post.source }}</p>
+				<p>{{ post.content }}</p>
+				<p class="button black"><a href="{{post.link}}">Read More</a></p>
 			</div>
 		</div>
 	</section>
 </div>
+{% endfor %}
 
-
-
-<section>
-	<div class="content">
-			<div class="grid">
-				<div class="col-3-12">
-	      			<img src="//placehold.it/200x100">
-				</div>
-				<div class="col-9-12">
-					<h2>Couple Donate $150 Million to Fight Poverty in Developing Nations</h2>
-					<p class="caption">University of Madison-Wisconsin - 2015</p>
-					<p>“With a $10 million gift from 1958 UW–Madison alumna Dorothy “Dottie” Jones King and her husband, Robert “Bob” Eliot King, the university will be able to recruit new interdisciplinary faculty that focus on children and well-being to the center and the school. “We’re thrilled to collaborate with UW–Madison in our determination to help disadvantaged youth reach their full potential,” says Dottie Jones King. “We believe the work of Richard Davidson and his colleagues at the center will have a tremendous impact and help thousands — if not millions — of youth thrive.”</p>
-					<p class="button black"><a href="#">Read More</a></p>
-				</div>
-			</div>
-	</div>
-</section>
-
-<section class="blue">
-	<div class="content">
-			<div class="grid">
-				<div class="col-3-12">
-	      			<img src="//placehold.it/200x100">
-				</div>
-				<div class="col-9-12">
-					<h2>Big Bets and the Aspiration Gap</h2>
-					<p class="caption">Philanthropy Roundtable - Winter 2016</p>
-					<p>...(The study included) big university gifts that specifically focused on social change, such as Robert and Dorothy King’s gift of $150 million to found the Stanford Institute for Innovation in Developing ­Economies, which aims to fight poverty in the poorest parts of the world. Between 2000 and 2012, the total dollar volume of all announced philanthropic big bets averaged $8 billion a year.</p>
-					<p class="button olive"><a href="#">Read More</a></p>
-				</div>
-			</div>
-	</div>
-</section>
-
-
-<section>
-	<div class="content">
-			<div class="grid">
-				<div class="col-3-12">
-	      			<img src="//placehold.it/200x100">
-				</div>
-				<div class="col-9-12">
-					<h2>Couple Donate $150 Million to Fight Poverty in Developing Nations</h2>
-					<p class="caption">University of Madison-Wisconsin - 2015</p>
-					<p>“With a $10 million gift from 1958 UW–Madison alumna Dorothy “Dottie” Jones King and her husband, Robert “Bob” Eliot King, the university will be able to recruit new interdisciplinary faculty that focus on children and well-being to the center and the school. “We’re thrilled to collaborate with UW–Madison in our determination to help disadvantaged youth reach their full potential,” says Dottie Jones King. “We believe the work of Richard Davidson and his colleagues at the center will have a tremendous impact and help thousands — if not millions — of youth thrive.”</p>
-					<p class="button black"><a href="#">Read More</a></p>
-				</div>
-			</div>
-	</div>
-</section>
 
 <section class="blue">
 			<h2>King Philanthropies is inspired by the generous spirit of its founders.</h2>

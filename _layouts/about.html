@@ -29,17 +29,20 @@ layout: default
 	<div class="content">
 		<h3>Staff</h3>
 		{% for staff in site.data.contentful.spaces.proddata.staffMember %}
-      <li>
-        <h2><a href="#">{{ staff.name }}</a> - {{staff.title}}</h2>
-        <!-- <img src="{{ staff.profile.url }}"/>  -->
-      </li>
-    {% endfor %}
+	        <a href="#"><h2>{{ staff.name }}</h2></a>
+	        <p>{{staff.jobTitle}}</p>
+	        <img src="{{ staff.picture.url }}" alt="{{ boardMember.picture.title }}" style="max-width: 200px;" /> 
+    	{% endfor %}
 	</div>
 </section>
 
 <section class="blue">
 	<div class="content">
 		<h3>Our Board</h3>
+		{% for boardMember in site.data.contentful.spaces.proddata.boardMember %}
+			<h2>{{ boardMember.name }}</h2>
+		    <img src="{{ boardMember.picture.url }}" alt="{{ boardMember.picture.title }}" style="max-width: 200px;" /> 
+    	{% endfor %}
 	</div>
 </section>
 

@@ -6,7 +6,7 @@ staffMember:
   jobTitle: Interim Executive Director for the Thrive Foundation for Youth
   picture:
     title: blank-profile-picture-973460 1280
-    url: //images.contentful.com/0cp1epmalnde/1ZXQIfpSZyeqy4w4uu06wk/bf0f8da5ae708ee22cf4c003b153ee34/blank-profile-picture-973460_1280.png
+    url: "//images.contentful.com/0cp1epmalnde/1ZXQIfpSZyeqy4w4uu06wk/bf0f8da5ae708ee22cf4c003b153ee34/blank-profile-picture-973460_1280.png"
   bio: "Dana is the Interim Executive Director for the Thrive Foundation for Youth,
     a division of King Philanthropies. Dana is also the founder of Quantitative Marketing
     Intelligence (QMI), a marketing consulting firm that provides quantitative and
@@ -24,7 +24,7 @@ staffMember:
   jobTitle: Advisor, Food, Nutrition and Rural Livelihoods Initiative
   picture:
     title: blank-profile-picture-973460 1280
-    url: //images.contentful.com/0cp1epmalnde/1ZXQIfpSZyeqy4w4uu06wk/bf0f8da5ae708ee22cf4c003b153ee34/blank-profile-picture-973460_1280.png
+    url: "//images.contentful.com/0cp1epmalnde/1ZXQIfpSZyeqy4w4uu06wk/bf0f8da5ae708ee22cf4c003b153ee34/blank-profile-picture-973460_1280.png"
   bio: |
     Sandeep is a Managing Director at Barclays Capital, where he leads the food and
     agriculture advisory effort globally. His expertise spans the full breadth of the food
@@ -35,16 +35,26 @@ staffMember:
   jobTitle: Director of Finance, Investments, and Administration
   picture:
     title: blank-profile-picture-973460 1280
-    url: //images.contentful.com/0cp1epmalnde/1ZXQIfpSZyeqy4w4uu06wk/bf0f8da5ae708ee22cf4c003b153ee34/blank-profile-picture-973460_1280.png
-  bio: |
-    Chanthi is the Director of Finance, Investments, and Administration for King Philanthropies. She manages all aspects of finance for King Philanthropies, with particular focus on financial reporting, analysis and investments. Prior to joining King Philanthropies she worked as a legal contractor for several law firms practicing diverse areas of law, from intellectual property to securities litigation. Prior to law school, Chanthi worked in various finance capacities at three Wall Street firms—Robertson Stephens, Jefferies & Company, and Citi Smith Barney. Chanthi holds a B.A. in Political Science from the University of the Pacific and a J.D./M.B.A. from Gonzaga University. She is admitted to practice law in the state of California. She currently sits on the Board of AC Global Risk.
+    url: "//images.contentful.com/0cp1epmalnde/1ZXQIfpSZyeqy4w4uu06wk/bf0f8da5ae708ee22cf4c003b153ee34/blank-profile-picture-973460_1280.png"
+  bio: 'Chanthi is the Director of Finance, Investments, and Administration for King
+    Philanthropies. She manages all aspects of finance for King Philanthropies, with
+    particular focus on financial reporting, analysis and investments. Prior to joining
+    King Philanthropies she worked as a legal contractor for several law firms practicing
+    diverse areas of law, from intellectual property to securities litigation. Prior
+    to law school, Chanthi worked in various finance capacities at three Wall Street
+    firms—Robertson Stephens, Jefferies & Company, and Citi Smith Barney. Chanthi
+    holds a B.A. in Political Science from the University of the Pacific and a J.D./M.B.A.
+    from Gonzaga University. She is admitted to practice law in the state of California.
+    She currently sits on the Board of AC Global Risk.
+
+'
 - sys:
     id: 2PgSSfabpeaIEKw28a6Smy
   name: Kim Starkey Jonker
   jobTitle: President and CEO
   picture:
     title: blank-profile-picture-973460 1280
-    url: //images.contentful.com/0cp1epmalnde/1ZXQIfpSZyeqy4w4uu06wk/bf0f8da5ae708ee22cf4c003b153ee34/blank-profile-picture-973460_1280.png
+    url: "//images.contentful.com/0cp1epmalnde/1ZXQIfpSZyeqy4w4uu06wk/bf0f8da5ae708ee22cf4c003b153ee34/blank-profile-picture-973460_1280.png"
   bio: "Kim is the President and CEO of King Philanthropies. She is a frequent contributor
     to *The Stanford Social Innovation Review* (SSIR) and recently served as a Visiting
     Practitioner at Stanford’s Center for Philanthropy and Civil Society (PACS). Kim
@@ -60,7 +70,7 @@ staffMember:
   jobTitle: Consultant
   picture:
     title: blank-profile-picture-973460 1280
-    url: //images.contentful.com/0cp1epmalnde/1ZXQIfpSZyeqy4w4uu06wk/bf0f8da5ae708ee22cf4c003b153ee34/blank-profile-picture-973460_1280.png
+    url: "//images.contentful.com/0cp1epmalnde/1ZXQIfpSZyeqy4w4uu06wk/bf0f8da5ae708ee22cf4c003b153ee34/blank-profile-picture-973460_1280.png"
   bio: "Devin is a Consultant with King Philanthropies. She brings 15 years of experience
     in nonprofit management and consulting, including work with McKinsey & Company,
     the Gates Foundation, and the Kravis Prize in Nonprofit Leadership. Focused on
@@ -75,7 +85,7 @@ staffMember:
   jobTitle: Strategic Management
   picture:
     title: blank-profile-picture-973460 1280
-    url: //images.contentful.com/0cp1epmalnde/1ZXQIfpSZyeqy4w4uu06wk/bf0f8da5ae708ee22cf4c003b153ee34/blank-profile-picture-973460_1280.png
+    url: "//images.contentful.com/0cp1epmalnde/1ZXQIfpSZyeqy4w4uu06wk/bf0f8da5ae708ee22cf4c003b153ee34/blank-profile-picture-973460_1280.png"
   bio: William is the Lafayette Partners Lecturer in Strategic Management at the Stanford
     University Graduate School of Business and a Director Emeritus of McKinsey & Company.
     He is a sought-after writer, speaker, teacher and advisor on strategy, leadership,
@@ -98,7 +108,7 @@ staffMember:
   jobTitle: Program Associate
   picture:
     title: blank-profile-picture-973460 1280
-    url: //images.contentful.com/0cp1epmalnde/1ZXQIfpSZyeqy4w4uu06wk/bf0f8da5ae708ee22cf4c003b153ee34/blank-profile-picture-973460_1280.png
+    url: "//images.contentful.com/0cp1epmalnde/1ZXQIfpSZyeqy4w4uu06wk/bf0f8da5ae708ee22cf4c003b153ee34/blank-profile-picture-973460_1280.png"
   bio: 'Sonal is a Program Associate for King Philanthropies. Sonal worked previously
     in the Department of Impact Evaluation at the World Bank, Morgan Stanley’s Public
     Finance division, Ashoka Changemakers,Innovate Delhi Entrepreneurship Academy
@@ -130,31 +140,109 @@ letter:
     cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
     proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
   year: 2016
+newsPost:
+- sys:
+    id: 3zsxDXsluEueCcu2maqg6C
+  order: 0
+  title: Big Bets and the Aspiration Gap
+  source: Philanthropy Roundtable - Winter 2016
+  content: "“...(The study included) big university gifts that specifically focused
+    on social change, such as Robert and Dorothy King’s gift of $150 million to found
+    the Stanford Institute for Innovation in Developing ­Economies, which aims to
+    fight poverty in the poorest parts of the world. Between 2000 and 2012, the total
+    dollar volume of all announced philanthropic big bets averaged $8 billion a year."
+  color: blue
+  sourceLogo:
+    title: Philanthropy logo
+    url: "//images.contentful.com/0cp1epmalnde/3VY4eZ7X3yU0Cg2woesIqq/a101dec56d62734f3c932b903ac5c671/Philanthropy_logo.jpg"
+  link: http://www.philanthropyroundtable.org/topic/donor_intent/big_bets_and_the_aspiration_gap
+- sys:
+    id: 3v94Rq0hHi4aeqQCg6miqA
+  order: 3
+  title: 'Ending Poverty: King Family Funds Scholarships for Students from the Developing
+    World'
+  source: Dartmouth News - 2012
+  content: 'Dorothy and Robert King ’57 have partnered with Dartmouth to help address
+    the problem of global poverty by [establishing a scholarship program](http://www.kingscholars.com/)
+    for exceptional students from developing nations. hey have made a gift of $14.7
+    million that will fund a total of 12 King Scholars each year. The scholars will
+    be encouraged to use their Dartmouth educations to return to their home countries
+    after graduation to work toward the alleviation of extreme poverty. The gift also
+    establishes an admissions recruitment fund to identify and bring eligible students
+    to Dartmouth from developing countries in Africa, Latin America, and Southeast
+    Asia.
+
+'
+  color: light-grey
+  sourceLogo:
+    title: Dartmouth College 1015895
+    url: "//images.contentful.com/0cp1epmalnde/67bAfZfnnauYwCWaA8EUEk/0c9832fb859fd666b104d7401be9b287/Dartmouth_College_1015895.png"
+  link: https://news.dartmouth.edu/news/2012/02/ending-poverty-king-family-funds-scholarships-students-developing-world
+- sys:
+    id: 3MsfKxCTNmqyI0oO6es6ea
+  order: 1
+  title: "$10 million gift expands faculty and research to help youth flourish"
+  source: University of Madison-Wisconsin - 2015
+  content: |
+    “With a $10 million gift from 1958 UW–Madison alumna Dorothy “Dottie” Jones King and her husband, Robert “Bob” Eliot King, the university will be able to recruit new interdisciplinary faculty that focus on children and well-being to the center and the school.
+    “We’re thrilled to collaborate with UW–Madison in our determination to help disadvantaged youth reach their full potential,” says Dottie Jones King. “We believe the work of Richard Davidson and his colleagues at the center will have a tremendous impact and help thousands — if not millions — of youth thrive.”
+  sourceLogo:
+    title: wisconsing
+    url: "//images.contentful.com/0cp1epmalnde/4MlJCtAagMe2IgcaygmKc0/0d78a3df4d9f5ecd44dc162b8efc6169/wisconsing.png"
+  link: http://news.wisc.edu/10-million-gift-expands-faculty-and-research-to-help-youth-flourish/
+- sys:
+    id: CTOKHXg6n6KIOUcaUeAWI
+  order: 2
+  title: Couple Donate $150 Million to Fight Poverty in Developing Nations
+  source: New York Times - 2011
+  content: "[Stanford University](http://topics.nytimes.com/top/reference/timestopics/organizations/s/stanford_university/index.html?inline=nyt-org)
+    will open an institution aimed at alleviating poverty in developing nations, using
+    $150 million donated by a Silicon Valley investor and his wife. “More than a billion
+    people live on less than $1.25 a day,” said Robert E. King, who, together with
+    his wife, Dorothy, made the gift. “That’s just not right.” The new [Stanford Institute
+    for Innovation in Developing Economies,](http://www.gsb.stanford.edu/seed/) which
+    has been nicknamed SEED, will be housed in the Graduate School of Business but
+    will draw students and faculty from around the university."
+  sourceLogo:
+    title: nyt-t-logo
+    url: "//images.contentful.com/0cp1epmalnde/2EHwGbOZAwqiyOsgEsKok4/f7d86bd22bc5198225d06b954791f289/nyt-t-logo.png"
+  link: http://www.nytimes.com/2011/11/04/business/couple-donates-150-million-to-help-end-poverty.html?_r=0
 initiatives:
 - sys:
     id: 5hSEDZl4WQEgCOyiIiAwEE
   initiativeTitle: King Scholars
   thumbImage:
     title: thumbnail
-    url: //images.contentful.com/0cp1epmalnde/4MPgnd346sKO8k8CkgCsO6/ef8149b66632c42dc56a2d2d5235cccd/-text.png
+    url: "//images.contentful.com/0cp1epmalnde/4MPgnd346sKO8k8CkgCsO6/ef8149b66632c42dc56a2d2d5235cccd/-text.png"
   landscapeImage:
     title: landscape
-    url: //images.contentful.com/0cp1epmalnde/29rJNsVQCkykEay4qqoiem/70f6a1f1dc99efcf45b33a624091d60c/-text-1.png
+    url: "//images.contentful.com/0cp1epmalnde/29rJNsVQCkykEay4qqoiem/70f6a1f1dc99efcf45b33a624091d60c/-text-1.png"
   hoverText: Exceptional students committed to changing the world
   initiativeBlurb: 'The King Scholars program is built on a simple premise: poverty
     alleviation can be best achieved by those who have direct experience of it. '
   initiativeSubtitle: Exceptional students committed to changing the world
-  theOpportunity: |
-    The King Scholars program is built on a simple premise: poverty alleviation can be best achieved by those who have direct experience of it.  So in 2012, when Bob and Dottie King set out to train and equip a new generation of leaders to alleviate poverty across the globe, they looked to those who had themselves grown up in poverty.  The Kings recognized that emerging leaders could be identified as early as high school and provided with a world-class college education and leadership training that would prepare them to employ game-changing solutions in poverty alleviation. King Scholars have grown up in poverty and know whereof they speak.  They demonstrate a passionate commitment to leading future poverty alleviation efforts in their home countries and are uniquely positioned to effect significant change.
+  theOpportunity: 'The King Scholars program is built on a simple premise: poverty
+    alleviation can be best achieved by those who have direct experience of it.  So
+    in 2012, when Bob and Dottie King set out to train and equip a new generation
+    of leaders to alleviate poverty across the globe, they looked to those who had
+    themselves grown up in poverty.  The Kings recognized that emerging leaders could
+    be identified as early as high school and provided with a world-class college
+    education and leadership training that would prepare them to employ game-changing
+    solutions in poverty alleviation. King Scholars have grown up in poverty and know
+    whereof they speak.  They demonstrate a passionate commitment to leading future
+    poverty alleviation efforts in their home countries and are uniquely positioned
+    to effect significant change.
+
+'
   ourFocusImage1:
     title: thumbnail
-    url: //images.contentful.com/0cp1epmalnde/4MPgnd346sKO8k8CkgCsO6/ef8149b66632c42dc56a2d2d5235cccd/-text.png
+    url: "//images.contentful.com/0cp1epmalnde/4MPgnd346sKO8k8CkgCsO6/ef8149b66632c42dc56a2d2d5235cccd/-text.png"
   ourFocusImage2:
     title: thumbnail
-    url: //images.contentful.com/0cp1epmalnde/4MPgnd346sKO8k8CkgCsO6/ef8149b66632c42dc56a2d2d5235cccd/-text.png
+    url: "//images.contentful.com/0cp1epmalnde/4MPgnd346sKO8k8CkgCsO6/ef8149b66632c42dc56a2d2d5235cccd/-text.png"
   ourFocusImage3:
     title: thumbnail
-    url: //images.contentful.com/0cp1epmalnde/4MPgnd346sKO8k8CkgCsO6/ef8149b66632c42dc56a2d2d5235cccd/-text.png
+    url: "//images.contentful.com/0cp1epmalnde/4MPgnd346sKO8k8CkgCsO6/ef8149b66632c42dc56a2d2d5235cccd/-text.png"
   theInitiativeText: "The King Scholars program aims to alleviate global poverty by
     bringing exceptional students from developing nations to leading US universities
     for a world-class college education, extraordinary internship opportunities, and
@@ -177,10 +265,10 @@ initiatives:
   initiativeTitle: Food, Nutrition, and Rural Livelihoods Initiative
   thumbImage:
     title: thumbnail
-    url: //images.contentful.com/0cp1epmalnde/4MPgnd346sKO8k8CkgCsO6/ef8149b66632c42dc56a2d2d5235cccd/-text.png
+    url: "//images.contentful.com/0cp1epmalnde/4MPgnd346sKO8k8CkgCsO6/ef8149b66632c42dc56a2d2d5235cccd/-text.png"
   landscapeImage:
     title: landscape
-    url: //images.contentful.com/0cp1epmalnde/29rJNsVQCkykEay4qqoiem/70f6a1f1dc99efcf45b33a624091d60c/-text-1.png
+    url: "//images.contentful.com/0cp1epmalnde/29rJNsVQCkykEay4qqoiem/70f6a1f1dc99efcf45b33a624091d60c/-text-1.png"
   hoverText: Food, Nutrition, and Rural Livelihoods Initiative
   initiativeBlurb: 'King Philanthropies is focused on alleviating extreme poverty,
     so working in areas related to Food, Nutrition, and Rural Livelihoods brings tremendous
@@ -218,24 +306,29 @@ initiatives:
     forward.\n"
   ourFocusImage1:
     title: thumbnail
-    url: //images.contentful.com/0cp1epmalnde/4MPgnd346sKO8k8CkgCsO6/ef8149b66632c42dc56a2d2d5235cccd/-text.png
+    url: "//images.contentful.com/0cp1epmalnde/4MPgnd346sKO8k8CkgCsO6/ef8149b66632c42dc56a2d2d5235cccd/-text.png"
   ourFocusImage2:
     title: thumbnail
-    url: //images.contentful.com/0cp1epmalnde/4MPgnd346sKO8k8CkgCsO6/ef8149b66632c42dc56a2d2d5235cccd/-text.png
+    url: "//images.contentful.com/0cp1epmalnde/4MPgnd346sKO8k8CkgCsO6/ef8149b66632c42dc56a2d2d5235cccd/-text.png"
   ourFocusImage3:
     title: thumbnail
-    url: //images.contentful.com/0cp1epmalnde/4MPgnd346sKO8k8CkgCsO6/ef8149b66632c42dc56a2d2d5235cccd/-text.png
-  theInitiativeText: |
-    Recognizing the importance of both agriculture and nutrition to improve the livelihoods of the rural poor, in early 2017 King Philanthropies will launch a pilot supporting best-in-class organizations working in food, nutrition, and rural livelihoods. The first phase of our pilot will focus on Myanmar, with subsequent efforts focused on East Africa and South Asia.
+    url: "//images.contentful.com/0cp1epmalnde/4MPgnd346sKO8k8CkgCsO6/ef8149b66632c42dc56a2d2d5235cccd/-text.png"
+  theInitiativeText: 'Recognizing the importance of both agriculture and nutrition
+    to improve the livelihoods of the rural poor, in early 2017 King Philanthropies
+    will launch a pilot supporting best-in-class organizations working in food, nutrition,
+    and rural livelihoods. The first phase of our pilot will focus on Myanmar, with
+    subsequent efforts focused on East Africa and South Asia.
+
+'
 - sys:
     id: 41Xcii4e0ooe0OsoMa8gaS
   initiativeTitle: Knight Hennessy Scholars
   thumbImage:
     title: thumbnail
-    url: //images.contentful.com/0cp1epmalnde/4MPgnd346sKO8k8CkgCsO6/ef8149b66632c42dc56a2d2d5235cccd/-text.png
+    url: "//images.contentful.com/0cp1epmalnde/4MPgnd346sKO8k8CkgCsO6/ef8149b66632c42dc56a2d2d5235cccd/-text.png"
   landscapeImage:
     title: landscape
-    url: //images.contentful.com/0cp1epmalnde/29rJNsVQCkykEay4qqoiem/70f6a1f1dc99efcf45b33a624091d60c/-text-1.png
+    url: "//images.contentful.com/0cp1epmalnde/29rJNsVQCkykEay4qqoiem/70f6a1f1dc99efcf45b33a624091d60c/-text-1.png"
   hoverText: Knight Hennessy Scholars
   initiativeBlurb: In an era of increasingly complex global challenges, research universities
     are called to find new solutions to problems old and new and to educate courageous
@@ -261,13 +354,13 @@ initiatives:
     lines to advance knowledge and create solutions.\n"
   ourFocusImage1:
     title: thumbnail
-    url: //images.contentful.com/0cp1epmalnde/4MPgnd346sKO8k8CkgCsO6/ef8149b66632c42dc56a2d2d5235cccd/-text.png
+    url: "//images.contentful.com/0cp1epmalnde/4MPgnd346sKO8k8CkgCsO6/ef8149b66632c42dc56a2d2d5235cccd/-text.png"
   ourFocusImage2:
     title: thumbnail
-    url: //images.contentful.com/0cp1epmalnde/4MPgnd346sKO8k8CkgCsO6/ef8149b66632c42dc56a2d2d5235cccd/-text.png
+    url: "//images.contentful.com/0cp1epmalnde/4MPgnd346sKO8k8CkgCsO6/ef8149b66632c42dc56a2d2d5235cccd/-text.png"
   ourFocusImage3:
     title: thumbnail
-    url: //images.contentful.com/0cp1epmalnde/4MPgnd346sKO8k8CkgCsO6/ef8149b66632c42dc56a2d2d5235cccd/-text.png
+    url: "//images.contentful.com/0cp1epmalnde/4MPgnd346sKO8k8CkgCsO6/ef8149b66632c42dc56a2d2d5235cccd/-text.png"
   theInitiativeText: "Each year the Knight-Hennessy Scholars program will identify
     100 high-achieving individuals from around the world who demonstrate leadership
     and civic commitment.  Each will receive full funding to pursue a wide-ranging
@@ -284,10 +377,10 @@ initiatives:
   initiativeTitle: SEED
   thumbImage:
     title: thumbnail
-    url: //images.contentful.com/0cp1epmalnde/4MPgnd346sKO8k8CkgCsO6/ef8149b66632c42dc56a2d2d5235cccd/-text.png
+    url: "//images.contentful.com/0cp1epmalnde/4MPgnd346sKO8k8CkgCsO6/ef8149b66632c42dc56a2d2d5235cccd/-text.png"
   landscapeImage:
     title: landscape
-    url: //images.contentful.com/0cp1epmalnde/29rJNsVQCkykEay4qqoiem/70f6a1f1dc99efcf45b33a624091d60c/-text-1.png
+    url: "//images.contentful.com/0cp1epmalnde/29rJNsVQCkykEay4qqoiem/70f6a1f1dc99efcf45b33a624091d60c/-text-1.png"
   hoverText: Ending the cycle of extreme poverty
   initiativeBlurb: Global poverty is one of the most pressing challenges of our time
     and Bob and Dottie King are determined to use their resources to alleviate it.
@@ -307,25 +400,37 @@ initiatives:
     and the environment, among others.\n"
   ourFocusImage1:
     title: thumbnail
-    url: //images.contentful.com/0cp1epmalnde/4MPgnd346sKO8k8CkgCsO6/ef8149b66632c42dc56a2d2d5235cccd/-text.png
+    url: "//images.contentful.com/0cp1epmalnde/4MPgnd346sKO8k8CkgCsO6/ef8149b66632c42dc56a2d2d5235cccd/-text.png"
   ourFocusImage2:
     title: thumbnail
-    url: //images.contentful.com/0cp1epmalnde/4MPgnd346sKO8k8CkgCsO6/ef8149b66632c42dc56a2d2d5235cccd/-text.png
+    url: "//images.contentful.com/0cp1epmalnde/4MPgnd346sKO8k8CkgCsO6/ef8149b66632c42dc56a2d2d5235cccd/-text.png"
   ourFocusImage3:
     title: thumbnail
-    url: //images.contentful.com/0cp1epmalnde/4MPgnd346sKO8k8CkgCsO6/ef8149b66632c42dc56a2d2d5235cccd/-text.png
-  theInitiativeText: |
-    Launched with the King’s $150 million gift, SEED combines educational excellence, critical research, and breakthrough innovation to address global poverty.  SEED’s comprehensive approach involves working across multiple fronts and time horizons.  SEED trains business leaders in developing economies, giving them access to management training, coaching, and networking support that will help them lead their regions to greater prosperity. SEED inspires Stanford students to become globally engaged leaders and introduces them to the challenges and opportunities of doing business in developing economies. And, SEED advances university-wide research to develop relevant and impactful poverty alleviation interventions across disciplines. SEED is headquartered at Stanford, has hubs in East and West Africa, and will soon launch in Asia.  Its long-term goal is to expand to developing economies throughout the world.
+    url: "//images.contentful.com/0cp1epmalnde/4MPgnd346sKO8k8CkgCsO6/ef8149b66632c42dc56a2d2d5235cccd/-text.png"
+  theInitiativeText: 'Launched with the King’s $150 million gift, SEED combines educational
+    excellence, critical research, and breakthrough innovation to address global poverty.  SEED’s
+    comprehensive approach involves working across multiple fronts and time horizons.  SEED
+    trains business leaders in developing economies, giving them access to management
+    training, coaching, and networking support that will help them lead their regions
+    to greater prosperity. SEED inspires Stanford students to become globally engaged
+    leaders and introduces them to the challenges and opportunities of doing business
+    in developing economies. And, SEED advances university-wide research to develop
+    relevant and impactful poverty alleviation interventions across disciplines. SEED
+    is headquartered at Stanford, has hubs in East and West Africa, and will soon
+    launch in Asia.  Its long-term goal is to expand to developing economies throughout
+    the world.
+
+'
   moreAboutUrl: https://www.gsb.stanford.edu/seed
 - sys:
     id: TFfzQqIzsIC04WuISimi6
   initiativeTitle: Thrive Foundation For Youth
   thumbImage:
     title: thumbnail
-    url: //images.contentful.com/0cp1epmalnde/4MPgnd346sKO8k8CkgCsO6/ef8149b66632c42dc56a2d2d5235cccd/-text.png
+    url: "//images.contentful.com/0cp1epmalnde/4MPgnd346sKO8k8CkgCsO6/ef8149b66632c42dc56a2d2d5235cccd/-text.png"
   landscapeImage:
     title: landscape
-    url: //images.contentful.com/0cp1epmalnde/29rJNsVQCkykEay4qqoiem/70f6a1f1dc99efcf45b33a624091d60c/-text-1.png
+    url: "//images.contentful.com/0cp1epmalnde/29rJNsVQCkykEay4qqoiem/70f6a1f1dc99efcf45b33a624091d60c/-text-1.png"
   hoverText: The full potential of youth unleashed
   initiativeBlurb: Over 15 years ago, Bob and Dottie King and their adult children
     agreed on their family’s philanthropic commitment to help youth to realize their
@@ -352,30 +457,39 @@ initiatives:
     globally.\n"
   ourFocusImage1:
     title: thumbnail
-    url: //images.contentful.com/0cp1epmalnde/4MPgnd346sKO8k8CkgCsO6/ef8149b66632c42dc56a2d2d5235cccd/-text.png
+    url: "//images.contentful.com/0cp1epmalnde/4MPgnd346sKO8k8CkgCsO6/ef8149b66632c42dc56a2d2d5235cccd/-text.png"
   ourFocusImage2:
     title: thumbnail
-    url: //images.contentful.com/0cp1epmalnde/4MPgnd346sKO8k8CkgCsO6/ef8149b66632c42dc56a2d2d5235cccd/-text.png
+    url: "//images.contentful.com/0cp1epmalnde/4MPgnd346sKO8k8CkgCsO6/ef8149b66632c42dc56a2d2d5235cccd/-text.png"
   ourFocusImage3:
     title: thumbnail
-    url: //images.contentful.com/0cp1epmalnde/4MPgnd346sKO8k8CkgCsO6/ef8149b66632c42dc56a2d2d5235cccd/-text.png
-  theInitiativeText: |
-    Thrive Foundation for Youth guides disadvantaged youth to reach their full potential by strengthening the presence and impact of caring adults in their lives. The foundation partners with successful programs in which caring adults support adolescent youth and in which evidence-based research is applied in practical ways. The current work is built on earlier research in positive youth development and invests in the critical relationship between young people and the caring adults in their lives. Through continued research and ongoing implementation, Thrive continues its strategy of investing in high-impact youth-serving organizations, identifying best practices, and amplifying what works.
+    url: "//images.contentful.com/0cp1epmalnde/4MPgnd346sKO8k8CkgCsO6/ef8149b66632c42dc56a2d2d5235cccd/-text.png"
+  theInitiativeText: 'Thrive Foundation for Youth guides disadvantaged youth to reach
+    their full potential by strengthening the presence and impact of caring adults
+    in their lives. The foundation partners with successful programs in which caring
+    adults support adolescent youth and in which evidence-based research is applied
+    in practical ways. The current work is built on earlier research in positive youth
+    development and invests in the critical relationship between young people and
+    the caring adults in their lives. Through continued research and ongoing implementation,
+    Thrive continues its strategy of investing in high-impact youth-serving organizations,
+    identifying best practices, and amplifying what works.
+
+'
   moreAboutUrl: http://www.thrivefoundation.org/
 - sys:
     id: 3kHCknpbt66IMUa6IcGKkw
   initiativeTitle: Knight-Hennessy
   thumbImage:
     title: thumbnail
-    url: //images.contentful.com/0cp1epmalnde/4MPgnd346sKO8k8CkgCsO6/ef8149b66632c42dc56a2d2d5235cccd/-text.png
+    url: "//images.contentful.com/0cp1epmalnde/4MPgnd346sKO8k8CkgCsO6/ef8149b66632c42dc56a2d2d5235cccd/-text.png"
   landscapeImage:
     title: landscape
-    url: //images.contentful.com/0cp1epmalnde/29rJNsVQCkykEay4qqoiem/70f6a1f1dc99efcf45b33a624091d60c/-text-1.png
-  hoverText: ' A new generation of global leaders'
+    url: "//images.contentful.com/0cp1epmalnde/29rJNsVQCkykEay4qqoiem/70f6a1f1dc99efcf45b33a624091d60c/-text-1.png"
+  hoverText: " A new generation of global leaders"
   initiativeBlurb: In an era of increasingly complex global challenges, research universities
     are called to find new solutions to problems old and new and to educate courageous
     leaders who will forge collaborations and create change at scale.
-  initiativeSubtitle: ' A new generation of global leaders'
+  initiativeSubtitle: " A new generation of global leaders"
   theOpportunity: "In an era of increasingly complex global challenges, research universities
     are called to find new solutions to problems old and new and to educate courageous
     leaders who will forge collaborations and create change at scale.  \"While we
@@ -396,13 +510,13 @@ initiatives:
     lines to advance knowledge and create solutions."
   ourFocusImage1:
     title: thumbnail
-    url: //images.contentful.com/0cp1epmalnde/4MPgnd346sKO8k8CkgCsO6/ef8149b66632c42dc56a2d2d5235cccd/-text.png
+    url: "//images.contentful.com/0cp1epmalnde/4MPgnd346sKO8k8CkgCsO6/ef8149b66632c42dc56a2d2d5235cccd/-text.png"
   ourFocusImage2:
     title: thumbnail
-    url: //images.contentful.com/0cp1epmalnde/4MPgnd346sKO8k8CkgCsO6/ef8149b66632c42dc56a2d2d5235cccd/-text.png
+    url: "//images.contentful.com/0cp1epmalnde/4MPgnd346sKO8k8CkgCsO6/ef8149b66632c42dc56a2d2d5235cccd/-text.png"
   ourFocusImage3:
     title: thumbnail
-    url: //images.contentful.com/0cp1epmalnde/4MPgnd346sKO8k8CkgCsO6/ef8149b66632c42dc56a2d2d5235cccd/-text.png
+    url: "//images.contentful.com/0cp1epmalnde/4MPgnd346sKO8k8CkgCsO6/ef8149b66632c42dc56a2d2d5235cccd/-text.png"
   theInitiativeText: "Each year the Knight-Hennessy Scholars program will identify
     100 high-achieving individuals from around the world who demonstrate leadership
     and civic commitment.  Each will receive full funding to pursue a wide-ranging
@@ -414,84 +528,28 @@ initiatives:
     Program, a distinctive training and development curriculum in which all Knight-Hennessy
     Scholars will participate to complement their core degree studies. \n"
   moreAboutUrl: https://knight-hennessy.stanford.edu/
-newsPost:
-- sys:
-    id: 3v94Rq0hHi4aeqQCg6miqA
-  order: 3
-  title: 'Ending Poverty: King Family Funds Scholarships for Students from the Developing
-    World'
-  source: Dartmouth News - 2012
-  content: |
-    Dorothy and Robert King ’57 have partnered with Dartmouth to help address the problem of global poverty by [establishing a scholarship program](http://www.kingscholars.com/) for exceptional students from developing nations. hey have made a gift of $14.7 million that will fund a total of 12 King Scholars each year. The scholars will be encouraged to use their Dartmouth educations to return to their home countries after graduation to work toward the alleviation of extreme poverty. The gift also establishes an admissions recruitment fund to identify and bring eligible students to Dartmouth from developing countries in Africa, Latin America, and Southeast Asia.
-  sourceLogo:
-    title: Dartmouth College 1015895
-    url: //images.contentful.com/0cp1epmalnde/67bAfZfnnauYwCWaA8EUEk/0c9832fb859fd666b104d7401be9b287/Dartmouth_College_1015895.png
-  link: https://news.dartmouth.edu/news/2012/02/ending-poverty-king-family-funds-scholarships-students-developing-world
-- sys:
-    id: 3zsxDXsluEueCcu2maqg6C
-  order: 0
-  title: Big Bets and the Aspiration Gap
-  source: Philanthropy Roundtable - Winter 2016
-  content: “...(The study included) big university gifts that specifically focused
-    on social change, such as Robert and Dorothy King’s gift of $150 million to found
-    the Stanford Institute for Innovation in Developing ­Economies, which aims to
-    fight poverty in the poorest parts of the world. Between 2000 and 2012, the total
-    dollar volume of all announced philanthropic big bets averaged $8 billion a year.
-  sourceLogo:
-    title: Philanthropy logo
-    url: //images.contentful.com/0cp1epmalnde/3VY4eZ7X3yU0Cg2woesIqq/a101dec56d62734f3c932b903ac5c671/Philanthropy_logo.jpg
-  link: http://www.philanthropyroundtable.org/topic/donor_intent/big_bets_and_the_aspiration_gap
-- sys:
-    id: 3MsfKxCTNmqyI0oO6es6ea
-  order: 1
-  title: $10 million gift expands faculty and research to help youth flourish
-  source: University of Madison-Wisconsin - 2015
-  content: |
-    “With a $10 million gift from 1958 UW–Madison alumna Dorothy “Dottie” Jones King and her husband, Robert “Bob” Eliot King, the university will be able to recruit new interdisciplinary faculty that focus on children and well-being to the center and the school.
-    “We’re thrilled to collaborate with UW–Madison in our determination to help disadvantaged youth reach their full potential,” says Dottie Jones King. “We believe the work of Richard Davidson and his colleagues at the center will have a tremendous impact and help thousands — if not millions — of youth thrive.”
-  sourceLogo:
-    title: wisconsing
-    url: //images.contentful.com/0cp1epmalnde/4MlJCtAagMe2IgcaygmKc0/0d78a3df4d9f5ecd44dc162b8efc6169/wisconsing.png
-  link: http://news.wisc.edu/10-million-gift-expands-faculty-and-research-to-help-youth-flourish/
-- sys:
-    id: CTOKHXg6n6KIOUcaUeAWI
-  order: 2
-  title: Couple Donate $150 Million to Fight Poverty in Developing Nations
-  source: New York Times - 2011
-  content: '[Stanford University](http://topics.nytimes.com/top/reference/timestopics/organizations/s/stanford_university/index.html?inline=nyt-org)
-    will open an institution aimed at alleviating poverty in developing nations, using
-    $150 million donated by a Silicon Valley investor and his wife. “More than a billion
-    people live on less than $1.25 a day,” said Robert E. King, who, together with
-    his wife, Dorothy, made the gift. “That’s just not right.” The new [Stanford Institute
-    for Innovation in Developing Economies,](http://www.gsb.stanford.edu/seed/) which
-    has been nicknamed SEED, will be housed in the Graduate School of Business but
-    will draw students and faculty from around the university.'
-  sourceLogo:
-    title: nyt-t-logo
-    url: //images.contentful.com/0cp1epmalnde/2EHwGbOZAwqiyOsgEsKok4/f7d86bd22bc5198225d06b954791f289/nyt-t-logo.png
-  link: http://www.nytimes.com/2011/11/04/business/couple-donates-150-million-to-help-end-poverty.html?_r=0
 boardMember:
 - sys:
     id: 2Kdw4D8Ngc6GO6uqgwIwae
   name: 'William F. Meehan III. '
   picture:
     title: blank-profile-picture-973460 1280
-    url: //images.contentful.com/0cp1epmalnde/1ZXQIfpSZyeqy4w4uu06wk/bf0f8da5ae708ee22cf4c003b153ee34/blank-profile-picture-973460_1280.png
+    url: "//images.contentful.com/0cp1epmalnde/1ZXQIfpSZyeqy4w4uu06wk/bf0f8da5ae708ee22cf4c003b153ee34/blank-profile-picture-973460_1280.png"
 - sys:
     id: 4HuDlxe4kUY8WCi4CaQSUe
   name: Kim Starkey Jonker
   picture:
     title: blank-profile-picture-973460 1280
-    url: //images.contentful.com/0cp1epmalnde/1ZXQIfpSZyeqy4w4uu06wk/bf0f8da5ae708ee22cf4c003b153ee34/blank-profile-picture-973460_1280.png
+    url: "//images.contentful.com/0cp1epmalnde/1ZXQIfpSZyeqy4w4uu06wk/bf0f8da5ae708ee22cf4c003b153ee34/blank-profile-picture-973460_1280.png"
 - sys:
     id: sDJ60A5Me4OkiagsiWyM4
   name: Robert E. King
   picture:
     title: blank-profile-picture-973460 1280
-    url: //images.contentful.com/0cp1epmalnde/1ZXQIfpSZyeqy4w4uu06wk/bf0f8da5ae708ee22cf4c003b153ee34/blank-profile-picture-973460_1280.png
+    url: "//images.contentful.com/0cp1epmalnde/1ZXQIfpSZyeqy4w4uu06wk/bf0f8da5ae708ee22cf4c003b153ee34/blank-profile-picture-973460_1280.png"
 - sys:
     id: 89vfYItxQIeM2sUic4OcE
   name: Dorothy J. King
   picture:
     title: blank-profile-picture-973460 1280
-    url: //images.contentful.com/0cp1epmalnde/1ZXQIfpSZyeqy4w4uu06wk/bf0f8da5ae708ee22cf4c003b153ee34/blank-profile-picture-973460_1280.png
+    url: "//images.contentful.com/0cp1epmalnde/1ZXQIfpSZyeqy4w4uu06wk/bf0f8da5ae708ee22cf4c003b153ee34/blank-profile-picture-973460_1280.png"

@@ -22,16 +22,19 @@ layout: default
 <section>
   <div class="content">
 <h3>Our initiatives</h3>
-<ul>
+<div class="grid">
     {% for initiative in site.data.contentful.spaces.proddata.initiatives %}
-      <li>
-        <h2><a href="#">{{ initiative.title }}</a> - {{initiative.blurb}}</h2>
-      </li>
+    <!-- Add a counter here, so that after 3 initiatives we have a </div> and a new <div class="grid"> to handle layout -->
+      <div class="col-1-3">
+        <h2><a href="#">{{ initiative.initiativeTitle }}</a></h2>
+        <img src="{{ initiative.thumbImage.url}}" alt="{{ initiative.thumbImage.title}}"/>
+        <p>{{initiative.initiativeBlurb}}</p>
+      </div>
     {% endfor %}
-</ul>
+</div>
 </div>
 </section>
-
+ 
 
 <section class="light-grey">
   <div class="content">

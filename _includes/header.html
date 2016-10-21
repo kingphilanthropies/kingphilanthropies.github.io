@@ -8,12 +8,9 @@
 
     <nav class="site-nav">
 
-        {% assign sorted_pages = site.pages | sort:"order" %}
-        {% for my_page in sorted_pages %}
-          {% if my_page.title and my_page.title != 'Letter' and my_page.title != 'Contact' %}
-          <a class="page-link" href="{{ my_page.url | prepend: site.baseurl }}"><h3 class="{% if my_page.title == page.title %}active{%endif%}">{{ my_page.title }}</h3></a>
-          {% endif %}
-        {% endfor %}
+      <a class="page-link" href="/initiatives/"><h3 class="{% if 'Initiatives' == page.title %}active{%endif%}">Initiatives</h3></a>
+      <a class="page-link" href="/about/"><h3 class="{% if 'About' == page.title %}active{%endif%}">About</h3></a>
+      <a class="page-link" href="/news/"><h3 class="{% if 'News' == page.title %}active{%endif%}">News</h3></a>
     </nav>
 
   </div>
