@@ -19,7 +19,9 @@ layout: default
 				<h2>{{ post.title }}</h2>
 				<p class="caption">{{ post.source }}</p>
 				<p>{{ post.content }}</p>
-				<p class="button black"><a href="{{post.link}}">Read More</a></p>
+				<p class="button {% if post.color == 'blue' %} olive {% else %} black {% endif %}">
+					<a href="{{post.link}}" target="_blank">Read More</a>
+				</p>
 			</div>
 		</div>
 	</section>
