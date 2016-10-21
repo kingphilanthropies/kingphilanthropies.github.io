@@ -1,0 +1,32 @@
+---
+layout: default
+---
+<section class="blue">
+	<div class="content">
+		<h1>{{ page.contentful_fields.initiativeTitle }}</h1> 
+	</div>
+</section>
+
+<section class="light-grey">
+	<div class="content">
+	<img src="{{ page.contentful_fields.picture.file.url }}" alt="{{page.contentful_fields.picture.title}}" style="max-width: 200px;">
+		<h2>the opportunity</h2>
+		<p>{{ page.contentful_fields.theOpportunity }}</p>
+	</div>
+</section>
+
+
+<section>
+	<div class="content">
+		<img src="{{ page.contentful_fields.ourFocusImage1.file.url }}" alt="{{page.contentful_fields.ourFocusImage1.file.title}}" style="max-width: 200px;">
+		<img src="{{ page.contentful_fields.ourFocusImage2.file.url }}" alt="{{page.contentful_fields.ourFocusImage2.file.title}}" style="max-width: 200px;">
+		<img src="{{ page.contentful_fields.ourFocusImage3.file.url }}" alt="{{page.contentful_fields.ourFocusImage3.file.title}}" style="max-width: 200px;">
+	</div>	
+</section>
+
+
+<section class="blue">
+		<h2>the initiative</h2>
+		<p>{{ page.contentful_fields.theInitiativeText }}</p>
+		<p class="button olive"><a href="/initiatives">View All King Initiatives</a></p>
+</section>

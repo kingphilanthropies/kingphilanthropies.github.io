@@ -4,7 +4,7 @@ layout: default
 <section class="red">
 	<div class="content">
 		<h1>Alleviating Extreme Poverty in Africa and Asia</h1>
-	</div>
+	</div> 
 </section>
 
 <section class="light-grey">
@@ -28,8 +28,9 @@ layout: default
 <section>
 	<div class="content">
 		<h3>Staff</h3>
-		{% for staff in site.data.contentful.spaces.proddata.staffMember %}
-	        <a href="#"><h2>{{ staff.name }}</h2></a>
+		{% assign sorted_staff = site.data.contentful.spaces.proddata.staffMember | sort:"order" %}
+		{% for staff in sorted_staff %}
+	        <a href="/staff-member/{{ staff.url }}"><h2>{{ staff.name }}</h2></a>
 	        <p>{{staff.jobTitle}}</p>
 	        <img src="{{ staff.picture.url }}" alt="{{ boardMember.picture.title }}" style="max-width: 200px;" /> 
     	{% endfor %}

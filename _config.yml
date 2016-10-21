@@ -13,7 +13,7 @@ permalink: /:title
 exclude: ['_sass', '_src', '_grunt', 'node_modules', 'Gruntfile.js', 'package.json', 'README.md', 'Gemfile']
 
 # Enabling gems
-# gems: [jekyll-contentful]
+gems: [jekyll-contentful]
 
 defaults:
   -
@@ -30,25 +30,24 @@ defaults:
       layout: "category"
 
 
-# contentful:
-#   preview: No 
-#   production_access_token: 'b0858286f863720c69cfa83ebbc2eb656ba8fc1d1454afd416308217fab0afa7'
-#   preview_access_token: '828bebed05c971aedb46dbe9b64983eb0e05388ff3310f6284f75e570aca0ae2'
-#   space: '0cp1epmalnde'
-#   content_types:
-#    - "initiatives"
-#    - "newsPost"
-#    - "staffMember"
-#   spaces:
-#     - proddata: # Jekyll _data folder identifier - Required
-#         space: 0cp1epmalnde        # Required
-#         access_token: b0858286f863720c69cfa83ebbc2eb656ba8fc1d1454afd416308217fab0afa7 # Required
-#         cda_query:                 # Optional
-#           include: 2
-#           limit: 100
-#         content_types:             # Optional
-#           cat: boardMember
-#           cat: initiatives
-#           cat: letter
-#           cat: newsPost
-#           cat: staffMember
+contentful:
+  preview: No 
+  production_access_token: 'b0858286f863720c69cfa83ebbc2eb656ba8fc1d1454afd416308217fab0afa7'
+  preview_access_token: '828bebed05c971aedb46dbe9b64983eb0e05388ff3310f6284f75e570aca0ae2'
+  space: '0cp1epmalnde'
+  content_types:
+   - "initiatives"
+   - "staffMember"
+  spaces:
+    - proddata: # Jekyll _data folder identifier - Required
+        space: 0cp1epmalnde        # Required
+        access_token: b0858286f863720c69cfa83ebbc2eb656ba8fc1d1454afd416308217fab0afa7 # Required
+        cda_query:                 # Optional
+          include: 2
+          limit: 100
+        content_types:             # Optional
+          cat: boardMember
+          cat: initiatives
+          cat: letter
+          cat: newsPost
+          cat: staffMember

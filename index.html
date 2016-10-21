@@ -23,7 +23,8 @@ layout: default
   <div class="content">
 <h3>Our initiatives</h3>
 <div class="grid">
-    {% for initiative in site.data.contentful.spaces.proddata.initiatives %}
+  {% assign sorted_initiatives = site.data.contentful.spaces.proddata.initiatives | sort:"order" %}
+    {% for initiative in sorted_initiatives %}
     <!-- Add a counter here, so that after 3 initiatives we have a </div> and a new <div class="grid"> to handle layout -->
       <div class="col-1-3">
         <h2><a href="#">{{ initiative.initiativeTitle }}</a></h2>
