@@ -136,6 +136,10 @@ body {
 .no-margin {
   margin: 0 !important; }
 
+.center {
+  float: none;
+  margin: 0 auto; }
+
 .button a {
   border: 1px solid;
   display: inline-block;

@@ -28,5 +28,10 @@ transition: all $length ease-out;
 // Helpers
 
 .no-margin {
-margin:0 !important;
+	margin:0 !important;
+}
+
+.center {
+	float: none;
+	margin: 0 auto;
 }
