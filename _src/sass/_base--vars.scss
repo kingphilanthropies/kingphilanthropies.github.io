@@ -7,6 +7,7 @@ $purple-light: #9497CC;
 $grey 		: #F0F0ED;
 $light-grey : #f7f7f6;
 $black		: #333447;
+$dark-red 	: #761e2f;
 
 @import url('https://fonts.googleapis.com/css?family=Open+Sans|Playfair+Display:700');
 
@@ -25,6 +26,11 @@ $assets-path			: '/assets/img/';
 transition: all $length ease-out;
 }
 
+@mixin translateY($percent) {
+	-ms-transform: translateY($percent);
+    -webkit-transform: translateY($percent);
+    transform: translateY($percent); 
+}
 // Helpers
 
 .no-margin {
@@ -34,4 +40,18 @@ transition: all $length ease-out;
 .center {
 	float: none;
 	margin: 0 auto;
+}
+.center-vertical {
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    align-items: center;
+    -webkit-align-items: center;
+    justify-content: center;
+    -webkit-justify-content: center;
+}
+.center-text {
+	text-align: center;
 }

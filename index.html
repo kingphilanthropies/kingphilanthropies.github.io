@@ -4,37 +4,50 @@ layout: default
  
 <div class="home">
   
-<section class="grid">
+<section class="grid section-photo">
   <div class="col-8-12 content center">
-    <h1> Creating opportunity for those who need it most</h1>
+    <h1 class="color-blue"> Creating opportunity for those who need it most</h1>
   </div> 
 </section>
  
 <section class="blue">
   <div class="grid">
     <div class="col-8-12 content center">
-      <h2>"When almost a billion people are living on $1.90 a day or less, we feel called to help others help themselves."</h2>
-      <span class="push-right">Bob and Dottie King.</span>
+      <h2 class="font-normal">"When almost a billion people are living on $1.90 a day or less, we feel called to help others help themselves."</h2>
+      <h3 class="push-right font-normal">&mdash; Bob and Dottie King</h3>
       <div class="clearfix"></div>
-      <p class="button olive"><a href="/letter">A letter from our founders</a></p>
+      <p class="button olive"><a href="/letter">Read the 2016 Founders' letter</a></p>
     </div>
   </div>
 </section>
 
 <section class="grid">
-  <div class="content">
-<h3>Our initiatives</h3>
-<div class="grid">
-  {% assign sorted_initiatives = site.data.contentful.spaces.proddata.initiatives | sort:"order" %}
-    {% for initiative in sorted_initiatives %}
-    <!-- Add a counter here, so that after 3 initiatives we have a </div> and a new <div class="grid"> to handle layout -->
-      <div class="col-1-3">
-        <h2><a href="#">{{ initiative.initiativeTitle }}</a></h2>
-        <img src="{{ initiative.thumbImage.url}}" alt="{{ initiative.thumbImage.title}}"/>
-        <p>{{initiative.initiativeBlurb}}</p>
-      </div>
-    {% endfor %}
-</div>
+  <h3>OUR INITIATIVES</h3>
+  <h3>&mdash;</h3>
+<div class="content">
+  <div class="grid home-initiatives">
+    {% assign sorted_initiatives = site.data.contentful.spaces.proddata.initiatives | sort:"order" %}
+
+      {% for initiative in sorted_initiatives %}
+        {% capture modulo %}{{ forloop.index | modulo: 3 }}{% endcapture %}
+        {% capture overlay-counter %}{{ forloop.index | modulo: 2 }}{% endcapture %}
+      
+        {% if modulo == '1' %}
+          <div class="grid">
+        {% endif %}
+          <div class="col-1-3 center-text">
+            <div class="hover-link">
+              <h3><a href="/initiatives/{{ initiative.url }}" class="color-olive">{{ initiative.initiativeTitle }}</a></h3>
+              <p class="button olive"><a href="/initiatives/{{ initiative.url }}">View Initiative</a></p>
+            </div>
+            <div class="{% if overlay-counter == '0' %} overlay-blue {% else %} overlay-red {% endif %}"></div>
+            <img src="{{ initiative.thumbImage.url}}" alt="{{ initiative.thumbImage.title}}"/>
+          </div>
+        {% if modulo == '0' or forloop.last %}
+          </div>
+        {% endif %}
+      {% endfor %}
+  </div>
 </div>
 </section>
  

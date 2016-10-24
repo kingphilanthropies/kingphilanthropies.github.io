@@ -2,7 +2,7 @@
 h1 {
 	font-family: $stack-serif;
 	font-size: 45px; 
-	line-height:1;
+	line-height: 1.5;
 	text-align:center;
 } 
 
@@ -10,7 +10,7 @@ h1 {
 h2 {
 	font-family: $stack-serif;
 	font-size: 30px;
-	line-height:1;
+	line-height: 1.5;
 	text-align:center;
 }
 
@@ -46,4 +46,9 @@ p {
 
 a {
 	color: $red;
+	text-decoration: none;
+}
+
+.font-normal {
+	font-weight: normal !important;
 }

@@ -44,6 +44,10 @@ nav {
 	padding:30px;
 }
 
+.section-photo {
+	min-height: 500px;
+}
+
 section {
 	padding: 90px 0 70px 0;
 	&.blue {
@@ -57,8 +61,17 @@ section {
 		background: $red;
 		color: $olive;
 	}
+	&.olive {
+		background: $olive;
+		color: $blue;
+	}
 }
-
+.color-blue {
+	color: $blue;
+}
+.color-olive {
+	color: $olive;
+}
 footer {
 	background: $grey;
 	padding: 50px 100px; 
