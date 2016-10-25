@@ -2,55 +2,103 @@
 layout: default
 ---
 <section class="red section-photo">
-	<div class="content">
+	<div class="grid content">
 		<h1>Alleviating Extreme Poverty in Africa and Asia</h1>
 	</div> 
 </section>
 
 <section class="light-grey">
-	<div class="content">
-		<h3>About king Philanthropies</h3>
-		<p>{{ site.data.contentful.spaces.proddata.pages[0].aboutKingPhilanthropiesText  | markdownify }}</p>
-
+	<h3>About king Philanthropies</h3>
+	<h3>&mdash;</h3>
+	<div class="grid content">
+		<div class="col-1-2 center">
+			<p>{{ site.data.contentful.spaces.proddata.pages[0].aboutKingPhilanthropiesText  | markdownify }}</p>
+		</div>
 	</div>
 </section>
 
-<section>
-	<img src="{{ site.data.contentful.spaces.proddata.pages[0].aboutImage.url}}" alt="{{ site.data.contentful.spaces.proddata.pages[0].aboutImage.title}}" />
-</section>
 
-<section class="light-grey">
-	<div class="content">
+<div style="background-image: url('{{ site.data.contentful.spaces.proddata.pages[0].aboutImage.url}}'); background-repeat: no-repeat; background-size: cover; width: 100%; min-height: 616px;" title="{{ site.data.contentful.spaces.proddata.pages[0].aboutImage.title}}" />
+</div>
+
+<section class="grid light-grey block-overlap">
 	<h3>About the Founders</h3>
+	<h3>&mdash;</h3>
+	<div class="col-1-2 center content">
 		<p>{{ site.data.contentful.spaces.proddata.pages[0].aboutTheFoundersText  | markdownify }}</p>
 	</div>
 </section>
 
 <section>
-	<div class="content">
-		<h3>Staff</h3>
+	<h3>Staff</h3>
+	<h3>&mdash;</h3>
+	<div class="grid content">
+		
 		{% assign sorted_staff = site.data.contentful.spaces.proddata.staffMember | sort:"order" %}
-		{% for staff in sorted_staff %}
-	        <a href="/staff-member/{{ staff.url }}"><h2>{{ staff.name }}</h2></a>
-	        <p>{{staff.jobTitle}}</p>
-	        <img src="{{ staff.picture.url }}" alt="{{ boardMember.picture.title }}" style="max-width: 200px;" /> 
+			{% for staff in sorted_staff %}
+			{% capture modulo-four %}{{ forloop.index | modulo: 4 }}{% endcapture %}
+
+			<!-- TODO: add more conditions  -->
+			{% if modulo-four == '1' %}
+				<div class="grid">
+			{% endif %}
+				<div class="col-1-4">
+			        <img src="{{ staff.picture.url }}" alt="{{ boardMember.picture.title }}" style="max-width: 100%;" /> 
+			        <a href="/staff-member/{{ staff.url }}"><h4 class="center-text">{{ staff.name }}</h4></a>
+			        <p class="center-text">{{staff.jobTitle}}</p>
+			    </div>
+	    	{% if modulo-four == '0' or forloop.last %}
+	    		</div>
+	    	{% endif %}	
+
     	{% endfor %}
 	</div>
+
 </section>
 
 <section class="blue">
-	<div class="content">
-		<h3>Our Board</h3>
+	<h3>Our Board</h3>
+	<h3>&mdash;</h3>
+	
+	<div class="grid content">
+		
 		{% for boardMember in site.data.contentful.spaces.proddata.boardMember %}
-			<h2>{{ boardMember.name }}</h2>
-		    <img src="{{ boardMember.picture.url }}" alt="{{ boardMember.picture.title }}" style="max-width: 200px;" /> 
+		{% capture modulo-four %}{{ forloop.index | modulo: 4 }}{% endcapture %}
+
+			<!-- TODO: add more conditions  -->
+			{% if modulo-four == '1' %}
+				<div class="grid">
+			{% endif %}
+				<div class="col-1-4">
+					<a href="{{ boardMember.url }}"><h3 class="color-white" style="text-transform: none;">{{ boardMember.name }}</h3></a>
+		   <!--  <img src="{{ boardMember.picture.url }}" alt="{{ boardMember.picture.title }}" style="max-width: 200px;" />  -->
+		    	</div>
+		    {% if modulo-four == '0' or forloop.last %}
+	    		</div>
+	    	{% endif %}	
     	{% endfor %}
 	</div>
 </section>
 
 <section>
-	<div class="content">
-		<h3>Contact Us</h3>
-		<p>{{ site.data.contentful.spaces.proddata.pages[0].contactUsText  | markdownify }}</p>
+	<h3>Contact Us</h3>
+	<h3>&mdash;</h3>
+	
+	<div class="grid content">
+		<div class="col-1-2 center">
+			<p>{{ site.data.contentful.spaces.proddata.pages[0].contactUsText  | markdownify }}</p>
+			<div class="center center-text">
+				<div class="social-icons">
+					<a href="//www.facebook.com/kingphilanthropies/" target="_blank"><img src="{{ site.image_path }}/icon-fb.svg" alt="facebook logo"></a>
+					<p>Follow us on Facebook</p>
+					<h3 style="display: inline-block; margin: 0 1em;">|</h3>
+				</div>
+
+				<div class="social-icons">
+					<a href="//twitter.com/KingPhilanthrop" target="_blank"><img src="{{ site.image_path }}/icon-twitter.svg" alt="twitter logo"></a>
+					<p>Follow us on Twitter</p>
+				</div>
+			</div>
+		</div>
 	</div>
 </section>

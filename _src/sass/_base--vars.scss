@@ -56,7 +56,9 @@ transition: all $length ease-out;
 .center-text {
 	text-align: center;
 }
-
+.block-overlap {
+	margin-top: -4em;
+}
 .flex-container {
 	max-width: 1780px;
 	//max-width: 100%;

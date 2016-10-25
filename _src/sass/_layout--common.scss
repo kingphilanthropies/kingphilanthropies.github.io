@@ -75,19 +75,22 @@ section {
 .color-white {
 	color: $white;
 }
+.social-icons {
+	display: inline-block;
+	img {
+		height: 25px;
+		margin-right: 5px;
+		vertical-align: sub;
+	}
+	p {
+		display: inline-block;
+	}
+}
 footer {
 	background: $grey;
 	padding: 50px 100px; 
 	.links {
 		text-align: right;
-	}
-	.social-icons {
-		display: inline-block;
-		img {
-			height: 25px;
-			margin-right: 5px;
-			vertical-align: sub;
-		}
 	}
 	ul {
 		display: inline-block;

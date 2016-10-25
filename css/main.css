@@ -154,6 +154,9 @@ body {
 .center-text {
   text-align: center; }
 
+.block-overlap {
+  margin-top: -4em; }
+
 .flex-container {
   max-width: 1780px;
   padding: 0;
@@ -221,7 +224,8 @@ h3 {
   text-align: center; }
 
 p {
-  font-size: 14px; }
+  font-size: 14px;
+  line-height: 1.5; }
   p.caption {
     font-size: 12px; }
   p.button {
@@ -296,17 +300,20 @@ section {
 .color-white {
   color: #ffffff; }
 
+.social-icons {
+  display: inline-block; }
+  .social-icons img {
+    height: 25px;
+    margin-right: 5px;
+    vertical-align: sub; }
+  .social-icons p {
+    display: inline-block; }
+
 footer {
   background: #F0F0ED;
   padding: 50px 100px; }
   footer .links {
     text-align: right; }
-  footer .social-icons {
-    display: inline-block; }
-    footer .social-icons img {
-      height: 25px;
-      margin-right: 5px;
-      vertical-align: sub; }
   footer ul {
     display: inline-block;
     list-style: none; }
