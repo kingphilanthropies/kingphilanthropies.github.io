@@ -10,7 +10,7 @@ layout: default
  
 {% for post in site.data.contentful.spaces.proddata.newsPost %}
 <div class="content">
-<section class="{{ post.color }}">
+	<section class="{{ post.color }}">
 		<div class="grid">
 			<div class="col-3-12">
       			<img src="{{ post.sourceLogo.url }}" alt="{{ post.sourceLogo.title }}" style="max-width: 100%;">
@@ -30,8 +30,10 @@ layout: default
 
 
 <section class="blue">
-			<h2>King Philanthropies is inspired by the generous spirit of its founders.</h2>
-			<h3>Bob and Dottie King</h3>
+	<div class="grid">
+		<div class="col-1-2 center">
+			<h2 class="font-normal">King Philanthropies is inspired by the generous spirit of its founders</h2>
 			<p class="button olive"><a href="#">More about king Initiatives</a></p>
+		</div>
 	</div>
 </section>
