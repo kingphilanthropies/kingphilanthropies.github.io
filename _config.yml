@@ -51,3 +51,4 @@ contentful:
           cat: letter
           cat: newsPost
           cat: staffMember
+          cat: pages
