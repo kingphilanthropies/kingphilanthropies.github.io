@@ -8,6 +8,7 @@ $grey 		: #F0F0ED;
 $light-grey : #f7f7f6;
 $black		: #333447;
 $dark-red 	: #761e2f;
+$white		: #ffffff;
 
 @import url('https://fonts.googleapis.com/css?family=Open+Sans|Playfair+Display:700');
 
@@ -54,4 +55,28 @@ transition: all $length ease-out;
 }
 .center-text {
 	text-align: center;
+}
+
+.flex-container {
+	max-width: 1780px;
+	//max-width: 100%;
+	padding: 0;
+  	margin: 0 auto;
+  	float: none !important;
+  	list-style: none;
+  
+	-ms-box-orient: horizontal;
+	display: -webkit-box;
+	display: -moz-box;
+	display: -ms-flexbox;
+	display: -moz-flex;
+	display: -webkit-flex;
+	display: flex;
+	float: left;
+
+	-webkit-align-items: stretch; 
+  	align-items: stretch; 
+  	// @media screen and #{$brk-narrow} {
+  	// 	display: block;
+  	// }
 }

@@ -9,34 +9,44 @@ layout: default
 
 {% assign sorted_initiatives = site.data.contentful.spaces.proddata.initiatives | sort:"order" %}
 {% for initiative in sorted_initiatives %}
-	<section class="{{ initiative.color }}">
-		<div class="content grid">
-		<!-- 
-			Create a variable here that will alternate between having image on the left and on the right 
-			Maybe using a counter
-			{% assign counter = 0 %}
-			...
-			{% assign counter = counter | plus: 1 %}
-			and then using modulo to have either 1 or 0
-			https://help.shopify.com/themes/liquid/filters/math-filters#modulo
-		-->
-			<div class="col-1-3">
-				<h3>{{ initiative.initiativeTitle }}</h3>
-				<p>{{ initiative.initiativeBlurb }}</p>
-				<p class="button black"><a href="/initiatives/{{initiative.url}}">View Initiative</a></p>
+
+	{% capture modulo %}{{ forloop.index | modulo: 2 }}{% endcapture %}
+	
+		{% if modulo == '0' %}
+		<div class="flex-container">
+			<div class="col-2-3 initiative-single" title="{{ initiative.landscapeImage.title }}" style="background-image: url('{{ initiative.landscapeImage.url }}');">
 			</div>
-			<div class="col-2-3">
-	      		<img src="{{ initiative.landscapeImage.url }}" alt="{{ initiative.landscapeImage.title }}" style="max-width: 100%;">
+			
+			<section class="col-1-3 {{ initiative.color }}" style="margin-bottom: 20px;">
+				<div class="grid col-1-2 center">
+					<h3>{{ initiative.initiativeTitle }}</h3>
+					<p>{{ initiative.initiativeBlurb }}</p>
+					<p class="button black"><a href="/initiatives/{{initiative.url}}">View Initiative</a></p>
+				</div>
+			</section>
+		</div>
+		{% else %}
+		<div class="flex-container">
+		 	<section class="col-1-3 {{ initiative.color }}" style="margin-bottom: 20px;">
+		 		<div class="grid col-1-2 center">
+					<h3 class="color-white">{{ initiative.initiativeTitle }}</h3>
+					<p class="color-white">{{ initiative.initiativeBlurb }}</p>
+					<p class="button white"><a href="/initiatives/{{initiative.url}}">View Initiative</a></p>
+				</div>
+			</section>
+			<div class="col-2-3 initiative-single" title="{{ initiative.landscapeImage.title }}" style="background-image: url('{{ initiative.landscapeImage.url }}');">
 			</div>
 		</div>
-	</section>
+		{% endif %}
+		
+	
 {% endfor %}
 
 
 	<section class="grid">
 		<div class="col-8-12 content center">
-			<h2>King Philanthropies is inspired by the generous spirit of its founders</h2>
-			<p class="button black"><a href="#">Learn More</a></p>
+			<h2 class="color-blue">King Philanthropies is inspired by the generous spirit of its founders</h2>
+			<p class="button olive"><a href="#">Learn More</a></p>
 		</div>
 	</section>
 

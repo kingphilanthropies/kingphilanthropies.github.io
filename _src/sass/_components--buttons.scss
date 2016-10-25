@@ -18,4 +18,10 @@
 			background: #42404e;
 		}
 	}
+	&.white a {
+		color: #fff;
+		&:hover {
+			background: #eaeaec;
+		}
+	}
 }
