@@ -266,6 +266,13 @@ nav {
       padding-bottom: 10px;
       border-bottom: 3px solid #C13A53; }
 
+.img-settings {
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  top: 60px;
+  position: relative; }
+
 .site-title img {
   width: 220px;
   margin-left: 21px;
@@ -296,6 +303,9 @@ section {
   section.olive {
     background: #D1B894;
     color: #333447; }
+
+.fadeInBlock {
+  opacity: 0; }
 
 section.news {
   padding: 90px 140px 70px 140px; }

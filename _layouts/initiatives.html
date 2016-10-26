@@ -18,19 +18,18 @@ layout: default
 		</div>
 	</section>
 
-
 	<section class="grid">
 		<div class="center">
 			<div class="col-1-2" style="padding-right: 10px;">
-				<div style="background-image: url('{{ page.contentful_fields.ourFocusImage1.file.url }}'); background-repeat: no-repeat; background-size: cover; width: 80%; float: right; background-position: center center; min-height: 350px; margin-bottom: 10px;" title="{{page.contentful_fields.ourFocusImage1.file.title}}">
+				<div style="background-image: url('{{ page.contentful_fields.ourFocusImage1.file.url }}');  width: 80%; float: right; min-height: 350px; margin-bottom: 10px;" title="{{page.contentful_fields.ourFocusImage1.file.title}}" data-original="{{ page.contentful_fields.ourFocusImage1.file.url }}" class="lazy fadeInBlock img-settings">
 				</div>
-				<div style="background-image: url('{{ page.contentful_fields.ourFocusImage2.file.url }}'); background-repeat: no-repeat; background-size: cover; width: 100%; clear: both; background-position: center center; min-height: 240px; " title="{{page.contentful_fields.ourFocusImage2.file.title}}"></div>
+				<div style="background-image: url('{{ page.contentful_fields.ourFocusImage2.file.url }}'); width: 100%; clear: both; min-height: 240px;" title="{{page.contentful_fields.ourFocusImage2.file.title}}" class="fadeInBlock img-settings"></div>
 				<div class="center-text" style="min-height: 275px; width: 78%; padding: 0 13%;"><h2>Expanding around the world</h2></div>
 			</div>
 			<div class="col-1-2" style="padding-right: 10px;">
 				<div class="center-text" style="min-height: 145px; padding-bottom: 10px; width: 100%; padding: 0 17%;"><h2>Launched with $150 million grant</h2></div>
-				<div style="background-image: url('{{ page.contentful_fields.ourFocusImage3.file.url }}'); background-repeat: no-repeat; background-size: cover; width: 100%; background-position: center center; min-height: 405px; margin-bottom: 10px;" alt="{{page.contentful_fields.ourFocusImage3.file.title}}"></div>
-				<div style="background-image: url('{{ page.contentful_fields.ourFocusImage3.file.url }}'); background-repeat: no-repeat; background-size: cover; width: 78%; background-position: center center; min-height: 300px; margin-left: -22%; margin-bottom: 10px;" alt="{{page.contentful_fields.ourFocusImage3.file.title}}"></div>
+				<div class="fadeInBlock img-settings" style="background-image: url('{{ page.contentful_fields.ourFocusImage3.file.url }}'); width: 100%; min-height: 405px; margin-bottom: 10px;" alt="{{page.contentful_fields.ourFocusImage3.file.title}}"></div>
+				<div class="fadeInBlock img-settings" style="background-image: url('{{ page.contentful_fields.ourFocusImage3.file.url }}'); width: 78%; min-height: 300px; margin-left: -22%; margin-bottom: 10px;" alt="{{page.contentful_fields.ourFocusImage3.file.title}}"></div>
 			</div>
 		</div>
 	</section>
@@ -39,10 +38,16 @@ layout: default
 
 <section class="dark-red">
 	<div class="grid">
-		<div class="col-1-2 center content">
-			<h3>the initiative</h3>
-			<p>{{ page.contentful_fields.theInitiativeText }}</p>
-			<p class="button olive"><a href="/initiatives">View All King Initiatives</a></p>
+		<div class="col-8-12 center content">
+			<h3 class="color-white">the initiative</h3>
+			<h3 class="color-white">&mdash;</h3>
+			<p class="color-white">{{ page.contentful_fields.theInitiativeText }}</p>
+			<div class="col-1-2">
+				<p class="button olive"><a href="/initiatives" style="display: block;">View All King Initiatives</a></p>
+			</div>
+			<div class="col-1-2">
+				<p class="button olive"><a href="#" style="display: block;">Visit SEED</a></p>
+			</div>
 		</div>
 	</div>
 </section>
