@@ -275,7 +275,10 @@ nav {
   padding: 30px; }
 
 .section-photo {
-  min-height: 500px; }
+  min-height: 500px;
+  height: auto;
+  padding-bottom: 15%;
+  max-height: 950px; }
 
 section {
   padding: 90px 0 70px 0; }
@@ -286,6 +289,9 @@ section {
     background: #f7f7f6; }
   section.red {
     background: #C13A53;
+    color: #D1B894; }
+  section.dark-red {
+    background: #761e2f;
     color: #D1B894; }
   section.olive {
     background: #D1B894;
