@@ -4,10 +4,12 @@ layout: default
  
 <div class="home">
   
-<section class="grid section-photo">
-  <div class="col-8-12 center">
-    <h1 class="color-blue"> Creating opportunity for those who need it most</h1>
-  </div> 
+<section class="section-photo" style="background-image: url('/assets/img/home-hero.jpg'); background-repeat: no-repeat; background-position: center center; background-size: cover;" >
+  <div class="grid">
+    <div class="col-8-12 center">
+      <h1 class="color-blue"> Creating opportunity for those who need it most</h1>
+    </div> 
+  </div>
 </section>
  
 <section class="blue">
@@ -29,6 +31,7 @@ layout: default
     {% assign sorted_initiatives = site.data.contentful.spaces.proddata.initiatives | sort:"order" %}
 
       {% for initiative in sorted_initiatives %}
+      <!-- TODO: Add learn more block that goes to Initiatives landing if there is 4, 7, 10,... initiatives so there is no lonely block hanging in a row -->
         {% capture modulo %}{{ forloop.index | modulo: 3 }}{% endcapture %}
         {% capture overlay-counter %}{{ forloop.index | modulo: 2 }}{% endcapture %}
       

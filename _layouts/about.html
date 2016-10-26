@@ -43,7 +43,7 @@ layout: default
 				<div class="grid">
 			{% endif %}
 				<div class="col-1-4">
-			        <img src="{{ staff.picture.url }}" alt="{{ boardMember.picture.title }}" style="max-width: 100%;" /> 
+			        <a href="/staff-member/{{ staff.url }}"><img src="{{ staff.picture.url }}" alt="{{ boardMember.picture.title }}" style="max-width: 100%;" /></a> 
 			        <a href="/staff-member/{{ staff.url }}"><h4 class="center-text">{{ staff.name }}</h4></a>
 			        <p class="center-text">{{staff.jobTitle}}</p>
 			    </div>

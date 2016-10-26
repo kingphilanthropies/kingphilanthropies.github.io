@@ -1,34 +1,48 @@
 ---
 layout: default
 ---
-<section class="blue">
-	<div class="content">
+<section class="blue section-photo">
+	<div class="">
 		<h1>{{ page.contentful_fields.initiativeTitle }}</h1> 
 	</div>
 </section>
 
-<section class="light-grey">
-	<div class="content">
-	<img src="{{ page.contentful_fields.picture.file.url }}" alt="{{page.contentful_fields.picture.title}}" style="max-width: 200px;">
-		<h2>the opportunity</h2>
-		<p>{{ page.contentful_fields.theOpportunity }}</p>
-	</div>
-</section>
+<div class="grid block-overlap">
+
+	<section class="light-grey ">
+		<h3>the opportunity</h3>
+		<h3>&mdash;</h3>
+		<div class="content col-1-2 center">
+		<!-- <img src="{{ page.contentful_fields.picture.file.url }}" alt="{{page.contentful_fields.picture.title}}" style="max-width: 200px;"> -->
+			<p>{{ page.contentful_fields.theOpportunity }}</p>
+		</div>
+	</section>
 
 
-<section>
-	<div class="content">
-		<img src="{{ page.contentful_fields.ourFocusImage1.file.url }}" alt="{{page.contentful_fields.ourFocusImage1.file.title}}" style="max-width: 200px;">
-		<img src="{{ page.contentful_fields.ourFocusImage2.file.url }}" alt="{{page.contentful_fields.ourFocusImage2.file.title}}" style="max-width: 200px;">
-		<img src="{{ page.contentful_fields.ourFocusImage3.file.url }}" alt="{{page.contentful_fields.ourFocusImage3.file.title}}" style="max-width: 200px;">
-	</div>	
-</section>
+	<section>
+		<div class="">
+			<div class="col-1-2" style="margin-right: 10px;">
+				<div style="background-image: url('{{ page.contentful_fields.ourFocusImage1.file.url }}'); background-repeat: no-repeat; background-size: cover; width: 80%; float: right; background-position: center center; min-height: 350px; margin-bottom: 10px;" title="{{page.contentful_fields.ourFocusImage1.file.title}}">
+				</div>
+				<div style="background-image: url('{{ page.contentful_fields.ourFocusImage2.file.url }}'); background-repeat: no-repeat; background-size: cover; width: 100%; clear: both; background-position: center center; min-height: 240px; " title="{{page.contentful_fields.ourFocusImage2.file.title}}"></div>
+				<div style="min-height: 275px;"><h2>Expanding around the world</h2></div>
+			</div>
+			<div class="col-1-2" style="margin-right: 10px;">
+				<div style="min-height: 175px;"><h2>Launched with $150 million grant</h2></div>
+				<div style="background-image: url('{{ page.contentful_fields.ourFocusImage3.file.url }}'); background-repeat: no-repeat; background-size: cover; width: 80%; background-position: center center; min-height: 430px;" alt="{{page.contentful_fields.ourFocusImage3.file.title}}"></div>
+				<div style="background-image: url('{{ page.contentful_fields.ourFocusImage3.file.url }}'); background-repeat: no-repeat; background-size: cover; width: 80%; background-position: center center; min-height: 275px;" alt="{{page.contentful_fields.ourFocusImage3.file.title}}"></div>
+			</div>
+		</div>	
+	</section>
 
+</div>
 
-<section class="blue">
-	<div class="content">
-		<h2>the initiative</h2>
-		<p>{{ page.contentful_fields.theInitiativeText }}</p>
-		<p class="button olive"><a href="/initiatives">View All King Initiatives</a></p>
+<section class="dark-red">
+	<div class="grid">
+		<div class="col-1-2 center content">
+			<h3>the initiative</h3>
+			<p>{{ page.contentful_fields.theInitiativeText }}</p>
+			<p class="button olive"><a href="/initiatives">View All King Initiatives</a></p>
+		</div>
 	</div>
 </section>
