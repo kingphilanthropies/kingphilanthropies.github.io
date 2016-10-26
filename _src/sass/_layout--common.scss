@@ -50,6 +50,7 @@ nav {
 
 section {
 	padding: 90px 0 70px 0;
+
 	&.blue {
 		background: $blue;
 		color: $olive;
@@ -66,6 +67,11 @@ section {
 		color: $blue;
 	}
 }
+// MOVE TO NEWS 
+section.news {
+	padding: 90px 140px 70px 140px;
+}
+//
 .color-blue {
 	color: $blue;
 }

@@ -291,6 +291,9 @@ section {
     background: #D1B894;
     color: #333447; }
 
+section.news {
+  padding: 90px 140px 70px 140px; }
+
 .color-blue {
   color: #333447; }
 

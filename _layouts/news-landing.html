@@ -9,23 +9,31 @@ layout: default
 
  
 {% for post in site.data.contentful.spaces.proddata.newsPost %}
-<div class="content">
-	<section class="{{ post.color }}">
-		<div class="grid">
-			<div class="col-3-12">
-      			<img src="{{ post.sourceLogo.url }}" alt="{{ post.sourceLogo.title }}" style="max-width: 100%;">
-			</div>
-			<div class="col-9-12">
-				<h2>{{ post.title }}</h2>
-				<p class="caption">{{ post.source }}</p>
-				<p>{{ post.content }}</p>
-				<p class="button {% if post.color == 'blue' %} olive {% else %} black {% endif %}">
-					<a href="{{post.link}}" target="_blank">Read More</a>
-				</p>
-			</div>
+{% capture modulo %}{{ forloop.index | modulo: 2 }}{% endcapture %}
+
+{% if forloop.first %}
+	<div class="grid block-overlap">
+{% endif %}
+
+<section class="{% if forloop.first %} light-grey news {% endif %} {% if modulo == '1' %} light-grey {% endif %} ">
+	<section class="grid {% if forloop.first == false %} news {% endif %}">
+		<div class="col-3-12">
+  			<img src="{{ post.sourceLogo.url }}" alt="{{ post.sourceLogo.title }}" style="max-width: 65%;">
 		</div>
+		<div class="col-9-12">
+			<h2 style="margin-top: 0;">{{ post.title }}</h2>
+			<p class="caption">{{ post.source }}</p>
+			<p>{{ post.content }}</p>
+			<p class="button {% if post.color == 'blue' %} olive {% else %} black {% endif %} text-left">
+				<a href="{{post.link}}" target="_blank">Read More</a>
+			</p>
+		</div>
+	</div>
 	</section>
-</div>
+</section>
+{% if forloop.first %}
+	</div>
+{% endif %}
 {% endfor %}
 
 

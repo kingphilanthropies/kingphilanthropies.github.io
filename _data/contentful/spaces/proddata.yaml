@@ -1,62 +1,4 @@
 ---
-newsPost:
-- sys:
-    id: 3MsfKxCTNmqyI0oO6es6ea
-  order: 1
-  title: $10 million gift expands faculty and research to help youth flourish
-  source: University of Madison-Wisconsin - 2015
-  content: |
-    “With a $10 million gift from 1958 UW–Madison alumna Dorothy “Dottie” Jones King and her husband, Robert “Bob” Eliot King, the university will be able to recruit new interdisciplinary faculty that focus on children and well-being to the center and the school.
-    “We’re thrilled to collaborate with UW–Madison in our determination to help disadvantaged youth reach their full potential,” says Dottie Jones King. “We believe the work of Richard Davidson and his colleagues at the center will have a tremendous impact and help thousands — if not millions — of youth thrive.”
-  sourceLogo:
-    title: wisconsing
-    url: //images.contentful.com/0cp1epmalnde/4MlJCtAagMe2IgcaygmKc0/0d78a3df4d9f5ecd44dc162b8efc6169/wisconsing.png
-  link: http://news.wisc.edu/10-million-gift-expands-faculty-and-research-to-help-youth-flourish/
-- sys:
-    id: CTOKHXg6n6KIOUcaUeAWI
-  order: 2
-  title: Couple Donate $150 Million to Fight Poverty in Developing Nations
-  source: New York Times - 2011
-  content: '[Stanford University](http://topics.nytimes.com/top/reference/timestopics/organizations/s/stanford_university/index.html?inline=nyt-org)
-    will open an institution aimed at alleviating poverty in developing nations, using
-    $150 million donated by a Silicon Valley investor and his wife. “More than a billion
-    people live on less than $1.25 a day,” said Robert E. King, who, together with
-    his wife, Dorothy, made the gift. “That’s just not right.” The new [Stanford Institute
-    for Innovation in Developing Economies,](http://www.gsb.stanford.edu/seed/) which
-    has been nicknamed SEED, will be housed in the Graduate School of Business but
-    will draw students and faculty from around the university.'
-  sourceLogo:
-    title: nyt-t-logo
-    url: //images.contentful.com/0cp1epmalnde/2EHwGbOZAwqiyOsgEsKok4/f7d86bd22bc5198225d06b954791f289/nyt-t-logo.png
-  link: http://www.nytimes.com/2011/11/04/business/couple-donates-150-million-to-help-end-poverty.html?_r=0
-- sys:
-    id: 3v94Rq0hHi4aeqQCg6miqA
-  order: 3
-  title: 'Ending Poverty: King Family Funds Scholarships for Students from the Developing
-    World'
-  source: Dartmouth News - 2012
-  content: |
-    Dorothy and Robert King ’57 have partnered with Dartmouth to help address the problem of global poverty by [establishing a scholarship program](http://www.kingscholars.com/) for exceptional students from developing nations. hey have made a gift of $14.7 million that will fund a total of 12 King Scholars each year. The scholars will be encouraged to use their Dartmouth educations to return to their home countries after graduation to work toward the alleviation of extreme poverty. The gift also establishes an admissions recruitment fund to identify and bring eligible students to Dartmouth from developing countries in Africa, Latin America, and Southeast Asia.
-  color: light-grey
-  sourceLogo:
-    title: Dartmouth College 1015895
-    url: //images.contentful.com/0cp1epmalnde/67bAfZfnnauYwCWaA8EUEk/0c9832fb859fd666b104d7401be9b287/Dartmouth_College_1015895.png
-  link: https://news.dartmouth.edu/news/2012/02/ending-poverty-king-family-funds-scholarships-students-developing-world
-- sys:
-    id: 3zsxDXsluEueCcu2maqg6C
-  order: 0
-  title: Big Bets and the Aspiration Gap
-  source: Philanthropy Roundtable - Winter 2016
-  content: “...(The study included) big university gifts that specifically focused
-    on social change, such as Robert and Dorothy King’s gift of $150 million to found
-    the Stanford Institute for Innovation in Developing ­Economies, which aims to
-    fight poverty in the poorest parts of the world. Between 2000 and 2012, the total
-    dollar volume of all announced philanthropic big bets averaged $8 billion a year.
-  color: blue
-  sourceLogo:
-    title: Philanthropy logo
-    url: //images.contentful.com/0cp1epmalnde/3VY4eZ7X3yU0Cg2woesIqq/a101dec56d62734f3c932b903ac5c671/Philanthropy_logo.jpg
-  link: http://www.philanthropyroundtable.org/topic/donor_intent/big_bets_and_the_aspiration_gap
 boardMember:
 - sys:
     id: 4HuDlxe4kUY8WCi4CaQSUe
@@ -618,3 +560,61 @@ letter:
     against global poverty.  Together, we can achieve concrete results and an outsized
     impact; 1 + 1 = 3.  \n\n \n"
   year: 2016
+newsPost:
+- sys:
+    id: 3v94Rq0hHi4aeqQCg6miqA
+  order: 3
+  title: 'Ending Poverty: King Family Funds Scholarships for Students from the Developing
+    World'
+  source: Dartmouth News - 2012
+  content: |
+    Dorothy and Robert King ’57 have partnered with Dartmouth to help address the problem of global poverty by [establishing a scholarship program](http://www.kingscholars.com/) for exceptional students from developing nations. hey have made a gift of $14.7 million that will fund a total of 12 King Scholars each year. The scholars will be encouraged to use their Dartmouth educations to return to their home countries after graduation to work toward the alleviation of extreme poverty. The gift also establishes an admissions recruitment fund to identify and bring eligible students to Dartmouth from developing countries in Africa, Latin America, and Southeast Asia.
+  sourceLogo:
+    title: Dartmouth College 1015895
+    url: //images.contentful.com/0cp1epmalnde/67bAfZfnnauYwCWaA8EUEk/0c9832fb859fd666b104d7401be9b287/Dartmouth_College_1015895.png
+  link: https://news.dartmouth.edu/news/2012/02/ending-poverty-king-family-funds-scholarships-students-developing-world
+- sys:
+    id: 3MsfKxCTNmqyI0oO6es6ea
+  order: 1
+  title: $10 million gift expands faculty and research to help youth flourish
+  source: University of Madison-Wisconsin - 2015
+  content: |
+    “With a $10 million gift from 1958 UW–Madison alumna Dorothy “Dottie” Jones King and her husband, Robert “Bob” Eliot King, the university will be able to recruit new interdisciplinary faculty that focus on children and well-being to the center and the school.
+    “We’re thrilled to collaborate with UW–Madison in our determination to help disadvantaged youth reach their full potential,” says Dottie Jones King. “We believe the work of Richard Davidson and his colleagues at the center will have a tremendous impact and help thousands — if not millions — of youth thrive.”
+  color: light-grey
+  sourceLogo:
+    title: wisconsing
+    url: //images.contentful.com/0cp1epmalnde/4MlJCtAagMe2IgcaygmKc0/0d78a3df4d9f5ecd44dc162b8efc6169/wisconsing.png
+  link: http://news.wisc.edu/10-million-gift-expands-faculty-and-research-to-help-youth-flourish/
+- sys:
+    id: 3zsxDXsluEueCcu2maqg6C
+  order: 0
+  title: Big Bets and the Aspiration Gap
+  source: Philanthropy Roundtable - Winter 2016
+  content: “...(The study included) big university gifts that specifically focused
+    on social change, such as Robert and Dorothy King’s gift of $150 million to found
+    the Stanford Institute for Innovation in Developing ­Economies, which aims to
+    fight poverty in the poorest parts of the world. Between 2000 and 2012, the total
+    dollar volume of all announced philanthropic big bets averaged $8 billion a year.
+  sourceLogo:
+    title: Philanthropy logo
+    url: //images.contentful.com/0cp1epmalnde/3VY4eZ7X3yU0Cg2woesIqq/a101dec56d62734f3c932b903ac5c671/Philanthropy_logo.jpg
+  link: http://www.philanthropyroundtable.org/topic/donor_intent/big_bets_and_the_aspiration_gap
+- sys:
+    id: CTOKHXg6n6KIOUcaUeAWI
+  order: 2
+  title: Couple Donate $150 Million to Fight Poverty in Developing Nations
+  source: New York Times - 2011
+  content: '[Stanford University](http://topics.nytimes.com/top/reference/timestopics/organizations/s/stanford_university/index.html?inline=nyt-org)
+    will open an institution aimed at alleviating poverty in developing nations, using
+    $150 million donated by a Silicon Valley investor and his wife. “More than a billion
+    people live on less than $1.25 a day,” said Robert E. King, who, together with
+    his wife, Dorothy, made the gift. “That’s just not right.” The new [Stanford Institute
+    for Innovation in Developing Economies,](http://www.gsb.stanford.edu/seed/) which
+    has been nicknamed SEED, will be housed in the Graduate School of Business but
+    will draw students and faculty from around the university.'
+  color: light-grey
+  sourceLogo:
+    title: nyt-t-logo
+    url: //images.contentful.com/0cp1epmalnde/2EHwGbOZAwqiyOsgEsKok4/f7d86bd22bc5198225d06b954791f289/nyt-t-logo.png
+  link: http://www.nytimes.com/2011/11/04/business/couple-donates-150-million-to-help-end-poverty.html?_r=0
