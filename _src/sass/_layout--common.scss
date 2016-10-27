@@ -53,8 +53,12 @@ nav {
 .section-photo {
 	min-height: 500px;
 	height: auto;
-    padding-bottom: 20%;
     max-height: 950px;
+    &:after {
+    	padding-bottom: 20%;
+    	content: "";
+  		display: block;
+    }
 }
 
 section {
@@ -80,6 +84,11 @@ section {
 		color: $blue;
 	}
 }
+//Light-gray background for div. Used for staff member page to be gray
+.light-grey {
+	background: $light-grey;
+}
+
 // Animation
 
 .fadeInBlock {
@@ -112,6 +121,7 @@ section.news {
 		display: inline-block;
 	}
 }
+
 footer {
 	background: $grey;
 	padding: 50px 100px; 
@@ -140,4 +150,20 @@ footer {
 			}
 		}
 	}
+}
+.sticky-footer-body {
+	display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+	display: flex;
+  	min-height: 100vh;
+  	-webkit-flex-direction: column; 
+    flex-direction: column;
+}
+.sticky-footer {
+	-webkit-box-flex: 1;   
+  	-webkit-flex: 1;       
+  	-ms-flex: 1;           
+  	flex: 1;      
 }

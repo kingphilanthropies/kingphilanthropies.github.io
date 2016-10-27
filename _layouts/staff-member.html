@@ -1,16 +1,15 @@
 ---
 layout: default
 ---
-<section class="blue">
-	<div class="content">
-		<h1>{{ page.contentful_fields.name }}</h1> 
-	</div>
-</section>
-
 <section class="light-grey">
-	<div class="content">
-	<img src="{{ page.contentful_fields.picture.file.url }}" alt="{{page.contentful_fields.picture.title}}" style="max-width: 200px;">
-		<h2>{{ page.contentful_fields.jobTitle }}</h2>
+	<div class="grid content">
+	<div class="col-4-12">
+		<img src="{{ page.contentful_fields.picture.file.url }}" alt="{{page.contentful_fields.picture.title}}" style="max-width: 100%; padding-right: 30px;">
+	</div>
+	<div class="col-8-12">
+		<h3 class="text-left" style="margin-top:0;">{{ page.contentful_fields.jobTitle }}</h3>
+		<h3 class="text-left">&mdash;</h3>
 		<p>{{ page.contentful_fields.bio }}</p>
+	</div>
 	</div>
 </section>

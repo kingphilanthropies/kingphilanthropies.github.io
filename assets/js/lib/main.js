@@ -3,8 +3,7 @@ $(document).ready(function(){
 
 	// Add fadein effect on scroll 
 	 $(window).scroll( function(){
-    
-       
+    //TODO: add animation delay on each box
         $('.fadeInBlock').each( function(i){
             
             var bottom_of_object = $(this).position().top + $(this).outerHeight();

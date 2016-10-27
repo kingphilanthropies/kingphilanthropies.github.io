@@ -3,11 +3,11 @@
 
   {% include head.html %}
 
-  <body>
+  <body class="sticky-footer-body">
 
     {% include header.html %}
 
-    <div class="page-content">
+    <div class="page-content sticky-footer {% if page.url contains 'staff-member' %} light-grey {% endif %}">
       <div class="wrapper">
         {{ content }}
       </div>

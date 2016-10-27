@@ -1,10 +1,8 @@
 ---
 layout: default
 ---
-<section class="dark-red section-photo">
-	<div class="">
-		<h1>In the News</h1>
-	</div>
+<section class="dark-red section-photo center-vertical">
+	<h1>In the News</h1>
 </section>
 
  
@@ -21,7 +19,7 @@ layout: default
   			<img src="{{ post.sourceLogo.url }}" alt="{{ post.sourceLogo.title }}" style="max-width: 65%;">
 		</div>
 		<div class="col-9-12">
-			<h2 style="margin-top: 0;">{{ post.title }}</h2>
+			<h2 class="text-left" style="margin-top: 0;">{{ post.title }}</h2>
 			<p class="caption">{{ post.source }}</p>
 			<p>{{ post.content }}</p>
 			<p class="button {% if post.color == 'blue' %} olive {% else %} black {% endif %} text-left">

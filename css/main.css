@@ -284,8 +284,11 @@ nav {
 .section-photo {
   min-height: 500px;
   height: auto;
-  padding-bottom: 20%;
   max-height: 950px; }
+  .section-photo:after {
+    padding-bottom: 20%;
+    content: "";
+    display: block; }
 
 section {
   padding: 90px 0 70px 0; }
@@ -303,6 +306,9 @@ section {
   section.olive {
     background: #D1B894;
     color: #333447; }
+
+.light-grey {
+  background: #f7f7f6; }
 
 .fadeInBlock {
   opacity: 0; }
@@ -350,6 +356,22 @@ footer {
         content: "|"; }
       footer ul li:last-of-type:after {
         content: ""; }
+
+.sticky-footer-body {
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  min-height: 100vh;
+  -webkit-flex-direction: column;
+  flex-direction: column; }
+
+.sticky-footer {
+  -webkit-box-flex: 1;
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1; }
 
 .hover-link {
   opacity: 0;
