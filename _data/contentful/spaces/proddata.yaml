@@ -147,6 +147,36 @@ staffMember:
     and financial and market analysis.  Devin spent two years in Peru and significant
     time in East Africa working in economic development.  Devin graduated Summa Cum
     Laude from Claremont McKenna College with a B.A. in Economics. \n"
+pages:
+- sys:
+    id: 6sv7GrmAfK6WkYMeSK4sCo
+  clickToEdit: About & Contact Us Pages
+  aboutKingPhilanthropiesText: 'After a successful career as the founder of a California-based
+    investment  firm, Bob King and his wife Dottie shifted their focus to philanthropy
+    in 1995. In the two decades that have followed they have become a national leader
+    in philanthropic investments. King Philanthropies’ goals and work flows directly
+    from the inspiration of its founders and centers on a singular goal: to alleviate
+    extreme poverty'
+  aboutImage:
+    title: landscape
+    url: //images.contentful.com/0cp1epmalnde/29rJNsVQCkykEay4qqoiem/70f6a1f1dc99efcf45b33a624091d60c/-text-1.png
+  aboutTheFoundersText: Bob King graduated from Dartmouth in 1957 and earned an M.B.A.
+    from Stanford in 1960. He is the founder of Peninsula Capital, a Menlo Park, California-based
+    venture capital firm, and founder and former president of R. Eliot King & Associates
+    Inc. In 1995, the Kings founded the Thrive Foundation for Youth to help children
+    in under-resourced communities reach their full potential. In 2011 a landmark
+    $150 million donation from the Kings established the Stanford Institute for Innovation
+    in Developing Economies. In 2013, Bob and Dottie partnered with Dartmouth College
+    to create the King Scholar Leadership Program for students with exceptional potential
+    from developing nations in Latin America, Africa, and Asia.
+  contactUsText: King Philanthropies employs a personalized and targeted approach
+    to philanthropy. We dedicate ourselves wholly to the initiatives that fit within
+    the goals of our founders and our larger mission to alleviate extreme poverty
+    in Africa and parts of Asia. For this reason, we cannot accept unsolicited requests
+    for funds. Other inquiries can be sent to info@kingphilanthropies.org.
+  heroAbout:
+    title: landscape
+    url: //images.contentful.com/0cp1epmalnde/29rJNsVQCkykEay4qqoiem/70f6a1f1dc99efcf45b33a624091d60c/-text-1.png
 initiatives:
 - sys:
     id: 38MJ5Pvhf2WAacs8EMcAmE
@@ -449,33 +479,6 @@ initiatives:
   theInitiativeText: |
     Launched with the King’s $150 million gift, Seed combines educational excellence, critical research, and breakthrough innovation to address global poverty. Seed’s comprehensive approach involves working across multiple fronts and time horizons. Seed trains business leaders in developing economies, giving them access to management training, coaching, and networking support that will help them lead their regions to greater prosperity. Seed inspires Stanford students to become globally engaged leaders and introduces them to the challenges and opportunities of doing business in developing economies. And, Seed advances university-wide research to develop relevant and impactful poverty alleviation interventions across disciplines. Seed is headquartered at Stanford, has hubs in East and West Africa, and will soon launch in Asia. Its long-term goal is to expand to developing economies throughout the world.
   moreAboutUrl: https://www.gsb.stanford.edu/seed
-pages:
-- sys:
-    id: 6sv7GrmAfK6WkYMeSK4sCo
-  clickToEdit: About & Contact Us Pages
-  aboutKingPhilanthropiesText: 'After a successful career as the founder of a California-based
-    investment  firm, Bob King and his wife Dottie shifted their focus to philanthropy
-    in 1995. In the two decades that have followed they have become a national leader
-    in philanthropic investments. King Philanthropies’ goals and work flows directly
-    from the inspiration of its founders and centers on a singular goal: to alleviate
-    extreme poverty'
-  aboutImage:
-    title: landscape
-    url: //images.contentful.com/0cp1epmalnde/29rJNsVQCkykEay4qqoiem/70f6a1f1dc99efcf45b33a624091d60c/-text-1.png
-  aboutTheFoundersText: Bob King graduated from Dartmouth in 1957 and earned an M.B.A.
-    from Stanford in 1960. He is the founder of Peninsula Capital, a Menlo Park, California-based
-    venture capital firm, and founder and former president of R. Eliot King & Associates
-    Inc. In 1995, the Kings founded the Thrive Foundation for Youth to help children
-    in under-resourced communities reach their full potential. In 2011 a landmark
-    $150 million donation from the Kings established the Stanford Institute for Innovation
-    in Developing Economies. In 2013, Bob and Dottie partnered with Dartmouth College
-    to create the King Scholar Leadership Program for students with exceptional potential
-    from developing nations in Latin America, Africa, and Asia.
-  contactUsText: King Philanthropies employs a personalized and targeted approach
-    to philanthropy. We dedicate ourselves wholly to the initiatives that fit within
-    the goals of our founders and our larger mission to alleviate extreme poverty
-    in Africa and parts of Asia. For this reason, we cannot accept unsolicited requests
-    for funds. Other inquiries can be sent to info@kingphilanthropies.org.
 letter:
 - sys:
     id: 97dlqP2NPyYAKYGegaQ20
