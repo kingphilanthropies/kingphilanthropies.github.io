@@ -14,7 +14,7 @@ layout: default
 	
 		{% if modulo == '0' %}
 		<div class="flex-container">
-			<div class="col-2-3 initiative-single" title="{{ initiative.landscapeImage.title }}" style="background-image: url('{{ initiative.landscapeImage.url }}');">
+			<div class="col-2-3 initiative-single" title="{{ initiative.heroSingleInitiative.title }}" style="background-image: url('{{ initiative.heroSingleInitiative.url }}');">
 			</div>
 			
 			<section class="col-1-3 {{ initiative.color }}" style="margin-bottom: 20px;">
@@ -34,7 +34,7 @@ layout: default
 					<p class="button white"><a href="/initiatives/{{initiative.url}}">View Initiative</a></p>
 				</div>
 			</section>
-			<div class="col-2-3 initiative-single" title="{{ initiative.landscapeImage.title }}" style="background-image: url('{{ initiative.landscapeImage.url }}');">
+			<div class="col-2-3 initiative-single" title="{{ initiative.heroSingleInitiative.title }}" style="background-image: url('{{ initiative.heroSingleInitiative.url }}');">
 			</div>
 		</div>
 		{% endif %}
