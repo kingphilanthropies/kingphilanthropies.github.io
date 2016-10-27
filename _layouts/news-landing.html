@@ -1,10 +1,16 @@
 ---
 layout: default
 ---
-<section class="dark-red section-photo center-vertical">
-	<h1>In the News</h1>
-</section>
 
+<section class="img-settings" style="background-image: url('{{site.data.contentful.spaces.proddata.pages[0].heroNewsLanding.url}}')">
+	<div class="section-photo center-vertical">
+		<div class="grid">
+			<div class="col-8-12 center">
+				<h1>In the News</h1>
+			</div>
+		</div>
+	</div>
+</section>
  
 {% for post in site.data.contentful.spaces.proddata.newsPost %}
 {% capture modulo %}{{ forloop.index | modulo: 2 }}{% endcapture %}
