@@ -319,6 +319,10 @@ section {
 section.news {
   padding: 90px 140px 70px 140px; }
 
+.letter-body img {
+  max-width: 100%;
+  margin: 20px 0; }
+
 .color-blue {
   color: #333447; }
 

@@ -101,6 +101,15 @@ section.news {
 	padding: 90px 140px 70px 140px;
 }
 
+//MOVE TO LETTER
+
+.letter-body {
+	img {
+		max-width: 100%;
+		margin: 20px 0;
+	}
+}
+
 //
 .color-blue {
 	color: $blue;
