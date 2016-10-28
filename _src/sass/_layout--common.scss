@@ -26,8 +26,10 @@ nav {
 		margin-right:25px;
 		color: #333832;
 		&.active {
-			padding-bottom:10px;
-			border-bottom: 3px solid $red;
+			padding-top: 21px;
+    		margin-top: -10px;
+    		color: $red;
+			border-top: 3px solid $red;
 		}
 	}
 }
@@ -94,11 +96,11 @@ section {
     opacity: 0;
 }
 
-//
 // MOVE TO NEWS 
 section.news {
 	padding: 90px 140px 70px 140px;
 }
+
 //
 .color-blue {
 	color: $blue;
@@ -120,6 +122,7 @@ section.news {
 		display: inline-block;
 	}
 }
+
 
 footer {
 	background: $grey;

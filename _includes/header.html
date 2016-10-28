@@ -8,8 +8,8 @@
 
       <nav class="site-nav">
 
-        <a class="page-link" href="/initiatives/"><h3 class="{% if 'Initiatives' == page.title %}active{%endif%}">Initiatives</h3></a>
-        <a class="page-link" href="/about/"><h3 class="{% if 'About' == page.title %}active{%endif%}">About</h3></a>
+        <a class="page-link" href="/initiatives/"><h3 class="{% if page.group == 'initiatives' %}active{%endif%}">Initiatives</h3></a>
+        <a class="page-link" href="/about/"><h3 class="{% if 'About' == page.title or page.contentful_fields.jobTitle %}active{%endif%}">About</h3></a>
         <a class="page-link" href="/news/"><h3 class="{% if 'News' == page.title %}active{%endif%}">News</h3></a>
       </nav>
     </div>

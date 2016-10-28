@@ -265,8 +265,10 @@ nav {
     margin-right: 25px;
     color: #333832; }
     nav h3.active {
-      padding-bottom: 10px;
-      border-bottom: 3px solid #C13A53; }
+      padding-top: 21px;
+      margin-top: -10px;
+      color: #C13A53;
+      border-top: 3px solid #C13A53; }
 
 .img-settings, .initiative-single {
   background-repeat: no-repeat;
