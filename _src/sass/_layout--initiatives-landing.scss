@@ -1,6 +1,5 @@
 .initiative-single {
-	background-repeat: no-repeat; 
-	background-size: cover; 
+	@extend .img-settings;
 	min-height: 630px; 
 	margin-bottom: 20px;
 }

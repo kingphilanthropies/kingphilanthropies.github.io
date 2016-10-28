@@ -268,7 +268,7 @@ nav {
       padding-bottom: 10px;
       border-bottom: 3px solid #C13A53; }
 
-.img-settings {
+.img-settings, .initiative-single {
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center center;
@@ -418,8 +418,6 @@ footer {
     width: 100%; }
 
 .initiative-single {
-  background-repeat: no-repeat;
-  background-size: cover;
   min-height: 630px;
   margin-bottom: 20px; }
 
