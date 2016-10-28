@@ -26,8 +26,8 @@ group: "initiatives"
 			<section class="col-1-3 {{ initiative.color }}" style="margin-bottom: 20px;">
 				<div class="grid col-1-2 center">
 					<h3>{{ initiative.initiativeTitle }}</h3>
-					<h3 class="{% if initiative.color == 'light-grey' %} color-olive {% else %} color-white {% endif %}">&mdash;</h3>
-					<p>{{ initiative.initiativeBlurb }}</p>
+					<h3 class="{% if initiative.color == 'light-grey' %} color-olive {% elsif initiative.color == 'olive' %} {% else %} color-white {% endif %}">&mdash;</h3>
+					<p class="initiative-blurb">{{ initiative.initiativeBlurb }}</p>
 					<p class="button black"><a href="/initiatives/{{initiative.url}}">View Initiative</a></p>
 				</div>
 			</section>
@@ -38,7 +38,7 @@ group: "initiatives"
 		 		<div class="grid col-1-2 center">
 					<h3 class="color-white">{{ initiative.initiativeTitle }}</h3>
 					<h3 class="color-white">&mdash;</h3>
-					<p class="color-white">{{ initiative.initiativeBlurb }}</p>
+					<p class="color-white initiative-blurb">{{ initiative.initiativeBlurb }}</p>
 					<p class="button white"><a href="/initiatives/{{initiative.url}}">View Initiative</a></p>
 				</div>
 			</section>

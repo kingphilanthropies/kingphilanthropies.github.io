@@ -13,11 +13,9 @@
 	position: relative;
 	&:hover {
 		.hover-link {
+			@include transition(0.4s);
 			opacity: 1;
 			z-index: 999999;
-		}
-		div[class*='overlay-'] {
-			@include transition(1s);
 		}
 		div[class*='overlay-']:after {
 			opacity: 0.9;
