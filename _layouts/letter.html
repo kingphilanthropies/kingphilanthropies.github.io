@@ -7,13 +7,14 @@ layout: default
 		<div class="grid">
 			<div class="col-8-12 center">
 				<h1 class="color-olive">A letter from our founders</h1>
+				<h3 class="color-olive">{{ site.data.contentful.spaces.proddata.letter[0].title }}</h3>
 			</div>
 		</div>
 	</div>
 </section>
 
 <section class="light-grey">
-	<div class="grid content">
+	<div class="grid">
 	<div class="col-8-12 center letter-body">
 		{{ site.data.contentful.spaces.proddata.letter[0].content | markdownify }}
 	</div>

@@ -33,10 +33,10 @@ layout: default
     {% assign sorted_initiatives = site.data.contentful.spaces.proddata.initiatives | sort:"order" %}
 
       {% for initiative in sorted_initiatives %}
-      <!-- TODO: Add learn more block that goes to Initiatives landing if there is 4, 7, 10,... initiatives so there is no lonely block hanging in a row -->
+      <!-- TODO: Add learn more block that goes to Initiatives landing if initiatives != 3, 6, 9, ... so there is no lonely block or two hanging in a row -->
         {% capture modulo %}{{ forloop.index | modulo: 3 }}{% endcapture %}
         {% capture overlay-counter %}{{ forloop.index | modulo: 2 }}{% endcapture %}
-      
+
         {% if modulo == '1' %}
           <div class="grid">
         {% endif %}
@@ -46,7 +46,7 @@ layout: default
               <p class="button olive"><a href="/initiatives/{{ initiative.url }}">View Initiative</a></p>
             </div>
             <div class="{% if overlay-counter == '0' %} overlay-blue {% else %} overlay-red {% endif %}"></div>
-            <img src="{{ initiative.thumbImage.url}}" alt="{{ initiative.thumbImage.title}}"/>
+            <div class="img-settings" style="background-image: url('{{ initiative.thumbImage.url}}'); height: 350px; margin-bottom: 5px;" title="{{ initiative.thumbImage.title}}"/></div>
           </div>
         {% if modulo == '0' or forloop.last %}
           </div>
@@ -61,7 +61,7 @@ layout: default
   <div class="grid">
     <div class="col-8-12 content center">
       <h2 class="color-blue">King Philanthropies is inspired by the generous spirit of its founders Bob &amp; Dottie King</h2>
-    <p class="button olive"><a href="#">Learn More</a></p>
+    <p class="button olive"><a href="/about">Learn More</a></p>
   </div>
   </div>
 </section>
