@@ -28,8 +28,8 @@ layout: default
 <section class="grid">
   <h3>Our Initiatives</h3>
   <h3>&mdash;</h3>
-<div class="content">
-  <div class="grid home-initiatives">
+<!-- <div class="content"> -->
+  <div class="home-initiatives">
     {% assign sorted_initiatives = site.data.contentful.spaces.proddata.initiatives | sort:"order" %}
 
       {% for initiative in sorted_initiatives %}
@@ -53,7 +53,7 @@ layout: default
         {% endif %}
       {% endfor %}
   </div>
-</div>
+<!-- </div> -->
 </section>
  
 

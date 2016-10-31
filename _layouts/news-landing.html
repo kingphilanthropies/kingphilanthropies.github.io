@@ -16,7 +16,7 @@ layout: default
 {% capture modulo %}{{ forloop.index | modulo: 2 }}{% endcapture %}
 
 {% if forloop.first %}
-	<div class="grid block-overlap">
+	<div class="grid block-overlap center">
 {% endif %}
 
 <section class="{% if forloop.first %} light-grey news {% endif %} {% if modulo == '1' %} light-grey {% endif %} ">
