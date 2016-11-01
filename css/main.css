@@ -283,28 +283,47 @@ body {
   .button.white a:hover {
     background: #eaeaec; }
 
+.button.olive-blue a {
+  color: #D1B894; }
+  .button.olive-blue a:hover {
+    background: #D1B894;
+    color: #333447; }
+
 h1 {
   font-family: "Playfair Display", Times, serif;
   font-size: 45px;
   line-height: 1.5;
   text-align: center; }
+  @media screen and (max-width: 767px) {
+    h1 {
+      font-size: 23px; } }
 
 h2 {
   font-family: "Playfair Display", Times, serif;
   font-size: 30px;
   line-height: 1.5;
   text-align: center; }
+  @media screen and (max-width: 767px) {
+    h2 {
+      font-size: 18px; } }
 
-h3, p, p.caption, p.button, a, ul, li {
+h3, h4, p, p.caption, p.button, a, ul, li {
   font-family: "Open Sans", Helvetica, sans-serif;
   font-weight: 400; }
 
 h3 {
-  font-size: 14px;
+  font-size: 16px;
   letter-spacing: 2px;
   line-height: 1.5;
   text-transform: uppercase;
   text-align: center; }
+  @media screen and (max-width: 767px) {
+    h3 {
+      font-size: 14px; } }
+
+h4 {
+  font-size: 14px;
+  font-weight: 100; }
 
 p {
   font-size: 18px;
@@ -317,6 +336,9 @@ p {
     letter-spacing: 2px;
     text-transform: uppercase;
     text-align: center; }
+  @media screen and (max-width: 767px) {
+    p {
+      font-size: 14px; } }
 
 a {
   color: #C13A53;
@@ -449,7 +471,7 @@ section.news {
     @media screen and (max-width: 767px) {
       .social-icons img {
         height: 23px; } }
-  .social-icons p {
+  .social-icons p, .social-icons h4 {
     display: inline-block; }
 
 footer {

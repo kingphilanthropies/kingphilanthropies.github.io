@@ -25,4 +25,11 @@
 			background: #eaeaec;
 		}
 	}
+	&.olive-blue a {
+		color: $olive;
+		&:hover {
+			background: $olive;
+			color: $blue;
+		}
+	}
 }
