@@ -21,17 +21,17 @@ h3, p, p.caption, p.button, a, ul, li {
 
 //Title
 h3 {
-	font-size:14px;
+	font-size: 14px;
 	letter-spacing: 2px;
 	line-height: 1.5;
-	text-transform:uppercase;
-	text-align:center;
+	text-transform: uppercase;
+	text-align: center;
 }
 
 //Body 
 p {
-	font-size: 14px;
-	line-height: 1.5;
+	font-size: 18px;
+	line-height: 1.7;
 	color: $black;
 	&.caption {
 		font-size: 12px;
