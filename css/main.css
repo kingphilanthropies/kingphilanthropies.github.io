@@ -269,17 +269,17 @@ body {
   transition: all 0.2s ease-out; }
 
 .button.black a {
-  color: #000; }
+  color: #333447; }
   .button.black a:hover {
     background: #eaeaec; }
 
-.button.olive a {
+.button.color-olive a {
   color: #D1B894; }
-  .button.olive a:hover {
+  .button.color-olive a:hover {
     background: #42404e; }
 
 .button.white a {
-  color: #fff; }
+  color: #ffffff; }
   .button.white a:hover {
     background: #eaeaec; }
 
@@ -381,7 +381,7 @@ nav {
   height: auto;
   max-height: 950px; }
   .section-photo:after {
-    padding-bottom: 20%;
+    padding-bottom: 30%;
     content: "";
     display: block; }
 
@@ -404,6 +404,22 @@ section {
 
 .light-grey {
   background: #f7f7f6; }
+
+.blue {
+  background: #333447;
+  color: #D1B894; }
+
+.red {
+  background: #C13A53;
+  color: #D1B894; }
+
+.olive {
+  background: #D1B894;
+  color: #333447; }
+
+.dark-red {
+  background: #761e2f;
+  color: #D1B894; }
 
 .fadeInBlock {
   opacity: 0; }

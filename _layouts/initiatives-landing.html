@@ -3,7 +3,7 @@ layout: default
 group: "initiatives"
 ---
 
-<section class="img-settings" style="background-image: url('{{site.data.contentful.spaces.proddata.pages[0].heroInitiativesLanding.url}}')">
+<div class="img-settings" style="background-image: url('{{site.data.contentful.spaces.proddata.pages[0].heroInitiativesLanding.url}}')">
 	<div class="section-photo center-vertical">
 		<div class="grid">
 			<div class="col-8-12 center">
@@ -11,7 +11,7 @@ group: "initiatives"
 			</div>
 		</div>
 	</div>
-</section>
+</div>
 
 {% assign sorted_initiatives = site.data.contentful.spaces.proddata.initiatives | sort:"order" %}
 {% for initiative in sorted_initiatives %}
@@ -52,7 +52,7 @@ group: "initiatives"
 	<section class="grid">
 		<div class="col-8-12 content center">
 			<h2 class="color-blue">King Philanthropies is inspired by the generous spirit of its founders</h2>
-			<p class="button olive"><a href="/about">Learn More</a></p>
+			<p class="button color-olive"><a href="/about">Learn More</a></p>
 		</div>
 	</section>
 

@@ -8,19 +8,19 @@
 		@include transition(.2s);
 	}
 	&.black a {
-		color: #000;
+		color: $black;
 		&:hover {
 			background: #eaeaec;
 		}
 	}
-	&.olive a {
+	&.color-olive a {
 		color: $olive;
 		&:hover {
 			background: #42404e;
 		}
 	}
 	&.white a {
-		color: #fff;
+		color: $white;
 		&:hover {
 			background: #eaeaec;
 		}
