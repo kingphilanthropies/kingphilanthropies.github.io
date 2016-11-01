@@ -1,5 +1,4 @@
 $(document).ready(function(){
-	// $("div.lazy").lazyload();
 
 	// Add fadein effect on scroll 
 	 $(window).scroll( function(){
@@ -20,4 +19,14 @@ $(document).ready(function(){
         }); 
     
     });
+
+    // Nav menu toggle 
+    // $('.site-nav').on('click', function(e) {
+    //     //console.log('touched');
+    //     e.preventDefault();
+    //     $(this).closest().addClass('.open-menu');
+    //     $('.trigger').toggle('.open-menu');
+    // });
+
 });
+
