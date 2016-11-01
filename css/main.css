@@ -559,7 +559,8 @@ footer {
 
 .home-initiatives .col-1-3 {
   padding-right: 5px;
-  position: relative; }
+  position: relative;
+  z-index: 10; }
   .home-initiatives .col-1-3 .hover-link .button {
     margin-top: 2em; }
   .home-initiatives .col-1-3:hover .hover-link {
