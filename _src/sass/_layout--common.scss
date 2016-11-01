@@ -48,7 +48,13 @@ nav {
 		width: 220px;
 		margin-left: 21px;
 		margin-top:5px;
+		@media screen and #{$brk-narrow} {
+			width: 160px;
+	    	margin-left: -13px;
+	    	margin-top: 5px;
+		}
 	}
+	
 }
 
 .content {
@@ -130,6 +136,9 @@ section.news {
 		height: 25px;
 		margin-right: 5px;
 		vertical-align: sub;
+		@media screen and #{$brk-narrow} {
+			height: 23px;
+		}
 	}
 	p {
 		display: inline-block;
@@ -151,7 +160,7 @@ footer {
 			margin-right: 10px;
 			font-size: 14px;
 		    letter-spacing: 2px;
-		    text-transform: uppercase;
+		    text-transform: uppercase;    
 		    a {
 		    	text-decoration: none;
 		    	color: #000;
@@ -163,6 +172,13 @@ footer {
 			&:last-of-type:after {
 					content: "";
 			}
+		}
+	}
+	@media screen and #{$brk-narrow} {
+		padding: 0;
+		h3 {
+			font-size: 10px;
+			letter-spacing: 1px;
 		}
 	}
 }

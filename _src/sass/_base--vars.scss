@@ -32,6 +32,11 @@ transition: all $length ease-out;
     -webkit-transform: translateY($percent);
     transform: translateY($percent); 
 }
+
+// Media Query Breakpoints
+ $brk-narrow 	: '(max-width:767px)';
+ $brk-wide 		: '(max-width:1023px)';
+
 // Helpers
 
 .no-margin {
@@ -39,7 +44,7 @@ transition: all $length ease-out;
 }
 
 .center {
-	float: none;
+	float: none !important;
 	margin: 0 auto;
 }
 .center-vertical {
