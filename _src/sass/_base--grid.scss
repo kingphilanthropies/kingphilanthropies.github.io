@@ -175,12 +175,12 @@ body {
 .push-1-12 {
 	margin-left: 8.33%
 }
-
-.hide-on-desktop {
-	display: none !important;
-	// width: 0;
-	// height: 0;
+@media screen and (min-width: 1024px) {
+	.hide-on-desktop {
+		display: none !important;
+	}
 }
+
 
 @media handheld, only screen and #{$brk-narrow} {
 	
@@ -297,4 +297,16 @@ body {
 		height: 0;
 	}
 }
-  
+ @media handheld, only screen and #{$brk-tablet} and #{$brk-wide} {
+ 	.tablet-col-1-3 {
+ 		width: 33.33%;
+ 		&:nth-of-type(3) {
+ 			padding-right: 0;
+ 		}
+ 	}
+ 	.hide-on-tablet {
+ 		display: none !important;
+		width: 0;
+		height: 0;
+ 	}
+ }
