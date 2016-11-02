@@ -271,17 +271,19 @@ body {
 .button.black a {
   color: #333447; }
   .button.black a:hover {
-    background: #eaeaec; }
+    background: #333447;
+    color: #D1B894; }
 
 .button.color-olive a {
   color: #D1B894; }
   .button.color-olive a:hover {
-    background: #42404e; }
+    background: #333447; }
 
 .button.white a {
   color: #ffffff; }
   .button.white a:hover {
-    background: #eaeaec; }
+    background: #D1B894;
+    color: #333447; }
 
 .button.olive-blue a {
   color: #D1B894; }
@@ -323,7 +325,8 @@ h3 {
 
 h4 {
   font-size: 14px;
-  font-weight: 100; }
+  font-weight: 700;
+  color: #333447; }
 
 p {
   font-size: 18px;
@@ -345,7 +348,7 @@ a {
   text-decoration: none; }
 
 .font-normal {
-  font-weight: 100; }
+  font-weight: 400; }
 
 div.clearfix {
   clear: both; }
@@ -629,11 +632,11 @@ footer {
     background: #761E2F; }
 
 .initiative-single {
-  min-height: 630px;
+  min-height: 640px;
   margin-bottom: 20px; }
 
 .flex-container .grid h3, .flex-container .grid p {
   text-align: left; }
 
 .flex-container .grid .initiative-blurb {
-  margin: 15% 0 50% 0; }
+  margin: 10% 0 30% 0; }

@@ -47,9 +47,9 @@ layout: default
 				<div class="grid">
 			{% endif %}
 				<div class="col-1-4" style="padding-bottom: 2em;">
-			        <a href="/staff-member/{{ staff.url }}"><img src="{{ staff.picture.url }}" alt="{{ boardMember.picture.title }}" style="max-width: 100%;" /></a> 
+			        <a href="/staff-member/{{ staff.url }}"><div class="img-settings" style="background-image: url('{{ staff.picture.url }}'); height: 260px; " title="{{ boardMember.picture.title }}"/></div></a> 
 			        <a href="/staff-member/{{ staff.url }}"><h4 class="center-text">{{ staff.name }}</h4></a>
-			        <p class="center-text">{{staff.jobTitle}}</p>
+			        <h4 class="center-text font-normal">{{staff.jobTitle}}</h4>
 			    </div>
 	    	{% if modulo-four == '0' or forloop.last %}
 	    		</div>
@@ -94,13 +94,13 @@ layout: default
 			<div class="center center-text">
 				<div class="social-icons">
 					<a href="//www.facebook.com/kingphilanthropies/" target="_blank"><img src="{{ site.image_path }}/icon-fb.svg" alt="facebook logo"></a>
-					<h4>Follow us on Facebook</h4>
+					<h4 class="font-normal">Follow us on Facebook</h4>
 					<h3 style="display: inline-block; margin: 0 1em;">|</h3>
 				</div>
 
 				<div class="social-icons">
 					<a href="//twitter.com/KingPhilanthrop" target="_blank"><img src="{{ site.image_path }}/icon-twitter.svg" alt="twitter logo"></a>
-					<h4>Follow us on Twitter</h4>
+					<h4 class="font-normal">Follow us on Twitter</h4>
 				</div>
 			</div>
 		</div>

@@ -1,4 +1,166 @@
 ---
+staffMember:
+- sys:
+    id: 6dzeg8xbNKG26GcQMU6oQO
+  name: Sandeep Patel
+  url: sandeep-patel
+  order: 6
+  jobTitle: Advisor, Food, Nutrition and Rural Livelihoods Initiative
+  picture:
+    title: blank-profile-picture-973460 1280
+    url: //images.contentful.com/0cp1epmalnde/1ZXQIfpSZyeqy4w4uu06wk/bf0f8da5ae708ee22cf4c003b153ee34/blank-profile-picture-973460_1280.png
+  bio: |
+    Sandeep is a Managing Director at Barclays Capital, where he leads the food and
+    agriculture advisory effort globally. His expertise spans the full breadth of the food
+    value chain, including agricultural technology and inputs, origination and processing, protein production, food ingredients and nutrition and private label and branded packaged food. Prior to joining Barclays, Sandeep spent over ten years at Goldman Sachs in New York and India, where most recently he was Managing Director and Head of Corporate Finance/M&amp;A in the Mumbai office. Mr. Patel has along-standing interest in the intersection of poverty, food and agriculture, and environmental sustainability. His professional experience in this area includes work with numerous nonprofit organizations, foundations, and academic institutions. He led a comparative agricultural study in Kenya and Tanzania, with results published in Land Economics. Sandeep has a J.D. from Yale Law School, an M.S. in Economics from M.I.T. (1998), and a B.A. (summa cum laude) from Williams College. He was a Fulbright Scholar in India studying rural development and sustainability (1994), a Jacob K. Javits Fellow at M.I.T., and was selected to be a fellow in the Aspen Institute’s inaugural leadership program in India.
+- sys:
+    id: LP5P1Sk0maOW0qEEcoWs6
+  name: Sonal Goyal
+  url: sonal-goyal
+  order: 4
+  jobTitle: Program Associate
+  picture:
+    title: blank-profile-picture-973460 1280
+    url: //images.contentful.com/0cp1epmalnde/1ZXQIfpSZyeqy4w4uu06wk/bf0f8da5ae708ee22cf4c003b153ee34/blank-profile-picture-973460_1280.png
+  bio: 'Sonal is a Program Associate for King Philanthropies. Sonal worked previously
+    in the Department of Impact Evaluation at the World Bank, Morgan Stanley’s Public
+    Finance division, Ashoka Changemakers,Innovate Delhi Entrepreneurship Academy
+    (a startup boot camp organized in New Delhi and funded by SEED), and Motu Economic
+    and Research Institute in New Zealand. She also conducted field research in Ghana
+    with the  Stanford Center for International Development. Sonal graduated from
+    Stanford University with a degree in Economics, where she served on the National
+    Advisory Board of the Haas Center for Public Service. She is currently a Stanford
+    Public Interest Network (SPIN) fellow at the Haas Center. '
+- sys:
+    id: 2jCPHXPzMMAe8yugIQu6AU
+  name: Devin Bruckner
+  url: devin-bruckner
+  order: 5
+  jobTitle: Consultant
+  picture:
+    title: blank-profile-picture-973460 1280
+    url: //images.contentful.com/0cp1epmalnde/1ZXQIfpSZyeqy4w4uu06wk/bf0f8da5ae708ee22cf4c003b153ee34/blank-profile-picture-973460_1280.png
+  bio: "Devin is a Consultant with King Philanthropies. She brings 15 years of experience
+    in nonprofit management and consulting, including work with McKinsey & Company,
+    the Gates Foundation, and the Kravis Prize in Nonprofit Leadership. Focused on
+    international development and global poverty alleviation, her work has included
+    strategic planning, grantee due diligence, program management, impact assessment,
+    and financial and market analysis.  Devin spent two years in Peru and significant
+    time in East Africa working in economic development.  Devin graduated Summa Cum
+    Laude from Claremont McKenna College with a B.A. in Economics. \n"
+- sys:
+    id: 5ccUWnnuP6AyOoim4kwqwq
+  name: William F. Meehan III
+  url: william-f-meehan-iii
+  order: 3
+  jobTitle: Strategic Management
+  picture:
+    title: blank-profile-picture-973460 1280
+    url: //images.contentful.com/0cp1epmalnde/1ZXQIfpSZyeqy4w4uu06wk/bf0f8da5ae708ee22cf4c003b153ee34/blank-profile-picture-973460_1280.png
+  bio: William is the Lafayette Partners Lecturer in Strategic Management at the Stanford
+    University Graduate School of Business and a Director Emeritus of McKinsey & Company.
+    He is a sought-after writer, speaker, teacher and advisor on strategy, leadership,
+    governance, and performance measurement for non-profit organizations and philanthropists.
+    At Stanford, he also is a founding member of the Advisory Council of the Center
+    on Philanthropy and Civil Society, a faculty member of the Public Management Program
+    and the Center for Social Innovation, and a member of the Arts Advisory Council.
+    He developed and teaches a pioneering course in frontier markets private equity
+    and helped launch and shape the Stanford Institute for Innovation in Developing
+    Economies (SEED). He serves on the Board of GiveDirectly, and the North American
+    Council of Ashoka. A committed supporter of the arts and advisor to arts organizations,
+    he is also a long-serving Board member of the San Francisco Symphony and a member
+    of the Oregon Shakespeare Festival Endowment Board. He is a Special Advisor to
+    and Board member of King Philanthropies. He is former Chair of the United Way
+    of the Bay Area and Chairman-Emeritus of Guidestar. Meehan retired from McKinsey
+    Company in December 2008 after a career of over 30 years.
+- sys:
+    id: 2PgSSfabpeaIEKw28a6Smy
+  name: Kim Starkey Jonker
+  url: kim-starkey-jonker
+  order: 0
+  jobTitle: President and CEO
+  picture:
+    title: KJonker Bio Photo
+    url: //images.contentful.com/0cp1epmalnde/3uGsUCP5lCM6gg8ceQACKk/444198aa9744e3913419a90d7da69067/KJonker_Bio_Photo
+  bio: "Kim is the President and CEO of King Philanthropies. She is a frequent contributor
+    to *The Stanford Social Innovation Review* (SSIR) and recently served as a Visiting
+    Practitioner at Stanford’s Center for Philanthropy and Civil Society (PACS). Kim
+    brings to King Philanthropies more than 25 years of experience in the social sector,
+    most recently as an advisor to nonprofits, philanthropists and foundations on
+    topics of strategy, board governance, evaluation and organizational effectiveness.
+    Kim obtained an M.B.A. from Stanford, a M.Sc. in Economics for Development from
+    Oxford, and a M.Sc. in International Relations from the London School of Economics
+    as a Harry S. Truman Scholar. \n"
+- sys:
+    id: 1Zj3dr7LNKYqQ0usGUU8ws
+  name: Chanthi Lune
+  url: chanthi-lune
+  order: 1
+  jobTitle: Director of Finance, Investments, and Administration
+  picture:
+    title: blank-profile-picture-973460 1280
+    url: //images.contentful.com/0cp1epmalnde/1ZXQIfpSZyeqy4w4uu06wk/bf0f8da5ae708ee22cf4c003b153ee34/blank-profile-picture-973460_1280.png
+  bio: |
+    Chanthi is the Director of Finance, Investments, and Administration for King Philanthropies. She manages all aspects of finance for King Philanthropies, with particular focus on financial reporting, analysis and investments. Prior to joining King Philanthropies she worked as a legal contractor for several law firms practicing diverse areas of law, from intellectual property to securities litigation. Prior to law school, Chanthi worked in various finance capacities at three Wall Street firms—Robertson Stephens, Jefferies & Company, and Citi Smith Barney. Chanthi holds a B.A. in Political Science from the University of the Pacific and a J.D./M.B.A. from Gonzaga University. She is admitted to practice law in the state of California. She currently sits on the Board of AC Global Risk.
+- sys:
+    id: 2PiL5zy2sg2qE0w4mG2ASM
+  name: Dana M. Nunn
+  url: dana-m-nunn
+  order: 2
+  jobTitle: Interim Executive Director for the Thrive Foundation for Youth
+  picture:
+    title: DNunn Bio Photo
+    url: //images.contentful.com/0cp1epmalnde/2zVnS5UaIkCQEYmSewwew6/5378a50679cdc0873542226c2bc1a63c/DNunn_Bio_Photo
+  bio: "Dana is the Interim Executive Director for the Thrive Foundation for Youth,
+    a division of King Philanthropies. Dana is also the founder of Quantitative Marketing
+    Intelligence (QMI), a marketing consulting firm that provides quantitative and
+    strategic consulting services to clients in diverse industries. Prior to founding
+    QMI, Dana researched pricing optimization in an academic setting, implemented
+    product pricing strategies for several technology companies, and worked in management
+    consulting. Dana now enjoys applying her expertise in strategy and quantitative
+    methods to her passion for helping disadvantaged youth. Dana obtained a B.A. in
+    Economics and Government from Dartmouth College, an M.A. in Economics from Stanford
+    University, and a Ph.D. in Business from the Stanford Graduate School of Business.
+    \n"
+pages:
+- sys:
+    id: 6sv7GrmAfK6WkYMeSK4sCo
+  clickToEdit: Content on All Pages
+  heroHomepage:
+    title: Homepage-hero
+    url: //images.contentful.com/0cp1epmalnde/1znK6N6xxCcWKgISWeCiK4/ef0e0ed35c8f9603f11f1ff32044fb03/King_Hero_Edit-cream-1-2560x1440-70-1.jpg
+  heroAbout:
+    title: placeholder-1120x840
+    url: //images.contentful.com/0cp1epmalnde/4lxEVyIYFGiYc04CSiYKC8/1725a3c56b5ee4bbdb95ea4e8bec20c2/placeholder-1120x840.png
+  heroInitiativesLanding:
+    title: King Hero Edit-gold-1-2560x1440-70qt
+    url: //images.contentful.com/0cp1epmalnde/53kvf1anOMksU2202mgqCg/a66368a761f5f589c49d02ef656b15e2/King_Hero_Edit-gold-1-2560x1440-70qt.jpg
+  heroNewsLanding:
+    title: placeholder-1120x840
+    url: //images.contentful.com/0cp1epmalnde/3WBgiqZ1HGoQIMmC4SYGKA/4d8672a1f8b757a464ffdb83462022be/placeholder-1120x840.png
+  aboutKingPhilanthropiesText: 'After a successful career as the founder of a California-based
+    investment  firm, Bob King and his wife Dottie shifted their focus to philanthropy
+    in 1995. In the two decades that have followed they have become a national leader
+    in philanthropic investments. King Philanthropies’ goals and work flows directly
+    from the inspiration of its founders and centers on a singular goal: to alleviate
+    extreme poverty'
+  aboutImage:
+    title: placeholder-1120x840
+    url: //images.contentful.com/0cp1epmalnde/3WBgiqZ1HGoQIMmC4SYGKA/4d8672a1f8b757a464ffdb83462022be/placeholder-1120x840.png
+  aboutTheFoundersText: Bob King graduated from Dartmouth in 1957 and earned an M.B.A.
+    from Stanford in 1960. He is the founder of Peninsula Capital, a Menlo Park, California-based
+    venture capital firm, and founder and former president of R. Eliot King & Associates
+    Inc. In 1995, the Kings founded the Thrive Foundation for Youth to help children
+    in under-resourced communities reach their full potential. In 2011 a landmark
+    $150 million donation from the Kings established the Stanford Institute for Innovation
+    in Developing Economies. In 2013, Bob and Dottie partnered with Dartmouth College
+    to create the King Scholar Leadership Program for students with exceptional potential
+    from developing nations in Latin America, Africa, and Asia.
+  contactUsText: King Philanthropies employs a personalized and targeted approach
+    to philanthropy. We dedicate ourselves wholly to the initiatives that fit within
+    the goals of our founders and our larger mission to alleviate extreme poverty
+    in Africa and parts of Asia. For this reason, we cannot accept unsolicited requests
+    for funds. Other inquiries can be sent to info@kingphilanthropies.org.
 newsPost:
 - sys:
     id: 3zsxDXsluEueCcu2maqg6C
@@ -57,168 +219,6 @@ newsPost:
     title: wisconsing
     url: //images.contentful.com/0cp1epmalnde/4MlJCtAagMe2IgcaygmKc0/0d78a3df4d9f5ecd44dc162b8efc6169/wisconsing.png
   link: http://news.wisc.edu/10-million-gift-expands-faculty-and-research-to-help-youth-flourish/
-staffMember:
-- sys:
-    id: LP5P1Sk0maOW0qEEcoWs6
-  name: Sonal Goyal
-  url: sonal-goyal
-  order: 4
-  jobTitle: Program Associate
-  picture:
-    title: blank-profile-picture-973460 1280
-    url: //images.contentful.com/0cp1epmalnde/1ZXQIfpSZyeqy4w4uu06wk/bf0f8da5ae708ee22cf4c003b153ee34/blank-profile-picture-973460_1280.png
-  bio: 'Sonal is a Program Associate for King Philanthropies. Sonal worked previously
-    in the Department of Impact Evaluation at the World Bank, Morgan Stanley’s Public
-    Finance division, Ashoka Changemakers,Innovate Delhi Entrepreneurship Academy
-    (a startup boot camp organized in New Delhi and funded by SEED), and Motu Economic
-    and Research Institute in New Zealand. She also conducted field research in Ghana
-    with the  Stanford Center for International Development. Sonal graduated from
-    Stanford University with a degree in Economics, where she served on the National
-    Advisory Board of the Haas Center for Public Service. She is currently a Stanford
-    Public Interest Network (SPIN) fellow at the Haas Center. '
-- sys:
-    id: 2jCPHXPzMMAe8yugIQu6AU
-  name: Devin Bruckner
-  url: devin-bruckner
-  order: 5
-  jobTitle: Consultant
-  picture:
-    title: blank-profile-picture-973460 1280
-    url: //images.contentful.com/0cp1epmalnde/1ZXQIfpSZyeqy4w4uu06wk/bf0f8da5ae708ee22cf4c003b153ee34/blank-profile-picture-973460_1280.png
-  bio: "Devin is a Consultant with King Philanthropies. She brings 15 years of experience
-    in nonprofit management and consulting, including work with McKinsey & Company,
-    the Gates Foundation, and the Kravis Prize in Nonprofit Leadership. Focused on
-    international development and global poverty alleviation, her work has included
-    strategic planning, grantee due diligence, program management, impact assessment,
-    and financial and market analysis.  Devin spent two years in Peru and significant
-    time in East Africa working in economic development.  Devin graduated Summa Cum
-    Laude from Claremont McKenna College with a B.A. in Economics. \n"
-- sys:
-    id: 2PgSSfabpeaIEKw28a6Smy
-  name: Kim Starkey Jonker
-  url: kim-starkey-jonker
-  order: 0
-  jobTitle: President and CEO
-  picture:
-    title: blank-profile-picture-973460 1280
-    url: //images.contentful.com/0cp1epmalnde/1ZXQIfpSZyeqy4w4uu06wk/bf0f8da5ae708ee22cf4c003b153ee34/blank-profile-picture-973460_1280.png
-  bio: "Kim is the President and CEO of King Philanthropies. She is a frequent contributor
-    to *The Stanford Social Innovation Review* (SSIR) and recently served as a Visiting
-    Practitioner at Stanford’s Center for Philanthropy and Civil Society (PACS). Kim
-    brings to King Philanthropies more than 25 years of experience in the social sector,
-    most recently as an advisor to nonprofits, philanthropists and foundations on
-    topics of strategy, board governance, evaluation and organizational effectiveness.
-    Kim obtained an M.B.A. from Stanford, a M.Sc. in Economics for Development from
-    Oxford, and a M.Sc. in International Relations from the London School of Economics
-    as a Harry S. Truman Scholar. \n"
-- sys:
-    id: 5ccUWnnuP6AyOoim4kwqwq
-  name: William F. Meehan III
-  url: william-f-meehan-iii
-  order: 3
-  jobTitle: Strategic Management
-  picture:
-    title: blank-profile-picture-973460 1280
-    url: //images.contentful.com/0cp1epmalnde/1ZXQIfpSZyeqy4w4uu06wk/bf0f8da5ae708ee22cf4c003b153ee34/blank-profile-picture-973460_1280.png
-  bio: William is the Lafayette Partners Lecturer in Strategic Management at the Stanford
-    University Graduate School of Business and a Director Emeritus of McKinsey & Company.
-    He is a sought-after writer, speaker, teacher and advisor on strategy, leadership,
-    governance, and performance measurement for non-profit organizations and philanthropists.
-    At Stanford, he also is a founding member of the Advisory Council of the Center
-    on Philanthropy and Civil Society, a faculty member of the Public Management Program
-    and the Center for Social Innovation, and a member of the Arts Advisory Council.
-    He developed and teaches a pioneering course in frontier markets private equity
-    and helped launch and shape the Stanford Institute for Innovation in Developing
-    Economies (SEED). He serves on the Board of GiveDirectly, and the North American
-    Council of Ashoka. A committed supporter of the arts and advisor to arts organizations,
-    he is also a long-serving Board member of the San Francisco Symphony and a member
-    of the Oregon Shakespeare Festival Endowment Board. He is a Special Advisor to
-    and Board member of King Philanthropies. He is former Chair of the United Way
-    of the Bay Area and Chairman-Emeritus of Guidestar. Meehan retired from McKinsey
-    Company in December 2008 after a career of over 30 years.
-- sys:
-    id: 2PiL5zy2sg2qE0w4mG2ASM
-  name: Dana M. Nunn
-  url: dana-m-nunn
-  order: 2
-  jobTitle: Interim Executive Director for the Thrive Foundation for Youth
-  picture:
-    title: blank-profile-picture-973460 1280
-    url: //images.contentful.com/0cp1epmalnde/1ZXQIfpSZyeqy4w4uu06wk/bf0f8da5ae708ee22cf4c003b153ee34/blank-profile-picture-973460_1280.png
-  bio: "Dana is the Interim Executive Director for the Thrive Foundation for Youth,
-    a division of King Philanthropies. Dana is also the founder of Quantitative Marketing
-    Intelligence (QMI), a marketing consulting firm that provides quantitative and
-    strategic consulting services to clients in diverse industries. Prior to founding
-    QMI, Dana researched pricing optimization in an academic setting, implemented
-    product pricing strategies for several technology companies, and worked in management
-    consulting. Dana now enjoys applying her expertise in strategy and quantitative
-    methods to her passion for helping disadvantaged youth. Dana obtained a B.A. in
-    Economics and Government from Dartmouth College, an M.A. in Economics from Stanford
-    University, and a Ph.D. in Business from the Stanford Graduate School of Business.
-    \n"
-- sys:
-    id: 6dzeg8xbNKG26GcQMU6oQO
-  name: Sandeep Patel
-  url: sandeep-patel
-  order: 6
-  jobTitle: Advisor, Food, Nutrition and Rural Livelihoods Initiative
-  picture:
-    title: blank-profile-picture-973460 1280
-    url: //images.contentful.com/0cp1epmalnde/1ZXQIfpSZyeqy4w4uu06wk/bf0f8da5ae708ee22cf4c003b153ee34/blank-profile-picture-973460_1280.png
-  bio: |
-    Sandeep is a Managing Director at Barclays Capital, where he leads the food and
-    agriculture advisory effort globally. His expertise spans the full breadth of the food
-    value chain, including agricultural technology and inputs, origination and processing, protein production, food ingredients and nutrition and private label and branded packaged food. Prior to joining Barclays, Sandeep spent over ten years at Goldman Sachs in New York and India, where most recently he was Managing Director and Head of Corporate Finance/M&amp;A in the Mumbai office. Mr. Patel has along-standing interest in the intersection of poverty, food and agriculture, and environmental sustainability. His professional experience in this area includes work with numerous nonprofit organizations, foundations, and academic institutions. He led a comparative agricultural study in Kenya and Tanzania, with results published in Land Economics. Sandeep has a J.D. from Yale Law School, an M.S. in Economics from M.I.T. (1998), and a B.A. (summa cum laude) from Williams College. He was a Fulbright Scholar in India studying rural development and sustainability (1994), a Jacob K. Javits Fellow at M.I.T., and was selected to be a fellow in the Aspen Institute’s inaugural leadership program in India.
-- sys:
-    id: 1Zj3dr7LNKYqQ0usGUU8ws
-  name: Chanthi Lune
-  url: chanthi-lune
-  order: 1
-  jobTitle: Director of Finance, Investments, and Administration
-  picture:
-    title: blank-profile-picture-973460 1280
-    url: //images.contentful.com/0cp1epmalnde/1ZXQIfpSZyeqy4w4uu06wk/bf0f8da5ae708ee22cf4c003b153ee34/blank-profile-picture-973460_1280.png
-  bio: |
-    Chanthi is the Director of Finance, Investments, and Administration for King Philanthropies. She manages all aspects of finance for King Philanthropies, with particular focus on financial reporting, analysis and investments. Prior to joining King Philanthropies she worked as a legal contractor for several law firms practicing diverse areas of law, from intellectual property to securities litigation. Prior to law school, Chanthi worked in various finance capacities at three Wall Street firms—Robertson Stephens, Jefferies & Company, and Citi Smith Barney. Chanthi holds a B.A. in Political Science from the University of the Pacific and a J.D./M.B.A. from Gonzaga University. She is admitted to practice law in the state of California. She currently sits on the Board of AC Global Risk.
-pages:
-- sys:
-    id: 6sv7GrmAfK6WkYMeSK4sCo
-  clickToEdit: Content on All Pages
-  heroHomepage:
-    title: placeholder-1120x840
-    url: //images.contentful.com/0cp1epmalnde/4lxEVyIYFGiYc04CSiYKC8/1725a3c56b5ee4bbdb95ea4e8bec20c2/placeholder-1120x840.png
-  heroAbout:
-    title: placeholder-1120x840
-    url: //images.contentful.com/0cp1epmalnde/4lxEVyIYFGiYc04CSiYKC8/1725a3c56b5ee4bbdb95ea4e8bec20c2/placeholder-1120x840.png
-  heroInitiativesLanding:
-    title: King Hero Edit-gold-1-2560x1440-70qt
-    url: //images.contentful.com/0cp1epmalnde/53kvf1anOMksU2202mgqCg/a66368a761f5f589c49d02ef656b15e2/King_Hero_Edit-gold-1-2560x1440-70qt.jpg
-  heroNewsLanding:
-    title: placeholder-1120x840
-    url: //images.contentful.com/0cp1epmalnde/3WBgiqZ1HGoQIMmC4SYGKA/4d8672a1f8b757a464ffdb83462022be/placeholder-1120x840.png
-  aboutKingPhilanthropiesText: 'After a successful career as the founder of a California-based
-    investment  firm, Bob King and his wife Dottie shifted their focus to philanthropy
-    in 1995. In the two decades that have followed they have become a national leader
-    in philanthropic investments. King Philanthropies’ goals and work flows directly
-    from the inspiration of its founders and centers on a singular goal: to alleviate
-    extreme poverty'
-  aboutImage:
-    title: placeholder-1120x840
-    url: //images.contentful.com/0cp1epmalnde/3WBgiqZ1HGoQIMmC4SYGKA/4d8672a1f8b757a464ffdb83462022be/placeholder-1120x840.png
-  aboutTheFoundersText: Bob King graduated from Dartmouth in 1957 and earned an M.B.A.
-    from Stanford in 1960. He is the founder of Peninsula Capital, a Menlo Park, California-based
-    venture capital firm, and founder and former president of R. Eliot King & Associates
-    Inc. In 1995, the Kings founded the Thrive Foundation for Youth to help children
-    in under-resourced communities reach their full potential. In 2011 a landmark
-    $150 million donation from the Kings established the Stanford Institute for Innovation
-    in Developing Economies. In 2013, Bob and Dottie partnered with Dartmouth College
-    to create the King Scholar Leadership Program for students with exceptional potential
-    from developing nations in Latin America, Africa, and Asia.
-  contactUsText: King Philanthropies employs a personalized and targeted approach
-    to philanthropy. We dedicate ourselves wholly to the initiatives that fit within
-    the goals of our founders and our larger mission to alleviate extreme poverty
-    in Africa and parts of Asia. For this reason, we cannot accept unsolicited requests
-    for funds. Other inquiries can be sent to info@kingphilanthropies.org.
 initiatives:
 - sys:
     id: TFfzQqIzsIC04WuISimi6
@@ -271,6 +271,67 @@ initiatives:
   theInitiativeText: |
     Thrive Foundation for Youth guides disadvantaged youth to reach their full potential by strengthening the presence and impact of caring adults in their lives. The foundation partners with successful programs in which caring adults support adolescent youth and in which evidence-based research is applied in practical ways. The current work is built on earlier research in positive youth development and invests in the critical relationship between young people and the caring adults in their lives. Through continued research and ongoing implementation, Thrive continues its strategy of investing in high-impact youth-serving organizations, identifying best practices, and amplifying what works.
   moreAboutUrl: http://www.thrivefoundation.org/
+- sys:
+    id: 38MJ5Pvhf2WAacs8EMcAmE
+  initiativeTitle: Food, Nutrition, and Rural Livelihoods Initiative
+  url: food-nutrition-and-rural-livelihoods-initiative
+  heroSingleInitiative:
+    title: Initiatives-food-nutritoin-hero
+    url: //images.contentful.com/0cp1epmalnde/6hnkg13bX2KYIAgA4U6kgi/1326503d26d07e32a394104bf7afd93d/King_Hero_Edit-cream-2-2560x1440-70.jpg
+  order: 4
+  thumbImage:
+    title: placeholder-1120x840
+    url: //images.contentful.com/0cp1epmalnde/3WBgiqZ1HGoQIMmC4SYGKA/4d8672a1f8b757a464ffdb83462022be/placeholder-1120x840.png
+  color: red
+  hoverText: Food, Nutrition, and Rural Livelihoods Initiative
+  initiativeBlurb: 'King Philanthropies is focused on alleviating extreme poverty,
+    so working in areas related to Food, Nutrition, and Rural Livelihoods brings tremendous
+    opportunity for impact. '
+  initiativeSubtitle: Combatting malnutrition to improve earnings, education and health
+  theOpportunity: "King Philanthropies is focused on alleviating extreme poverty,
+    so working in areas related to Food, Nutrition, and Rural Livelihoods brings tremendous
+    opportunity for impact.  More than three-quarters of the world’s extreme poor
+    live and work in rural areas, do not have enough to eat, and suffer from under-nutrition.
+    \ Indeed, in Sub-Saharan Africa and South Asia alone, more than 500 million people
+    suffer from undernourishment; poor nutrition causes 45 percent of deaths in children
+    under five years old.  Malnutrition stunts physical and mental growth and robs
+    people of the ability to reach their full potential, thus trapping them in a cycle
+    of poverty and illness that can persist for generations. And evidence shows that
+    malnutrition is not just an effect of poverty, but also a cause. Reducing and
+    eliminating malnutrition therefore brings multi-faceted benefits, including improvement
+    in school attainment, health, wages and ultimately higher gross national product.
+    To fully move out of extreme poverty, those in rural areas must be well-nourished
+    and also have opportunities to improve their livelihoods, typically by moving
+    beyond subsistence farming into situations where they can sell surplus and processed
+    crops. The importance of rural livelihoods is underscored by research that shows
+    that growth in the agriculture sector is about two to four times more effective
+    in raising incomes among the poorest compared to other sectors.\n \nKing Philanthropies
+    selected Myanmar as the first location of our pilot in Food, Nutrition, and Rural
+    Livelihoods because of its significant unmet needs in these areas and because
+    the country is at a critical inflection point.  Two-thirds of Myanmar’s 54 million
+    people live in rural areas, and the country has some of the highest rates of malnutrition
+    in the Asia Pacific region. For example, more than one in three children in Myanmar
+    are stunted (i.e., short for age, an indicator of chronic undernutrition), with
+    children in the country’s poorest households twice as likely to be stunted.[1]
+    Despite the country’s increased economic development in recent years, significant
+    poverty and poor nutrition remain prevalent. We believe that now is the time to
+    intervene in Myanmar to help address these unmet needs.  The new national leadership
+    has coalesced political will and is committed to moving the country’s development
+    forward.\n"
+  ourFocusImage1:
+    title: thumbnail
+    url: //images.contentful.com/0cp1epmalnde/4MPgnd346sKO8k8CkgCsO6/ef8149b66632c42dc56a2d2d5235cccd/-text.png
+  ourFocusImage2:
+    title: thumbnail
+    url: //images.contentful.com/0cp1epmalnde/4MPgnd346sKO8k8CkgCsO6/ef8149b66632c42dc56a2d2d5235cccd/-text.png
+  ourFocusImage3:
+    title: thumbnail
+    url: //images.contentful.com/0cp1epmalnde/4MPgnd346sKO8k8CkgCsO6/ef8149b66632c42dc56a2d2d5235cccd/-text.png
+  ourFocusImage4:
+    title: thumbnail
+    url: //images.contentful.com/0cp1epmalnde/4MPgnd346sKO8k8CkgCsO6/ef8149b66632c42dc56a2d2d5235cccd/-text.png
+  theInitiativeText: |
+    Recognizing the importance of both agriculture and nutrition to improve the livelihoods of the rural poor, in early 2017 King Philanthropies will launch a pilot supporting best-in-class organizations working in food, nutrition, and rural livelihoods. The first phase of our pilot will focus on Myanmar, with subsequent efforts focused on East Africa and South Asia.
 - sys:
     id: 41Xcii4e0ooe0OsoMa8gaS
   initiativeTitle: Knight Hennessy Scholars
@@ -379,67 +440,6 @@ initiatives:
     the opportunity to engage with the Willis L. Jones Leadership Center at UW, named
     after Dottie King’s beloved father.\n"
   moreAboutUrl: http://www.kingscholars.com/
-- sys:
-    id: 38MJ5Pvhf2WAacs8EMcAmE
-  initiativeTitle: Food, Nutrition, and Rural Livelihoods Initiative
-  url: food-nutrition-and-rural-livelihoods-initiative
-  heroSingleInitiative:
-    title: placeholder-1120x840
-    url: //images.contentful.com/0cp1epmalnde/3WBgiqZ1HGoQIMmC4SYGKA/4d8672a1f8b757a464ffdb83462022be/placeholder-1120x840.png
-  order: 4
-  thumbImage:
-    title: placeholder-1120x840
-    url: //images.contentful.com/0cp1epmalnde/3WBgiqZ1HGoQIMmC4SYGKA/4d8672a1f8b757a464ffdb83462022be/placeholder-1120x840.png
-  color: red
-  hoverText: Food, Nutrition, and Rural Livelihoods Initiative
-  initiativeBlurb: 'King Philanthropies is focused on alleviating extreme poverty,
-    so working in areas related to Food, Nutrition, and Rural Livelihoods brings tremendous
-    opportunity for impact. '
-  initiativeSubtitle: Combatting malnutrition to improve earnings, education and health
-  theOpportunity: "King Philanthropies is focused on alleviating extreme poverty,
-    so working in areas related to Food, Nutrition, and Rural Livelihoods brings tremendous
-    opportunity for impact.  More than three-quarters of the world’s extreme poor
-    live and work in rural areas, do not have enough to eat, and suffer from under-nutrition.
-    \ Indeed, in Sub-Saharan Africa and South Asia alone, more than 500 million people
-    suffer from undernourishment; poor nutrition causes 45 percent of deaths in children
-    under five years old.  Malnutrition stunts physical and mental growth and robs
-    people of the ability to reach their full potential, thus trapping them in a cycle
-    of poverty and illness that can persist for generations. And evidence shows that
-    malnutrition is not just an effect of poverty, but also a cause. Reducing and
-    eliminating malnutrition therefore brings multi-faceted benefits, including improvement
-    in school attainment, health, wages and ultimately higher gross national product.
-    To fully move out of extreme poverty, those in rural areas must be well-nourished
-    and also have opportunities to improve their livelihoods, typically by moving
-    beyond subsistence farming into situations where they can sell surplus and processed
-    crops. The importance of rural livelihoods is underscored by research that shows
-    that growth in the agriculture sector is about two to four times more effective
-    in raising incomes among the poorest compared to other sectors.\n \nKing Philanthropies
-    selected Myanmar as the first location of our pilot in Food, Nutrition, and Rural
-    Livelihoods because of its significant unmet needs in these areas and because
-    the country is at a critical inflection point.  Two-thirds of Myanmar’s 54 million
-    people live in rural areas, and the country has some of the highest rates of malnutrition
-    in the Asia Pacific region. For example, more than one in three children in Myanmar
-    are stunted (i.e., short for age, an indicator of chronic undernutrition), with
-    children in the country’s poorest households twice as likely to be stunted.[1]
-    Despite the country’s increased economic development in recent years, significant
-    poverty and poor nutrition remain prevalent. We believe that now is the time to
-    intervene in Myanmar to help address these unmet needs.  The new national leadership
-    has coalesced political will and is committed to moving the country’s development
-    forward.\n"
-  ourFocusImage1:
-    title: thumbnail
-    url: //images.contentful.com/0cp1epmalnde/4MPgnd346sKO8k8CkgCsO6/ef8149b66632c42dc56a2d2d5235cccd/-text.png
-  ourFocusImage2:
-    title: thumbnail
-    url: //images.contentful.com/0cp1epmalnde/4MPgnd346sKO8k8CkgCsO6/ef8149b66632c42dc56a2d2d5235cccd/-text.png
-  ourFocusImage3:
-    title: thumbnail
-    url: //images.contentful.com/0cp1epmalnde/4MPgnd346sKO8k8CkgCsO6/ef8149b66632c42dc56a2d2d5235cccd/-text.png
-  ourFocusImage4:
-    title: thumbnail
-    url: //images.contentful.com/0cp1epmalnde/4MPgnd346sKO8k8CkgCsO6/ef8149b66632c42dc56a2d2d5235cccd/-text.png
-  theInitiativeText: |
-    Recognizing the importance of both agriculture and nutrition to improve the livelihoods of the rural poor, in early 2017 King Philanthropies will launch a pilot supporting best-in-class organizations working in food, nutrition, and rural livelihoods. The first phase of our pilot will focus on Myanmar, with subsequent efforts focused on East Africa and South Asia.
 - sys:
     id: 5dgRKiDKuQEEIwgKoyAEyo
   initiativeTitle: Stanford SEED

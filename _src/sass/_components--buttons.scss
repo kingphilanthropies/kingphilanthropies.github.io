@@ -8,21 +8,23 @@
 		@include transition(.2s);
 	}
 	&.black a {
-		color: $black;
+		color: $blue;
 		&:hover {
-			background: #eaeaec;
+			background: $blue;
+			color: $olive;
 		}
 	}
 	&.color-olive a {
 		color: $olive;
 		&:hover {
-			background: #42404e;
+			background: $blue;
 		}
 	}
 	&.white a {
 		color: $white;
 		&:hover {
-			background: #eaeaec;
+			background: $olive;
+			color: $blue;
 		}
 	}
 	&.olive-blue a {

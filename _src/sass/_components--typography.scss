@@ -22,7 +22,7 @@ h2 {
 
 h3, h4, p, p.caption, p.button, a, ul, li {
 	font-family: $stack-sans-serif;
-	font-weight:400;
+	font-weight: 400;
 }
 
 //Title
@@ -40,7 +40,9 @@ h3 {
 //staff member titles and social 
 h4 {
 	font-size: 14px;
-	font-weight: 100;
+	font-weight: 700;
+	color: $black;
+
 }
 
 //Body 
@@ -68,5 +70,5 @@ a {
 }
 
 .font-normal {
-	font-weight: 100;
+	font-weight: 400;
 }
