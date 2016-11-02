@@ -1,6 +1,7 @@
 // Headline
 h1 {
 	font-family: $stack-serif;
+	font-weight: 900;
 	font-size: 45px; 
 	line-height: 1.5;
 	text-align:center;
@@ -13,6 +14,7 @@ h1 {
 h2 {
 	font-family: $stack-serif;
 	font-size: 30px;
+	font-weight: 700;
 	line-height: 1.5;
 	text-align: center;
 	@media screen and #{$brk-narrow} {
