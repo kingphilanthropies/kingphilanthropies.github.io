@@ -12,9 +12,9 @@ layout: default
 </div>
 
 <section class="light-grey">
+	<div class="grid">
 	<h3>About king Philanthropies</h3>
-	<h3>&mdash;</h3>
-	<div class="grid content">
+	<span class="center-text">&mdash;</span>
 		<div class="col-1-2 center">
 			<p>{{ site.data.contentful.spaces.proddata.pages[0].aboutKingPhilanthropiesText  | markdownify }}</p>
 		</div>
@@ -27,17 +27,16 @@ layout: default
 
 <section class="grid light-grey block-overlap center">
 	<h3>About the Founders</h3>
-	<h3>&mdash;</h3>
-	<div class="col-1-2 center content">
+	<span class="center-text">&mdash;</span>
+	<div class="col-1-2 center">
 		<p>{{ site.data.contentful.spaces.proddata.pages[0].aboutTheFoundersText  | markdownify }}</p>
 	</div>
 </section>
 
 <section>
 	<h3>Staff</h3>
-	<h3>&mdash;</h3>
+	<span class="center-text">&mdash;</span>
 	<div class="grid content">
-		
 		{% assign sorted_staff = site.data.contentful.spaces.proddata.staffMember | sort:"order" %}
 			{% for staff in sorted_staff %}
 			{% capture modulo-four %}{{ forloop.index | modulo: 4 }}{% endcapture %}
@@ -61,17 +60,15 @@ layout: default
 </section>
 
 <section class="blue">
-	<h3>Our Board</h3>
-	<h3>&mdash;</h3>
-	
-	<div class="grid content">
-		
+	<div class="grid">
+		<h3>Our Board</h3>
+		<span class="center-text">&mdash;</span>
 		{% for boardMember in site.data.contentful.spaces.proddata.boardMember %}
 		{% capture modulo-four %}{{ forloop.index | modulo: 4 }}{% endcapture %}
 
 			<!-- TODO: add more conditions  -->
 			{% if modulo-four == '1' %}
-				<div class="grid">
+				<div class="grid content">
 			{% endif %}
 				<div class="col-1-4">
 					<a href="{{ boardMember.url }}"><h3 class="color-white" style="text-transform: none;">{{ boardMember.name }}</h3></a>
@@ -85,10 +82,9 @@ layout: default
 </section>
 
 <section>
+	<div class="grid">
 	<h3>Contact Us</h3>
-	<h3>&mdash;</h3>
-	
-	<div class="grid content">
+	<span class="center-text">&mdash;</span>
 		<div class="col-1-2 center">
 			<p>{{ site.data.contentful.spaces.proddata.pages[0].contactUsText  | markdownify }}</p>
 			<div class="center center-text">
@@ -97,7 +93,6 @@ layout: default
 					<h4 class="font-normal">Follow us on Facebook</h4>
 					<h3 style="display: inline-block; margin: 0 1em;">|</h3>
 				</div>
-
 				<div class="social-icons">
 					<a href="//twitter.com/KingPhilanthrop" target="_blank"><img src="{{ site.image_path }}/icon-twitter.svg" alt="twitter logo"></a>
 					<h4 class="font-normal">Follow us on Twitter</h4>

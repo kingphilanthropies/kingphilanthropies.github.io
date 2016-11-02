@@ -19,13 +19,13 @@ layout: default
 	<div class="grid block-overlap center">
 {% endif %}
 
-<section class="{% if forloop.first %} light-grey news {% endif %} {% if modulo == '1' %} light-grey {% endif %} ">
-	<section class="grid {% if forloop.first == false %} news {% endif %}">
+<section class="{% if forloop.first %} light-grey news {% endif %} {% if modulo == '1' %} light-grey {% endif %}">
+	<div class="grid center {% if forloop.first == false %} news {% endif %}">
 		<div class="col-3-12">
-  			<img src="{{ post.sourceLogo.url }}" alt="{{ post.sourceLogo.title }}" style="max-width: 65%;">
+  			<img src="{{ post.sourceLogo.url }}" alt="{{ post.sourceLogo.title }}" style="max-width: 100px;">
 		</div>
 		<div class="col-9-12">
-			<h2 class="text-left" style="margin-top: 0;">{{ post.title }}</h2>
+			<h2 class="text-left no-margin">{{ post.title }}</h2>
 			<p class="caption">{{ post.source }}</p>
 			<p>{{ post.content }}</p>
 			<p class="button {% if post.color == 'blue' %} olive {% else %} black {% endif %} text-left">
@@ -33,8 +33,8 @@ layout: default
 			</p>
 		</div>
 	</div>
-	</section>
 </section>
+</div>
 {% if forloop.first %}
 	</div>
 {% endif %}

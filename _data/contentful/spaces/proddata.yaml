@@ -221,6 +221,52 @@ newsPost:
   link: http://news.wisc.edu/10-million-gift-expands-faculty-and-research-to-help-youth-flourish/
 initiatives:
 - sys:
+    id: 5dgRKiDKuQEEIwgKoyAEyo
+  initiativeTitle: Stanford SEED
+  url: seed
+  heroSingleInitiative:
+    title: placeholder-1120x840
+    url: //images.contentful.com/0cp1epmalnde/3WBgiqZ1HGoQIMmC4SYGKA/4d8672a1f8b757a464ffdb83462022be/placeholder-1120x840.png
+  order: 0
+  thumbImage:
+    title: placeholder-1120x840
+    url: //images.contentful.com/0cp1epmalnde/3WBgiqZ1HGoQIMmC4SYGKA/4d8672a1f8b757a464ffdb83462022be/placeholder-1120x840.png
+  color: dark-red
+  hoverText: Ending the cycle of extreme poverty
+  initiativeBlurb: Global Poverty is one of the most pressing challenges of our time
+    and Bob and Dottie King are determined to use their resources to alleviate it.
+  initiativeSubtitle: Ending the cycle of extreme poverty
+  theOpportunity: "Global poverty is one of the most pressing challenges of our time
+    and Bob and Dottie King are determined to use their resources to alleviate it.
+    In 2012, they seized a unique opportunity to lessen poverty by fueling job creation
+    in partnership with the Stanford University Graduate School of Business (GSB).
+    \nThe Kings established the Stanford Institute for Innovation in Developing Economies,
+    better known as Seed, to leverage the GSB’s innovative mindset and entrepreneurial
+    expertise.  Seed works to end the cycle of global poverty by fostering new entrepreneurial
+    ventures and scaling existing enterprises.  Because global poverty is multi-dimensional
+    in nature, the Kings wanted Seep to avail itself of research expertise across
+    the university. To this end, Seed’s GDP Research Initiative supports research
+    that relates to poverty alleviation spanning disciplines across Stanford, including
+    public health, education, law, political science, engineering, computer science,
+    and the environment, among others.\n"
+  statementGalleryTopRight: Launched with $150 million grant
+  statementGalleryBottomLeft: Expanding around the world
+  ourFocusImage1:
+    title: thumbnail
+    url: //images.contentful.com/0cp1epmalnde/4MPgnd346sKO8k8CkgCsO6/ef8149b66632c42dc56a2d2d5235cccd/-text.png
+  ourFocusImage2:
+    title: thumbnail
+    url: //images.contentful.com/0cp1epmalnde/4MPgnd346sKO8k8CkgCsO6/ef8149b66632c42dc56a2d2d5235cccd/-text.png
+  ourFocusImage3:
+    title: thumbnail
+    url: //images.contentful.com/0cp1epmalnde/4MPgnd346sKO8k8CkgCsO6/ef8149b66632c42dc56a2d2d5235cccd/-text.png
+  ourFocusImage4:
+    title: thumbnail
+    url: //images.contentful.com/0cp1epmalnde/4MPgnd346sKO8k8CkgCsO6/ef8149b66632c42dc56a2d2d5235cccd/-text.png
+  theInitiativeText: |
+    Launched with the King’s $150 million gift, Seed combines educational excellence, critical research, and breakthrough innovation to address global poverty. Seed’s comprehensive approach involves working across multiple fronts and time horizons. Seed trains business leaders in developing economies, giving them access to management training, coaching, and networking support that will help them lead their regions to greater prosperity. Seed inspires Stanford students to become globally engaged leaders and introduces them to the challenges and opportunities of doing business in developing economies. And, Seed advances university-wide research to develop relevant and impactful poverty alleviation interventions across disciplines. Seed is headquartered at Stanford, has hubs in East and West Africa, and will soon launch in Asia. Its long-term goal is to expand to developing economies throughout the world.
+  moreAboutUrl: https://www.gsb.stanford.edu/seed
+- sys:
     id: TFfzQqIzsIC04WuISimi6
   initiativeTitle: Thrive Foundation For Youth
   url: thrive-foundation-for-youth
@@ -271,67 +317,6 @@ initiatives:
   theInitiativeText: |
     Thrive Foundation for Youth guides disadvantaged youth to reach their full potential by strengthening the presence and impact of caring adults in their lives. The foundation partners with successful programs in which caring adults support adolescent youth and in which evidence-based research is applied in practical ways. The current work is built on earlier research in positive youth development and invests in the critical relationship between young people and the caring adults in their lives. Through continued research and ongoing implementation, Thrive continues its strategy of investing in high-impact youth-serving organizations, identifying best practices, and amplifying what works.
   moreAboutUrl: http://www.thrivefoundation.org/
-- sys:
-    id: 38MJ5Pvhf2WAacs8EMcAmE
-  initiativeTitle: Food, Nutrition, and Rural Livelihoods Initiative
-  url: food-nutrition-and-rural-livelihoods-initiative
-  heroSingleInitiative:
-    title: Initiatives-food-nutritoin-hero
-    url: //images.contentful.com/0cp1epmalnde/6hnkg13bX2KYIAgA4U6kgi/1326503d26d07e32a394104bf7afd93d/King_Hero_Edit-cream-2-2560x1440-70.jpg
-  order: 4
-  thumbImage:
-    title: placeholder-1120x840
-    url: //images.contentful.com/0cp1epmalnde/3WBgiqZ1HGoQIMmC4SYGKA/4d8672a1f8b757a464ffdb83462022be/placeholder-1120x840.png
-  color: red
-  hoverText: Food, Nutrition, and Rural Livelihoods Initiative
-  initiativeBlurb: 'King Philanthropies is focused on alleviating extreme poverty,
-    so working in areas related to Food, Nutrition, and Rural Livelihoods brings tremendous
-    opportunity for impact. '
-  initiativeSubtitle: Combatting malnutrition to improve earnings, education and health
-  theOpportunity: "King Philanthropies is focused on alleviating extreme poverty,
-    so working in areas related to Food, Nutrition, and Rural Livelihoods brings tremendous
-    opportunity for impact.  More than three-quarters of the world’s extreme poor
-    live and work in rural areas, do not have enough to eat, and suffer from under-nutrition.
-    \ Indeed, in Sub-Saharan Africa and South Asia alone, more than 500 million people
-    suffer from undernourishment; poor nutrition causes 45 percent of deaths in children
-    under five years old.  Malnutrition stunts physical and mental growth and robs
-    people of the ability to reach their full potential, thus trapping them in a cycle
-    of poverty and illness that can persist for generations. And evidence shows that
-    malnutrition is not just an effect of poverty, but also a cause. Reducing and
-    eliminating malnutrition therefore brings multi-faceted benefits, including improvement
-    in school attainment, health, wages and ultimately higher gross national product.
-    To fully move out of extreme poverty, those in rural areas must be well-nourished
-    and also have opportunities to improve their livelihoods, typically by moving
-    beyond subsistence farming into situations where they can sell surplus and processed
-    crops. The importance of rural livelihoods is underscored by research that shows
-    that growth in the agriculture sector is about two to four times more effective
-    in raising incomes among the poorest compared to other sectors.\n \nKing Philanthropies
-    selected Myanmar as the first location of our pilot in Food, Nutrition, and Rural
-    Livelihoods because of its significant unmet needs in these areas and because
-    the country is at a critical inflection point.  Two-thirds of Myanmar’s 54 million
-    people live in rural areas, and the country has some of the highest rates of malnutrition
-    in the Asia Pacific region. For example, more than one in three children in Myanmar
-    are stunted (i.e., short for age, an indicator of chronic undernutrition), with
-    children in the country’s poorest households twice as likely to be stunted.[1]
-    Despite the country’s increased economic development in recent years, significant
-    poverty and poor nutrition remain prevalent. We believe that now is the time to
-    intervene in Myanmar to help address these unmet needs.  The new national leadership
-    has coalesced political will and is committed to moving the country’s development
-    forward.\n"
-  ourFocusImage1:
-    title: thumbnail
-    url: //images.contentful.com/0cp1epmalnde/4MPgnd346sKO8k8CkgCsO6/ef8149b66632c42dc56a2d2d5235cccd/-text.png
-  ourFocusImage2:
-    title: thumbnail
-    url: //images.contentful.com/0cp1epmalnde/4MPgnd346sKO8k8CkgCsO6/ef8149b66632c42dc56a2d2d5235cccd/-text.png
-  ourFocusImage3:
-    title: thumbnail
-    url: //images.contentful.com/0cp1epmalnde/4MPgnd346sKO8k8CkgCsO6/ef8149b66632c42dc56a2d2d5235cccd/-text.png
-  ourFocusImage4:
-    title: thumbnail
-    url: //images.contentful.com/0cp1epmalnde/4MPgnd346sKO8k8CkgCsO6/ef8149b66632c42dc56a2d2d5235cccd/-text.png
-  theInitiativeText: |
-    Recognizing the importance of both agriculture and nutrition to improve the livelihoods of the rural poor, in early 2017 King Philanthropies will launch a pilot supporting best-in-class organizations working in food, nutrition, and rural livelihoods. The first phase of our pilot will focus on Myanmar, with subsequent efforts focused on East Africa and South Asia.
 - sys:
     id: 41Xcii4e0ooe0OsoMa8gaS
   initiativeTitle: Knight Hennessy Scholars
@@ -441,36 +426,52 @@ initiatives:
     after Dottie King’s beloved father.\n"
   moreAboutUrl: http://www.kingscholars.com/
 - sys:
-    id: 5dgRKiDKuQEEIwgKoyAEyo
-  initiativeTitle: Stanford SEED
-  url: seed
+    id: 38MJ5Pvhf2WAacs8EMcAmE
+  initiativeTitle: Food, Nutrition, and Rural Livelihoods Initiative
+  url: food-nutrition-and-rural-livelihoods-initiative
   heroSingleInitiative:
-    title: placeholder-1120x840
-    url: //images.contentful.com/0cp1epmalnde/3WBgiqZ1HGoQIMmC4SYGKA/4d8672a1f8b757a464ffdb83462022be/placeholder-1120x840.png
-  order: 0
+    title: Initiatives-food-nutritoin-hero
+    url: //images.contentful.com/0cp1epmalnde/6hnkg13bX2KYIAgA4U6kgi/1326503d26d07e32a394104bf7afd93d/King_Hero_Edit-cream-2-2560x1440-70.jpg
+  order: 4
   thumbImage:
     title: placeholder-1120x840
     url: //images.contentful.com/0cp1epmalnde/3WBgiqZ1HGoQIMmC4SYGKA/4d8672a1f8b757a464ffdb83462022be/placeholder-1120x840.png
-  color: red
-  hoverText: Ending the cycle of extreme poverty
-  initiativeBlurb: Global Poverty is one of the most pressing challenges of our time
-    and Bob and Dottie King are determined to use their resources to alleviate it.
-  initiativeSubtitle: Ending the cycle of extreme poverty
-  theOpportunity: "Global poverty is one of the most pressing challenges of our time
-    and Bob and Dottie King are determined to use their resources to alleviate it.
-    In 2012, they seized a unique opportunity to lessen poverty by fueling job creation
-    in partnership with the Stanford University Graduate School of Business (GSB).
-    \nThe Kings established the Stanford Institute for Innovation in Developing Economies,
-    better known as Seed, to leverage the GSB’s innovative mindset and entrepreneurial
-    expertise.  Seed works to end the cycle of global poverty by fostering new entrepreneurial
-    ventures and scaling existing enterprises.  Because global poverty is multi-dimensional
-    in nature, the Kings wanted Seep to avail itself of research expertise across
-    the university. To this end, Seed’s GDP Research Initiative supports research
-    that relates to poverty alleviation spanning disciplines across Stanford, including
-    public health, education, law, political science, engineering, computer science,
-    and the environment, among others.\n"
-  statementGalleryTopRight: Launched with $150 million grant
-  statementGalleryBottomLeft: Expanding around the world
+  color: dark-red
+  hoverText: Food, Nutrition, and Rural Livelihoods Initiative
+  initiativeBlurb: 'King Philanthropies is focused on alleviating extreme poverty,
+    so working in areas related to Food, Nutrition, and Rural Livelihoods brings tremendous
+    opportunity for impact. '
+  initiativeSubtitle: Combatting malnutrition to improve earnings, education and health
+  theOpportunity: "King Philanthropies is focused on alleviating extreme poverty,
+    so working in areas related to Food, Nutrition, and Rural Livelihoods brings tremendous
+    opportunity for impact.  More than three-quarters of the world’s extreme poor
+    live and work in rural areas, do not have enough to eat, and suffer from under-nutrition.
+    \ Indeed, in Sub-Saharan Africa and South Asia alone, more than 500 million people
+    suffer from undernourishment; poor nutrition causes 45 percent of deaths in children
+    under five years old.  Malnutrition stunts physical and mental growth and robs
+    people of the ability to reach their full potential, thus trapping them in a cycle
+    of poverty and illness that can persist for generations. And evidence shows that
+    malnutrition is not just an effect of poverty, but also a cause. Reducing and
+    eliminating malnutrition therefore brings multi-faceted benefits, including improvement
+    in school attainment, health, wages and ultimately higher gross national product.
+    To fully move out of extreme poverty, those in rural areas must be well-nourished
+    and also have opportunities to improve their livelihoods, typically by moving
+    beyond subsistence farming into situations where they can sell surplus and processed
+    crops. The importance of rural livelihoods is underscored by research that shows
+    that growth in the agriculture sector is about two to four times more effective
+    in raising incomes among the poorest compared to other sectors.\n \nKing Philanthropies
+    selected Myanmar as the first location of our pilot in Food, Nutrition, and Rural
+    Livelihoods because of its significant unmet needs in these areas and because
+    the country is at a critical inflection point.  Two-thirds of Myanmar’s 54 million
+    people live in rural areas, and the country has some of the highest rates of malnutrition
+    in the Asia Pacific region. For example, more than one in three children in Myanmar
+    are stunted (i.e., short for age, an indicator of chronic undernutrition), with
+    children in the country’s poorest households twice as likely to be stunted.[1]
+    Despite the country’s increased economic development in recent years, significant
+    poverty and poor nutrition remain prevalent. We believe that now is the time to
+    intervene in Myanmar to help address these unmet needs.  The new national leadership
+    has coalesced political will and is committed to moving the country’s development
+    forward.\n"
   ourFocusImage1:
     title: thumbnail
     url: //images.contentful.com/0cp1epmalnde/4MPgnd346sKO8k8CkgCsO6/ef8149b66632c42dc56a2d2d5235cccd/-text.png
@@ -484,8 +485,7 @@ initiatives:
     title: thumbnail
     url: //images.contentful.com/0cp1epmalnde/4MPgnd346sKO8k8CkgCsO6/ef8149b66632c42dc56a2d2d5235cccd/-text.png
   theInitiativeText: |
-    Launched with the King’s $150 million gift, Seed combines educational excellence, critical research, and breakthrough innovation to address global poverty. Seed’s comprehensive approach involves working across multiple fronts and time horizons. Seed trains business leaders in developing economies, giving them access to management training, coaching, and networking support that will help them lead their regions to greater prosperity. Seed inspires Stanford students to become globally engaged leaders and introduces them to the challenges and opportunities of doing business in developing economies. And, Seed advances university-wide research to develop relevant and impactful poverty alleviation interventions across disciplines. Seed is headquartered at Stanford, has hubs in East and West Africa, and will soon launch in Asia. Its long-term goal is to expand to developing economies throughout the world.
-  moreAboutUrl: https://www.gsb.stanford.edu/seed
+    Recognizing the importance of both agriculture and nutrition to improve the livelihoods of the rural poor, in early 2017 King Philanthropies will launch a pilot supporting best-in-class organizations working in food, nutrition, and rural livelihoods. The first phase of our pilot will focus on Myanmar, with subsequent efforts focused on East Africa and South Asia.
 boardMember:
 - sys:
     id: 2Kdw4D8Ngc6GO6uqgwIwae

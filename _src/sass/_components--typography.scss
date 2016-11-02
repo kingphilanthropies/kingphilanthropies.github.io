@@ -51,7 +51,11 @@ p {
 	line-height: 1.7;
 	color: $black;
 	&.caption {
-		font-size: 12px;
+		text-align: left;
+    	margin-top: 12px;
+    	font-size: 12px;
+    	margin-bottom: 36px;
+    	text-transform: uppercase;
 	}
 	&.button {
 		font-size:14px;
