@@ -40,7 +40,7 @@ layout: default
 		{% assign sorted_staff = site.data.contentful.spaces.proddata.staffMember | sort:"order" %}
 			{% for staff in sorted_staff %}
 			{% capture modulo-four %}{{ forloop.index | modulo: 4 }}{% endcapture %}
-
+	
 			<!-- TODO: add more conditions  -->
 			{% if modulo-four == '1' %}
 				<div class="grid">
@@ -53,7 +53,7 @@ layout: default
 	    	{% if modulo-four == '0' or forloop.last %}
 	    		</div>
 	    	{% endif %}	
-
+	    	
     	{% endfor %}
 	</div>
 
@@ -91,7 +91,7 @@ layout: default
 				<div class="social-icons">
 					<a href="//www.facebook.com/kingphilanthropies/" target="_blank"><img src="{{ site.image_path }}/icon-fb.svg" alt="facebook logo"></a>
 					<h4 class="font-normal">Follow us on Facebook</h4>
-					<h3 style="display: inline-block; margin: 0 1em;">|</h3>
+					<h3 class="hide-on-mobile" style="display: inline-block; margin: 0 1em;">|</h3>
 				</div>
 				<div class="social-icons">
 					<a href="//twitter.com/KingPhilanthrop" target="_blank"><img src="{{ site.image_path }}/icon-twitter.svg" alt="twitter logo"></a>
