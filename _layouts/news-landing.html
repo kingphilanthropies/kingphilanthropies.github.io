@@ -20,9 +20,9 @@ layout: default
 {% endif %}
 
 <section class="{% if forloop.first %} light-grey news {% endif %} {% if modulo == '1' %} light-grey {% endif %}">
-	<div class="grid center {% if forloop.first == false %} news {% endif %}">
+	<section class="grid center {% if forloop.first == false %} news {% endif %}">
 		<div class="col-3-12">
-  			<img src="{{ post.sourceLogo.url }}" alt="{{ post.sourceLogo.title }}" style="max-width: 100px;">
+  			<img class="center" src="{{ post.sourceLogo.url }}" alt="{{ post.sourceLogo.title }}">
 		</div>
 		<div class="col-9-12">
 			<h2 class="text-left no-margin">{{ post.title }}</h2>
@@ -32,9 +32,9 @@ layout: default
 				<a href="{{post.link}}" target="_blank">Read More</a>
 			</p>
 		</div>
-	</div>
-</section>
+	</section>
 </div>
+</section>
 {% if forloop.first %}
 	</div>
 {% endif %}

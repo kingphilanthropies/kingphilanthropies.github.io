@@ -1,3 +1,5 @@
+// initiatives landing and subpage
+
 .initiative-single {
 	@extend .img-settings;
 	min-height: 640px; 
@@ -7,6 +9,13 @@
 		min-height: 360px; 
 	}
 }
+
+.initiative-intro {
+	@media screen and #{$brk-narrow} {
+		padding: 0 20px;
+	}
+}
+
 
 .flex-container .grid {
 	h3, p {

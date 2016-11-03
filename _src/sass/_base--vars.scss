@@ -71,6 +71,9 @@ transition: all $length ease-out;
 	margin: -4em auto auto auto!important;
 	width: 90% !important;
 	position: relative;
+	@media handheld, only screen and #{$brk-narrow} {
+		width: 100% !important;
+	}
 }
 .flex-container {
 	max-width: 1780px;

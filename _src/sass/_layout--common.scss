@@ -85,10 +85,26 @@ section {
 //  NEWS PAGE
 section.news {
 	padding: 90px 140px 70px 140px;
+	img {
+		max-width: 100px;
+		display: block;
+	}
 	@media screen and #{$brk-narrow} {
-		padding: 15px;
+		padding: 25px;
+		img {
+			max-width: 65px;
+			display: inline-block; 
+		}
+		.button a {
+			display: block;
+    		text-align: center;
+		}
+
 	}
 }
+
+
+
 
 .light-grey {
 	background: $light-grey;
@@ -110,15 +126,11 @@ section.news {
 	color: $olive;
 }
 
-
-
 // Animation
 
 .fadeInBlock {
     opacity: 0;
 }
-
-
 
 //MOVE TO LETTER
 
