@@ -83,6 +83,13 @@ section {
 }
 
 //  NEWS PAGE
+
+@media screen and #{$brk-narrow} {
+	.block-overlap .news {
+		padding: 0 5px !important;
+	}
+} 
+
 section.news {
 	padding: 90px 140px 70px 140px;
 	img {
@@ -90,7 +97,7 @@ section.news {
 		display: block;
 	}
 	@media screen and #{$brk-narrow} {
-		padding: 25px;
+		padding: 0 45px;
 		img {
 			max-width: 65px;
 			display: inline-block; 
@@ -101,8 +108,10 @@ section.news {
 		}
 
 	}
+	@media screen and #{$brk-tablet-min} and #{$brk-wide} {
+		padding: 70px 90px;
+	}
 }
-
 
 
 
@@ -142,6 +151,55 @@ section.news {
 }
 
 //
+
+// About Us page
+@media handheld, only screen and #{$brk-wide} {	
+	.about-contacts .social-icons {
+		display: block;
+		text-align: left;		
+	}
+}
+//
+
+// Staff-member page 
+	
+@media screen and #{$brk-narrow} { 
+	.staff-member {
+		.content {
+			padding: 0;
+		}
+		.col-4-12 {
+			padding: 0 20px;
+			margin: 0 auto;
+    		float: none;
+    		text-align: center;
+			img {
+				padding-right: 0 !important;
+			}
+		}
+		.col-8-12 {
+			padding: 0 20px;
+			h3 {
+				text-align: center !important;
+				margin-top: 14px;
+			}
+		}
+	}
+}
+
+//
+
+//Contact page 
+@media screen and #{$brk-narrow} { 
+	.contact-social {
+		margin-top: 3em;
+	}
+}
+
+
+//
+
+
 .color-blue {
 	color: $blue;
 }
@@ -164,6 +222,7 @@ section.news {
 	p, h4 {
 		display: inline-block;
 	}
+	
 }
 
 
@@ -297,10 +356,6 @@ footer {
 	  	display: block; 
 	  	background-color: $blue;
 	  }
-
-	  // .open-menu {
-	  // 	display: block;
-	  // }
 
 	  .site-nav .page-link {
 	    display: block;
