@@ -272,7 +272,11 @@ body {
   .hide-on-tablet {
     display: none !important;
     width: 0;
-    height: 0; } }
+    height: 0; }
+  .tablet-col-1-60 {
+    width: 60%; }
+  .tablet-col-1-40 {
+    width: 40%; } }
 
 @media handheld, only screen and (min-width: 600px) and (max-width: 767px) {
   .custom-col-1-2 {
