@@ -221,51 +221,6 @@ newsPost:
   link: http://news.wisc.edu/10-million-gift-expands-faculty-and-research-to-help-youth-flourish/
 initiatives:
 - sys:
-    id: 5dgRKiDKuQEEIwgKoyAEyo
-  initiativeTitle: Stanford SEED
-  url: seed
-  heroSingleInitiative:
-    title: placeholder-1120x840
-    url: //images.contentful.com/0cp1epmalnde/3WBgiqZ1HGoQIMmC4SYGKA/4d8672a1f8b757a464ffdb83462022be/placeholder-1120x840.png
-  order: 0
-  thumbImage:
-    title: placeholder-1120x840
-    url: //images.contentful.com/0cp1epmalnde/3WBgiqZ1HGoQIMmC4SYGKA/4d8672a1f8b757a464ffdb83462022be/placeholder-1120x840.png
-  hoverText: Ending the cycle of extreme poverty
-  initiativeBlurb: Global Poverty is one of the most pressing challenges of our time
-    and Bob and Dottie King are determined to use their resources to alleviate it.
-  initiativeSubtitle: Ending the cycle of extreme poverty
-  theOpportunity: "Global poverty is one of the most pressing challenges of our time
-    and Bob and Dottie King are determined to use their resources to alleviate it.
-    In 2012, they seized a unique opportunity to lessen poverty by fueling job creation
-    in partnership with the Stanford University Graduate School of Business (GSB).
-    \nThe Kings established the Stanford Institute for Innovation in Developing Economies,
-    better known as Seed, to leverage the GSB’s innovative mindset and entrepreneurial
-    expertise.  Seed works to end the cycle of global poverty by fostering new entrepreneurial
-    ventures and scaling existing enterprises.  Because global poverty is multi-dimensional
-    in nature, the Kings wanted Seep to avail itself of research expertise across
-    the university. To this end, Seed’s GDP Research Initiative supports research
-    that relates to poverty alleviation spanning disciplines across Stanford, including
-    public health, education, law, political science, engineering, computer science,
-    and the environment, among others.\n"
-  statementGalleryTopRight: Launched with $150 million grant
-  statementGalleryBottomLeft: Expanding around the world
-  ourFocusImage1:
-    title: thumbnail
-    url: //images.contentful.com/0cp1epmalnde/4MPgnd346sKO8k8CkgCsO6/ef8149b66632c42dc56a2d2d5235cccd/-text.png
-  ourFocusImage2:
-    title: thumbnail
-    url: //images.contentful.com/0cp1epmalnde/4MPgnd346sKO8k8CkgCsO6/ef8149b66632c42dc56a2d2d5235cccd/-text.png
-  ourFocusImage3:
-    title: thumbnail
-    url: //images.contentful.com/0cp1epmalnde/4MPgnd346sKO8k8CkgCsO6/ef8149b66632c42dc56a2d2d5235cccd/-text.png
-  ourFocusImage4:
-    title: thumbnail
-    url: //images.contentful.com/0cp1epmalnde/4MPgnd346sKO8k8CkgCsO6/ef8149b66632c42dc56a2d2d5235cccd/-text.png
-  theInitiativeText: |
-    Launched with the King’s $150 million gift, Seed combines educational excellence, critical research, and breakthrough innovation to address global poverty. Seed’s comprehensive approach involves working across multiple fronts and time horizons. Seed trains business leaders in developing economies, giving them access to management training, coaching, and networking support that will help them lead their regions to greater prosperity. Seed inspires Stanford students to become globally engaged leaders and introduces them to the challenges and opportunities of doing business in developing economies. And, Seed advances university-wide research to develop relevant and impactful poverty alleviation interventions across disciplines. Seed is headquartered at Stanford, has hubs in East and West Africa, and will soon launch in Asia. Its long-term goal is to expand to developing economies throughout the world.
-  moreAboutUrl: https://www.gsb.stanford.edu/seed
-- sys:
     id: 5hSEDZl4WQEgCOyiIiAwEE
   initiativeTitle: King Scholar Leadership Program
   url: king-scholars
@@ -371,6 +326,50 @@ initiatives:
     less economically developed regions of the world.  Their gift will also support
     the King Global Leadership Program, a distinctive training and development curriculum
     in which all Knight-Hennessy Scholars will participate.\n"
+- sys:
+    id: 5dgRKiDKuQEEIwgKoyAEyo
+  initiativeTitle: Stanford SEED
+  url: seed
+  heroSingleInitiative:
+    title: placeholder-1120x840
+    url: //images.contentful.com/0cp1epmalnde/3WBgiqZ1HGoQIMmC4SYGKA/4d8672a1f8b757a464ffdb83462022be/placeholder-1120x840.png
+  order: 0
+  thumbImage:
+    title: placeholder-1120x840
+    url: //images.contentful.com/0cp1epmalnde/3WBgiqZ1HGoQIMmC4SYGKA/4d8672a1f8b757a464ffdb83462022be/placeholder-1120x840.png
+  hoverText: Ending the cycle of extreme poverty
+  initiativeBlurb: Global Poverty is one of the most pressing challenges of our time
+    and Bob and Dottie King are determined to use their resources to alleviate it.
+  initiativeSubtitle: Ending the cycle of extreme poverty
+  theOpportunity: "Global poverty is one of the most pressing challenges of our time
+    and Bob and Dottie King are determined to use their resources to alleviate it.
+    In 2012, they seized a unique opportunity to lessen poverty by fueling job creation
+    in partnership with the Stanford University Graduate School of Business (GSB).
+    \nThe Kings established the Stanford Institute for Innovation in Developing Economies,
+    better known as Seed, to leverage the GSB’s innovative mindset and entrepreneurial
+    expertise.  Seed works to end the cycle of global poverty by fostering new entrepreneurial
+    ventures and scaling existing enterprises.  Because global poverty is multi-dimensional
+    in nature, the Kings wanted Seep to avail itself of research expertise across
+    the university. To this end, Seed’s GDP Research Initiative supports research
+    that relates to poverty alleviation spanning disciplines across Stanford, including
+    public health, education, law, political science, engineering, computer science,
+    and the environment, among others.\n"
+  statementGalleryTopRight: Launched with $150 million grant
+  statementGalleryBottomLeft: Expanding around the world
+  ourFocusImage1:
+    title: thumbnail
+    url: //images.contentful.com/0cp1epmalnde/4MPgnd346sKO8k8CkgCsO6/ef8149b66632c42dc56a2d2d5235cccd/-text.png
+  ourFocusImage2:
+    title: thumbnail
+    url: //images.contentful.com/0cp1epmalnde/4MPgnd346sKO8k8CkgCsO6/ef8149b66632c42dc56a2d2d5235cccd/-text.png
+  ourFocusImage3:
+    title: thumbnail
+    url: //images.contentful.com/0cp1epmalnde/4MPgnd346sKO8k8CkgCsO6/ef8149b66632c42dc56a2d2d5235cccd/-text.png
+  ourFocusImage4:
+    title: thumbnail
+    url: //images.contentful.com/0cp1epmalnde/4MPgnd346sKO8k8CkgCsO6/ef8149b66632c42dc56a2d2d5235cccd/-text.png
+  theInitiativeText: |
+    Launched with the King’s $150 million gift, Seed combines educational excellence, critical research, and breakthrough innovation to address global poverty. Seed’s comprehensive approach involves working across multiple fronts and time horizons. Seed trains business leaders in developing economies, giving them access to management training, coaching, and networking support that will help them lead their regions to greater prosperity. Seed inspires Stanford students to become globally engaged leaders and introduces them to the challenges and opportunities of doing business in developing economies. And, Seed advances university-wide research to develop relevant and impactful poverty alleviation interventions across disciplines. Seed is headquartered at Stanford, has hubs in East and West Africa, and will soon launch in Asia. Its long-term goal is to expand to developing economies throughout the world.
 - sys:
     id: 38MJ5Pvhf2WAacs8EMcAmE
   initiativeTitle: Food, Nutrition, and Rural Livelihoods Initiative
