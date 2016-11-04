@@ -175,12 +175,11 @@ body {
 .push-1-12 {
 	margin-left: 8.33%
 }
-@media screen and (min-width: 1024px) {
+@media only screen and (min-width: 1024px) {
 	.hide-on-desktop {
 		display: none !important;
 	}
 }
-
 
 @media handheld, only screen and #{$brk-narrow} {
 	
@@ -309,6 +308,8 @@ body {
 		width: 0;
 		height: 0;
  	}
+
+//custom grid 
  	.tablet-col-1-60 {
  		width: 60%;
  	}

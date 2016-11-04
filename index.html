@@ -45,14 +45,16 @@ layout: default
                 <h3><a href="/initiatives/{{ initiative.url }}" class="color-olive">{{ initiative.initiativeTitle }}</a></h3>
                 <p class="button olive-blue"><a href="/initiatives/{{ initiative.url }}">View Initiative</a></p>
             </div>
-            <div class="{% if overlay-counter == '0' %} overlay-blue {% else %} overlay-red {% endif %} hide-on-mobile"></div>
+            <div class="{% if overlay-counter == '0' %} overlay-blue {% else %} overlay-red {% endif %} hide-on-tablet hide-on-mobile"></div>
             <div class="img-settings" style="background-image: url('{{ initiative.thumbImage.url}}'); height: 350px;" title="{{ initiative.thumbImage.title}}"/></div>
+            
             <!-- mobile blurb  -->
-            <div class="{% if overlay-counter == '0' %} blue {% else %} dark-red {% endif %} hide-on-tablet hide-on-desktop" style="padding: 0.5em;">
+            <div class="{% if overlay-counter == '0' %} blue {% else %} dark-red {% endif %} hide-on-desktop" style="padding: 0.5em;">
                <h3><a href="/initiatives/{{ initiative.url }}" class="color-olive">{{ initiative.initiativeTitle }}</a></h3>
                 <p class="button olive-blue"><a href="/initiatives/{{ initiative.url }}">View Initiative</a></p>
             </div>
             <!-- end mobile blurb  -->
+          
           </div>
         {% if modulo == '0' or forloop.last %}
           </div>

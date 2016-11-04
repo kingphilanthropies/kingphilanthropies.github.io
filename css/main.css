@@ -189,7 +189,7 @@ body {
 .push-1-12 {
   margin-left: 8.33%; }
 
-@media screen and (min-width: 1024px) {
+@media only screen and (min-width: 1024px) {
   .hide-on-desktop {
     display: none !important; } }
 
@@ -663,6 +663,10 @@ footer {
     padding-right: 5px;
     position: relative;
     z-index: 10; }
+    @media only screen and (min-width: 768px) and (max-width: 1023px) and (-webkit-min-device-pixel-ratio: 2) {
+      .home-initiatives .col-1-3 {
+        width: 100%;
+        padding-right: 0; } }
     .home-initiatives .col-1-3 .hover-link .button {
       margin-top: 2em; }
     .home-initiatives .col-1-3:hover .hover-link {
