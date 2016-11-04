@@ -640,7 +640,7 @@ footer {
     position: fixed;
     z-index: 10;
     top: 0px;
-    right: 0.5px;
+    right: 0px;
     background-color: transparent; }
     .site-nav:hover .menu-icon {
       background-color: #333447;
