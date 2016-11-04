@@ -78,3 +78,9 @@ a {
 .font-normal {
 	font-weight: 400;
 }
+
+.signature {
+	@media screen and #{$brk-narrow} {
+		font-size: 12px;
+	}
+}
