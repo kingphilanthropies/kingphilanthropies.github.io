@@ -153,12 +153,35 @@ section.news {
 //
 
 // About Us page
+
+.about .col-1-2 {
+	padding-right: 0;
+}
 @media handheld, only screen and #{$brk-wide} {	
 	.about-contacts .social-icons {
 		display: block;
 		text-align: left;		
 	}
+	.about .block-overlap .tablet-col-1-60 {
+		width: 68%;
+    	margin: 0 auto;
+	}
+	
 }
+@media handheld, only screen and #{$brk-narrow} {
+	.about .block-overlap .tablet-col-1-60 {
+		width: 100%;
+    	margin: 0 auto;
+	}
+}
+@media handheld, only screen and #{$brk-wide} {
+	.about .col-1-2, .initiatives-sub .col-8-12 {
+		padding-right: 0;
+	}
+	.initiatives-sub .col-8-12 {
+		width: 77%;
+	}
+} 
 //
 
 // Staff-member page 

@@ -31,7 +31,7 @@ group: "initiatives"
 				</div>
 			</section>
 			<!-- mobile blurb  -->
-			<div class="center {% cycle 'right-aligned-items-mobile': 'light-grey', 'olive' %} hide-on-tablet hide-on-desktop" style="padding: 1em;">
+			<div class="center {% cycle 'right-aligned-items-mobile': 'light-grey', 'olive' %} hide-on-tablet hide-on-desktop" style="padding: 2em;">
 					<h3>{{ initiative.initiativeTitle }}</h3>
 					<h3 class="{% if initiative.color == 'light-grey' %} color-olive {% elsif initiative.color == 'olive' %} {% else %} color-white {% endif %}">&mdash;</h3>
 					<p class="initiative-blurb" style="margin-bottom: 20px;">{{ initiative.initiativeBlurb }}</p>
@@ -52,7 +52,7 @@ group: "initiatives"
 			<div class="col-2-3 tablet-col-1-60 initiative-single" title="{{ initiative.thumbImage.title }}" style="background-image: url('{{ initiative.thumbImage.url }}');">
 			</div>
 			<!-- mobile blurb  -->
-			<div class="center {% cycle 'left-aligned-items-mobile': 'dark-red', 'blue' %}  hide-on-tablet hide-on-desktop" style="padding: 1em;">
+			<div class="center {% cycle 'left-aligned-items-mobile': 'dark-red', 'blue' %}  hide-on-tablet hide-on-desktop" style="padding: 2em;">
 				<h3 class="color-white">{{ initiative.initiativeTitle }}</h3>
 				<h3 class="color-white">&mdash;</h3>
 				<p class="color-white initiative-blurb" style="margin-bottom: 20px;">{{ initiative.initiativeBlurb }}</p>

@@ -510,10 +510,27 @@ section.news {
   max-width: 100%;
   margin: 20px 0; }
 
+.about .col-1-2 {
+  padding-right: 0; }
+
 @media handheld, only screen and (max-width: 1023px) {
   .about-contacts .social-icons {
     display: block;
-    text-align: left; } }
+    text-align: left; }
+  .about .block-overlap .tablet-col-1-60 {
+    width: 68%;
+    margin: 0 auto; } }
+
+@media handheld, only screen and (max-width: 767px) {
+  .about .block-overlap .tablet-col-1-60 {
+    width: 100%;
+    margin: 0 auto; } }
+
+@media handheld, only screen and (max-width: 1023px) {
+  .about .col-1-2, .initiatives-sub .col-8-12 {
+    padding-right: 0; }
+  .initiatives-sub .col-8-12 {
+    width: 77%; } }
 
 @media screen and (max-width: 767px) {
   .staff-member .content {
