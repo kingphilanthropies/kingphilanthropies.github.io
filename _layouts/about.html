@@ -38,23 +38,17 @@ layout: default
 	<span class="center-text">&mdash;</span>
 	<div class="grid content">
 		{% assign sorted_staff = site.data.contentful.spaces.proddata.staffMember | sort:"order" %}
+			
 			{% for staff in sorted_staff %}
-			{% capture modulo-four %}{{ forloop.index | modulo: 4 }}{% endcapture %}
-	
-			<!-- TODO: add more conditions  -->
-			{% if modulo-four == '1' %}
-				<div class="grid">
-			{% endif %}
-				<div class="col-1-4" style="padding-bottom: 2em;">
-			        <a href="/staff-member/{{ staff.url }}"><div class="img-settings" style="background-image: url('{{ staff.picture.url }}'); height: 260px; " title="{{ boardMember.picture.title }}"/></div></a> 
-			        <a href="/staff-member/{{ staff.url }}"><h4 class="center-text">{{ staff.name }}</h4></a>
-			        <h4 class="center-text font-normal">{{staff.jobTitle}}</h4>
-			    </div>
-	    	{% if modulo-four == '0' or forloop.last %}
-	    		</div>
-	    	{% endif %}	
-	    	
+			
+			<div class="col-1-4 tablet-col-1-3 mobile-col-1-1 custom-col-1-2" style="height: 400px;">
+		        <a href="/staff-member/{{ staff.url }}"><div class="img-settings" style="background-image: url('{{ staff.picture.url }}'); height: 260px; " title="{{ boardMember.picture.title }}"/></div></a> 
+		        <a href="/staff-member/{{ staff.url }}"><h4 class="center-text">{{ staff.name }}</h4></a>
+		        <h4 class="center-text font-normal">{{staff.jobTitle}}</h4>
+		    </div>
+    	
     	{% endfor %}
+    	
 	</div>
 
 </section>

@@ -75,10 +75,10 @@ nav {
 section {
 	padding: 90px 0 70px 0;
 	@media screen and #{$brk-narrow} {
-		padding: 15px 0;
+		padding: 20px 0;
 	}
-	@media screen and #{$brk-tablet} and #{$brk-wide} {
-		padding: 30px 0;
+	@media screen and #{$brk-tablet-min} and #{$brk-wide} {
+		padding: 40px 0;
 	}
 }
 
@@ -202,7 +202,7 @@ footer {
 			letter-spacing: 1px;
 		}
 	}
-	@media screen and #{$brk-tablet} and (max-width: 1095px) {
+	@media screen and #{$brk-tablet-min} and (max-width: 1095px) {
 		padding: 1em;
 		h3, ul li {
 			font-size: 12px;

@@ -36,7 +36,7 @@ transition: all $length ease-out;
 // Media Query Breakpoints
  $brk-narrow 	: '(max-width: 767px)';
  $brk-wide 		: '(max-width: 1023px)';
- $brk-tablet	: '(min-width: 768px)';
+ $brk-tablet-min: '(min-width: 768px)';
 
 
 // Helpers
