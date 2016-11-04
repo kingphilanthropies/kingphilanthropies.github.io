@@ -575,13 +575,15 @@ footer {
   flex: 1; }
 
 @media handheld, only screen and (max-width: 767px) {
+  .sticky-footer {
+    margin-top: 65px; }
   header {
     height: 65px !important; }
   .site-nav {
     position: fixed;
     z-index: 10;
-    top: 14px;
-    right: 8px;
+    top: 0px;
+    right: 0.5px;
     background-color: transparent; }
     .site-nav:hover .menu-icon {
       background-color: #333447;
@@ -591,11 +593,13 @@ footer {
     font-size: 24px;
     color: #D1B894;
     float: right;
-    width: 36px;
+    width: 72px;
+    padding: 14.5px;
     text-align: center;
     line-height: 36px; }
     .site-nav .menu-icon:hover {
-      background-color: #333447; }
+      background-color: #333447;
+      padding: 14.5px; }
   .site-nav .menu-icon svg {
     width: 18px;
     height: 16px; }
@@ -610,9 +614,9 @@ footer {
     background-color: #333447; }
   .site-nav .page-link {
     display: block;
-    text-align: right;
+    text-align: left;
     line-height: 1.25;
-    padding: 5px 15px;
+    padding: 5px 65px 5px 10px;
     margin: 0; }
     .site-nav .page-link h3 {
       color: #D1B894;
