@@ -353,10 +353,12 @@ h3 {
   letter-spacing: 2px;
   line-height: 1.5;
   text-transform: uppercase;
-  text-align: center; }
+  text-align: center;
+  margin-bottom: 0; }
   @media screen and (max-width: 767px) {
     h3 {
-      font-size: 14px; } }
+      font-size: 14px;
+      margin-bottom: 0; } }
 
 h4 {
   font-size: 14px;
@@ -700,6 +702,27 @@ footer {
     width: auto;
     margin: 0 0 15px; } }
 
+.letter-tabs {
+  display: block;
+  padding: 0; }
+  .letter-tabs li {
+    display: inline-block; }
+  .letter-tabs h3 {
+    text-decoration: none;
+    font-size: 16px;
+    display: inline-block;
+    margin: 20px;
+    color: #828282; }
+    .letter-tabs h3:first-of-type {
+      margin-left: 0; }
+    .letter-tabs h3:hover {
+      color: #333447; }
+    .letter-tabs h3.active {
+      margin: 0px 25px 25px 0;
+      padding-top: 31px;
+      color: #333447;
+      border-top: 3px solid #C13A53; }
+
 .hover-link {
   opacity: 0;
   padding: 0 3em;
@@ -736,8 +759,10 @@ footer {
       top: 0;
       left: 0;
       z-index: 10;
-      width: 100%;
       height: 100%;
+      width: -moz-calc(100% - 5px);
+      width: -webkit-calc(100% - 5px);
+      width: calc(100% - 5px);
       display: block;
       position: absolute; }
     .home-initiatives .col-1-3:hover .overlay-blue:after {

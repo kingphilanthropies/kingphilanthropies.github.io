@@ -38,6 +38,7 @@ contentful:
   content_types:
    - "initiatives"
    - "staffMember"
+   - "letter"
   spaces:
     - proddata: # Jekyll _data folder identifier - Required
         space: 0cp1epmalnde        # Required
@@ -51,4 +52,5 @@ contentful:
           cat: letter
           cat: newsPost
           cat: staffMember
+          cat: letter
           cat: pages

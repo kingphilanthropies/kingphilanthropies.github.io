@@ -34,8 +34,10 @@ h3 {
 	line-height: 1.5;
 	text-transform: uppercase;
 	text-align: center;
+	margin-bottom: 0;
 	@media screen and #{$brk-narrow} {
 		font-size: 14px;
+		margin-bottom: 0;
 	}
 }
 

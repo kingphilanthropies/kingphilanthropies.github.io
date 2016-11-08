@@ -20,7 +20,11 @@ layout: default
       <h2 class="font-normal">"When almost a billion people are living on $1.90 a day or less, we feel called to help others help themselves."</h2>
       <h3 class="push-right font-normal signature">&mdash; Bob and Dottie King</h3>
       <div class="clearfix"></div>
-      <p class="button olive-blue"><a href="/letter">Read the 2016 Founders' letter</a></p>
+      {% for letter in site.data.contentful.spaces.proddata.letter %}
+      {% if forloop.last %}
+      <p class="button olive-blue"><a href="/letter/{{ letter.year | slugify }}">Read the {{ letter.year }} Founders' letter</a></p>
+      {% endif %}
+      {% endfor %}
     </div>
   </div>
 </section>

@@ -2,24 +2,41 @@
 layout: default
 ---
 
-<div class="img-settings" style="background-image: url('{{site.data.contentful.spaces.proddata.letter[0].heroLetter.url}}')">
+
+<div class="img-settings" style="background-image: url('{{ site.data.contentful.spaces.proddata.letter[0].heroLetter.url }}')">
 	<div class="section-photo center-vertical">
 		<div class="grid">
 			<div class="col-8-12 center">
 				<h1 class="color-olive">A letter from our founders</h1>
-				<h3 class="color-olive">{{ site.data.contentful.spaces.proddata.letter[0].title }}</h3>
+				<h3 class="color-olive">{{ page.contentful_fields.title }}</h3>
 			</div>
 		</div>
 	</div>
 </div>
 
-<section class="light-grey">
+<div class=content"">
 	<div class="grid">
-	<div class="col-8-12 center letter-body">
-		{{ site.data.contentful.spaces.proddata.letter[0].content | markdownify }}
+		<div class="col-8-12 center">
+			<ul class="letter-tabs">
+			{% assign currentYear = page.title %}
+			
+			{% for letter in site.data.contentful.spaces.proddata.letter %}
+			{% assign letter-year = letter.year %}
+
+			<!-- {{ page | inspect }} -->
+				<li><a href="/letter/{{ letter-year }}" class="page-link"><h3 class="{% if currentYear == letter-year %} active {% endif %}">{{ letter.year }}</h3></a></li>
+		<!-- 	} -->
+			{% endfor %}
+			</ul>
+			<div class="letter-body">
+				{{ page.contentful_fields.content | markdownify }}
+			</div>
+			<h2 class="color-blue text-left">Bob &amp; Dottie King</h2>
+		</div>
 	</div>
-	</div>
-</section>
+</div>
+<div class="content">
+</div>
 
 
 
