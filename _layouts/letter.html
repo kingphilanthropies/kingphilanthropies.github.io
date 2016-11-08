@@ -21,11 +21,11 @@ layout: default
 			{% assign currentYear = page.title %}
 			
 			{% for letter in site.data.contentful.spaces.proddata.letter %}
-			{% assign letter-year = letter.year %}
-
-			<!-- {{ page | inspect }} -->
-				<li><a href="/letter/{{ letter-year }}" class="page-link"><h3 class="{% if currentYear == letter-year %} active {% endif %}">{{ letter.year }}</h3></a></li>
-		<!-- 	} -->
+			{% assign letterYear = letter.year %}
+			{% assign lettersAmount =  site.data.contentful.spaces.proddata.letter | size %}
+			
+				<li><a href="/letter/{{ letterYear }}" class="page-link"><h3 class="{% if currentYear == letterYear and lettersAmount >= 2 %} active {% endif %}">{{ letter.year }}</h3></a></li>
+		
 			{% endfor %}
 			</ul>
 			<div class="letter-body">
