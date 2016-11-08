@@ -26,55 +26,62 @@ boardMember:
     url: //images.contentful.com/0cp1epmalnde/1ZXQIfpSZyeqy4w4uu06wk/bf0f8da5ae708ee22cf4c003b153ee34/blank-profile-picture-973460_1280.png
 initiatives:
 - sys:
-    id: TFfzQqIzsIC04WuISimi6
-  initiativeTitle: Thrive Foundation For Youth
-  url: thrive-foundation-for-youth
+    id: 41Xcii4e0ooe0OsoMa8gaS
+  initiativeTitle: Knight Hennessy Scholars
+  url: knight-hennessy-scholars
   heroSingleInitiative:
-    title: placeholder-1120x840
-    url: //images.contentful.com/0cp1epmalnde/3WBgiqZ1HGoQIMmC4SYGKA/4d8672a1f8b757a464ffdb83462022be/placeholder-1120x840.png
-  order: 4
+    title: King Hero Edit-blue-1-copy-sized
+    url: //images.contentful.com/0cp1epmalnde/26nUBxiyX6OCISsYGiAW8u/194ceb3baf771be17871674541de6355/King_Hero_Edit-blue-1-copy-sized.jpg
+  order: 3
   thumbImage:
-    title: placeholder-1120x840
-    url: //images.contentful.com/0cp1epmalnde/3WBgiqZ1HGoQIMmC4SYGKA/4d8672a1f8b757a464ffdb83462022be/placeholder-1120x840.png
-  hoverText: The full potential of youth unleashed
-  initiativeBlurb: Over 15 years ago, Bob and Dottie King and their adult children
-    agreed on their family’s philanthropic commitment to help youth to realize their
-    full potential, or to “thrive”.
-  initiativeSubtitle: The full potential of youth unleashed
-  theOpportunity: "Over 15 years ago, Bob and Dottie King and their adult children
-    agreed on their family’s philanthropic commitment to help youth to realize their
-    full potential, or to “thrive”.  They focused their attention in the field of
-    positive youth development, which intentionally highlights the assets, interests
-    and abilities of youth and adolescents, rather than emphasizing the negative outcomes
-    that youth need to avoid.  By investing in quality research as well as on-the-ground
-    experience, The Thrive Foundation for Youth has meaningfully contributed to the
-    advancement of the field of Positive Youth Development.  In this regard, the Kings
-    have used their resources to create opportunities to bridge research and practice
-    in youth development.\n \nMore than 20% of America’s 42 million youth live below
-    the federal poverty line, and nearly half of American youth live below 2x the
-    federal poverty line.  Evidence suggests that being poor makes it more difficult
-    to thrive, impacting the academic achievement, employment opportunities, exposure
-    to violence, and mental and physical health of youth.  In recent years, The Thrive
-    Foundation for Youth has invested its resources in changing the trajectory of
-    the lives of disadvantaged youth across the United States. Going forward, as a
-    division of the newly created entity of King Philanthropies, The Thrive Foundation
-    for Youth seeks opportunities to leverage best practices in youth development
-    globally.\n"
+    title: homepage.knight.hennesey.option2 Hero-sized
+    url: //images.contentful.com/0cp1epmalnde/1hsVrkp20SIEQ8akOsUKcU/16391b4c05f5219c660b7d50bf286e05/homepage.knight.hennesey.option2_Hero-sized.jpg
+  hoverText: Knight Hennessy Scholars
+  initiativeBlurb: In an era of increasingly complex global challenges, research universities
+    are called to find new solutions to problems old and new and to educate courageous
+    leaders who will forge collaborations and create change at scale.
+  initiativeSubtitle: Knight Hennessy Scholars
+  theOpportunity: "In an era of increasingly complex global challenges, research universities
+    are called to find new solutions to problems old and new and to educate courageous
+    leaders who will forge collaborations and create change at scale.  \"While we
+    have seen great achievements in this century, future progress will depend upon
+    our ability to tackle issues such as global poverty. By identifying rising leaders
+    from around the world and exposing them to real-life challenges, the Knight-Hennessy
+    Scholars program will equip scholars to lead ambitious change,\" says Bob King.
+    \n \nAnnounced in February 2016, the Knight-Hennessy Scholars program is an unparalleled
+    graduate-level scholarship program that will prepare a new generation of distinguished
+    global leaders with the multi-disciplinary skills needed to address the increasingly
+    complex challenges facing the world in the 21st century and beyond.  Stanford
+    is uniquely positioned to be the home of the Knight-Hennessy Scholars program
+    because innovation, creative problem-solving, and entrepreneurial thinking are
+    among its core characteristics. Stanford is also a leader in interdisciplinary
+    studies, with seven world-class schools and an atmosphere that fosters collaboration
+    and innovation. Stanford's graduate academic programs are top-ranked internationally,
+    and Stanford's distinctive culture places a priority on working across disciplinary
+    lines to advance knowledge and create solutions.\n"
   ourFocusImage1:
-    title: placeholder-1120x840
-    url: //images.contentful.com/0cp1epmalnde/3WBgiqZ1HGoQIMmC4SYGKA/4d8672a1f8b757a464ffdb83462022be/placeholder-1120x840.png
+    title: Knight 1-sized
+    url: //images.contentful.com/0cp1epmalnde/29CsReM3mEcgAYGk6YKSYA/cb09feac18f36bb05af6dca4ce55498b/Knight_1-sized.jpg
   ourFocusImage2:
-    title: placeholder-1120x840
-    url: //images.contentful.com/0cp1epmalnde/3WBgiqZ1HGoQIMmC4SYGKA/4d8672a1f8b757a464ffdb83462022be/placeholder-1120x840.png
+    title: Knight 3-sized
+    url: //images.contentful.com/0cp1epmalnde/Q6KvUqyvcaEO22kckIimC/12b51592024f94e69f46011c2c8e7804/Knight_3-sized.jpg
   ourFocusImage3:
-    title: placeholder-1120x840
-    url: //images.contentful.com/0cp1epmalnde/3WBgiqZ1HGoQIMmC4SYGKA/4d8672a1f8b757a464ffdb83462022be/placeholder-1120x840.png
+    title: Knight 2-sized
+    url: //images.contentful.com/0cp1epmalnde/447SUzUDOEAkUWEaSyAYAa/4207fbd68967b541493beb55ad04b8c2/Knight_2-sized.jpg
   ourFocusImage4:
     title: placeholder-1120x840
     url: //images.contentful.com/0cp1epmalnde/3WBgiqZ1HGoQIMmC4SYGKA/4d8672a1f8b757a464ffdb83462022be/placeholder-1120x840.png
-  theInitiativeText: |
-    Thrive Foundation for Youth guides disadvantaged youth to reach their full potential by strengthening the presence and impact of caring adults in their lives. The foundation partners with successful programs in which caring adults support adolescent youth and in which evidence-based research is applied in practical ways. The current work is built on earlier research in positive youth development and invests in the critical relationship between young people and the caring adults in their lives. Through continued research and ongoing implementation, Thrive continues its strategy of investing in high-impact youth-serving organizations, identifying best practices, and amplifying what works.
-  moreAboutUrl: http://www.thrivefoundation.org/
+  theInitiativeText: "Each year the Knight-Hennessy Scholars program will identify
+    100 high-achieving individuals from around the world who demonstrate leadership
+    and civic commitment.  Each will receive full funding to pursue a wide-ranging
+    graduate education at Stanford, with the goal of developing a new generation of
+    global leaders. The Knight-Hennessy Scholars is the largest fully endowed scholars
+    program in the world.\n \nRobert King, MBA ’60, and his wife, Dorothy King, made
+    a $100 million gift toward the Knight Hennessy Scholars program to create the
+    King Endowment for Global Scholars, which will fund a cohort of scholars from
+    less economically developed regions of the world.  Their gift will also support
+    the King Global Leadership Program, a distinctive training and development curriculum
+    in which all Knight-Hennessy Scholars will participate.\n"
 - sys:
     id: 38MJ5Pvhf2WAacs8EMcAmE
   initiativeTitle: Food, Nutrition, and Rural Livelihoods Initiative
@@ -84,8 +91,8 @@ initiatives:
     url: //images.contentful.com/0cp1epmalnde/6hnkg13bX2KYIAgA4U6kgi/1326503d26d07e32a394104bf7afd93d/King_Hero_Edit-cream-2-2560x1440-70.jpg
   order: 3
   thumbImage:
-    title: placeholder-1120x840
-    url: //images.contentful.com/0cp1epmalnde/3WBgiqZ1HGoQIMmC4SYGKA/4d8672a1f8b757a464ffdb83462022be/placeholder-1120x840.png
+    title: Initiatives-food-nutritoin-hero
+    url: //images.contentful.com/0cp1epmalnde/6hnkg13bX2KYIAgA4U6kgi/1326503d26d07e32a394104bf7afd93d/King_Hero_Edit-cream-2-2560x1440-70.jpg
   hoverText: Food, Nutrition, and Rural Livelihoods Initiative
   initiativeBlurb: 'King Philanthropies is focused on alleviating extreme poverty,
     so working in areas related to Food, Nutrition, and Rural Livelihoods brings tremendous
@@ -122,83 +129,26 @@ initiatives:
     has coalesced political will and is committed to moving the country’s development
     forward.\n"
   ourFocusImage1:
-    title: thumbnail
-    url: //images.contentful.com/0cp1epmalnde/4MPgnd346sKO8k8CkgCsO6/ef8149b66632c42dc56a2d2d5235cccd/-text.png
+    title: P1020335-sized
+    url: //images.contentful.com/0cp1epmalnde/qECUcNotWKkASKKA2i0uS/2077f8d3708e103ff2ca03bc7aa03249/P1020335-sized.jpg
   ourFocusImage2:
-    title: thumbnail
-    url: //images.contentful.com/0cp1epmalnde/4MPgnd346sKO8k8CkgCsO6/ef8149b66632c42dc56a2d2d5235cccd/-text.png
+    title: IMGP1069-sized
+    url: //images.contentful.com/0cp1epmalnde/192RspqPiiOeCQSo4uqMa/7f527290d69d8afdb1efecee093c60f5/IMGP1069-sized.jpg
   ourFocusImage3:
-    title: thumbnail
-    url: //images.contentful.com/0cp1epmalnde/4MPgnd346sKO8k8CkgCsO6/ef8149b66632c42dc56a2d2d5235cccd/-text.png
+    title: IMG 9863-sized
+    url: //images.contentful.com/0cp1epmalnde/5JtIJ90IGkQ6OyWGOSgQSy/a40c2a97f70fe9afa21a33afb6f66ec3/IMG_9863-sized.jpg
   ourFocusImage4:
-    title: thumbnail
-    url: //images.contentful.com/0cp1epmalnde/4MPgnd346sKO8k8CkgCsO6/ef8149b66632c42dc56a2d2d5235cccd/-text.png
+    title: IMG 4363-sized
+    url: //images.contentful.com/0cp1epmalnde/16qOZ4Z3hYYAGQ4cAOMswu/29986b27d4c414c797c95185efbee32a/IMG_4363-sized.jpg
   theInitiativeText: |
     Recognizing the importance of both agriculture and nutrition to improve the livelihoods of the rural poor, in early 2017 King Philanthropies will launch a pilot supporting best-in-class organizations working in food, nutrition, and rural livelihoods. The first phase of our pilot will focus on Myanmar, with subsequent efforts focused on East Africa and South Asia.
-- sys:
-    id: 41Xcii4e0ooe0OsoMa8gaS
-  initiativeTitle: Knight Hennessy Scholars
-  url: knight-hennessy-scholars
-  heroSingleInitiative:
-    title: placeholder-1120x840
-    url: //images.contentful.com/0cp1epmalnde/3WBgiqZ1HGoQIMmC4SYGKA/4d8672a1f8b757a464ffdb83462022be/placeholder-1120x840.png
-  order: 3
-  thumbImage:
-    title: placeholder-1120x840
-    url: //images.contentful.com/0cp1epmalnde/4lxEVyIYFGiYc04CSiYKC8/1725a3c56b5ee4bbdb95ea4e8bec20c2/placeholder-1120x840.png
-  hoverText: Knight Hennessy Scholars
-  initiativeBlurb: In an era of increasingly complex global challenges, research universities
-    are called to find new solutions to problems old and new and to educate courageous
-    leaders who will forge collaborations and create change at scale.
-  initiativeSubtitle: Knight Hennessy Scholars
-  theOpportunity: "In an era of increasingly complex global challenges, research universities
-    are called to find new solutions to problems old and new and to educate courageous
-    leaders who will forge collaborations and create change at scale.  \"While we
-    have seen great achievements in this century, future progress will depend upon
-    our ability to tackle issues such as global poverty. By identifying rising leaders
-    from around the world and exposing them to real-life challenges, the Knight-Hennessy
-    Scholars program will equip scholars to lead ambitious change,\" says Bob King.
-    \n \nAnnounced in February 2016, the Knight-Hennessy Scholars program is an unparalleled
-    graduate-level scholarship program that will prepare a new generation of distinguished
-    global leaders with the multi-disciplinary skills needed to address the increasingly
-    complex challenges facing the world in the 21st century and beyond.  Stanford
-    is uniquely positioned to be the home of the Knight-Hennessy Scholars program
-    because innovation, creative problem-solving, and entrepreneurial thinking are
-    among its core characteristics. Stanford is also a leader in interdisciplinary
-    studies, with seven world-class schools and an atmosphere that fosters collaboration
-    and innovation. Stanford's graduate academic programs are top-ranked internationally,
-    and Stanford's distinctive culture places a priority on working across disciplinary
-    lines to advance knowledge and create solutions.\n"
-  ourFocusImage1:
-    title: placeholder-1120x840
-    url: //images.contentful.com/0cp1epmalnde/3WBgiqZ1HGoQIMmC4SYGKA/4d8672a1f8b757a464ffdb83462022be/placeholder-1120x840.png
-  ourFocusImage2:
-    title: placeholder-1120x840
-    url: //images.contentful.com/0cp1epmalnde/3WBgiqZ1HGoQIMmC4SYGKA/4d8672a1f8b757a464ffdb83462022be/placeholder-1120x840.png
-  ourFocusImage3:
-    title: placeholder-1120x840
-    url: //images.contentful.com/0cp1epmalnde/3WBgiqZ1HGoQIMmC4SYGKA/4d8672a1f8b757a464ffdb83462022be/placeholder-1120x840.png
-  ourFocusImage4:
-    title: placeholder-1120x840
-    url: //images.contentful.com/0cp1epmalnde/3WBgiqZ1HGoQIMmC4SYGKA/4d8672a1f8b757a464ffdb83462022be/placeholder-1120x840.png
-  theInitiativeText: "Each year the Knight-Hennessy Scholars program will identify
-    100 high-achieving individuals from around the world who demonstrate leadership
-    and civic commitment.  Each will receive full funding to pursue a wide-ranging
-    graduate education at Stanford, with the goal of developing a new generation of
-    global leaders. The Knight-Hennessy Scholars is the largest fully endowed scholars
-    program in the world.\n \nRobert King, MBA ’60, and his wife, Dorothy King, made
-    a $100 million gift toward the Knight Hennessy Scholars program to create the
-    King Endowment for Global Scholars, which will fund a cohort of scholars from
-    less economically developed regions of the world.  Their gift will also support
-    the King Global Leadership Program, a distinctive training and development curriculum
-    in which all Knight-Hennessy Scholars will participate.\n"
 - sys:
     id: 5hSEDZl4WQEgCOyiIiAwEE
   initiativeTitle: King Scholar Leadership Program
   url: king-scholars
   heroSingleInitiative:
-    title: King-scholars-hero
-    url: //images.contentful.com/0cp1epmalnde/4q9Uk6udTG2gCcKaCqGagk/ace40e0363a51576d3292445375e6655/King_Hero_Edit-blue-1-2560x1440-70qt.jpg
+    title: King Hero Edit-blue-1-copy-sized
+    url: //images.contentful.com/0cp1epmalnde/26nUBxiyX6OCISsYGiAW8u/194ceb3baf771be17871674541de6355/King_Hero_Edit-blue-1-copy-sized.jpg
   order: 1
   thumbImage:
     title: placeholder-1120x840
@@ -210,17 +160,17 @@ initiatives:
   theOpportunity: |
     The King Scholars program is built on a simple premise: poverty alleviation can be best achieved by those who have direct experience of it.  So in 2012, when Bob and Dottie King set out to train and equip a new generation of leaders to alleviate poverty across the globe, they looked to those who had themselves grown up in poverty.  The Kings recognized that emerging leaders could be identified as early as high school and provided with a world-class college education and leadership training that would prepare them to employ game-changing solutions in poverty alleviation. King Scholars have grown up in poverty and know whereof they speak.  They demonstrate a passionate commitment to leading future poverty alleviation efforts in their home countries and are uniquely positioned to effect significant change.
   ourFocusImage1:
-    title: placeholder-1120x840
-    url: //images.contentful.com/0cp1epmalnde/3WBgiqZ1HGoQIMmC4SYGKA/4d8672a1f8b757a464ffdb83462022be/placeholder-1120x840.png
+    title: King-Scholars-8-1
+    url: //images.contentful.com/0cp1epmalnde/23decixw7uesm4Qy2Suq26/64f860554e5c31445b99f4ebf38ba589/King-Scholars-8-1.jpg
   ourFocusImage2:
-    title: placeholder-1120x840
-    url: //images.contentful.com/0cp1epmalnde/3WBgiqZ1HGoQIMmC4SYGKA/4d8672a1f8b757a464ffdb83462022be/placeholder-1120x840.png
+    title: King-Scholar Mosaic3-sized
+    url: //images.contentful.com/0cp1epmalnde/3X0gXzPZbquSkq64Yo2muC/f7bb8051c2e636043878dd6904856eff/King-Scholar_Mosaic3-sized.jpg
   ourFocusImage3:
-    title: placeholder-1120x840
-    url: //images.contentful.com/0cp1epmalnde/3WBgiqZ1HGoQIMmC4SYGKA/4d8672a1f8b757a464ffdb83462022be/placeholder-1120x840.png
+    title: IMG 3087 mosaic-sized
+    url: //images.contentful.com/0cp1epmalnde/fnWeuR1kicGO8wuOIiUuS/eaab8b0c17b739b58ef76a713b7e0588/IMG_3087_mosaic-sized.jpg
   ourFocusImage4:
-    title: placeholder-1120x840
-    url: //images.contentful.com/0cp1epmalnde/3WBgiqZ1HGoQIMmC4SYGKA/4d8672a1f8b757a464ffdb83462022be/placeholder-1120x840.png
+    title: homepage.king.scholar.leadership-sized
+    url: //images.contentful.com/0cp1epmalnde/2Y0QiVngLKmCIUo8WGAueM/1d29e6aa96a32faeec17190b8b9c18af/homepage.king.scholar.leadership-sized.jpg
   theInitiativeText: "The King Scholars program aims to alleviate global poverty by
     bringing exceptional students from developing nations to leading US universities
     for a world-class college education, extraordinary internship opportunities, and
@@ -242,16 +192,66 @@ initiatives:
     after Dottie King’s beloved father.\n"
   moreAboutUrl: http://www.kingscholars.com/
 - sys:
+    id: TFfzQqIzsIC04WuISimi6
+  initiativeTitle: Thrive Foundation For Youth
+  url: thrive-foundation-for-youth
+  heroSingleInitiative:
+    title: King Classic3-sized
+    url: //images.contentful.com/0cp1epmalnde/2Uh9F9aaFigekqW6WQuqEo/0ed73e10681d950f5a25f654dd83e42e/King_Classic3-sized.jpg
+  order: 4
+  thumbImage:
+    title: homepage.thrive-copy-3-sized
+    url: //images.contentful.com/0cp1epmalnde/1aQ1d81bKQUu2wugEIUQ04/16391b4c05f5219c660b7d50bf286e05/homepage.thrive-copy-3-sized.jpg
+  hoverText: The full potential of youth unleashed
+  initiativeBlurb: Over 15 years ago, Bob and Dottie King and their adult children
+    agreed on their family’s philanthropic commitment to help youth to realize their
+    full potential, or to “thrive”.
+  initiativeSubtitle: The full potential of youth unleashed
+  theOpportunity: "Over 15 years ago, Bob and Dottie King and their adult children
+    agreed on their family’s philanthropic commitment to help youth to realize their
+    full potential, or to “thrive”.  They focused their attention in the field of
+    positive youth development, which intentionally highlights the assets, interests
+    and abilities of youth and adolescents, rather than emphasizing the negative outcomes
+    that youth need to avoid.  By investing in quality research as well as on-the-ground
+    experience, The Thrive Foundation for Youth has meaningfully contributed to the
+    advancement of the field of Positive Youth Development.  In this regard, the Kings
+    have used their resources to create opportunities to bridge research and practice
+    in youth development.\n \nMore than 20% of America’s 42 million youth live below
+    the federal poverty line, and nearly half of American youth live below 2x the
+    federal poverty line.  Evidence suggests that being poor makes it more difficult
+    to thrive, impacting the academic achievement, employment opportunities, exposure
+    to violence, and mental and physical health of youth.  In recent years, The Thrive
+    Foundation for Youth has invested its resources in changing the trajectory of
+    the lives of disadvantaged youth across the United States. Going forward, as a
+    division of the newly created entity of King Philanthropies, The Thrive Foundation
+    for Youth seeks opportunities to leverage best practices in youth development
+    globally.\n"
+  ourFocusImage1:
+    title: Thrive2-sized
+    url: //images.contentful.com/0cp1epmalnde/33lI7DJ16w4K0mGqQSg4W0/0394ffd7f5180c4197207701b103497a/Thrive2-sized.jpg
+  ourFocusImage2:
+    title: YR2-sized
+    url: //images.contentful.com/0cp1epmalnde/1uZSUPCpkcccssAkCeq826/923d38445d55d374efd696e4e2425c0d/YR2-sized.jpg
+  ourFocusImage3:
+    title: GIAC-sized
+    url: //images.contentful.com/0cp1epmalnde/6RPKNpnpKgkKswYsas2y8y/f9528ce0eeb69098e97af4c0479195b5/GIAC-sized.jpg
+  ourFocusImage4:
+    title: Thrive4-sized
+    url: //images.contentful.com/0cp1epmalnde/Ia2qtvG4ikKqs46u4UcSO/7ef465675b78e4f0585ea28edb5bb09e/Thrive4-sized.jpg
+  theInitiativeText: |
+    Thrive Foundation for Youth guides disadvantaged youth to reach their full potential by strengthening the presence and impact of caring adults in their lives. The foundation partners with successful programs in which caring adults support adolescent youth and in which evidence-based research is applied in practical ways. The current work is built on earlier research in positive youth development and invests in the critical relationship between young people and the caring adults in their lives. Through continued research and ongoing implementation, Thrive continues its strategy of investing in high-impact youth-serving organizations, identifying best practices, and amplifying what works.
+  moreAboutUrl: http://www.thrivefoundation.org/
+- sys:
     id: 5dgRKiDKuQEEIwgKoyAEyo
   initiativeTitle: Stanford SEED
   url: seed
   heroSingleInitiative:
-    title: placeholder-1120x840
-    url: //images.contentful.com/0cp1epmalnde/3WBgiqZ1HGoQIMmC4SYGKA/4d8672a1f8b757a464ffdb83462022be/placeholder-1120x840.png
+    title: King Classic Initiative-copy-sized
+    url: //images.contentful.com/0cp1epmalnde/6qriHRrTXOmeo0m0w8GOiO/0deb1f46f4f042c81d6ca92524e3595b/King_Classic_Initiative-copy-sized.jpg
   order: 0
   thumbImage:
-    title: placeholder-1120x840
-    url: //images.contentful.com/0cp1epmalnde/3WBgiqZ1HGoQIMmC4SYGKA/4d8672a1f8b757a464ffdb83462022be/placeholder-1120x840.png
+    title: Homepage Seed-copy-sized
+    url: //images.contentful.com/0cp1epmalnde/5I0n5liizeGQUcwuKcUU2e/e9f22ab8e5bf580b7f1cb217d01c59bf/Homepage_Seed-copy-sized.jpg
   hoverText: Ending the cycle of extreme poverty
   initiativeBlurb: Global Poverty is one of the most pressing challenges of our time
     and Bob and Dottie King are determined to use their resources to alleviate it.
@@ -272,14 +272,14 @@ initiatives:
   statementGalleryTopRight: Launched with $150 million grant
   statementGalleryBottomLeft: Expanding around the world
   ourFocusImage1:
-    title: thumbnail
-    url: //images.contentful.com/0cp1epmalnde/4MPgnd346sKO8k8CkgCsO6/ef8149b66632c42dc56a2d2d5235cccd/-text.png
+    title: seed.mosaic-(1)-sized
+    url: //images.contentful.com/0cp1epmalnde/2jJUxBAYdKAmmocoewIyKE/9e8c7e4c18e84c5f53fd7c402572f413/seed.mosaic-_1_-sized.jpg
   ourFocusImage2:
-    title: thumbnail
-    url: //images.contentful.com/0cp1epmalnde/4MPgnd346sKO8k8CkgCsO6/ef8149b66632c42dc56a2d2d5235cccd/-text.png
+    title: seed.mosaic-(3)-sized
+    url: //images.contentful.com/0cp1epmalnde/7bNrBVvgmQ0CkYIuAIsmek/758bbb3010695c4027fba7f3af2e29e6/seed.mosaic-_3_-sized.jpg
   ourFocusImage3:
-    title: thumbnail
-    url: //images.contentful.com/0cp1epmalnde/4MPgnd346sKO8k8CkgCsO6/ef8149b66632c42dc56a2d2d5235cccd/-text.png
+    title: seed.mosaic-sized
+    url: //images.contentful.com/0cp1epmalnde/5xjdNpaEgw8ugQcCq0GUsy/bbd70d2985f855a878b65f960eb9d41a/seed.mosaic-sized.jpg
   ourFocusImage4:
     title: thumbnail
     url: //images.contentful.com/0cp1epmalnde/4MPgnd346sKO8k8CkgCsO6/ef8149b66632c42dc56a2d2d5235cccd/-text.png
@@ -409,6 +409,45 @@ staffMember:
     Kim obtained an M.B.A. from Stanford, a M.Sc. in Economics for Development from
     Oxford, and a M.Sc. in International Relations from the London School of Economics
     as a Harry S. Truman Scholar. \n"
+pages:
+- sys:
+    id: 6sv7GrmAfK6WkYMeSK4sCo
+  clickToEdit: Content on All Pages
+  heroHomepage:
+    title: Homepage-hero
+    url: //images.contentful.com/0cp1epmalnde/1znK6N6xxCcWKgISWeCiK4/ef0e0ed35c8f9603f11f1ff32044fb03/King_Hero_Edit-cream-1-2560x1440-70-1.jpg
+  heroAbout:
+    title: About Hero-sized
+    url: //images.contentful.com/0cp1epmalnde/4jSx6j49m0g0WkMsGKCyKO/0bec5bb899e5f9ffac5dc8ea82961fd9/About_Hero-sized.jpg
+  heroInitiativesLanding:
+    title: King Hero Edit-gold-1-2560x1440-70qt
+    url: //images.contentful.com/0cp1epmalnde/53kvf1anOMksU2202mgqCg/a66368a761f5f589c49d02ef656b15e2/King_Hero_Edit-gold-1-2560x1440-70qt.jpg
+  heroNewsLanding:
+    title: placeholder-1120x840
+    url: //images.contentful.com/0cp1epmalnde/3WBgiqZ1HGoQIMmC4SYGKA/4d8672a1f8b757a464ffdb83462022be/placeholder-1120x840.png
+  aboutKingPhilanthropiesText: 'After a successful career as the founder of a California-based
+    investment  firm, Bob King and his wife Dottie shifted their focus to philanthropy
+    in 1995. In the two decades that have followed they have become a national leader
+    in philanthropic investments. King Philanthropies’ goals and work flows directly
+    from the inspiration of its founders and centers on a singular goal: to alleviate
+    extreme poverty'
+  aboutImage:
+    title: IMG 8192-sized
+    url: //images.contentful.com/0cp1epmalnde/1wrYIOwfhKiOkCE4SGqGes/3a9c23acc6555cba06e5e118bce47aaf/IMG_8192-sized.jpg
+  aboutTheFoundersText: Bob King graduated from Dartmouth in 1957 and earned an M.B.A.
+    from Stanford in 1960. He is the founder of Peninsula Capital, a Menlo Park, California-based
+    venture capital firm, and founder and former president of R. Eliot King & Associates
+    Inc. In 1995, the Kings founded the Thrive Foundation for Youth to help children
+    in under-resourced communities reach their full potential. In 2011 a landmark
+    $150 million donation from the Kings established the Stanford Institute for Innovation
+    in Developing Economies. In 2013, Bob and Dottie partnered with Dartmouth College
+    to create the King Scholar Leadership Program for students with exceptional potential
+    from developing nations in Latin America, Africa, and Asia.
+  contactUsText: King Philanthropies employs a personalized and targeted approach
+    to philanthropy. We dedicate ourselves wholly to the initiatives that fit within
+    the goals of our founders and our larger mission to alleviate extreme poverty
+    in Africa and parts of Asia. For this reason, we cannot accept unsolicited requests
+    for funds. Other inquiries can be sent to info@kingphilanthropies.org.
 newsPost:
 - sys:
     id: 3v94Rq0hHi4aeqQCg6miqA
@@ -567,42 +606,3 @@ letter:
     content test letter content test letter content test letter content test letter
     content test letter content test letter content test letter content test letter
     content test letter content "
-pages:
-- sys:
-    id: 6sv7GrmAfK6WkYMeSK4sCo
-  clickToEdit: Content on All Pages
-  heroHomepage:
-    title: Homepage-hero
-    url: //images.contentful.com/0cp1epmalnde/1znK6N6xxCcWKgISWeCiK4/ef0e0ed35c8f9603f11f1ff32044fb03/King_Hero_Edit-cream-1-2560x1440-70-1.jpg
-  heroAbout:
-    title: placeholder-1120x840
-    url: //images.contentful.com/0cp1epmalnde/4lxEVyIYFGiYc04CSiYKC8/1725a3c56b5ee4bbdb95ea4e8bec20c2/placeholder-1120x840.png
-  heroInitiativesLanding:
-    title: King Hero Edit-gold-1-2560x1440-70qt
-    url: //images.contentful.com/0cp1epmalnde/53kvf1anOMksU2202mgqCg/a66368a761f5f589c49d02ef656b15e2/King_Hero_Edit-gold-1-2560x1440-70qt.jpg
-  heroNewsLanding:
-    title: placeholder-1120x840
-    url: //images.contentful.com/0cp1epmalnde/3WBgiqZ1HGoQIMmC4SYGKA/4d8672a1f8b757a464ffdb83462022be/placeholder-1120x840.png
-  aboutKingPhilanthropiesText: 'After a successful career as the founder of a California-based
-    investment  firm, Bob King and his wife Dottie shifted their focus to philanthropy
-    in 1995. In the two decades that have followed they have become a national leader
-    in philanthropic investments. King Philanthropies’ goals and work flows directly
-    from the inspiration of its founders and centers on a singular goal: to alleviate
-    extreme poverty'
-  aboutImage:
-    title: placeholder-1120x840
-    url: //images.contentful.com/0cp1epmalnde/3WBgiqZ1HGoQIMmC4SYGKA/4d8672a1f8b757a464ffdb83462022be/placeholder-1120x840.png
-  aboutTheFoundersText: Bob King graduated from Dartmouth in 1957 and earned an M.B.A.
-    from Stanford in 1960. He is the founder of Peninsula Capital, a Menlo Park, California-based
-    venture capital firm, and founder and former president of R. Eliot King & Associates
-    Inc. In 1995, the Kings founded the Thrive Foundation for Youth to help children
-    in under-resourced communities reach their full potential. In 2011 a landmark
-    $150 million donation from the Kings established the Stanford Institute for Innovation
-    in Developing Economies. In 2013, Bob and Dottie partnered with Dartmouth College
-    to create the King Scholar Leadership Program for students with exceptional potential
-    from developing nations in Latin America, Africa, and Asia.
-  contactUsText: King Philanthropies employs a personalized and targeted approach
-    to philanthropy. We dedicate ourselves wholly to the initiatives that fit within
-    the goals of our founders and our larger mission to alleviate extreme poverty
-    in Africa and parts of Asia. For this reason, we cannot accept unsolicited requests
-    for funds. Other inquiries can be sent to info@kingphilanthropies.org.
