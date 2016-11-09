@@ -18,8 +18,20 @@
  			width: 100%;
  			padding-right: 0;
 		}
+	.hover-link h3 {
+		// position: absolute;
+	 //    top: 35%;
+	 //    bottom: 0;
+	 //    left: 10%;
+	 //    right: 10%;
+	}
 	.hover-link .button {
 		margin-top: 2em;
+		// position: absolute;
+	 //    left: 0;
+	 //    right: 0;
+	 //    bottom: -150px;
+	 //    top: auto;
 	}
 	&:hover {
 		.hover-link {

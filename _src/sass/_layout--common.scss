@@ -73,7 +73,7 @@ nav {
 }
 
 section {
-	padding: 90px 0 70px 0;
+	padding: 60px 0;
 	@media screen and #{$brk-narrow} {
 		padding: 20px 0;
 	}
@@ -91,7 +91,7 @@ section {
 } 
 
 section.news {
-	padding: 90px 140px 70px 140px;
+	padding: 60px 140px;
 	img {
 		max-width: 100px;
 		display: block;
