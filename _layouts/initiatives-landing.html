@@ -3,7 +3,7 @@ layout: default
 group: "initiatives"
 ---
 
-<div class="img-settings" style="background-image: url('{{site.data.contentful.spaces.proddata.pages[0].heroInitiativesLanding.url}}')">
+<div class="img-settings initiatives-hero" style="background-image: url('{{site.data.contentful.spaces.proddata.pages[0].heroInitiativesLanding.url}}')">
 	<div class="section-photo center-vertical">
 		<div class="grid">
 			<div class="col-8-12 center">
@@ -12,6 +12,13 @@ group: "initiatives"
 		</div>
 	</div>
 </div>
+
+<section class="grid">
+	<div class="col-8-12 content center">
+		<h2 class="color-blue">King Philanthropies is inspired by the generous spirit of its founders Bob &amp; Dottie King</h2>
+		<p class="button color-olive"><a href="/about">Learn More</a></p>
+	</div>
+</section>
 
 {% assign sorted_initiatives = site.data.contentful.spaces.proddata.initiatives | sort:"order" %}
 {% for initiative in sorted_initiatives %}
@@ -45,7 +52,7 @@ group: "initiatives"
 		 		<div class="grid col-2-3 center no-padding">
 					<h3 class="color-olive">{{ initiative.initiativeTitle }}</h3>
 					<h3 class="color-olive">&mdash;</h3>
-					<p class="color-olive initiative-blurb" >{{ initiative.initiativeBlurb }}</p>
+					<p class="color-olive initiative-blurb">{{ initiative.initiativeBlurb }}</p>
 					<p class="button olive-blue"><a href="/initiatives/{{initiative.url}}">View Initiative</a></p>
 				</div>
 			</section>
@@ -64,10 +71,5 @@ group: "initiatives"
 	
 {% endfor %}
 
-	<section class="grid">
-		<div class="col-8-12 content center">
-			<h2 class="color-blue">King Philanthropies is inspired by the generous spirit of its founders Bob &amp; Dottie King</h2>
-			<p class="button color-olive"><a href="/about">Learn More</a></p>
-		</div>
-	</section>
+	
 
