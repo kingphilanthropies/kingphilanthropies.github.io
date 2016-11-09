@@ -14,7 +14,7 @@
 		padding-right: 5px;
 		position: relative;
 		z-index: 10;
-		@media only screen and #{$brk-tablet-min} and #{$brk-wide} and (-webkit-min-device-pixel-ratio: 1) and (-webkit-max-device-pixel-ratio: 2) {
+		@media only screen and #{$brk-wide} and (-webkit-min-device-pixel-ratio: 1) and (-webkit-max-device-pixel-ratio: 2) {
  			width: 100%;
  			padding-right: 0;
 		}
@@ -62,5 +62,13 @@
 			background: $dark-red;
 		}
 		}
+	}
+}
+
+@media handheld, only screen and #{$brk-narrow} {
+	.wrapper-initiatives {
+		padding-right: 0;
+		padding-left: 0;
+		padding-bottom: 0;
 	}
 }

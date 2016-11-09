@@ -174,7 +174,7 @@ section.news {
     	margin: 0 auto;
 	}
 }
-@media handheld, only screen and #{$brk-wide} {
+@media handheld, only screen and #{$brk-tablet-min} and #{$brk-wide} {
 	.about .col-1-2, .initiatives-sub .col-8-12 {
 		padding-right: 0;
 	}
@@ -282,6 +282,7 @@ footer {
 		h3 {
 			font-size: 10px;
 			letter-spacing: 1px;
+			margin-top: 3px;
 		}
 	}
 	@media screen and #{$brk-tablet-min} and (max-width: 1095px) {
