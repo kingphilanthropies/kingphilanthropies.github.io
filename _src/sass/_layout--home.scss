@@ -1,12 +1,30 @@
 //our initiatives
 
+.signature {
+	margin-top: 0;
+    margin-bottom: 30px;
+    font-size: 13px;
+	@media screen and #{$brk-narrow} {
+		font-size: 12px;
+	}
+}
 .hover-link {
 	opacity: 0;
 	padding: 0 3em;
     top: 40%;
     @include translateY(-40%);
+    @include transition(0.4s);
     width: 100%;
     position: absolute;
+}
+.home {
+	@media screen and (min-width: 1024px) and (max-width: 1440px) {
+		.home-hero {
+			background-size: 121% !important;
+			background-position: left;
+		}
+	}
+	
 }
 .home-initiatives {
 	margin-top: 25px;
@@ -34,9 +52,13 @@
 	}
 	&:hover {
 		.hover-link {
-			@include transition(0.4s);
 			opacity: 1;
 			z-index: 999999;
+			.img-settings {
+				position: relative;
+				transform: scale(1.4);
+				@include transition(0.4s);
+			}
 		}
 		div[class*='overlay-']:after {
 			opacity: 0.9;
@@ -44,22 +66,22 @@
 		    top: 0;
 		    left: 0;
 		    z-index: 10;
-		    //width: 100%;
 		    height: 100%;
 		   	width: -moz-calc(100% - 5px);
 			width: -webkit-calc(100% - 5px);
 			width: calc(100% - 5px);
-		 //    height: -moz-calc(100% - 5px);
-			// height: -webkit-calc(100% - 5px);
-			// height: calc(100% - 5px);
 		    display: block;
 		    position: absolute;
 		}
 		.overlay-blue:after {
+			position: relative;
 		    background: $blue;
+		    @include transition(0.6s);
 		}
 		.overlay-red:after {
+			position: relative;
 			background: $dark-red;
+			@include transition(0.6s);
 		}
 		}
 	}
