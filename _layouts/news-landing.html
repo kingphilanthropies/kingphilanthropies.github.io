@@ -11,19 +11,24 @@ layout: default
 		</div>
 	</div>
 </div>
- 
-{% for post in site.data.contentful.spaces.proddata.newsPost %}
+
+{% assign sortedNews = site.data.contentful.spaces.proddata.newsPost | sort: "order" %}
+
+{% for post in sortedNews %}
 {% capture modulo %}{{ forloop.index | modulo: 2 }}{% endcapture %}
 
 {% if forloop.first %}
 	<div class="grid block-overlap center">
 {% endif %}
-
 <section class="{% if forloop.first %} light-grey news {% endif %} {% if modulo == '1' %} light-grey {% endif %}">
 	<section class="grid center {% if forloop.first == false %} news {% endif %}">
+		
 		<div class="col-3-12">
+		{% if post.sourceLogo %}
   			<img class="center" src="{{ post.sourceLogo.url }}" alt="{{ post.sourceLogo.title }}">
+		{% endif %}
 		</div>
+		
 		<div class="col-9-12">
 			<h2 class="text-left no-margin">{{ post.title }}</h2>
 			<p class="caption">{{ post.source }}</p>

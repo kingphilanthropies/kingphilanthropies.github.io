@@ -150,10 +150,22 @@ section.news {
 	}
 }
 
+.letter-hero {
+	background-position: top;
+}
+
 //
 
 // About Us page
+.about .col-1-4 {
+	h4 {
+		margin-bottom: 9px;
+		&.font-normal {
+			margin-top: 0;
+		}
+	}
 
+}
 .about .col-1-2 {
 	padding-right: 0;
 }
@@ -251,9 +263,13 @@ section.news {
 
 footer {
 	background: $grey;
-	padding: 50px 100px; 
+	padding: 40px 100px; 
 	.links {
 		text-align: right;
+	}
+	h3 {
+		font-size: 13px;
+		margin-top: 3px;
 	}
 	ul {
 		display: inline-block;
@@ -261,7 +277,7 @@ footer {
 		li {
 			display: inline-block;
 			margin-right: 10px;
-			font-size: 14px;
+			font-size: 12px;
 		    letter-spacing: 2px;
 		    text-transform: uppercase;    
 		    a {
@@ -339,14 +355,7 @@ footer {
 	    top: 0px; 
 	    right: 0px;
 	    background-color: transparent;
-	    &:hover {
-	    	.menu-icon {
-	    		background-color: $blue;
-	    		fill: $olive;
-	    	}
-	    }
 	  }
-
 	  .site-nav .menu-icon {
 	    display: block;
 	    font-size: 24px;
@@ -356,31 +365,27 @@ footer {
 	    padding: 14.5px;
     	text-align: center;
     	line-height: 36px;
-	    &:hover {
-	    	background-color: $blue;
-	    	padding: 14.5px;
-	    }
 	  }
-
+	  .menu-icon.icon-active {
+	  		background-color: $blue;
+	    	padding: 14.5px;
+	    	svg {
+	    		fill: $olive;
+	    	}
+	  }
 	  .site-nav .menu-icon svg { 
 	  	width: 18px; 
 	  	height: 16px;
-	  	&:hover {
-	  		fill: $olive;
-	  	}
 	  }
-
 	  .site-nav .trigger {
 	    clear: both;
-	    margin-bottom: 5px;
+		padding-bottom: 20px;
+		padding-top: 20px;  
 	    display: none;
 	  }
-
-	  .site-nav:hover .trigger { 
-	  	display: block; 
-	  	background-color: $blue;
+	  .hoverTouch {
+		display: block !important;
 	  }
-
 	  .site-nav .page-link {
 	    display: block;
 	    text-align: left;
@@ -396,7 +401,6 @@ footer {
 	    	}
 	    }
 	  }
-
 	  .post-header h1 { font-size: 36px; }
 	  .post-content h2 { font-size: 28px; }
 	  .post-content h3 { font-size: 22px; }
@@ -411,9 +415,7 @@ footer {
 	    width: auto;
 	    margin: 0 0 15px; 
 	}
-
 }
-
 //Letter 
 
 .letter-tabs {
