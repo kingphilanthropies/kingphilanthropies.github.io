@@ -50,9 +50,14 @@
 	    bottom: -150px;
 	    top: auto;
 	}
+	div[class*='overlay-']:after {
+			opacity: 0;
+			content: '';
+	}	
 	&:hover {
 		.hover-link {
 			opacity: 1;
+			@include transition(0.4s);
 			z-index: 999999;
 			.img-settings {
 				position: relative;
@@ -61,6 +66,7 @@
 			}
 		}
 		div[class*='overlay-']:after {
+			@include transition(0.4s);
 			opacity: 0.9;
 		    content: '';
 		    top: 0;
