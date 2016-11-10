@@ -135,6 +135,15 @@ section.news {
 	color: $olive;
 }
 
+.color-blue {
+	color: $blue;
+}
+.color-olive {
+	color: $olive;
+}
+.color-white {
+	color: $white;
+}
 // Animation
 
 .fadeInBlock {
@@ -239,24 +248,22 @@ section.news {
 
 //
 
-
-.color-blue {
-	color: $blue;
-}
-.color-olive {
-	color: $olive;
-}
-.color-white {
-	color: $white;
-}
 .social-icons {
 	display: inline-block;
-	img {
+	.twitter:hover svg {
+		fill: #1da1f4;
+	}
+	.fb:hover svg {
+		fill: #3b5998;
+	}
+	svg {
 		height: 25px;
-		margin-right: 5px;
+		margin-right: 10px;
 		vertical-align: sub;
+		fill: #ccc;
 		@media screen and #{$brk-narrow} {
 			height: 23px;
+			margin-right: 8px;
 		}
 	}
 	p, h4 {
@@ -271,6 +278,9 @@ footer {
 	padding: 40px 100px; 
 	.links {
 		text-align: right;
+		@media screen and #{$brk-narrow} {
+			padding-right: 0;
+		}
 	}
 	h3 {
 		font-size: 13px;
@@ -315,7 +325,7 @@ footer {
 		ul {
 			padding-left: 0;
 		}
-		.social-icons img {
+		.social-icons svg {
 			height: 23px;
 		}
 		.links {
