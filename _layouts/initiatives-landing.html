@@ -22,7 +22,6 @@ group: "initiatives"
 
 {% assign sorted_initiatives = site.data.contentful.spaces.proddata.initiatives | sort:"order" %}
 {% for initiative in sorted_initiatives %}
-	
 	{% capture modulo %}{{ forloop.index | modulo: 2 }}{% endcapture %}
 	
 		{% if modulo == '0' %}
