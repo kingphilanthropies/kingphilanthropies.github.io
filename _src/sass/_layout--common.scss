@@ -166,6 +166,11 @@ section.news {
 	}
 
 }
+@media handheld, only screen and #{$brk-narrow} {
+	.about-image {
+		min-height: 226px !important;
+	}
+}
 .about .col-1-2 {
 	padding-right: 0;
 }

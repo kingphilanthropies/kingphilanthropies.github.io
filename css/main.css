@@ -516,6 +516,10 @@ section.news {
   .about .col-1-4 h4.font-normal {
     margin-top: 0; }
 
+@media handheld, only screen and (max-width: 767px) {
+  .about-image {
+    min-height: 226px !important; } }
+
 .about .col-1-2 {
   padding-right: 0; }
 
@@ -762,6 +766,13 @@ footer {
     padding-right: 5px;
     position: relative;
     z-index: 10; }
+    .home-initiatives .col-1-3 .img-settings, .home-initiatives .col-1-3 .initiative-single {
+      background-size: 141%;
+      -webkit-transition: all 0.6s ease-out;
+      -moz-transition: all 0.6s ease-out;
+      -ms-transition: all 0.6s ease-out;
+      -o-transition: all 0.6s ease-out;
+      transition: all 0.6s ease-out; }
     @media only screen and (max-width: 1023px) and (-webkit-min-device-pixel-ratio: 1) and (-webkit-max-device-pixel-ratio: 2) {
       .home-initiatives .col-1-3 {
         width: 100%;
@@ -780,7 +791,12 @@ footer {
       top: auto; }
     .home-initiatives .col-1-3 div[class*='overlay-']:after {
       opacity: 0;
-      content: ''; }
+      content: '';
+      -webkit-transition: all 0.4s ease-out;
+      -moz-transition: all 0.4s ease-out;
+      -ms-transition: all 0.4s ease-out;
+      -o-transition: all 0.4s ease-out;
+      transition: all 0.4s ease-out; }
     .home-initiatives .col-1-3:hover .hover-link {
       opacity: 1;
       -webkit-transition: all 0.4s ease-out;
@@ -789,14 +805,14 @@ footer {
       -o-transition: all 0.4s ease-out;
       transition: all 0.4s ease-out;
       z-index: 999999; }
-      .home-initiatives .col-1-3:hover .hover-link .img-settings, .home-initiatives .col-1-3:hover .hover-link .initiative-single {
-        position: relative;
-        transform: scale(1.4);
-        -webkit-transition: all 0.4s ease-out;
-        -moz-transition: all 0.4s ease-out;
-        -ms-transition: all 0.4s ease-out;
-        -o-transition: all 0.4s ease-out;
-        transition: all 0.4s ease-out; }
+    .home-initiatives .col-1-3:hover .img-settings, .home-initiatives .col-1-3:hover .initiative-single {
+      position: relative;
+      background-size: 160%;
+      -webkit-transition: all 0.4s ease-out;
+      -moz-transition: all 0.4s ease-out;
+      -ms-transition: all 0.4s ease-out;
+      -o-transition: all 0.4s ease-out;
+      transition: all 0.4s ease-out; }
     .home-initiatives .col-1-3:hover div[class*='overlay-']:after {
       -webkit-transition: all 0.4s ease-out;
       -moz-transition: all 0.4s ease-out;
@@ -838,8 +854,15 @@ footer {
     padding-bottom: 0; } }
 
 .initiative-single {
+  overflow: hidden;
   min-height: 640px;
-  margin-bottom: 20px; }
+  background-size: 130%;
+  margin-bottom: 20px;
+  -webkit-transition: all 0.6s ease-out;
+  -moz-transition: all 0.6s ease-out;
+  -ms-transition: all 0.6s ease-out;
+  -o-transition: all 0.6s ease-out;
+  transition: all 0.6s ease-out; }
   @media screen and (max-width: 767px) {
     .initiative-single {
       margin-bottom: 0;
@@ -916,6 +939,15 @@ footer {
     padding: 0; }
   .focus-images .div:nth-of-type(1) {
     height: 170px; } }
+
+.flex-container:hover .initiative-single {
+  overflow: hidden;
+  background-size: 150%;
+  -webkit-transition: all 0.6s ease-out;
+  -moz-transition: all 0.6s ease-out;
+  -ms-transition: all 0.6s ease-out;
+  -o-transition: all 0.6s ease-out;
+  transition: all 0.6s ease-out; }
 
 .flex-container .grid h3, .flex-container .grid p {
   text-align: left; }

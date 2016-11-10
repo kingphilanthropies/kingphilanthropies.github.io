@@ -32,6 +32,10 @@
 		padding-right: 5px;
 		position: relative;
 		z-index: 10;
+		.img-settings {
+			background-size: 141%;
+			@include transition(0.6s);
+		}
 		@media only screen and #{$brk-wide} and (-webkit-min-device-pixel-ratio: 1) and (-webkit-max-device-pixel-ratio: 2) {
  			width: 100%;
  			padding-right: 0;
@@ -51,19 +55,20 @@
 	    top: auto;
 	}
 	div[class*='overlay-']:after {
-			opacity: 0;
-			content: '';
+		opacity: 0;
+		content: '';
+		@include transition(0.4s);
 	}	
 	&:hover {
 		.hover-link {
 			opacity: 1;
 			@include transition(0.4s);
 			z-index: 999999;
-			.img-settings {
-				position: relative;
-				transform: scale(1.4);
-				@include transition(0.4s);
-			}
+		}
+		.img-settings {
+			position: relative;
+			background-size: 160%;
+			@include transition(0.4s);
 		}
 		div[class*='overlay-']:after {
 			@include transition(0.4s);
