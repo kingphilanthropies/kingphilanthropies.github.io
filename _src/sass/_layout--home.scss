@@ -4,6 +4,7 @@
 	margin-top: 0;
     margin-bottom: 30px;
     font-size: 13px;
+    margin-right: 30px;
 	@media screen and #{$brk-narrow} {
 		font-size: 12px;
 	}
@@ -18,10 +19,31 @@
     position: absolute;
 }
 .home {
-	@media screen and (min-width: 1024px) and (max-width: 1440px) {
+	@media screen and (min-width: 1024px) and (max-width: 1899px) {
 		.home-hero {
 			background-size: 121% !important;
-			background-position: left;
+    		background-position: 0px -161px;
+		}
+		h1 {
+			padding: 0 9%;
+		}
+	}
+	@media screen and (min-width: 1900px) {
+		background-position: 0px -294px;
+	}
+	@media screen and #{$brk-tablet-min} and #{$brk-wide} {
+		.home-hero {
+			background-size: 168% !important;
+    		background-position: -190px;
+		}
+		h1 {
+			font-size: 35px;
+		}
+	}
+	@media screen and (min-width: 2560px) {
+		.home-hero { 
+			background-size: 122% !important;
+    		background-position: 0 -380px;
 		}
 	}
 	
@@ -66,6 +88,7 @@
 		opacity: 0;
 		content: '';
 		@include transition(0.4s);
+		position: absolute;
 	}	
 	&:hover {
 		.hover-link {
@@ -88,9 +111,6 @@
 		    z-index: 10;
 		    height: 100%;
 		    width: 100%;
-		 //   	width: -moz-calc(100% - 5px);
-			// width: -webkit-calc(100% - 5px);
-			// width: calc(100% - 5px);
 		    display: block;
 		    position: absolute;
 		}

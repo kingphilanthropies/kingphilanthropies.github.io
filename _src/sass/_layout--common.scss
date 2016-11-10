@@ -70,6 +70,10 @@ nav {
     	content: "";
   		display: block;
     }
+    @media screen and #{$brk-narrow} {
+    	min-height: 293px;
+    	max-height: 293px;
+    }
 }
 
 section {
