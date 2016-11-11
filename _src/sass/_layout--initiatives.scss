@@ -30,7 +30,9 @@
 	}
 }
 .initiatives-hero {
-	background-position: top left !important;
+	@media screen and (min-width: 1024px) {
+		background-position: top left !important;
+	}
 }
 
 .initiative-intro {

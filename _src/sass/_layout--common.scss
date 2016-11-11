@@ -256,32 +256,39 @@ section.news {
 }
 
 
-//
-
-.social-icons {
-	display: inline-block;
-	.twitter:hover svg {
-		fill: #1da1f4;
-	}
-	.fb:hover svg {
-		fill: #3b5998;
-	}
-	svg {
-		height: 25px;
-		margin-right: 10px;
-		vertical-align: sub;
-		fill: #ccc;
-		@media screen and #{$brk-narrow} {
-			height: 23px;
-			margin-right: 8px;
-		}
-	}
-	p, h4 {
+// about page
+.about {
+	.social-icons {
 		display: inline-block;
+		.twitter {
+			position: absolute;
+			transform: translate(-1%, -54%);
+			&:hover svg {
+				fill: #1da1f4;
+			}
+		}
+		.fb {
+			position: absolute;
+			transform: translate(-89%, -2%);
+			&:hover svg {
+				fill: #3b5998;
+			}
+		}
+		svg {
+			height: 25px;
+			margin-right: 10px;
+			fill: #ccc;
+			@media screen and #{$brk-narrow} {
+				height: 23px;
+				margin-right: 8px;
+			}
+		}
+		p, h4 {
+			display: inline-block;
+		}
+		
 	}
-	
 }
-
 
 footer {
 	background: $grey;
@@ -341,8 +348,46 @@ footer {
 		.links {
 			padding-right: 0;
 		}
+	}
 
+	.social-icons {
+		@media screen and #{$brk-tablet-min} {
+			width: 13%;
+		}
+		@media screen and (min-width: 1024px) {
+			width: 10%;
+		}
+		display: inline-block;
+		.twitter {
+			position: absolute;
+			transform: translate(-61%, -53%);
+			&:hover svg {
+				fill: #1da1f4;
+			}
+		}
+		.fb {
+			position: absolute;
+			transform: translate(-197%, -61%);
+			@media screen and #{$brk-tablet-min} {
 
+			}
+			&:hover svg {
+				fill: #3b5998;
+			}
+		}
+		svg {
+			height: 25px;
+			margin-right: 10px;
+			fill: #ccc;
+			@media screen and #{$brk-narrow} {
+				height: 23px;
+				margin-right: 8px;
+			}
+		}
+		p, h4 {
+			display: inline-block;
+		}
+		
 	}
 }
 .sticky-footer-body {

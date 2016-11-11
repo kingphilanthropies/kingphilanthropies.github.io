@@ -583,22 +583,27 @@ section.news {
   .contact-social {
     margin-top: 3em; } }
 
-.social-icons {
+.about .social-icons {
   display: inline-block; }
-  .social-icons .twitter:hover svg {
-    fill: #1da1f4; }
-  .social-icons .fb:hover svg {
-    fill: #3b5998; }
-  .social-icons svg {
+  .about .social-icons .twitter {
+    position: absolute;
+    transform: translate(-1%, -54%); }
+    .about .social-icons .twitter:hover svg {
+      fill: #1da1f4; }
+  .about .social-icons .fb {
+    position: absolute;
+    transform: translate(-89%, -2%); }
+    .about .social-icons .fb:hover svg {
+      fill: #3b5998; }
+  .about .social-icons svg {
     height: 25px;
     margin-right: 10px;
-    vertical-align: sub;
     fill: #ccc; }
     @media screen and (max-width: 767px) {
-      .social-icons svg {
+      .about .social-icons svg {
         height: 23px;
         margin-right: 8px; } }
-  .social-icons p, .social-icons h4 {
+  .about .social-icons p, .about .social-icons h4 {
     display: inline-block; }
 
 footer {
@@ -648,6 +653,34 @@ footer {
         height: 23px; }
       footer .links {
         padding-right: 0; } }
+  footer .social-icons {
+    display: inline-block; }
+    @media screen and (min-width: 768px) {
+      footer .social-icons {
+        width: 13%; } }
+    @media screen and (min-width: 1024px) {
+      footer .social-icons {
+        width: 10%; } }
+    footer .social-icons .twitter {
+      position: absolute;
+      transform: translate(-61%, -53%); }
+      footer .social-icons .twitter:hover svg {
+        fill: #1da1f4; }
+    footer .social-icons .fb {
+      position: absolute;
+      transform: translate(-197%, -61%); }
+      footer .social-icons .fb:hover svg {
+        fill: #3b5998; }
+    footer .social-icons svg {
+      height: 25px;
+      margin-right: 10px;
+      fill: #ccc; }
+      @media screen and (max-width: 767px) {
+        footer .social-icons svg {
+          height: 23px;
+          margin-right: 8px; } }
+    footer .social-icons p, footer .social-icons h4 {
+      display: inline-block; }
 
 .sticky-footer-body {
   display: -webkit-box;
@@ -929,8 +962,9 @@ footer {
   background-size: 106%;
   background-position: 0% 52%; }
 
-.initiatives-hero {
-  background-position: top left !important; }
+@media screen and (min-width: 1024px) {
+  .initiatives-hero {
+    background-position: top left !important; } }
 
 @media screen and (max-width: 767px) {
   .initiative-intro {
