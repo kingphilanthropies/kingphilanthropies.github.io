@@ -548,9 +548,6 @@ section.news {
   padding-right: 0; }
 
 @media handheld, only screen and (max-width: 1023px) {
-  .about-contacts .social-icons {
-    display: block;
-    text-align: left; }
   .about .block-overlap .tablet-col-1-60 {
     width: 68%;
     margin: 0 auto; } }

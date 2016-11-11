@@ -194,10 +194,10 @@ section.news {
 	padding-right: 0;
 }
 @media handheld, only screen and #{$brk-wide} {	
-	.about-contacts .social-icons {
-		display: block;
-		text-align: left;		
-	}
+	// .about-contacts .social-icons {
+	// 	display: block;
+	// 	text-align: left;		
+	// }
 	.about .block-overlap .tablet-col-1-60 {
 		width: 68%;
     	margin: 0 auto;
