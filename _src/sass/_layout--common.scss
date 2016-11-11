@@ -65,6 +65,9 @@ nav {
 	min-height: 500px;
 	height: auto;
     max-height: 950px;
+    [class*='col-'] {
+    	padding-right: 0;
+    }
     &:after {
     	padding-bottom: 30%;
     	content: "";
@@ -110,14 +113,11 @@ section.news {
 			display: block;
     		text-align: center;
 		}
-
 	}
 	@media screen and #{$brk-tablet-min} and #{$brk-wide} {
 		padding: 70px 90px;
 	}
 }
-
-
 
 .light-grey {
 	background: $light-grey;

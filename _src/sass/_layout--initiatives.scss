@@ -18,6 +18,11 @@
 		padding: 0 10%;
 	}
 }
+.food-nutrition-and-rural-livelihoods-initiative {
+	.initiative-sub-hero {
+		background-position: 0 24% !important;
+	}
+}
 .initiatives-hero {
 	background-position: top left !important;
 }
@@ -64,7 +69,7 @@
 	.mobile-col-2-3 .statement-item {
 		min-height: 300px; 
 		width: 78%; 
-		padding: 0 9%; 
+		padding: 0 7%; 
 		margin-top: 10px; 
 		text-align: center;
 	}
@@ -114,7 +119,7 @@
 	&:hover {
 		.initiative-single {
 			position: relative;
-			transform: scale(1.1);
+			transform: scale(1.05);
 			@include transition(0.4s);
 			overflow: hidden;
 		}

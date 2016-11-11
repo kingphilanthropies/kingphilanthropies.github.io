@@ -5,8 +5,8 @@ initiatives:
   initiativeTitle: Food, Nutrition and Rural Livelihoods Initiative
   url: food-nutrition-and-rural-livelihoods-initiative
   heroSingleInitiative:
-    title: NUTRITION HERO-sized
-    url: //images.contentful.com/0cp1epmalnde/34zGWMOzOUwEi4AUU6Y8ac/29ecd610a042da0ba5abcee60487f81c/NUTRITION_HERO-sized.jpg
+    title: Nutrition hero 2-sized
+    url: //images.contentful.com/0cp1epmalnde/5Rvd39p9niukqI6QwM0eIm/bc7221e6fa68badc17015bac2d96247c/Nutrition_hero_2-sized.jpg
   order: 3
   thumbImage:
     title: AdobeStock 116212698-copy-sized
@@ -45,7 +45,9 @@ initiatives:
     poverty and poor nutrition remain prevalent. We believe that now is the time to
     intervene in Myanmar to help address these unmet needs.  The new national leadership
     has coalesced political will and is committed to moving the country’s development
-    forward.\n"
+    forward.\n\n[1] Nutrition, WFP Myanmar.” World Food Programme. July 2014. \n<a
+    href=\"https://www.wfp.org/sites/default/files/Nutrition%20-%20July%202014.pdf\"
+    target=\"_blank\">link</a> "
   statementGalleryTopRight: 78% of extreme poor in rural areas
   statementGalleryBottomLeft: 500 million suffer from hunger and malnutrition
   ourFocusImage1:
@@ -63,6 +65,51 @@ initiatives:
   theInitiativeText: |
     Recognizing the importance of both agriculture and nutrition to improve the livelihoods of the rural poor, in early 2017 King Philanthropies will launch a pilot supporting best-in-class organizations working in food, nutrition, and rural livelihoods. The first phase of our pilot will focus on Myanmar, with subsequent efforts focused on East Africa and South Asia.
 - sys:
+    id: 5dgRKiDKuQEEIwgKoyAEyo
+  initiativeTitle: Stanford Seed
+  url: seed
+  heroSingleInitiative:
+    title: Seed-hero2-sized
+    url: //images.contentful.com/0cp1epmalnde/4BhzJtRzcImacqika8OKkk/8cc20873ad654ef0ac754ab5b1d85a17/Seed-hero2-sized.jpg
+  order: 0
+  thumbImage:
+    title: Seed-hero-sized
+    url: //images.contentful.com/0cp1epmalnde/50z6h1rRy0ig0yCCeO0YO2/f679ab8779c2974feb756d71cdd8e276/Seed-hero-sized.jpg
+  hoverText: Ending the cycle of extreme poverty
+  initiativeBlurb: Global Poverty is one of the most pressing challenges of our time
+    and Bob and Dottie King are determined to use their resources to alleviate it.
+  initiativeSubtitle: Ending the cycle of extreme poverty
+  theOpportunity: "Global poverty is one of the most pressing challenges of our time
+    and Bob and Dottie King are determined to use their resources to alleviate it.
+    In 2012, they seized a unique opportunity to lessen poverty by fueling job creation
+    in partnership with the Stanford University Graduate School of Business (GSB).
+    \n\nThe Kings established the Stanford Institute for Innovation in Developing
+    Economies, better known as Seed, to leverage the GSB’s innovative mindset and
+    entrepreneurial expertise.  Seed works to end the cycle of global poverty by fostering
+    new entrepreneurial ventures and scaling existing enterprises.  Because global
+    poverty is multi-dimensional in nature, the Kings wanted Seep to avail itself
+    of research expertise across the university. To this end, Seed’s GDP Research
+    Initiative supports research that relates to poverty alleviation spanning disciplines
+    across Stanford, including public health, education, law, political science, engineering,
+    computer science, and the environment, among others.\n"
+  statementGalleryTopRight: 'Expanding around the world '
+  statementGalleryBottomLeft: Alleviating poverty through job creation
+  ourFocusImage1:
+    title: seed.mosaic-(1)-sized
+    url: //images.contentful.com/0cp1epmalnde/2jJUxBAYdKAmmocoewIyKE/9e8c7e4c18e84c5f53fd7c402572f413/seed.mosaic-_1_-sized.jpg
+  ourFocusImage2:
+    title: seed.mosaic-(3)-sized
+    url: //images.contentful.com/0cp1epmalnde/7bNrBVvgmQ0CkYIuAIsmek/758bbb3010695c4027fba7f3af2e29e6/seed.mosaic-_3_-sized.jpg
+  ourFocusImage3:
+    title: seed.mosaic-sized
+    url: //images.contentful.com/0cp1epmalnde/5xjdNpaEgw8ugQcCq0GUsy/bbd70d2985f855a878b65f960eb9d41a/seed.mosaic-sized.jpg
+  ourFocusImage4:
+    title: thumbnail
+    url: //images.contentful.com/0cp1epmalnde/4MPgnd346sKO8k8CkgCsO6/ef8149b66632c42dc56a2d2d5235cccd/-text.png
+  theInitiativeText: |
+    Launched with the King’s $150 million gift, Seed combines educational excellence, critical research, and breakthrough innovation to address global poverty. Seed’s comprehensive approach involves working across multiple fronts and time horizons. Seed trains business leaders in developing economies, giving them access to management training, coaching, and networking support that will help them lead their regions to greater prosperity. Seed inspires Stanford students to become globally engaged leaders and introduces them to the challenges and opportunities of doing business in developing economies. Seed advances university-wide research to develop relevant and impactful poverty alleviation interventions across disciplines. Seed is headquartered at Stanford, has hubs in East and West Africa, and will soon launch in Asia. Its long-term goal is to expand to developing economies throughout the world.
+  moreAboutUrl: https://www.gsb.stanford.edu/seed
+- sys:
     id: TFfzQqIzsIC04WuISimi6
   initiativeTitle: Thrive Foundation For Youth
   url: thrive-foundation-for-youth
@@ -76,7 +123,7 @@ initiatives:
   hoverText: The full potential of youth unleashed
   initiativeBlurb: Over 15 years ago, Bob and Dottie King and their adult children
     agreed on their family’s philanthropic commitment to help youth to realize their
-    full potential, or to “thrive”.
+    full potential, or to “thrive.”
   initiativeSubtitle: The full potential of youth unleashed
   theOpportunity: "Over 15 years ago, Bob and Dottie King and their adult children
     agreed on their family’s philanthropic commitment to help youth to realize their
@@ -96,8 +143,8 @@ initiatives:
     disadvantaged youth across the United States. Going forward, as a division of
     the newly created entity of King Philanthropies, The Thrive Foundation for Youth
     seeks opportunities to leverage best practices in youth development globally.\n"
-  statementGalleryTopRight: Caring adults for disadvantaged youth
-  statementGalleryBottomLeft: Bridging research and practice
+  statementGalleryTopRight: Bridging research and practice
+  statementGalleryBottomLeft: 'Caring adults for disadvantaged youth   '
   ourFocusImage1:
     title: Thrive2-sized
     url: //images.contentful.com/0cp1epmalnde/33lI7DJ16w4K0mGqQSg4W0/0394ffd7f5180c4197207701b103497a/Thrive2-sized.jpg
@@ -130,8 +177,8 @@ initiatives:
   initiativeSubtitle: Exceptional students committed to changing the world
   theOpportunity: |
     The King Scholars program is built on a simple premise: poverty alleviation can be best achieved by those who have direct experience of it. So in 2012, when Bob and Dottie King set out to train and equip a new generation of leaders to alleviate poverty across the globe, they looked to those who had themselves grown up in poverty. The Kings recognized that emerging leaders could be identified as early as high school and provided with a world-class college education and leadership training that would prepare them to employ game-changing solutions in poverty alleviation. King Scholars have grown up in poverty and know whereof they speak.  They demonstrate a passionate commitment to leading future poverty alleviation efforts in their home countries and are uniquely positioned to effect significant change.
-  statementGalleryTopRight: Scholarships for future leaders of the developing world
-  statementGalleryBottomLeft: 24 scholars and growing
+  statementGalleryTopRight: '24 scholars and growing  '
+  statementGalleryBottomLeft: Scholarships for future leaders of the developing world
   ourFocusImage1:
     title: King-Scholars-8-1
     url: //images.contentful.com/0cp1epmalnde/23decixw7uesm4Qy2Suq26/64f860554e5c31445b99f4ebf38ba589/King-Scholars-8-1.jpg
@@ -198,8 +245,8 @@ initiatives:
     and innovation. Stanford's graduate academic programs are top-ranked internationally,
     and Stanford's distinctive culture places a priority on working across disciplinary
     lines to advance knowledge and create solutions.\n"
-  statementGalleryTopRight: Interdisciplinary Studies & Global Leadership
-  statementGalleryBottomLeft: Innovation and Entrepreneurship
+  statementGalleryTopRight: Innovation and Entrepreneurship
+  statementGalleryBottomLeft: Interdisciplinary Studies & Global Leadership
   ourFocusImage1:
     title: Knight 1-sized
     url: //images.contentful.com/0cp1epmalnde/29CsReM3mEcgAYGk6YKSYA/cb09feac18f36bb05af6dca4ce55498b/Knight_1-sized.jpg
@@ -223,66 +270,19 @@ initiatives:
     less economically developed regions of the world.  Their gift will also support
     the King Global Leadership Program, a distinctive training and development curriculum
     in which all Knight-Hennessy Scholars will participate.\n"
-- sys:
-    id: 5dgRKiDKuQEEIwgKoyAEyo
-  initiativeTitle: Stanford Seed
-  url: seed
-  heroSingleInitiative:
-    title: Seed-hero-sized
-    url: //images.contentful.com/0cp1epmalnde/5ZiNcm4xVYkUOE2wOKuqcg/2857adf705ce87ce84491c1e5fc5faba/Seed-hero-sized.jpg
-  order: 0
-  thumbImage:
-    title: Seed-hero-sized
-    url: //images.contentful.com/0cp1epmalnde/50z6h1rRy0ig0yCCeO0YO2/f679ab8779c2974feb756d71cdd8e276/Seed-hero-sized.jpg
-  hoverText: Ending the cycle of extreme poverty
-  initiativeBlurb: Global Poverty is one of the most pressing challenges of our time
-    and Bob and Dottie King are determined to use their resources to alleviate it.
-  initiativeSubtitle: Ending the cycle of extreme poverty
-  theOpportunity: "Global poverty is one of the most pressing challenges of our time
-    and Bob and Dottie King are determined to use their resources to alleviate it.
-    In 2012, they seized a unique opportunity to lessen poverty by fueling job creation
-    in partnership with the Stanford University Graduate School of Business (GSB).
-    \n\nThe Kings established the Stanford Institute for Innovation in Developing
-    Economies, better known as Seed, to leverage the GSB’s innovative mindset and
-    entrepreneurial expertise.  Seed works to end the cycle of global poverty by fostering
-    new entrepreneurial ventures and scaling existing enterprises.  Because global
-    poverty is multi-dimensional in nature, the Kings wanted Seep to avail itself
-    of research expertise across the university. To this end, Seed’s GDP Research
-    Initiative supports research that relates to poverty alleviation spanning disciplines
-    across Stanford, including public health, education, law, political science, engineering,
-    computer science, and the environment, among others.\n"
-  statementGalleryTopRight: Alleviating poverty through job creation
-  statementGalleryBottomLeft: Expanding around the world
-  ourFocusImage1:
-    title: seed.mosaic-(1)-sized
-    url: //images.contentful.com/0cp1epmalnde/2jJUxBAYdKAmmocoewIyKE/9e8c7e4c18e84c5f53fd7c402572f413/seed.mosaic-_1_-sized.jpg
-  ourFocusImage2:
-    title: seed.mosaic-(3)-sized
-    url: //images.contentful.com/0cp1epmalnde/7bNrBVvgmQ0CkYIuAIsmek/758bbb3010695c4027fba7f3af2e29e6/seed.mosaic-_3_-sized.jpg
-  ourFocusImage3:
-    title: seed.mosaic-sized
-    url: //images.contentful.com/0cp1epmalnde/5xjdNpaEgw8ugQcCq0GUsy/bbd70d2985f855a878b65f960eb9d41a/seed.mosaic-sized.jpg
-  ourFocusImage4:
-    title: thumbnail
-    url: //images.contentful.com/0cp1epmalnde/4MPgnd346sKO8k8CkgCsO6/ef8149b66632c42dc56a2d2d5235cccd/-text.png
-  theInitiativeText: |
-    Launched with the King’s $150 million gift, Seed combines educational excellence, critical research, and breakthrough innovation to address global poverty. Seed’s comprehensive approach involves working across multiple fronts and time horizons. Seed trains business leaders in developing economies, giving them access to management training, coaching, and networking support that will help them lead their regions to greater prosperity. Seed inspires Stanford students to become globally engaged leaders and introduces them to the challenges and opportunities of doing business in developing economies. Seed advances university-wide research to develop relevant and impactful poverty alleviation interventions across disciplines. Seed is headquartered at Stanford, has hubs in East and West Africa, and will soon launch in Asia. Its long-term goal is to expand to developing economies throughout the world.
-  moreAboutUrl: https://www.gsb.stanford.edu/seed
 newsPost:
 - sys:
-    id: 3zsxDXsluEueCcu2maqg6C
-  order: 2
-  title: Big Bets and the Aspiration Gap
-  source: Philanthropy Roundtable - Winter 2016
-  content: “...(The study included) big university gifts that specifically focused
-    on social change, such as Robert and Dorothy King’s gift of $150 million to found
-    the Stanford Institute for Innovation in Developing ­Economies, which aims to
-    fight poverty in the poorest parts of the world. Between 2000 and 2012, the total
-    dollar volume of all announced philanthropic big bets averaged $8 billion a year.
+    id: 3v94Rq0hHi4aeqQCg6miqA
+  order: 3
+  title: 'Ending Poverty: King Family Funds Scholarships for Students from the Developing
+    World'
+  source: Dartmouth News - 2012
+  content: |
+    Dorothy and Robert King ’57 have partnered with Dartmouth to help address the problem of global poverty by [establishing a scholarship program](http://www.kingscholars.com/) for exceptional students from developing nations. hey have made a gift of $14.7 million that will fund a total of 12 King Scholars each year. The scholars will be encouraged to use their Dartmouth educations to return to their home countries after graduation to work toward the alleviation of extreme poverty. The gift also establishes an admissions recruitment fund to identify and bring eligible students to Dartmouth from developing countries in Africa, Latin America, and Southeast Asia.
   sourceLogo:
-    title: Philanthropy logo
-    url: //images.contentful.com/0cp1epmalnde/3VY4eZ7X3yU0Cg2woesIqq/a101dec56d62734f3c932b903ac5c671/Philanthropy_logo.jpg
-  link: http://www.philanthropyroundtable.org/topic/donor_intent/big_bets_and_the_aspiration_gap
+    title: dartmouth-sized
+    url: //images.contentful.com/0cp1epmalnde/2lyaKn3l4w8siYKIYCyCKo/55a6ec1cf9068f87ddd4295881fa38a5/dartmouth-sized.gif
+  link: https://news.dartmouth.edu/news/2012/02/ending-poverty-king-family-funds-scholarships-students-developing-world
 - sys:
     id: 3MsfKxCTNmqyI0oO6es6ea
   order: 4
@@ -296,18 +296,6 @@ newsPost:
     title: wisconsing
     url: //images.contentful.com/0cp1epmalnde/4MlJCtAagMe2IgcaygmKc0/0d78a3df4d9f5ecd44dc162b8efc6169/wisconsing.png
   link: http://news.wisc.edu/10-million-gift-expands-faculty-and-research-to-help-youth-flourish/
-- sys:
-    id: 3v94Rq0hHi4aeqQCg6miqA
-  order: 3
-  title: 'Ending Poverty: King Family Funds Scholarships for Students from the Developing
-    World'
-  source: Dartmouth News - 2012
-  content: |
-    Dorothy and Robert King ’57 have partnered with Dartmouth to help address the problem of global poverty by [establishing a scholarship program](http://www.kingscholars.com/) for exceptional students from developing nations. hey have made a gift of $14.7 million that will fund a total of 12 King Scholars each year. The scholars will be encouraged to use their Dartmouth educations to return to their home countries after graduation to work toward the alleviation of extreme poverty. The gift also establishes an admissions recruitment fund to identify and bring eligible students to Dartmouth from developing countries in Africa, Latin America, and Southeast Asia.
-  sourceLogo:
-    title: Dartmouth College 1015895
-    url: //images.contentful.com/0cp1epmalnde/67bAfZfnnauYwCWaA8EUEk/0c9832fb859fd666b104d7401be9b287/Dartmouth_College_1015895.png
-  link: https://news.dartmouth.edu/news/2012/02/ending-poverty-king-family-funds-scholarships-students-developing-world
 - sys:
     id: CTOKHXg6n6KIOUcaUeAWI
   order: 0
@@ -326,6 +314,17 @@ newsPost:
     title: nyt-t-logo
     url: //images.contentful.com/0cp1epmalnde/2EHwGbOZAwqiyOsgEsKok4/f7d86bd22bc5198225d06b954791f289/nyt-t-logo.png
   link: http://www.nytimes.com/2011/11/04/business/couple-donates-150-million-to-help-end-poverty.html?_r=0
+- sys:
+    id: 3zsxDXsluEueCcu2maqg6C
+  order: 2
+  title: Big Bets and the Aspiration Gap
+  source: Philanthropy Roundtable - Winter 2016
+  content: “...(The study included) big university gifts that specifically focused
+    on social change, such as Robert and Dorothy King’s gift of $150 million to found
+    the Stanford Institute for Innovation in Developing ­Economies, which aims to
+    fight poverty in the poorest parts of the world. Between 2000 and 2012, the total
+    dollar volume of all announced philanthropic big bets averaged $8 billion a year.
+  link: http://www.philanthropyroundtable.org/topic/donor_intent/big_bets_and_the_aspiration_gap
 boardMember:
 - sys:
     id: 4HuDlxe4kUY8WCi4CaQSUe

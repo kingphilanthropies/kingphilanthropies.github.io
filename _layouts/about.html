@@ -63,12 +63,13 @@ layout: default
 			<!-- TODO: add more conditions  -->
 			{% if modulo-four == '1' %}
 				<div class="grid content">
+					
 			{% endif %}
 				<div class="col-1-4">
-					<a href="{{ boardMember.url }}"><h3 class="color-white" style="text-transform: none;">{{ boardMember.name }}</h3></a>
-		   <!--  <img src="{{ boardMember.picture.url }}" alt="{{ boardMember.picture.title }}" style="max-width: 200px;" />  -->
+					<h3 class="color-white" style="text-transform: none;">{{ boardMember.name }}</h3>
 		    	</div>
 		    {% if modulo-four == '0' or forloop.last %}
+		    		
 	    		</div>
 	    	{% endif %}	
     	{% endfor %}
@@ -92,7 +93,7 @@ layout: default
 					<h4 class="font-normal">Follow us on Twitter</h4>
 				</div>
 
-				
+
 			</div>
 		</div>
 	</div>
