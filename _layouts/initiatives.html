@@ -10,9 +10,9 @@ group: "initiatives"
 		<div class="grid">
 			<div class="col-6-12 center">
 			{% assign pageTitle = page.title | slugify %}
-				<h1 class="{% if pageTitle == 'knight-hennessy-scholars' %} color-olive {% else %} color-blue {% endif %} " style="margin-bottom: 9px">{{ page.contentful_fields.initiativeTitle }}</h1>
-				<span class="center-text {% if pageTitle == 'knight-hennessy-scholars' %} color-olive {% else %} color-blue {% endif %}">&mdash;</span>
-				<h3 class="{% if pageTitle == 'knight-hennessy-scholars' %} color-olive {% else %} color-blue {% endif %}">{{ page.contentful_fields.initiativeSubtitle }}</h3>
+				<h1 class="{{ page.contentful_fields.heroTitleColor }}" style="margin-bottom: 9px">{{ page.contentful_fields.initiativeTitle }}</h1>
+				<span class="center-text {{ page.contentful_fields.heroTitleColor }} ">&mdash;</span>
+				<h3 class="{{ page.contentful_fields.heroTitleColor }}">{{ page.contentful_fields.initiativeSubtitle }}</h3>
 			</div>
 		</div>
 	</div>
