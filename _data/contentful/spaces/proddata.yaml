@@ -13,20 +13,6 @@ newsPost:
     url: //images.contentful.com/0cp1epmalnde/2lyaKn3l4w8siYKIYCyCKo/55a6ec1cf9068f87ddd4295881fa38a5/dartmouth-sized.gif
   link: https://news.dartmouth.edu/news/2012/02/ending-poverty-king-family-funds-scholarships-students-developing-world
 - sys:
-    id: 3zsxDXsluEueCcu2maqg6C
-  order: 2
-  title: Big Bets and the Aspiration Gap
-  source: Philanthropy Roundtable - Winter 2016
-  content: “...(The study included) big university gifts that specifically focused
-    on social change, such as Robert and Dorothy King’s gift of $150 million to found
-    the Stanford Institute for Innovation in Developing ­Economies, which aims to
-    fight poverty in the poorest parts of the world. Between 2000 and 2012, the total
-    dollar volume of all announced philanthropic big bets averaged $8 billion a year.
-  sourceLogo:
-    title: photo-sized
-    url: //images.contentful.com/0cp1epmalnde/5W43j1dy9yYyyK4Ym04Cgw/ad4609f3a88cea0627a6742ccc641152/photo-sized.jpg
-  link: http://www.philanthropyroundtable.org/topic/donor_intent/big_bets_and_the_aspiration_gap
-- sys:
     id: CTOKHXg6n6KIOUcaUeAWI
   order: 0
   title: Couple Donate $150 Million to Fight Poverty in Developing Nations
@@ -41,9 +27,23 @@ newsPost:
     will draw students and faculty from around the university.'
   color: light-grey
   sourceLogo:
-    title: nyt-t-logo
-    url: //images.contentful.com/0cp1epmalnde/2EHwGbOZAwqiyOsgEsKok4/f7d86bd22bc5198225d06b954791f289/nyt-t-logo.png
+    title: nyt-t-logo-sized
+    url: //images.contentful.com/0cp1epmalnde/1vtkyySnkoSSE2Gmaa2muq/830e0b2e3521c45b01370c6081359e15/nyt-t-logo-sized.png
   link: http://www.nytimes.com/2011/11/04/business/couple-donates-150-million-to-help-end-poverty.html?_r=0
+- sys:
+    id: 3zsxDXsluEueCcu2maqg6C
+  order: 2
+  title: Big Bets and the Aspiration Gap
+  source: Philanthropy Roundtable - Winter 2016
+  content: “...(The study included) big university gifts that specifically focused
+    on social change, such as Robert and Dorothy King’s gift of $150 million to found
+    the Stanford Institute for Innovation in Developing ­Economies, which aims to
+    fight poverty in the poorest parts of the world. Between 2000 and 2012, the total
+    dollar volume of all announced philanthropic big bets averaged $8 billion a year.
+  sourceLogo:
+    title: photo-sized
+    url: //images.contentful.com/0cp1epmalnde/5W43j1dy9yYyyK4Ym04Cgw/ad4609f3a88cea0627a6742ccc641152/photo-sized.jpg
+  link: http://www.philanthropyroundtable.org/topic/donor_intent/big_bets_and_the_aspiration_gap
 - sys:
     id: 3MsfKxCTNmqyI0oO6es6ea
   order: 4

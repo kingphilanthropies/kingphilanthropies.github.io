@@ -72,6 +72,9 @@ nav {
     	padding-bottom: 30%;
     	content: "";
   		display: block;
+  		@media screen and (min-width: 1440px) { 
+  			padding-bottom: 40%;
+  		}
     }
     @media screen and #{$brk-narrow} {
     	min-height: 293px;

@@ -455,6 +455,9 @@ nav {
     padding-bottom: 30%;
     content: "";
     display: block; }
+    @media screen and (min-width: 1440px) {
+      .section-photo:after {
+        padding-bottom: 40%; } }
   @media screen and (max-width: 767px) {
     .section-photo {
       min-height: 293px;
@@ -921,6 +924,10 @@ footer {
 
 .food-nutrition-and-rural-livelihoods-initiative .initiative-sub-hero {
   background-position: 0 24% !important; }
+
+.thrive-foundation-for-youth .initiative-sub-hero {
+  background-size: 106%;
+  background-position: 0% 52%; }
 
 .initiatives-hero {
   background-position: top left !important; }
