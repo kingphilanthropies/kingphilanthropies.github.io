@@ -1,13 +1,25 @@
-// initiatives landing and subpage
 
 .initiative-single {
+	overflow: hidden;
 	@extend .img-settings;
 	min-height: 640px; 
-	margin-bottom: 20px;
+	@include transition(0.6s);
 	@media screen and #{$brk-narrow} {
 		margin-bottom: 0;
 		min-height: 360px; 
 	}
+}
+.knight-hennessy-scholars .initiative-sub-hero {
+	background-position: top !important;
+	@media screen and (min-width: 1600px) {
+		background-position: 0 -220px !important;
+	}
+	h1 {
+		padding: 0 10%;
+	}
+}
+.initiatives-hero {
+	background-position: top left !important;
 }
 
 .initiative-intro {
@@ -52,7 +64,7 @@
 	.mobile-col-2-3 .statement-item {
 		min-height: 300px; 
 		width: 78%; 
-		padding: 0 13%; 
+		padding: 0 9%; 
 		margin-top: 10px; 
 		text-align: center;
 	}
@@ -93,12 +105,43 @@
 	
 }
 
-.flex-container .grid {
-	h3, p {
-		text-align: left;
+.flex-container {
+	margin-bottom: 20px;
+	overflow: hidden;
+	@media screen and #{$brk-narrow} {
+		margin-bottom: 0;
 	}
-	.initiative-blurb {
-		margin: 10% 0 30% 0;
-		line-height: 1.5;
+	&:hover {
+		.initiative-single {
+			position: relative;
+			transform: scale(1.1);
+			@include transition(0.4s);
+			overflow: hidden;
+		}
+	}
+	&:last-of-type {
+		margin-bottom: 0;
+	}
+	&:nth-of-type(4) .initiative-single {
+		background-position: top !important;
+	}
+	&:nth-of-type(5) .initiative-single {
+		background-position: left !important;
+	}
+	.col-1-3 {
+		position: relative;
+		z-index: 99;
+	}
+	.grid {
+		h3, p {
+			text-align: left;
+		}
+		p {
+			font-size: 16px;
+		}
+		.initiative-blurb {
+			margin: 10% 0 30% 0;
+			line-height: 1.5;
+		}
 	}
 }

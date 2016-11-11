@@ -3,10 +3,10 @@ layout: default
 ---
 
 
-<div class="img-settings" style="background-image: url('{{ site.data.contentful.spaces.proddata.letter[0].heroLetter.url }}')">
+<div class="img-settings letter-hero" style="background-image: url('{{ site.data.contentful.spaces.proddata.letter[0].heroLetter.url }}')">
 	<div class="section-photo center-vertical">
 		<div class="grid">
-			<div class="col-8-12 center">
+			<div class="col-6-12 center">
 				<h1 class="color-olive">A letter from our founders</h1>
 				<h3 class="color-olive">{{ page.contentful_fields.title }}</h3>
 			</div>
@@ -14,13 +14,15 @@ layout: default
 	</div>
 </div>
 
-<div class=content"">
+<div class="content">
 	<div class="grid">
 		<div class="col-8-12 center">
 			<ul class="letter-tabs">
 			{% assign currentYear = page.title %}
 			
-			{% for letter in site.data.contentful.spaces.proddata.letter %}
+			{% assign sorted_letter = site.data.contentful.spaces.proddata.letter | sort: "year" %}
+
+			{% for letter in sorted_letter %}
 			{% assign letterYear = letter.year %}
 			{% assign lettersAmount =  site.data.contentful.spaces.proddata.letter | size %}
 			
@@ -31,8 +33,8 @@ layout: default
 			<div class="letter-body">
 				{{ page.contentful_fields.content | markdownify }}
 			</div>
-			<div class="content" style="padding-left: 0;">
-				<h2 class="color-blue text-left">Bob &amp; Dottie King</h2>
+			<div class="content" style="padding-left: 0; padding-top: 10px;">
+				<h2 class="color-blue text-left" style="margin-top: 0;">Bob &amp; Dottie King</h2>
 			</div>
 		</div>
 	</div>

@@ -21,12 +21,10 @@ $(document).ready(function(){
     });
 
     // Nav menu toggle 
-    // $('.site-nav').on('click', function(e) {
-    //     //console.log('touched');
-    //     e.preventDefault();
-    //     $(this).closest().addClass('.open-menu');
-    //     $('.trigger').toggle('.open-menu');
-    // });
+
+   $('.menu-icon').on('click', function(e) {
+        $('.trigger').toggleClass('hoverTouch').css('background-color', '#333447');
+        $('.menu-icon').toggleClass("icon-active");
+    });
 
 });
-

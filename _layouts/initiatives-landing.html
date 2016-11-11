@@ -3,7 +3,7 @@ layout: default
 group: "initiatives"
 ---
 
-<div class="img-settings" style="background-image: url('{{site.data.contentful.spaces.proddata.pages[0].heroInitiativesLanding.url}}')">
+<div class="img-settings initiatives-hero" style="background-image: url('{{site.data.contentful.spaces.proddata.pages[0].heroInitiativesLanding.url}}')">
 	<div class="section-photo center-vertical">
 		<div class="grid">
 			<div class="col-8-12 center">
@@ -13,16 +13,22 @@ group: "initiatives"
 	</div>
 </div>
 
+<section class="grid">
+	<div class="col-8-12 content center">
+		<h2 class="color-blue">King Philanthropies is inspired by the generous spirit of its founders Bob &amp; Dottie King</h2>
+		<p class="button color-olive"><a href="/about">Learn More</a></p>
+	</div>
+</section>
+
 {% assign sorted_initiatives = site.data.contentful.spaces.proddata.initiatives | sort:"order" %}
 {% for initiative in sorted_initiatives %}
-	
 	{% capture modulo %}{{ forloop.index | modulo: 2 }}{% endcapture %}
 	
 		{% if modulo == '0' %}
 		<div class="flex-container">
 			<div class="col-2-3 tablet-col-1-60 initiative-single" title="{{ initiative.thumbImage.title }}" style="background-image: url('{{ initiative.thumbImage.url }}');">
 			</div>
-			<section class="col-1-3 tablet-col-1-40 {% cycle 'right-aligned-items': 'light-grey', 'olive' %} hide-on-mobile" style="margin-bottom: 20px; padding-right: 0;">
+			<section class="col-1-3 tablet-col-1-40 {% cycle 'right-aligned-items': 'light-grey', 'olive' %} hide-on-mobile" style="padding-right: 0;">
 				<div class="grid col-2-3 center no-padding">
 					<h3>{{ initiative.initiativeTitle }}</h3>
 					<h3 class="color-blue">&mdash;</h3>
@@ -34,18 +40,18 @@ group: "initiatives"
 			<div class="center {% cycle 'right-aligned-items-mobile': 'light-grey', 'olive' %} hide-on-tablet hide-on-desktop" style="padding: 2em;">
 					<h3>{{ initiative.initiativeTitle }}</h3>
 					<h3 class="color-blue">&mdash;</h3>
-					<p class="initiative-blurb" style="margin-bottom: 20px;">{{ initiative.initiativeBlurb }}</p>
+					<p class="initiative-blurb">{{ initiative.initiativeBlurb }}</p>
 					<p class="button black"><a href="/initiatives/{{initiative.url}}">View Initiative</a></p>
 			</div>
 			<!-- end mobile blurb  -->
 		</div>
 		{% else %}
 		<div class="flex-container">
-		 	<section class="col-1-3 tablet-col-1-40 {% cycle 'left-aligned-items': 'dark-red', 'blue' %} hide-on-mobile" style="margin-bottom: 20px; padding-right: 0;">
+		 	<section class="col-1-3 tablet-col-1-40 {% cycle 'left-aligned-items': 'dark-red', 'blue' %} hide-on-mobile" style="padding-right: 0;">
 		 		<div class="grid col-2-3 center no-padding">
 					<h3 class="color-olive">{{ initiative.initiativeTitle }}</h3>
 					<h3 class="color-olive">&mdash;</h3>
-					<p class="color-olive initiative-blurb" >{{ initiative.initiativeBlurb }}</p>
+					<p class="color-olive initiative-blurb">{{ initiative.initiativeBlurb }}</p>
 					<p class="button olive-blue"><a href="/initiatives/{{initiative.url}}">View Initiative</a></p>
 				</div>
 			</section>
@@ -55,7 +61,7 @@ group: "initiatives"
 			<div class="center {% cycle 'left-aligned-items-mobile': 'dark-red', 'blue' %}  hide-on-tablet hide-on-desktop" style="padding: 2em;">
 				<h3 class="color-olive">{{ initiative.initiativeTitle }}</h3>
 				<h3 class="color-olive">&mdash;</h3>
-				<p class="color-olive initiative-blurb" style="margin-bottom: 20px;">{{ initiative.initiativeBlurb }}</p>
+				<p class="color-olive initiative-blurb">{{ initiative.initiativeBlurb }}</p>
 				<p class="button olive-blue"><a href="/initiatives/{{initiative.url}}">View Initiative</a></p>
 			</div>
 			<!-- end mobile blurb  -->
@@ -64,10 +70,5 @@ group: "initiatives"
 	
 {% endfor %}
 
-	<section class="grid">
-		<div class="col-8-12 content center">
-			<h2 class="color-blue">King Philanthropies is inspired by the generous spirit of its founders Bob &amp; Dottie King</h2>
-			<p class="button color-olive"><a href="/about">Learn More</a></p>
-		</div>
-	</section>
+	
 
