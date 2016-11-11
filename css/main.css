@@ -739,6 +739,11 @@ footer {
   .home-initiatives .col-1-3 {
     padding-right: 5px;
     position: relative;
+    -webkit-transition: all 0.4s ease-out;
+    -moz-transition: all 0.4s ease-out;
+    -ms-transition: all 0.4s ease-out;
+    -o-transition: all 0.4s ease-out;
+    transition: all 0.4s ease-out;
     z-index: 10; }
     @media only screen and (max-width: 1023px) and (-webkit-min-device-pixel-ratio: 1) and (-webkit-max-device-pixel-ratio: 2) {
       .home-initiatives .col-1-3 {
@@ -756,9 +761,15 @@ footer {
       right: 0;
       bottom: -150px;
       top: auto; }
-    .home-initiatives .col-1-3 div[class*='overlay-']:after {
-      opacity: 0;
-      content: ''; }
+    .home-initiatives .col-1-3 div[class*='overlay-'] {
+      -webkit-transition: all 0.4s ease-out;
+      -moz-transition: all 0.4s ease-out;
+      -ms-transition: all 0.4s ease-out;
+      -o-transition: all 0.4s ease-out;
+      transition: all 0.4s ease-out; }
+      .home-initiatives .col-1-3 div[class*='overlay-']:after {
+        opacity: 0;
+        content: ''; }
     .home-initiatives .col-1-3:hover .hover-link {
       opacity: 1;
       -webkit-transition: all 0.4s ease-out;
