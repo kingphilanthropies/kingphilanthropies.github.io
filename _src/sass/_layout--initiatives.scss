@@ -1,3 +1,16 @@
+@media handheld, only screen and #{$brk-narrow} {
+	.wrapper-initiatives {
+		padding-right: 0;
+		padding-left: 0;
+		padding-bottom: 0;
+	}
+}
+
+@media handheld, only screen and #{$brk-tablet-min} and #{$brk-wide} {
+	.wrapper-initiatives {
+		padding-bottom: 0;
+	}
+}
 
 .initiative-single {
 	overflow: hidden;

@@ -585,6 +585,12 @@ section.news {
   .contact-social {
     margin-top: 3em; } }
 
+.contact .block-overlap {
+  margin: -4em auto 60px auto !important; }
+  @media screen and (max-width: 767px) {
+    .contact .block-overlap {
+      margin-bottom: 0 !important; } }
+
 .about .social-icons {
   display: inline-block; }
   .about .social-icons .twitter {
@@ -938,6 +944,10 @@ footer {
   .wrapper-initiatives {
     padding-right: 0;
     padding-left: 0;
+    padding-bottom: 0; } }
+
+@media handheld, only screen and (min-width: 768px) and (max-width: 1023px) {
+  .wrapper-initiatives {
     padding-bottom: 0; } }
 
 .initiative-single {
