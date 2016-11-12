@@ -243,6 +243,9 @@ section.news {
 				margin-top: 14px;
 			}
 		}
+		.button {
+			text-align: center !important;
+		}
 	}
 }
 
@@ -302,6 +305,7 @@ footer {
 	h3 {
 		font-size: 13px;
 		margin-top: 3px;
+		color: $nav-grey;
 	}
 	ul {
 		display: inline-block;
@@ -314,11 +318,15 @@ footer {
 		    text-transform: uppercase;    
 		    a {
 		    	text-decoration: none;
-		    	color: #000;
+		    	color: $nav-grey;
+				&:hover {
+					color: $black;
+				}
 		    }
 			&:after {
 				margin-left: 15px;
 				content: "|";
+				color: $nav-grey;
 			}
 			&:last-of-type:after {
 				content: "";

@@ -44,7 +44,16 @@
 .focus-images {
 	.mobile-col-1-3 {
 		padding-right: 0;
+		width: 40%;
 	}
+	.mobile-col-2-3 {
+		width: 60%;
+	}
+	@media screen and #{$brk-narrow} {
+		h2 {
+			font-size: 12px;
+		}
+	}	
 	.col-1-2 {
 		padding-right: 10px;
 	}
