@@ -105,66 +105,6 @@ initiatives:
     Launched with the King’s $150 million gift, Seed combines educational excellence, critical research, and breakthrough innovation to address global poverty. Seed’s comprehensive approach involves working across multiple fronts and time horizons. Seed trains business leaders in developing economies, giving them access to management training, coaching, and networking support that will help them lead their regions to greater prosperity. Seed inspires Stanford students to become globally engaged leaders and introduces them to the challenges and opportunities of doing business in developing economies. Seed advances university-wide research to develop relevant and impactful poverty alleviation interventions across disciplines. Seed is headquartered at Stanford, has hubs in East and West Africa, and will soon launch in Asia. Its long-term goal is to expand to developing economies throughout the world.
   moreAboutUrl: https://www.gsb.stanford.edu/seed
 - sys:
-    id: 41Xcii4e0ooe0OsoMa8gaS
-  initiativeTitle: Knight Hennessy Scholars
-  url: knight-hennessy-scholars
-  heroSingleInitiative:
-    title: Knight Hero-sized
-    url: //images.contentful.com/0cp1epmalnde/3AcYFgJcKAu2WGQq6U8iQK/d666dd7623ac88a931078f90c6e33a80/Knight_Hero-sized.jpg
-  heroTitleColor: color-gold-light
-  order: 2
-  thumbImage:
-    title: Knight-hennesy-sized
-    url: //images.contentful.com/0cp1epmalnde/3olQd2HhrOaS0c2oOEasUy/eff9d56c136465b08cbb630ae24693d3/AdobeStock_118799770-sized.jpg
-  hoverText: Knight Hennessy Scholars
-  initiativeBlurb: In an era of increasingly complex global challenges, research universities
-    are called to find new solutions to problems old and new and to educate courageous
-    leaders who will forge collaborations and create change at scale.
-  initiativeSubtitle: ' A new generation of global leaders'
-  theOpportunity: "In an era of increasingly complex global challenges, research universities
-    are called to find new solutions to problems old and new and to educate courageous
-    leaders who will forge collaborations and create change at scale. \"While we have
-    seen great achievements in this century, future progress will depend upon our
-    ability to tackle issues such as global poverty. By identifying rising leaders
-    from around the world and exposing them to real-life challenges, the Knight-Hennessy
-    Scholars program will equip scholars to lead ambitious change,\" says Bob King.
-    \n \nAnnounced in February 2016, the Knight-Hennessy Scholars program is an unparalleled
-    graduate-level scholarship program that will prepare a new generation of distinguished
-    global leaders with the multi-disciplinary skills needed to address the increasingly
-    complex challenges facing the world in the 21st century and beyond.  Stanford
-    is uniquely positioned to be the home of the Knight-Hennessy Scholars program
-    because innovation, creative problem-solving, and entrepreneurial thinking are
-    among its core characteristics. Stanford is also a leader in interdisciplinary
-    studies, with seven world-class schools and an atmosphere that fosters collaboration
-    and innovation. Stanford's graduate academic programs are top-ranked internationally,
-    and Stanford's distinctive culture places a priority on working across disciplinary
-    lines to advance knowledge and create solutions.\n"
-  statementGalleryTopRight: Innovation and Entrepreneurship
-  statementGalleryBottomLeft: Interdisciplinary Studies & Global Leadership
-  ourFocusImage1:
-    title: Knight 1-sized
-    url: //images.contentful.com/0cp1epmalnde/29CsReM3mEcgAYGk6YKSYA/cb09feac18f36bb05af6dca4ce55498b/Knight_1-sized.jpg
-  ourFocusImage2:
-    title: Knight 3-sized
-    url: //images.contentful.com/0cp1epmalnde/Q6KvUqyvcaEO22kckIimC/12b51592024f94e69f46011c2c8e7804/Knight_3-sized.jpg
-  ourFocusImage3:
-    title: Knight 2-sized
-    url: //images.contentful.com/0cp1epmalnde/447SUzUDOEAkUWEaSyAYAa/4207fbd68967b541493beb55ad04b8c2/Knight_2-sized.jpg
-  ourFocusImage4:
-    title: KHSP-image-sized
-    url: //images.contentful.com/0cp1epmalnde/1Mf5gSAhswqGquaMA4kOIS/592923a583ac9059d7f9c2f073a852de/KHSP-image-sized.jpg
-  theInitiativeText: "Each year the Knight-Hennessy Scholars program will identify
-    100 high-achieving individuals from around the world who demonstrate leadership
-    and civic commitment.  Each will receive full funding to pursue a wide-ranging
-    graduate education at Stanford, with the goal of developing a new generation of
-    global leaders. The Knight-Hennessy Scholars is the largest fully endowed scholars
-    program in the world.\n \nThe Kings have made a $100 million gift toward the Knight
-    Hennessy Scholars program to fund a cohort of scholars from less economically
-    developed regions of the world. The gift will also support the King Global Leadership
-    Program, a distinctive training and development curriculum in which all Knight-Hennessy
-    Scholars will participate to complement their core degree studies. \n"
-  moreAboutUrl: ' https://knight-hennessy.stanford.edu/'
-- sys:
     id: TFfzQqIzsIC04WuISimi6
   initiativeTitle: Thrive Foundation For Youth
   url: thrive-foundation-for-youth
@@ -331,6 +271,60 @@ initiatives:
     url: //images.contentful.com/0cp1epmalnde/16qOZ4Z3hYYAGQ4cAOMswu/29986b27d4c414c797c95185efbee32a/IMG_4363-sized.jpg
   theInitiativeText: |
     Recognizing the importance of both agriculture and nutrition to improve the livelihoods of the rural poor, in early 2017 King Philanthropies will launch a pilot supporting best-in-class organizations working in food, nutrition, and rural livelihoods. The first phase of our pilot will focus on Myanmar, with subsequent efforts focused on East Africa and South Asia.
+- sys:
+    id: 41Xcii4e0ooe0OsoMa8gaS
+  initiativeTitle: Knight Hennessy Scholars
+  url: knight-hennessy-scholars
+  heroSingleInitiative:
+    title: Knight Hero-sized
+    url: //images.contentful.com/0cp1epmalnde/3AcYFgJcKAu2WGQq6U8iQK/d666dd7623ac88a931078f90c6e33a80/Knight_Hero-sized.jpg
+  heroTitleColor: color-gold-light
+  order: 2
+  thumbImage:
+    title: Knight-hennesy-sized
+    url: //images.contentful.com/0cp1epmalnde/3olQd2HhrOaS0c2oOEasUy/eff9d56c136465b08cbb630ae24693d3/AdobeStock_118799770-sized.jpg
+  hoverText: Knight Hennessy Scholars
+  initiativeBlurb: In an era of increasingly complex global challenges, research universities
+    are called to find new solutions to problems old and new and to educate courageous
+    leaders who will forge collaborations and create change at scale.
+  initiativeSubtitle: ' A new generation of global leaders'
+  theOpportunity: "In an era of increasingly complex global challenges, research universities
+    are called to find new solutions to problems old and new and to educate courageous
+    leaders who will forge collaborations and create change at scale. \"While we have
+    seen great achievements in this century, future progress will depend upon our
+    ability to tackle issues such as global poverty. By identifying rising leaders
+    from around the world and exposing them to real-life challenges, the Knight-Hennessy
+    Scholars program will equip scholars to lead ambitious change,\" says Bob King.
+    \n \nAnnounced in February 2016, the Knight-Hennessy Scholars program is an unparalleled
+    graduate-level scholarship program that will prepare a new generation of distinguished
+    global leaders with the multi-disciplinary skills needed to address the increasingly
+    complex challenges facing the world in the 21st century and beyond.  Stanford
+    is uniquely positioned to be the home of the Knight-Hennessy Scholars program
+    because innovation, creative problem-solving, and entrepreneurial thinking are
+    among its core characteristics. Stanford is also a leader in interdisciplinary
+    studies, with seven world-class schools and an atmosphere that fosters collaboration
+    and innovation. Stanford's graduate academic programs are top-ranked internationally,
+    and Stanford's distinctive culture places a priority on working across disciplinary
+    lines to advance knowledge and create solutions.\n"
+  statementGalleryTopRight: Innovation and Entrepreneurship
+  statementGalleryBottomLeft: Interdisciplinary Studies & Global Leadership
+  ourFocusImage1:
+    title: Knight 1-sized
+    url: //images.contentful.com/0cp1epmalnde/29CsReM3mEcgAYGk6YKSYA/cb09feac18f36bb05af6dca4ce55498b/Knight_1-sized.jpg
+  ourFocusImage3:
+    title: KHSP-image-sized
+    url: //images.contentful.com/0cp1epmalnde/1Mf5gSAhswqGquaMA4kOIS/592923a583ac9059d7f9c2f073a852de/KHSP-image-sized.jpg
+  theInitiativeText: "Each year the Knight-Hennessy Scholars program will identify
+    100 high-achieving individuals from around the world who demonstrate leadership
+    and civic commitment.  Each will receive full funding to pursue a wide-ranging
+    graduate education at Stanford, with the goal of developing a new generation of
+    global leaders. The Knight-Hennessy Scholars is the largest fully endowed scholars
+    program in the world.\n \nThe Kings have made a $100 million gift toward the Knight
+    Hennessy Scholars program to fund a cohort of scholars from less economically
+    developed regions of the world. The gift will also support the King Global Leadership
+    Program, a distinctive training and development curriculum in which all Knight-Hennessy
+    Scholars will participate to complement their core degree studies. \n"
+  moreAboutUrl: ' https://knight-hennessy.stanford.edu/'
 boardMember:
 - sys:
     id: 2Kdw4D8Ngc6GO6uqgwIwae
