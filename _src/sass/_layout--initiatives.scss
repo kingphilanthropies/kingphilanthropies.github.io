@@ -45,6 +45,16 @@
 		}
 	}
 }
+@media screen and (min-width: 1440px) {
+	.food-nutrition-and-rural-livelihoods-initiative {
+		.initiative-sub-hero { 
+			background-position-x: 80%;
+			background-size: 114%;
+			background-position-y: 28%;
+		}
+	}
+}
+
 @media screen and #{$brk-tablet-min} and #{$brk-wide} {
 	.food-nutrition-and-rural-livelihoods-initiative {
 		.initiative-sub-hero {

@@ -316,7 +316,6 @@ footer {
 	h3 {
 		font-size: 13px;
 		margin-top: 3px;
-		color: $nav-grey;
 	}
 	ul {
 		display: inline-block;
@@ -329,15 +328,15 @@ footer {
 		    text-transform: uppercase;    
 		    a {
 		    	text-decoration: none;
-		    	color: $nav-grey;
+		    	color: $black;
 				&:hover {
-					color: $black;
+					color: $nav-grey;
 				}
 		    }
 			&:after {
 				margin-left: 15px;
 				content: "|";
-				color: $nav-grey;
+				color: $black;
 			}
 			&:last-of-type:after {
 				content: "";
