@@ -356,6 +356,17 @@ boardMember:
   memberOrder: 1
 staffMember:
 - sys:
+    id: 1Zj3dr7LNKYqQ0usGUU8ws
+  name: Chanthi Lune
+  url: chanthi-lune
+  order: 2
+  jobTitle: Director of Finance, Investments, and Administration
+  picture:
+    title: chanthi
+    url: //images.contentful.com/0cp1epmalnde/6rcKFlQamQcAAIcOSmCqeE/8d3761769e03fdb7905fd49748fa1411/chanthi.jpg
+  bio: |
+    Chanthi is the Director of Finance, Investments, and Administration for King Philanthropies. She manages all aspects of finance for King Philanthropies, with particular focus on financial reporting, analysis and investments. Prior to joining King Philanthropies she worked as a legal contractor for several law firms practicing diverse areas of law, from intellectual property to securities litigation. Prior to law school, Chanthi worked in various finance capacities at three Wall Street firms—Robertson Stephens, Jefferies & Company, and Citi Smith Barney. Chanthi holds a B.A. in Political Science from the University of the Pacific and a J.D./M.B.A. from Gonzaga University. She is admitted to practice law in the state of California. She currently sits on the Board of AC Global Risk.
+- sys:
     id: 2jCPHXPzMMAe8yugIQu6AU
   name: Devin Bruckner
   url: devin-bruckner
@@ -372,17 +383,6 @@ staffMember:
     and financial and market analysis.  Devin spent two years in Peru and significant
     time in East Africa working in economic development.  Devin graduated Summa Cum
     Laude from Claremont McKenna College with a B.A. in Economics. \n"
-- sys:
-    id: 1Zj3dr7LNKYqQ0usGUU8ws
-  name: Chanthi Lune
-  url: chanthi-lune
-  order: 2
-  jobTitle: Director of Finance, Investments, and Administration
-  picture:
-    title: blank-profile-picture-973460 1280
-    url: //images.contentful.com/0cp1epmalnde/1ZXQIfpSZyeqy4w4uu06wk/bf0f8da5ae708ee22cf4c003b153ee34/blank-profile-picture-973460_1280.png
-  bio: |
-    Chanthi is the Director of Finance, Investments, and Administration for King Philanthropies. She manages all aspects of finance for King Philanthropies, with particular focus on financial reporting, analysis and investments. Prior to joining King Philanthropies she worked as a legal contractor for several law firms practicing diverse areas of law, from intellectual property to securities litigation. Prior to law school, Chanthi worked in various finance capacities at three Wall Street firms—Robertson Stephens, Jefferies & Company, and Citi Smith Barney. Chanthi holds a B.A. in Political Science from the University of the Pacific and a J.D./M.B.A. from Gonzaga University. She is admitted to practice law in the state of California. She currently sits on the Board of AC Global Risk.
 - sys:
     id: 2PgSSfabpeaIEKw28a6Smy
   name: Kim Starkey Jonker
@@ -435,6 +435,24 @@ staffMember:
     University, and a Ph.D. in Business from the Stanford Graduate School of Business.
     \n"
 - sys:
+    id: LP5P1Sk0maOW0qEEcoWs6
+  name: Sonal Goyal
+  url: sonal-goyal
+  order: 4
+  jobTitle: Program Associate
+  picture:
+    title: sonal
+    url: //images.contentful.com/0cp1epmalnde/63nRqb4IDe4ou8u6sU4MkY/cd49acb98fea7a4e4020bd9d4e3cd5c1/sonal.jpg
+  bio: 'Sonal is a Program Associate for King Philanthropies. Sonal worked previously
+    in the Department of Impact Evaluation at the World Bank, Morgan Stanley’s Public
+    Finance division, Ashoka Changemakers,Innovate Delhi Entrepreneurship Academy
+    (a startup boot camp organized in New Delhi and funded by Seed), and Motu Economic
+    and Research Institute in New Zealand. She also conducted field research in Ghana
+    with the  Stanford Center for International Development. Sonal graduated from
+    Stanford University with a degree in Economics, where she served on the National
+    Advisory Board of the Haas Center for Public Service. She is currently a Stanford
+    Public Interest Network (SPIN) fellow at the Haas Center. '
+- sys:
     id: 5ccUWnnuP6AyOoim4kwqwq
   name: William F. Meehan III
   url: william-f-meehan-iii
@@ -459,76 +477,7 @@ staffMember:
     and Board member of King Philanthropies. He is former Chair of the United Way
     of the Bay Area and Chairman-Emeritus of Guidestar. Meehan retired from McKinsey
     Company in December 2008 after a career of over 30 years.
-- sys:
-    id: LP5P1Sk0maOW0qEEcoWs6
-  name: Sonal Goyal
-  url: sonal-goyal
-  order: 4
-  jobTitle: Program Associate
-  picture:
-    title: blank-profile-picture-973460 1280
-    url: //images.contentful.com/0cp1epmalnde/1ZXQIfpSZyeqy4w4uu06wk/bf0f8da5ae708ee22cf4c003b153ee34/blank-profile-picture-973460_1280.png
-  bio: 'Sonal is a Program Associate for King Philanthropies. Sonal worked previously
-    in the Department of Impact Evaluation at the World Bank, Morgan Stanley’s Public
-    Finance division, Ashoka Changemakers,Innovate Delhi Entrepreneurship Academy
-    (a startup boot camp organized in New Delhi and funded by Seed), and Motu Economic
-    and Research Institute in New Zealand. She also conducted field research in Ghana
-    with the  Stanford Center for International Development. Sonal graduated from
-    Stanford University with a degree in Economics, where she served on the National
-    Advisory Board of the Haas Center for Public Service. She is currently a Stanford
-    Public Interest Network (SPIN) fellow at the Haas Center. '
-pages:
-- sys:
-    id: 6sv7GrmAfK6WkYMeSK4sCo
-  clickToEdit: Content on All Pages
-  heroHomepage:
-    title: Homepage-hero
-    url: //images.contentful.com/0cp1epmalnde/1znK6N6xxCcWKgISWeCiK4/ef0e0ed35c8f9603f11f1ff32044fb03/King_Hero_Edit-cream-1-2560x1440-70-1.jpg
-  heroAbout:
-    title: About Hero-sized
-    url: //images.contentful.com/0cp1epmalnde/4jSx6j49m0g0WkMsGKCyKO/0bec5bb899e5f9ffac5dc8ea82961fd9/About_Hero-sized.jpg
-  heroInitiativesLanding:
-    title: Initiatives Hero-sized
-    url: //images.contentful.com/0cp1epmalnde/58qjjE7ddY0y4mUKM6OMqU/ac2ecbfc9e7062c1c6778c3b515abbb3/Initiatives_Hero-sized.jpg
-  heroNewsLanding:
-    title: News Hero-sized
-    url: //images.contentful.com/0cp1epmalnde/4YnNUVleYUUGcYaYkQou4g/16030d224558adadea53bf9d3508e353/News_Hero-sized.jpg
-  aboutKingPhilanthropiesText: 'After a successful career as the founder of a California-based
-    investment firm, Bob King and his wife Dottie shifted their focus to philanthropy
-    in 1995. In the two decades that have followed they have become a national leader
-    in philanthropic investments. King Philanthropies’ goals and work flows directly
-    from the inspiration of its founders and centers on a singular goal: to alleviate
-    extreme poverty.'
-  aboutImage:
-    title: IMG 8192-sized
-    url: //images.contentful.com/0cp1epmalnde/1wrYIOwfhKiOkCE4SGqGes/3a9c23acc6555cba06e5e118bce47aaf/IMG_8192-sized.jpg
-  aboutTheFoundersText: |
-    Bob King graduated from Dartmouth in 1957 and earned an M.B.A. from Stanford in 1960. He is the founder of Peninsula Capital, an investment firm, and founder and former president of R. Eliot King & Associates Inc., an investment management company. In 1995, the Kings founded the Thrive Foundation for Youth to help children in under-resourced communities reach their full potential. In 2011, a landmark $150 million donation from the Kings established the Stanford Institute for Innovation in Developing Economies. In 2013, Bob and Dottie partnered with Dartmouth College to create the King Scholar Leadership Program for students with exceptional potential from developing nations in Latin America, Africa, and Asia.
-  contactUsText: King Philanthropies employs a personalized and targeted approach
-    to philanthropy. We dedicate ourselves wholly to the initiatives that fit within
-    the goals of our founders and our larger mission to alleviate extreme poverty
-    in Africa and parts of Asia. For this reason, we cannot accept unsolicited requests
-    for funds. Other inquiries can be sent to info@kingphilanthropies.org.
 letter:
-- sys:
-    id: 69UZArh4gE0SK8E8WiSems
-  year: '2017'
-  heroLetter:
-    title: Hero Edit3
-    url: //images.contentful.com/0cp1epmalnde/57OHVEB0diyCcKMI04SamO/18ad39d12674c027ba22fc9e3d6a52c3/Hero_Edit3.jpg
-  title: Test Letter title
-  content: "test letter content \ntest letter content test letter content test letter
-    content test letter content test letter content test letter content test letter
-    content test letter content test letter content test letter content test letter
-    content test letter content test letter content test letter content test letter
-    content test letter content test letter content test letter content test letter
-    content test letter content \n\n![King-Philanthropy LetterFromFounders](//images.contentful.com/0cp1epmalnde/2uubVOQBKouuISwISUiyeW/bc4f2fc2daebf7831525571f492e44d7/King-Philanthropy_LetterFromFounders.jpg)\n\ntest
-    letter content \ntest letter content test letter content test letter content test
-    letter content test letter content test letter content test letter content test
-    letter content test letter content test letter content test letter content test
-    letter content test letter content test letter content test letter content test
-    letter content test letter content test letter content test letter content test
-    letter content "
 - sys:
     id: 97dlqP2NPyYAKYGegaQ20
   year: '2016'
@@ -555,7 +504,8 @@ letter:
     extreme poverty and oftentimes lacking access even to electricity and clean water,
     not to mention education and opportunity.  South Asia has seen the percentage
     of extreme poor in its population decline to about 10 percent in recent years,
-    but that figure encompasses huge numbers of people.  \n\n![King-Philanthropy LetterFromFounders](//images.contentful.com/0cp1epmalnde/2uubVOQBKouuISwISUiyeW/bc4f2fc2daebf7831525571f492e44d7/King-Philanthropy_LetterFromFounders.jpg)\n\nWe
+    but that figure encompasses huge numbers of people.  \n\n![Letter From Founders
+    sized](//images.contentful.com/0cp1epmalnde/1SwJXONd7SEAuo2w2Kawwa/0d51b65748810dbb10b1b15c8e24ce2c/Letter_From_Founders_sized.jpg)\n\nWe
     seek to address the tragedy of global poverty by fostering entrepreneurship that
     will lead to job creation; supporting the development of future leaders and investing
     in the development of our youth; and enhancing the food security, nutrition, and
@@ -616,3 +566,54 @@ letter:
     lives, and it is in this spirit that we invite you to join us in the fight against
     global poverty.  Together, we can achieve concrete results and an outsized impact;
     1 + 1 = 3.  \n\n \n"
+- sys:
+    id: 69UZArh4gE0SK8E8WiSems
+  year: '2017'
+  heroLetter:
+    title: Hero Edit3
+    url: //images.contentful.com/0cp1epmalnde/57OHVEB0diyCcKMI04SamO/18ad39d12674c027ba22fc9e3d6a52c3/Hero_Edit3.jpg
+  title: Test Letter title
+  content: "test letter content \ntest letter content test letter content test letter
+    content test letter content test letter content test letter content test letter
+    content test letter content test letter content test letter content test letter
+    content test letter content test letter content test letter content test letter
+    content test letter content test letter content test letter content test letter
+    content test letter content \n\n![King-Philanthropy LetterFromFounders](//images.contentful.com/0cp1epmalnde/2uubVOQBKouuISwISUiyeW/bc4f2fc2daebf7831525571f492e44d7/King-Philanthropy_LetterFromFounders.jpg)\n\ntest
+    letter content \ntest letter content test letter content test letter content test
+    letter content test letter content test letter content test letter content test
+    letter content test letter content test letter content test letter content test
+    letter content test letter content test letter content test letter content test
+    letter content test letter content test letter content test letter content test
+    letter content "
+pages:
+- sys:
+    id: 6sv7GrmAfK6WkYMeSK4sCo
+  clickToEdit: Content on All Pages
+  heroHomepage:
+    title: Homepage-hero
+    url: //images.contentful.com/0cp1epmalnde/1znK6N6xxCcWKgISWeCiK4/ef0e0ed35c8f9603f11f1ff32044fb03/King_Hero_Edit-cream-1-2560x1440-70-1.jpg
+  heroAbout:
+    title: About Hero-sized
+    url: //images.contentful.com/0cp1epmalnde/4jSx6j49m0g0WkMsGKCyKO/0bec5bb899e5f9ffac5dc8ea82961fd9/About_Hero-sized.jpg
+  heroInitiativesLanding:
+    title: Initiatives Hero-sized
+    url: //images.contentful.com/0cp1epmalnde/58qjjE7ddY0y4mUKM6OMqU/ac2ecbfc9e7062c1c6778c3b515abbb3/Initiatives_Hero-sized.jpg
+  heroNewsLanding:
+    title: News Hero-sized
+    url: //images.contentful.com/0cp1epmalnde/4YnNUVleYUUGcYaYkQou4g/16030d224558adadea53bf9d3508e353/News_Hero-sized.jpg
+  aboutKingPhilanthropiesText: 'After a successful career as the founder of a California-based
+    investment firm, Bob King and his wife Dottie shifted their focus to philanthropy
+    in 1995. In the two decades that have followed they have become a national leader
+    in philanthropic investments. King Philanthropies’ goals and work flows directly
+    from the inspiration of its founders and centers on a singular goal: to alleviate
+    extreme poverty.'
+  aboutImage:
+    title: IMG 8192-sized
+    url: //images.contentful.com/0cp1epmalnde/1wrYIOwfhKiOkCE4SGqGes/3a9c23acc6555cba06e5e118bce47aaf/IMG_8192-sized.jpg
+  aboutTheFoundersText: |
+    Bob King graduated from Dartmouth in 1957 and earned an M.B.A. from Stanford in 1960. He is the founder of Peninsula Capital, an investment firm, and founder and former president of R. Eliot King & Associates Inc., an investment management company. In 1995, the Kings founded the Thrive Foundation for Youth to help children in under-resourced communities reach their full potential. In 2011, a landmark $150 million donation from the Kings established the Stanford Institute for Innovation in Developing Economies. In 2013, Bob and Dottie partnered with Dartmouth College to create the King Scholar Leadership Program for students with exceptional potential from developing nations in Latin America, Africa, and Asia.
+  contactUsText: King Philanthropies employs a personalized and targeted approach
+    to philanthropy. We dedicate ourselves wholly to the initiatives that fit within
+    the goals of our founders and our larger mission to alleviate extreme poverty
+    in Africa and parts of Asia. For this reason, we cannot accept unsolicited requests
+    for funds. Other inquiries can be sent to info@kingphilanthropies.org.
