@@ -57,9 +57,12 @@ layout: default
 	<div class="grid">
 		<h3>Our Board</h3>
 		<span class="center-text">&mdash;</span>
-		{% for boardMember in site.data.contentful.spaces.proddata.boardMember %}
-		{% capture modulo-four %}{{ forloop.index | modulo: 4 }}{% endcapture %}
+		
+		{% assign sorted_boardMember = site.data.contentful.spaces.proddata.boardMember | sort:"memberOrder" %}
 
+		{% for boardMember in sorted_boardMember %}
+		
+		{% capture modulo-four %}{{ forloop.index | modulo: 4 }}{% endcapture %}
 			<!-- TODO: add more conditions  -->
 			{% if modulo-four == '1' %}
 				<div class="grid content">

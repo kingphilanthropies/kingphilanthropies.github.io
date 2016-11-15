@@ -79,6 +79,12 @@ nav {
     @media screen and #{$brk-narrow} {
     	min-height: 293px;
     	max-height: 293px;
+    	h1 {
+    		margin-bottom: 3px !important;
+    	} 
+    	h3 {
+    		margin-top: 3px;
+    	}
     }
 }
 
@@ -151,8 +157,8 @@ section.news {
 .color-white {
 	color: $white;
 }
-.color-grey {
-	color: $light-grey;
+.color-gold-light {
+	color: $gold-light;
 }
 // Animation
 
@@ -160,20 +166,21 @@ section.news {
     opacity: 0;
 }
 
-//MOVE TO LETTER
+//LETTER
 
 .letter-body {
 	img {
 		max-width: 100%;
 		margin: 20px 0;
 	}
+	h1, h2 {
+		font-family: $stack-sans-serif;
+	}
 }
 
 .letter-hero {
 	background-position: top;
 }
-
-//
 
 // About Us page
 .about .col-1-4 {
@@ -218,7 +225,6 @@ section.news {
 		width: 77%;
 	}
 } 
-//
 
 // Staff-member page 
 	

@@ -50,6 +50,16 @@
 }
 .home-initiatives {
 	margin-top: 25px;
+	.item-3 {
+		.img-settings {
+			background-position: top !important;
+		}
+	}
+	.item-4 {
+		.img-settings {
+			background-position: 10% !important;
+		}
+	}
 	.col-1-3 {
 		width: -moz-calc(33.33% - 5px);
 		width: -webkit-calc(33.33% - 5px);
