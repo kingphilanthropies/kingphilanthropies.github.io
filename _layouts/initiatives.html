@@ -45,6 +45,9 @@ group: "initiatives"
 			<div class="fadeInBlock img-settings" style="background-image: url('{{ page.contentful_fields.ourFocusImage4.file.url }}');" alt="{{page.contentful_fields.ourFocusImage3.file.title}}"></div>
 		</div>
 	</div>
+	{% if page.contentful_fields.photoCredit %}
+		<p class="center-text" style="font-size: 12px; color: #999999; top: 15px; position: relative;">*Photos by {{ page.contentful_fields.photoCredit }}</p>
+	{% endif %}
 	</div>
 </section>
 

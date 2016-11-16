@@ -10,11 +10,11 @@ $(document).ready(function(){
         }, 1000);       
     });
     heroSubtitle.each(function() {
-        $(this).delay(1000).animate({
+        $(this).delay(900).animate({
             'opacity':'1',
         }, 800); 
     })
-    
+
 	// Add fadein effect on scroll 
 	 $(window).scroll( function(){
         $('.fadeInBlock').each(function(){
