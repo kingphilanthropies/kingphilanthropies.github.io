@@ -542,8 +542,14 @@ section.news {
 
 .letter-hero {
   background-position-y: 27%;
-  background-size: 115%;
-  background-position-x: 100%; }
+  background-position-x: 100%;
+  background-blend-mode: soft-light;
+  background-color: rgba(51, 52, 71, 0.6); }
+  @media screen and (min-width: 768px) {
+    .letter-hero {
+      background-size: 115%; } }
+  .letter-hero h1 {
+    padding: 0 10%; }
 
 .about .col-1-4 h4 {
   margin-bottom: 9px; }

@@ -181,10 +181,15 @@ section.news {
 
 .letter-hero {
 	background-position-y: 27%;
-    background-size: 115%;
     background-position-x: 100%;
-    // background-blend-mode: soft-light;
-    // background-color: rgba(255, 255, 255, 0.4)
+    background-blend-mode: soft-light;
+    background-color: rgba(51, 52, 71, 0.6);
+    @media screen and #{$brk-tablet-min} {
+    	background-size: 115%;
+    }
+    h1 {
+    	padding: 0 10%;
+    }
 }
 
 // About Us page
