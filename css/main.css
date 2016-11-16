@@ -426,6 +426,37 @@ nav {
       color: #C13A53;
       border-top: 3px solid #C13A53; }
 
+.light-grey {
+  background: #f7f7f6; }
+
+.blue {
+  background: #333447;
+  color: #D1B894; }
+
+.red {
+  background: #C13A53;
+  color: #D1B894; }
+
+.olive {
+  background: #D1B894;
+  color: #333447; }
+
+.dark-red {
+  background: #761E2F;
+  color: #D1B894; }
+
+.color-blue {
+  color: #333447; }
+
+.color-olive {
+  color: #D1B894; }
+
+.color-white {
+  color: #ffffff; }
+
+.color-gold-light {
+  color: #E8D9C5; }
+
 .img-settings, .initiative-single {
   background-repeat: no-repeat;
   background-size: cover;
@@ -458,6 +489,12 @@ nav {
     @media screen and (min-width: 1440px) {
       .section-photo:after {
         padding-bottom: 40%; } }
+  .section-photo h1 {
+    top: 15px;
+    opacity: 0.3;
+    position: relative; }
+  .section-photo h3 {
+    opacity: 0; }
   @media screen and (max-width: 767px) {
     .section-photo {
       min-height: 293px;
@@ -499,37 +536,6 @@ section.news {
     section.news {
       padding: 70px 90px; } }
 
-.light-grey {
-  background: #f7f7f6; }
-
-.blue {
-  background: #333447;
-  color: #D1B894; }
-
-.red {
-  background: #C13A53;
-  color: #D1B894; }
-
-.olive {
-  background: #D1B894;
-  color: #333447; }
-
-.dark-red {
-  background: #761E2F;
-  color: #D1B894; }
-
-.color-blue {
-  color: #333447; }
-
-.color-olive {
-  color: #D1B894; }
-
-.color-white {
-  color: #ffffff; }
-
-.color-gold-light {
-  color: #E8D9C5; }
-
 .fadeInBlock {
   opacity: 0; }
 
@@ -548,6 +554,9 @@ section.news {
   @media screen and (min-width: 768px) {
     .letter-hero {
       background-size: 115%; } }
+  @media screen and (max-width: 767px) {
+    .letter-hero {
+      background-position-x: 63%; } }
   .letter-hero h1 {
     padding: 0 10%; }
 
@@ -1065,21 +1074,21 @@ footer {
 .focus-images .col-1-2 {
   padding-right: 10px; }
 
+.focus-images .mobile-col-2-3 .fadeInBlock, .focus-images .mobile-col-1-3 .fadeInBlock {
+  top: 60px; }
+
 .focus-images .mobile-col-2-3 .fadeInBlock:nth-of-type(1) {
-  top: 60px;
   width: 80%;
   float: right;
   min-height: 350px;
   margin-bottom: 10px; }
 
 .focus-images .mobile-col-2-3 .fadeInBlock:nth-of-type(2) {
-  top: 60px;
   width: 100%;
   clear: both;
   min-height: 320px; }
 
 .focus-images .mobile-col-1-3 .fadeInBlock:nth-of-type(3) {
-  top: 60px;
   width: 78%;
   margin-left: -22%;
   min-height: 300px;
@@ -1089,7 +1098,6 @@ footer {
       width: 100%; } }
 
 .focus-images .mobile-col-1-3 .fadeInBlock:nth-of-type(2) {
-  top: 60px;
   width: 100%;
   min-height: 526px;
   margin-bottom: 10px; }

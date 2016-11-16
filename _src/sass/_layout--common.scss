@@ -10,6 +10,8 @@ div.clearfix {
 	text-align: right !important;
 }
 
+//Header and Navigation
+
 header {
 	height: 85px;
 	width:100%;
@@ -37,6 +39,42 @@ nav {
 		}
 	}
 }
+
+//end of nav
+
+.light-grey {
+	background: $light-grey;
+}
+.blue {
+	background: $blue;
+	color: $olive;
+}
+.red {
+	background: $red;
+	color: $olive;
+}
+.olive {
+	background: $olive;
+	color: $blue;
+}
+.dark-red {
+	background: $dark-red;
+	color: $olive;
+}
+
+.color-blue {
+	color: $blue;
+}
+.color-olive {
+	color: $olive;
+}
+.color-white {
+	color: $white;
+}
+.color-gold-light {
+	color: $gold-light;
+}
+
 .img-settings {
 	background-repeat: no-repeat; 
 	background-size: cover;
@@ -53,14 +91,11 @@ nav {
 	    	margin-left: -13px;
 	    	margin-top: 5px;
 		}
-	}
-	
+	}	
 }
-
 .content {
 	padding: 30px;
 }
-
 .section-photo {
 	min-height: 500px;
 	height: auto;
@@ -76,6 +111,14 @@ nav {
   			padding-bottom: 40%;
   		}
     }
+    h1 {
+		top: 15px;
+		opacity: 0.3;
+		position: relative;
+	}
+	h3 {
+		opacity: 0;
+	}
     @media screen and #{$brk-narrow} {
     	min-height: 293px;
     	max-height: 293px;
@@ -129,38 +172,7 @@ section.news {
 	}
 }
 
-.light-grey {
-	background: $light-grey;
-}
-.blue {
-	background: $blue;
-	color: $olive;
-}
-.red {
-	background: $red;
-	color: $olive;
-}
-.olive {
-	background: $olive;
-	color: $blue;
-}
-.dark-red {
-	background: $dark-red;
-	color: $olive;
-}
 
-.color-blue {
-	color: $blue;
-}
-.color-olive {
-	color: $olive;
-}
-.color-white {
-	color: $white;
-}
-.color-gold-light {
-	color: $gold-light;
-}
 // Animation
 
 .fadeInBlock {
@@ -186,6 +198,9 @@ section.news {
     background-color: rgba(51, 52, 71, 0.6);
     @media screen and #{$brk-tablet-min} {
     	background-size: 115%;
+    }
+    @media screen and #{$brk-narrow} {
+    	background-position-x: 63%;
     }
     h1 {
     	padding: 0 10%;
