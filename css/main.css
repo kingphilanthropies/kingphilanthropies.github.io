@@ -411,20 +411,126 @@ header {
   z-index: 9999; }
 
 nav {
-  float: right; }
+  float: right;
+  margin-top: 21px; }
   nav h3 {
     text-decoration: none;
     font-size: 13px;
     display: inline-block;
-    margin: 34px 25px 25px 25px;
     color: #828282; }
     nav h3:hover {
       color: #333447; }
     nav h3.active {
-      margin: 0px 25px 25px 25px;
       padding-top: 31px;
+      margin-top: -21px;
       color: #C13A53;
       border-top: 3px solid #C13A53; }
+
+.page-link {
+  margin: 0 25px; }
+
+.page-link, h3 {
+  width: auto;
+  position: relative; }
+
+.page-link:focus .nav-dash::before {
+  position: absolute;
+  -webkit-transform: scale(1, 3);
+  -ms-transform: scale(1, 3);
+  transform: scale(1, 3);
+  -webkit-transform-origin: left center;
+  -ms-transform-origin: left center;
+  transform-origin: left center; }
+
+.nav-dash {
+  position: relative; }
+
+.nav-dash::before {
+  position: absolute;
+  bottom: 51px;
+  width: 100%;
+  height: 1px;
+  background: #c13a53;
+  -webkit-transform: scale(0, 3);
+  -ms-transform: scale(0, 3);
+  transform: scale(0, 3);
+  -webkit-transition: -webkit-transform .3s ease;
+  transition: -webkit-transform .3s ease;
+  transition: transform .3s ease;
+  transition: transform .3s ease, -webkit-transform .3s ease;
+  -webkit-transform-origin: right center;
+  -ms-transform-origin: right center;
+  transform-origin: right center;
+  content: ""; }
+
+@media handheld, only screen and (max-width: 767px) {
+  .sticky-footer {
+    margin-top: 65px !important; }
+  header {
+    height: 65px !important; }
+  .page-link:focus .nav-dash::before {
+    display: none; }
+  .site-nav {
+    position: fixed;
+    z-index: 10;
+    top: 0px;
+    right: 0px;
+    margin-top: 0;
+    background-color: transparent; }
+  .site-nav .menu-icon {
+    display: block;
+    font-size: 24px;
+    color: #D1B894;
+    float: right;
+    width: 72px;
+    padding: 14.5px;
+    text-align: center;
+    line-height: 36px; }
+  .menu-icon.icon-active {
+    background-color: #333447;
+    padding: 14.5px; }
+    .menu-icon.icon-active svg {
+      fill: #D1B894; }
+  .site-nav .menu-icon svg {
+    width: 18px;
+    height: 16px; }
+  .site-nav .trigger {
+    clear: both;
+    padding-bottom: 20px;
+    padding-top: 20px;
+    display: none; }
+  .hoverTouch {
+    display: block !important; }
+  .site-nav .page-link {
+    display: block;
+    text-align: left;
+    line-height: 1.25;
+    padding: 5px 65px 5px 10px;
+    margin: 0; }
+    .site-nav .page-link h3 {
+      color: #D1B894;
+      margin: 10px; }
+      .site-nav .page-link h3.active {
+        border: none;
+        padding-top: 5px; }
+  .post-header h1 {
+    font-size: 36px; }
+  .post-content h2 {
+    font-size: 28px; }
+  .post-content h3 {
+    font-size: 22px; }
+  .post-content h4 {
+    font-size: 18px; }
+  .post-content blockquote {
+    padding-left: 10px; }
+  .post-content ul,
+  .post-content ol {
+    padding-left: 10px; }
+  .site-footer .column {
+    float: none;
+    clear: both;
+    width: auto;
+    margin: 0 0 15px; } }
 
 .light-grey {
   background: #f7f7f6; }
@@ -738,72 +844,6 @@ footer {
   -webkit-flex: 1;
   -ms-flex: 1;
   flex: 1; }
-
-@media handheld, only screen and (max-width: 767px) {
-  .sticky-footer {
-    margin-top: 65px; }
-  header {
-    height: 65px !important; }
-  .site-nav {
-    position: fixed;
-    z-index: 10;
-    top: 0px;
-    right: 0px;
-    background-color: transparent; }
-  .site-nav .menu-icon {
-    display: block;
-    font-size: 24px;
-    color: #D1B894;
-    float: right;
-    width: 72px;
-    padding: 14.5px;
-    text-align: center;
-    line-height: 36px; }
-  .menu-icon.icon-active {
-    background-color: #333447;
-    padding: 14.5px; }
-    .menu-icon.icon-active svg {
-      fill: #D1B894; }
-  .site-nav .menu-icon svg {
-    width: 18px;
-    height: 16px; }
-  .site-nav .trigger {
-    clear: both;
-    padding-bottom: 20px;
-    padding-top: 20px;
-    display: none; }
-  .hoverTouch {
-    display: block !important; }
-  .site-nav .page-link {
-    display: block;
-    text-align: left;
-    line-height: 1.25;
-    padding: 5px 65px 5px 10px;
-    margin: 0; }
-    .site-nav .page-link h3 {
-      color: #D1B894;
-      margin: 10px; }
-      .site-nav .page-link h3.active {
-        border: none;
-        padding-top: 5px; }
-  .post-header h1 {
-    font-size: 36px; }
-  .post-content h2 {
-    font-size: 28px; }
-  .post-content h3 {
-    font-size: 22px; }
-  .post-content h4 {
-    font-size: 18px; }
-  .post-content blockquote {
-    padding-left: 10px; }
-  .post-content ul,
-  .post-content ol {
-    padding-left: 10px; }
-  .site-footer .column {
-    float: none;
-    clear: both;
-    width: auto;
-    margin: 0 0 15px; } }
 
 .letter-tabs {
   display: block;
