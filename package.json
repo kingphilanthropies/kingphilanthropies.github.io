@@ -1,5 +1,5 @@
 {
-  "name": "joinuplift.org",
+  "name": "kingphilanthropies.com",
   "version": "0.1.0",
   "repository": {
     "type": "git",
@@ -17,6 +17,7 @@
     "grunt-contrib-sass": "1.0.0",
     "grunt-contrib-uglify": "~0.4.0",
     "grunt-contrib-watch": "~0.6.1",
+    "grunt-autoprefixer": "~0.8.2",
     "grunt-glob": "^0.1.0",
     "grunt-jekyll": "^0.4.4",
     "grunt-jsbeautifier": "~0.2.7",

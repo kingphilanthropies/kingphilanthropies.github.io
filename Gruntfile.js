@@ -15,17 +15,37 @@ function loadConfig(path) {
 
 var config = {
   pkg: grunt.file.readJSON('package.json'),
-  env: process.env
+  env: process.env,
+  sass: {
+    dist: {
+      options:{
+        style:'compressed'
+      },
+      files: {
+        'css/main.css':'css/main.css'
+      }
+    }
+  },
+  autoprefixer:{
+    dist:{
+      files:{
+        'css/main.css':'css/main.css'
+      }
+    }
+  }
 };
 
 grunt.util._.extend(config, loadConfig('./_grunt/'));
+grunt.initConfig(config); 
 
-grunt.initConfig(config);
 
 // load plugins
 require('load-grunt-tasks')(grunt);
+grunt.loadNpmTasks('grunt-contrib-sass');
+grunt.loadNpmTasks('grunt-contrib-watch');
+grunt.loadNpmTasks('grunt-autoprefixer');
 
 // Custom tasks
-grunt.registerTask('build', ['sass', 'jekyll']);
+grunt.registerTask('build', ['sass', 'autoprefixer', 'jekyll']);
 grunt.registerTask('default', ['build', 'browserSync', 'watch']);
 };
