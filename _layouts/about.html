@@ -1,7 +1,7 @@
 ---
 layout: default
 ---
-<div class="img-settings" style="background-image: url('{{site.data.contentful.spaces.proddata.pages[0].heroAbout.url}}')">
+<div class="img-settings heroImage" style="background-image: url('{{site.data.contentful.spaces.proddata.pages[0].heroAbout.url}}')">
 	<div class="section-photo center-vertical">
 		<div class="grid">
 			<div class="col-8-12 center">
@@ -61,7 +61,7 @@ layout: default
 		{% assign sorted_boardMember = site.data.contentful.spaces.proddata.boardMember | sort:"memberOrder" %}
 
 		{% for boardMember in sorted_boardMember %}
-		
+
 		{% capture modulo-four %}{{ forloop.index | modulo: 4 }}{% endcapture %}
 			<!-- TODO: add more conditions  -->
 			{% if modulo-four == '1' %}

@@ -3,12 +3,13 @@ $(document).ready(function(){
     var heroTitle = $('.section-photo h1');
     var heroSubtitle = $('.section-photo h3');
     var heroDash = $('.section-photo span');
-    var hero = $('.initiatives-sub .img-settings');
+    var heroImages = $('.heroImage');
 
-    heroTitle.add(heroSubtitle).add(heroDash).add(hero).each(function() {
+
+    heroTitle.add(heroSubtitle).add(heroDash).add(heroImages).each(function() {
         $(this).animate({
             'opacity':'1',
-            'easing': 'easeOutQuart'
+            'easing': 'easeOutCirc'
         }, 1000);       
     });
 

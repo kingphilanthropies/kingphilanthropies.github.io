@@ -19,7 +19,6 @@ header {
     position: fixed;
     z-index: 9999;
 }
-
 nav {
     float: right;
     margin-top: 21px;
@@ -184,6 +183,9 @@ nav {
 }
 .content {
     padding: 30px;
+}
+.heroImage {
+    opacity: 0;
 }
 .section-photo {
     min-height: 500px;

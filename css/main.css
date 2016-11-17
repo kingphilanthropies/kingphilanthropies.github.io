@@ -552,6 +552,9 @@ nav {
 .content {
   padding: 30px; }
 
+.heroImage {
+  opacity: 0; }
+
 .section-photo {
   min-height: 500px;
   height: auto;
