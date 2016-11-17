@@ -2,18 +2,15 @@ $(document).ready(function(){
 
     var heroTitle = $('.section-photo h1');
     var heroSubtitle = $('.section-photo h3');
+    var heroDash = $('.section-photo span');
 
-    heroTitle.each(function() {
+
+    heroTitle.add(heroSubtitle).add(heroDash).each(function() {
         $(this).animate({
-            'top': '0',
             'opacity':'1'
-        }, 1000);       
+        }, 1500);       
     });
-    heroSubtitle.each(function() {
-        $(this).delay(900).animate({
-            'opacity':'1',
-        }, 800); 
-    })
+
 
 	// Add fadein effect on scroll 
 	 $(window).scroll( function(){
