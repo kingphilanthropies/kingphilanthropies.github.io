@@ -10,13 +10,14 @@
   margin: 0 auto; }
 
 .center-vertical {
+  display: -webkit-box;
+  display: -moz-box;
   display: -ms-flexbox;
+  display: -webkit-flex;
   display: flex;
-  -ms-flex-align: center;
-      align-items: center;
+  align-items: center;
   -webkit-align-items: center;
-  -ms-flex-pack: center;
-      justify-content: center;
+  justify-content: center;
   -webkit-justify-content: center; }
 
 .center-text {
@@ -38,12 +39,15 @@
   float: none !important;
   list-style: none;
   -ms-box-orient: horizontal;
+  display: -webkit-box;
+  display: -moz-box;
   display: -ms-flexbox;
   display: -moz-flex;
+  display: -webkit-flex;
   display: flex;
   float: left;
-  -ms-flex-align: stretch;
-      align-items: stretch; }
+  -webkit-align-items: stretch;
+  align-items: stretch; }
   @media screen and (max-width: 767px) {
     .flex-container {
       display: block; } }
@@ -56,6 +60,7 @@
   Site - dallasbass.com
 */
 *, *:after, *:before {
+  -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
   box-sizing: border-box; }
 
@@ -413,8 +418,7 @@ div.clearfix {
 
 header {
   height: 85px;
-  -ms-flex-negative: 0;
-      flex-shrink: 0;
+  flex-shrink: 0;
   width: 100%;
   background: #ffffff;
   position: fixed;
@@ -431,11 +435,28 @@ nav {
     nav h3:hover {
       color: #333447; }
     nav h3.active {
-      padding-top: 31px;
-      margin-top: -21px;
+      margin-top: 0;
       color: #C13A53;
-      border-top: 3px solid #C13A53; }
+      position: relative; }
+      @media screen and (min-width: 768px) {
+        nav h3.active:before {
+          top: -31px;
+          height: 3px;
+          display: block;
+          content: '';
+          position: relative;
+          width: 100%;
+          background-color: #C13A53;
+          animation: line-grow 0.8s;
+          animation-timing-function: linear; } }
 
+@keyframes line-grow {
+  0% {
+    width: 0%; }
+  50% {
+    width: 30%; }
+  100% {
+    width: 100%; } }
 .page-link {
   margin: 0 25px; }
 
@@ -708,11 +729,9 @@ section.news {
     margin-top: 1em; }
 
   .contact .social-icons .fb {
-    -webkit-transform: translate(-117%, -62%) !important;
-            transform: translate(-117%, -62%) !important; }
+    transform: translate(-117%, -62%) !important; }
   .contact .social-icons .twitter {
-    -webkit-transform: translate(16%, -56%) !important;
-            transform: translate(16%, -56%) !important; } }
+    transform: translate(16%, -56%) !important; } }
 .contact .block-overlap {
   margin: -4em auto 60px auto !important; }
   @media screen and (max-width: 767px) {
@@ -723,14 +742,12 @@ section.news {
   display: inline-block; }
   .about .social-icons .twitter, .contact .social-icons .twitter {
     position: absolute;
-    -webkit-transform: translate(-1%, -54%);
-            transform: translate(-1%, -54%); }
+    transform: translate(-1%, -54%); }
     .about .social-icons .twitter:hover svg, .contact .social-icons .twitter:hover svg {
       fill: #1da1f4; }
   .about .social-icons .fb, .contact .social-icons .fb {
     position: absolute;
-    -webkit-transform: translate(-89%, -2%);
-            transform: translate(-89%, -2%); }
+    transform: translate(-89%, -2%); }
     .about .social-icons .fb:hover svg, .contact .social-icons .fb:hover svg {
       fill: #3b5998; }
   .about .social-icons svg, .contact .social-icons svg {
@@ -804,14 +821,12 @@ footer {
         width: 10%; } }
     footer .social-icons .twitter {
       position: absolute;
-      -webkit-transform: translate(-61%, -53%);
-              transform: translate(-61%, -53%); }
+      transform: translate(-61%, -53%); }
       footer .social-icons .twitter:hover svg {
         fill: #1da1f4; }
     footer .social-icons .fb {
       position: absolute;
-      -webkit-transform: translate(-197%, -61%);
-              transform: translate(-197%, -61%); }
+      transform: translate(-197%, -61%); }
       footer .social-icons .fb:hover svg {
         fill: #3b5998; }
     footer .social-icons svg {
@@ -826,18 +841,14 @@ footer {
       display: inline-block; }
 
 .sticky-footer-body {
-  display: -ms-flexbox;
   display: flex;
   height: 100vh;
-  -ms-flex-direction: column;
-      flex-direction: column; }
+  flex-direction: column; }
 
 .sticky-footer {
   margin-top: 85px;
-  -ms-flex: 1;
-      flex: 1;
-  -ms-flex-negative: 0;
-      flex-shrink: 0; }
+  flex: 1;
+  flex-shrink: 0; }
 
 .page-content {
   flex: 1 0 auto;
@@ -881,8 +892,7 @@ footer {
   opacity: 0;
   padding: 0 3em;
   top: 40%;
-  -webkit-transform: translateY(-40%);
-          transform: translateY(-40%);
+  transform: translateY(-40%);
   transition: all 0.4s ease-out;
   width: 100%;
   position: absolute; }
@@ -914,6 +924,8 @@ footer {
   .home-initiatives .item-4 .img-settings, .home-initiatives .item-4 .initiative-single {
     background-position: 10% !important; }
   .home-initiatives .col-1-3 {
+    width: -moz-calc(33.33% - 5px);
+    width: -webkit-calc(33.33% - 5px);
     width: calc(33.33% - 5px);
     margin-right: 5px;
     padding: 0;
@@ -953,8 +965,7 @@ footer {
       z-index: 999999; }
     .home-initiatives .col-1-3:hover .img-settings, .home-initiatives .col-1-3:hover .initiative-single {
       position: relative;
-      -webkit-transform: scale(1.1);
-              transform: scale(1.1);
+      transform: scale(1.1);
       transition: all 0.4s ease-out;
       overflow: hidden; }
     .home-initiatives .col-1-3:hover div[class*='overlay-']:after {
@@ -1116,8 +1127,7 @@ footer {
       margin-bottom: 0; } }
   .flex-container:hover .initiative-single {
     position: relative;
-    -webkit-transform: scale(1.05);
-            transform: scale(1.05);
+    transform: scale(1.05);
     transition: all 0.4s ease-out;
     overflow: hidden; }
   .flex-container:last-of-type {
@@ -1136,3 +1146,5 @@ footer {
   .flex-container .grid .initiative-blurb {
     margin: 10% 0 30% 0;
     line-height: 1.5; }
+
+/*# sourceMappingURL=main.css.map */
