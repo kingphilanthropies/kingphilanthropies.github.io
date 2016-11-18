@@ -22,16 +22,10 @@ $assets-path			: '/assets/img/';
 
 // Mixins
 @mixin transition($length) {
-	-webkit-transition: all $length ease-out; 
-	-moz-transition: all $length ease-out;
-	-ms-transition: all $length ease-out;
-	-o-transition: all $length ease-out;
 	transition: all $length ease-out;
 }
 
 @mixin translateY($percent) {
-	-ms-transform: translateY($percent);
-    -webkit-transform: translateY($percent);
     transform: translateY($percent); 
 }
 
