@@ -1,4 +1,31 @@
 ---
+founder:
+- sys:
+    id: 1vSHrScMk0Ks288qGw8Q00
+  name: Dorothy J. King
+  url: dottie-king
+  order: 1
+  picture:
+    title: dottie
+    url: //images.contentful.com/0cp1epmalnde/3xdzwoALMkwKK2wGomIKqG/a3f91ce13e407380f460fd54b7abdf60/dottie.jpg
+  bio: |-
+    Dorothy “Dottie” King grew up in Madison, Wisconsin as the daughter of a coach. She attended the University of Wisconsin, majoring in Child Development. Dottie raised three children and partnered with her husband, Robert “Bob” King, to launch R. Eliot King & Associates, an investment management company. She was an active volunteer in the P.T.A., the Girl Scouts of America, the Packard Children’s Hospital at Stanford, and the Bechtel International House. She led church services in the San Mateo County Jail for fifteen years and was an Elder at Menlo Park Presbyterian Church.
+
+    Over the past 54 years, Dottie and Bob have hosted international students studying at Stanford University. Consequently they have developed a vast network of friends in many countries including China, Singapore, Japan, France, Sweden and Estonia. Bob and Dottie spend time in Menlo Park, California and Kennebunkport, Maine. They enjoy spending time with their three children and eight grandchildren.
+- sys:
+    id: 34H4PrGtrOq6awqKaqcaMK
+  name: Robert E. King
+  url: bob-king
+  order: 0
+  picture:
+    title: bob
+    url: //images.contentful.com/0cp1epmalnde/7c8tzgZWEgUyYwQqCIyiue/5efba7c4c27cdc620e9a07b8d246b653/bob.jpg
+  bio: |-
+    Robert “Bob” King graduated from Stanford Graduate School of Business in 1960, after receiving his B.A. in Economics from Dartmouth College in 1957.
+
+    After twelve years with Shearson Hammill in New York and San Francisco, Bob, along with his wife, Dorothy “Dottie” King, established their own investment management company, R. Eliot King & Associates. There, Bob developed a highly successful investment approach, identifying long-term investment opportunities by focusing on fundamental change forces at work in the world—political, social, economic and technological. Bob remains an active venture investor in U.S. and international companies through his firm, Peninsula Capital.
+
+    In addition to his active role at King Philanthropies as a Board member, Bob is a past Elder at Menlo Park Presbyterian Church. For many years, he also served on the Board of Village Enterprise Fund, a micro finance organization, working in Kenya and Uganda. Bob is a former alumni investment manager for the Stanford Business School Trust and former Trustee of the Kennebunkport Conservation Trust. Bob and Dottie spend time in Menlo Park, California and Kennebunkport, Maine. They enjoy spending time with their three children and eight grandchildren.
 staffMember:
 - sys:
     id: 2PgSSfabpeaIEKw28a6Smy
@@ -116,33 +143,6 @@ staffMember:
     and Board member of King Philanthropies. He is former Chair of the United Way
     of the Bay Area and Chairman-Emeritus of Guidestar. Meehan retired from McKinsey
     Company in December 2008 after a career of over 30 years.
-founder:
-- sys:
-    id: 34H4PrGtrOq6awqKaqcaMK
-  name: Bob King
-  url: bob-king
-  order: 0
-  picture:
-    title: bob
-    url: //images.contentful.com/0cp1epmalnde/7c8tzgZWEgUyYwQqCIyiue/5efba7c4c27cdc620e9a07b8d246b653/bob.jpg
-  bio: |-
-    Robert “Bob” King graduated from Stanford Graduate School of Business in 1960, after receiving his B.A. in Economics from Dartmouth College in 1957.
-
-    After twelve years with Shearson Hammill in New York and San Francisco, Bob, along with his wife, Dorothy “Dottie” King, established their own investment management company, R. Eliot King & Associates. There, Bob developed a highly successful investment approach, identifying long-term investment opportunities by focusing on fundamental change forces at work in the world—political, social, economic and technological. Bob remains an active venture investor in U.S. and international companies through his firm, Peninsula Capital.
-
-    In addition to his active role at King Philanthropies as a Board member, Bob is a past Elder at Menlo Park Presbyterian Church. For many years, he also served on the Board of Village Enterprise Fund, a micro finance organization, working in Kenya and Uganda. Bob is a former alumni investment manager for the Stanford Business School Trust and former Trustee of the Kennebunkport Conservation Trust. Bob and Dottie spend time in Menlo Park, California and Kennebunkport, Maine. They enjoy spending time with their three children and eight grandchildren.
-- sys:
-    id: 1vSHrScMk0Ks288qGw8Q00
-  name: Dottie King
-  url: dottie-king
-  order: 1
-  picture:
-    title: dottie
-    url: //images.contentful.com/0cp1epmalnde/3xdzwoALMkwKK2wGomIKqG/a3f91ce13e407380f460fd54b7abdf60/dottie.jpg
-  bio: |-
-    Dorothy “Dottie” King grew up in Madison, Wisconsin as the daughter of a coach. She attended the University of Wisconsin, majoring in Child Development. Dottie raised three children and partnered with her husband, Robert “Bob” King, to launch R. Eliot King & Associates, an investment management company. She was an active volunteer in the P.T.A., the Girl Scouts of America, the Packard Children’s Hospital at Stanford, and the Bechtel International House. She led church services in the San Mateo County Jail for fifteen years and was an Elder at Menlo Park Presbyterian Church.
-
-    Over the past 54 years, Dottie and Bob have hosted international students studying at Stanford University. Consequently they have developed a vast network of friends in many countries including China, Singapore, Japan, France, Sweden and Estonia. Bob and Dottie spend time in Menlo Park, California and Kennebunkport, Maine. They enjoy spending time with their three children and eight grandchildren.
 newsPost:
 - sys:
     id: 3MsfKxCTNmqyI0oO6es6ea
