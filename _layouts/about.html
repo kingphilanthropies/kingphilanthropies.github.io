@@ -25,12 +25,21 @@ layout: default
 <div class="img-settings about-image" style="background-image: url('{{ site.data.contentful.spaces.proddata.pages[0].aboutImage.url}}'); min-height: 616px;" title="{{ site.data.contentful.spaces.proddata.pages[0].aboutImage.title}}" />
 </div>
 
-<section class="grid light-grey block-overlap center">
-	<h3>About the Founders</h3>
+<section>
+	<h3>Founders</h3>
 	<span class="center-text">&mdash;</span>
-	<div class="col-1-2 center tablet-col-1-60">
-		<p>{{ site.data.contentful.spaces.proddata.pages[0].aboutTheFoundersText  | markdownify }}</p>
+	<div class="grid content">
+		<div class="col-1-2 center">
+		{% assign sorted_founders = site.data.contentful.spaces.proddata.founder | sort:"order" %}
+			{% for founder in sorted_founders %}
+			<div class="col-1-2" style="padding-right: 20px;">
+		        <a href="/founders/{{ founder.url }}"><div class="img-settings" style="background-image: url('{{ founder.picture.url }}'); height: 260px; " title="{{ founder.picture.title }}"/></div></a> 
+		        <a href="/founders/{{ founder.url }}"><h4 class="center-text">{{ founder.name }}</h4></a>
+		    </div>
+    	{% endfor %}
+    	</div>
 	</div>
+
 </section>
 
 <section>
@@ -42,15 +51,12 @@ layout: default
 			{% for staff in sorted_staff %}
 			
 			<div class="col-1-4 tablet-col-1-3 mobile-col-1-1 custom-col-1-2" style="height: 375px;">
-		        <a href="/staff-member/{{ staff.url }}"><div class="img-settings" style="background-image: url('{{ staff.picture.url }}'); height: 260px; " title="{{ boardMember.picture.title }}"/></div></a> 
+		        <a href="/staff-member/{{ staff.url }}"><div class="img-settings" style="background-image: url('{{ staff.picture.url }}'); height: 260px; " title="{{ staff.picture.title }}"/></div></a> 
 		        <a href="/staff-member/{{ staff.url }}"><h4 class="center-text">{{ staff.name }}</h4></a>
 		        <h4 class="center-text font-normal">{{staff.jobTitle}}</h4>
 		    </div>
-    	
     	{% endfor %}
-    	
 	</div>
-
 </section>
 
 <section class="blue">
