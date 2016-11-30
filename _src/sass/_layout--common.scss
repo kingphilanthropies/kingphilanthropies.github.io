@@ -42,20 +42,22 @@ nav {
                     display: block;
                     content: '';
                     position: relative;
-                    width: 100%;
+                    width: 0%;
                     background-color: $red;
-                    animation: line-grow 0.8s;
-                    animation-timing-function: linear;
+                    animation-name: grow-x;
+                    animation-duration: 0.3s;
+                    animation-fill-mode: forwards;
+                    animation-timing-function: ease;
+                    animation-delay: 0.5s
                 }
-            }
-           
+            }   
         }
     }
 }
-@keyframes line-grow {
-  0%   { width: 0%; }
-  50%  { width: 30%; }
-  100% { width: 100%; }
+@keyframes grow-x {
+    to {
+        width: 100%
+    }
 }
 .page-link {
     margin: 0 25px;
@@ -75,18 +77,16 @@ nav {
     header {
         height: 65px !important;
     }
-    .page-link:focus .nav-dash::before {
-        display: none;
-    } 
-      .site-nav {
+    
+    .site-nav {
         position: fixed;
         z-index: 10;
         top: 0px; 
         right: 0px;
         margin-top: 0;
         background-color: transparent;
-      }
-      .site-nav .menu-icon {
+    }
+    .site-nav .menu-icon {
         display: block;
         font-size: 24px;
         color: $olive;
@@ -95,28 +95,28 @@ nav {
         padding: 14.5px;
         text-align: center;
         line-height: 36px;
-      }
-      .menu-icon.icon-active {
-            background-color: $blue;
-            padding: 14.5px;
-            svg {
-                fill: $olive;
-            }
-      }
-      .site-nav .menu-icon svg { 
+    }
+    .menu-icon.icon-active {
+        background-color: $blue;
+        padding: 14.5px;
+        svg {
+            fill: $olive;
+        }
+    }
+    .site-nav .menu-icon svg { 
         width: 18px; 
         height: 16px;
-      }
-      .site-nav .trigger {
+    }
+    .site-nav .trigger {
         clear: both;
         padding-bottom: 20px;
         padding-top: 20px;  
         display: none;
-      }
-      .hoverTouch {
+    }
+    .hoverTouch {
         display: block !important;
-      }
-      .site-nav .page-link {
+    }
+    .site-nav .page-link {
         display: block;
         text-align: left;
         line-height: 1.25;
@@ -130,16 +130,16 @@ nav {
                 padding-top: 5px;
             }
         }
-      }
-      .post-header h1 { font-size: 36px; }
-      .post-content h2 { font-size: 28px; }
-      .post-content h3 { font-size: 22px; }
-      .post-content h4 { font-size: 18px; }
-      .post-content blockquote { padding-left: 10px; }
-      .post-content ul,
-      .post-content ol { padding-left: 10px; }
+    }
+    .post-header h1 { font-size: 36px; }
+    .post-content h2 { font-size: 28px; }
+    .post-content h3 { font-size: 22px; }
+    .post-content h4 { font-size: 18px; }
+    .post-content blockquote { padding-left: 10px; }
+    .post-content ul,
+    .post-content ol { padding-left: 10px; }
 
-      .site-footer .column {
+    .site-footer .column {
         float: none;
         clear: both;
         width: auto;
@@ -280,7 +280,7 @@ section.news {
     }
 }
 
-// Animation
+// Animation for Initiatives subpages
 
 .fadeInBlock {
     opacity: 0;
