@@ -353,6 +353,35 @@ section.news {
     }
 } 
 
+// Founders block 
+
+.about .block-overlap .content {
+    @media handheld, only screen and #{$brk-narrow} { 
+        padding: 30px 0;
+    }
+
+}
+.founders-all {
+    width: 540px;
+    margin: 0 auto !important;
+    float: none !important;
+    @media handheld, only screen and #{$brk-narrow} { 
+
+        width: 250px;
+    }
+    .founders-single {
+        display: inline-block;
+        &:first-of-type {
+            padding-right: 16px;
+            @media handheld, only screen and #{$brk-narrow} { 
+                padding: 0;
+            }
+        }
+    }
+}
+
+// end of founders block
+
 // Staff-member page 
     
 @media screen and #{$brk-narrow} { 
