@@ -714,19 +714,21 @@ section.news {
     padding: 30px 0; } }
 
 .founders-all {
-  width: 540px;
+  width: 537px;
   margin: 0 auto !important;
   float: none !important; }
   @media handheld, only screen and (max-width: 767px) {
     .founders-all {
       width: 250px; } }
   .founders-all .founders-single {
-    display: inline-block; }
-    .founders-all .founders-single:first-of-type {
-      padding-right: 16px; }
-      @media handheld, only screen and (max-width: 767px) {
-        .founders-all .founders-single:first-of-type {
-          padding: 0; } }
+    display: inline-block;
+    padding: 0 8px; }
+    @media handheld, only screen and (max-width: 767px) {
+      .founders-all .founders-single {
+        padding: 0; } }
+
+.staff-all [class*='col-'] {
+  padding: 0 10px; }
 
 @media screen and (max-width: 767px) {
   .staff-member .content {

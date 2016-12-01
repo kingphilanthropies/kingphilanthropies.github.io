@@ -362,20 +362,17 @@ section.news {
 
 }
 .founders-all {
-    width: 540px;
+    width: 537px;
     margin: 0 auto !important;
     float: none !important;
     @media handheld, only screen and #{$brk-narrow} { 
-
         width: 250px;
     }
     .founders-single {
         display: inline-block;
-        &:first-of-type {
-            padding-right: 16px;
-            @media handheld, only screen and #{$brk-narrow} { 
-                padding: 0;
-            }
+        padding: 0 8px;
+        @media handheld, only screen and #{$brk-narrow} { 
+            padding: 0;
         }
     }
 }
@@ -383,7 +380,11 @@ section.news {
 // end of founders block
 
 // Staff-member page 
-    
+.staff-all {
+    [class*='col-'] { 
+        padding: 0 10px;
+    }
+}
 @media screen and #{$brk-narrow} { 
     .staff-member {
         .content {

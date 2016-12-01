@@ -45,7 +45,7 @@ layout: default
 <section>
 	<h3>Staff</h3>
 	<span class="center-text">&mdash;</span>
-	<div class="grid content">
+	<div class="grid content staff-all">
 		{% assign sorted_staff = site.data.contentful.spaces.proddata.staffMember | sort:"order" %}
 			
 			{% for staff in sorted_staff %}
