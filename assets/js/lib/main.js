@@ -41,4 +41,10 @@ $(document).ready(function(){
         $('.menu-icon').toggleClass("icon-active");
     });
 
+   // searching for orphan
+   $('p, h3').each(function(){
+        var string = $(this).html();
+        string = string.replace(/ ([^ ]*)$/,'&nbsp;$1');
+        $(this).html(string);
+    });
 });
