@@ -32,7 +32,7 @@ defaults:
 
 contentful:
   preview: No 
-  production_access_token: ENV_PREVIEW_TOKEN
+  production_access_token: ENV_CONTENTFUL_ACCESS_TOKEN
   preview_access_token: ENV_PREVIEW_TOKEN
   space: ENV_CONTENTFUL_SPACE_ID
   content_types:
