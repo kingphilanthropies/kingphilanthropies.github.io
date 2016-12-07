@@ -33,7 +33,7 @@ defaults:
 contentful:
   preview: No 
   production_access_token: CONTENTFUL_ACCESS_TOKEN
-  preview_access_token: '828bebed05c971aedb46dbe9b64983eb0e05388ff3310f6284f75e570aca0ae2'
+  preview_access_token: 'PREVIEW_TOKEN'
   space: CONTENTFUL_SPACE_ID
   content_types:
    - "initiatives"
