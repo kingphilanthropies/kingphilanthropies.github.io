@@ -10,14 +10,13 @@
   margin: 0 auto; }
 
 .center-vertical {
-  display: -webkit-box;
-  display: -moz-box;
   display: -ms-flexbox;
-  display: -webkit-flex;
   display: flex;
-  align-items: center;
+  -ms-flex-align: center;
+      align-items: center;
   -webkit-align-items: center;
-  justify-content: center;
+  -ms-flex-pack: center;
+      justify-content: center;
   -webkit-justify-content: center; }
 
 .center-text {
@@ -39,15 +38,12 @@
   float: none !important;
   list-style: none;
   -ms-box-orient: horizontal;
-  display: -webkit-box;
-  display: -moz-box;
   display: -ms-flexbox;
   display: -moz-flex;
-  display: -webkit-flex;
   display: flex;
   float: left;
-  -webkit-align-items: stretch;
-  align-items: stretch; }
+  -ms-flex-align: stretch;
+      align-items: stretch; }
   @media screen and (max-width: 767px) {
     .flex-container {
       display: block; } }
@@ -60,7 +56,6 @@
   Site - dallasbass.com
 */
 *, *:after, *:before {
-  -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
   box-sizing: border-box; }
 
@@ -418,7 +413,8 @@ div.clearfix {
 
 header {
   height: 85px;
-  flex-shrink: 0;
+  -ms-flex-negative: 0;
+      flex-shrink: 0;
   width: 100%;
   background: #ffffff;
   position: fixed;
@@ -447,11 +443,20 @@ nav {
           position: relative;
           width: 0%;
           background-color: #C13A53;
-          animation-name: grow-x;
-          animation-duration: 0.3s;
-          animation-fill-mode: forwards;
-          animation-timing-function: ease;
-          animation-delay: 0.5s; } }
+          -webkit-animation-name: grow-x;
+                  animation-name: grow-x;
+          -webkit-animation-duration: 0.3s;
+                  animation-duration: 0.3s;
+          -webkit-animation-fill-mode: forwards;
+                  animation-fill-mode: forwards;
+          -webkit-animation-timing-function: ease;
+                  animation-timing-function: ease;
+          -webkit-animation-delay: 0.5s;
+                  animation-delay: 0.5s; } }
+
+@-webkit-keyframes grow-x {
+  to {
+    width: 100%; } }
 
 @keyframes grow-x {
   to {
@@ -746,9 +751,11 @@ section.news {
     margin-top: 1em; }
 
   .contact .social-icons .fb {
-    transform: translate(-117%, -62%) !important; }
+    -webkit-transform: translate(-117%, -62%) !important;
+            transform: translate(-117%, -62%) !important; }
   .contact .social-icons .twitter {
-    transform: translate(16%, -56%) !important; } }
+    -webkit-transform: translate(16%, -56%) !important;
+            transform: translate(16%, -56%) !important; } }
 .contact .block-overlap {
   margin: -4em auto 60px auto !important; }
   @media screen and (max-width: 767px) {
@@ -759,12 +766,14 @@ section.news {
   display: inline-block; }
   .about .social-icons .twitter, .contact .social-icons .twitter {
     position: absolute;
-    transform: translate(-1%, -54%); }
+    -webkit-transform: translate(-1%, -54%);
+            transform: translate(-1%, -54%); }
     .about .social-icons .twitter:hover svg, .contact .social-icons .twitter:hover svg {
       fill: #1da1f4; }
   .about .social-icons .fb, .contact .social-icons .fb {
     position: absolute;
-    transform: translate(-89%, -2%); }
+    -webkit-transform: translate(-89%, -2%);
+            transform: translate(-89%, -2%); }
     .about .social-icons .fb:hover svg, .contact .social-icons .fb:hover svg {
       fill: #3b5998; }
   .about .social-icons svg, .contact .social-icons svg {
@@ -838,12 +847,14 @@ footer {
         width: 10%; } }
     footer .social-icons .twitter {
       position: absolute;
-      transform: translate(-61%, -53%); }
+      -webkit-transform: translate(-61%, -53%);
+              transform: translate(-61%, -53%); }
       footer .social-icons .twitter:hover svg {
         fill: #1da1f4; }
     footer .social-icons .fb {
       position: absolute;
-      transform: translate(-197%, -61%); }
+      -webkit-transform: translate(-197%, -61%);
+              transform: translate(-197%, -61%); }
       footer .social-icons .fb:hover svg {
         fill: #3b5998; }
     footer .social-icons svg {
@@ -858,14 +869,18 @@ footer {
       display: inline-block; }
 
 .sticky-footer-body {
+  display: -ms-flexbox;
   display: flex;
   height: 100vh;
-  flex-direction: column; }
+  -ms-flex-direction: column;
+      flex-direction: column; }
 
 .sticky-footer {
   margin-top: 85px;
-  flex: 1;
-  flex-shrink: 0; }
+  -ms-flex: 1;
+      flex: 1;
+  -ms-flex-negative: 0;
+      flex-shrink: 0; }
 
 .page-content {
   flex: 1 0 auto;
@@ -909,7 +924,8 @@ footer {
   opacity: 0;
   padding: 0 3em;
   top: 40%;
-  transform: translateY(-40%);
+  -webkit-transform: translateY(-40%);
+          transform: translateY(-40%);
   transition: all 0.4s ease-out;
   width: 100%;
   position: absolute; }
@@ -941,8 +957,6 @@ footer {
   .home-initiatives .item-4 .img-settings, .home-initiatives .item-4 .initiative-single {
     background-position: 10% !important; }
   .home-initiatives .col-1-3 {
-    width: -moz-calc(33.33% - 5px);
-    width: -webkit-calc(33.33% - 5px);
     width: calc(33.33% - 5px);
     margin-right: 5px;
     padding: 0;
@@ -982,7 +996,8 @@ footer {
       z-index: 999999; }
     .home-initiatives .col-1-3:hover .img-settings, .home-initiatives .col-1-3:hover .initiative-single {
       position: relative;
-      transform: scale(1.1);
+      -webkit-transform: scale(1.1);
+              transform: scale(1.1);
       transition: all 0.4s ease-out;
       overflow: hidden; }
     .home-initiatives .col-1-3:hover div[class*='overlay-']:after {
@@ -1144,7 +1159,8 @@ footer {
       margin-bottom: 0; } }
   .flex-container:hover .initiative-single {
     position: relative;
-    transform: scale(1.05);
+    -webkit-transform: scale(1.05);
+            transform: scale(1.05);
     transition: all 0.4s ease-out;
     overflow: hidden; }
   .flex-container:last-of-type {
