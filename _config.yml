@@ -32,9 +32,9 @@ defaults:
 
 contentful:
   preview: No 
-  production_access_token: 'b0858286f863720c69cfa83ebbc2eb656ba8fc1d1454afd416308217fab0afa7'
-  preview_access_token: '828bebed05c971aedb46dbe9b64983eb0e05388ff3310f6284f75e570aca0ae2'
-  space: '0cp1epmalnde'
+  production_access_token: ENV_PREVIEW_TOKEN
+  preview_access_token: ENV_PREVIEW_TOKEN
+  space: ENV_CONTENTFUL_SPACE_ID
   content_types:
    - "initiatives"
    - "staffMember"
@@ -42,8 +42,8 @@ contentful:
    - "letter"
   spaces:
     - proddata: # Jekyll _data folder identifier - Required
-        space: '0cp1epmalnde'        # Required
-        access_token: 'b0858286f863720c69cfa83ebbc2eb656ba8fc1d1454afd416308217fab0afa7' # Required
+        space: ENV_CONTENTFUL_SPACE_ID        # Required
+        access_token: ENV_CONTENTFUL_ACCESS_TOKEN # Required
         cda_query:                 # Optional
           include: 2
           limit: 100
