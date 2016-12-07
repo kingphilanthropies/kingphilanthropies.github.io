@@ -11,17 +11,12 @@
 
 .center-vertical {
   display: -webkit-box;
+  display: -moz-box;
   display: -ms-flexbox;
   display: -webkit-flex;
   display: flex;
-  -webkit-box-align: center;
-  -webkit-align-items: center;
-  -ms-flex-align: center;
   align-items: center;
   -webkit-align-items: center;
-  -webkit-box-pack: center;
-  -webkit-justify-content: center;
-  -ms-flex-pack: center;
   justify-content: center;
   -webkit-justify-content: center; }
 
@@ -45,14 +40,13 @@
   list-style: none;
   -ms-box-orient: horizontal;
   display: -webkit-box;
+  display: -moz-box;
   display: -ms-flexbox;
   display: -moz-flex;
   display: -webkit-flex;
   display: flex;
   float: left;
   -webkit-align-items: stretch;
-  -webkit-box-align: stretch;
-  -ms-flex-align: stretch;
   align-items: stretch; }
   @media screen and (max-width: 767px) {
     .flex-container {
@@ -318,7 +312,6 @@ body {
   display: inline-block;
   padding: 9px 25px;
   text-decoration: none;
-  -webkit-transition: all 0.2s ease-out;
   transition: all 0.2s ease-out; }
 .button.black a {
   color: #333447; }
@@ -425,8 +418,6 @@ div.clearfix {
 
 header {
   height: 85px;
-  -webkit-flex-shrink: 0;
-  -ms-flex: 0 0;
   flex-shrink: 0;
   width: 100%;
   background: #ffffff;
@@ -456,20 +447,11 @@ nav {
           position: relative;
           width: 0%;
           background-color: #C13A53;
-          -webkit-animation-name: grow-x;
           animation-name: grow-x;
-          -webkit-animation-duration: 0.3s;
           animation-duration: 0.3s;
-          -webkit-animation-fill-mode: forwards;
           animation-fill-mode: forwards;
-          -webkit-animation-timing-function: ease;
           animation-timing-function: ease;
-          -webkit-animation-delay: 0.5s;
           animation-delay: 0.5s; } }
-
-@-webkit-keyframes grow-x {
-  to {
-    width: 100%; } }
 
 @keyframes grow-x {
   to {
@@ -595,7 +577,6 @@ nav {
 
 .img-settings, .initiative-single {
   background-repeat: no-repeat;
-  -webkit-background-size: cover;
   background-size: cover;
   background-position: center center;
   position: relative; }
@@ -603,12 +584,12 @@ nav {
 .site-title img {
   width: 220px;
   margin-left: 21px;
-  margin-top: 5px; }
+  margin-top: 12px; }
   @media screen and (max-width: 767px) {
     .site-title img {
       width: 160px;
       margin-left: -13px;
-      margin-top: 5px; } }
+      margin-top: 12px; } }
 
 .content {
   padding: 30px; }
@@ -690,7 +671,6 @@ section.news {
   background-color: rgba(51, 52, 71, 0.6); }
   @media screen and (min-width: 768px) {
     .letter-hero {
-      -webkit-background-size: 115%;
       background-size: 115%; } }
   @media screen and (max-width: 767px) {
     .letter-hero {
@@ -766,12 +746,8 @@ section.news {
     margin-top: 1em; }
 
   .contact .social-icons .fb {
-    -webkit-transform: translate(-117%, -62%) !important;
-    -ms-transform: translate(-117%, -62%) !important;
     transform: translate(-117%, -62%) !important; }
   .contact .social-icons .twitter {
-    -webkit-transform: translate(16%, -56%) !important;
-    -ms-transform: translate(16%, -56%) !important;
     transform: translate(16%, -56%) !important; } }
 .contact .block-overlap {
   margin: -4em auto 60px auto !important; }
@@ -783,15 +759,11 @@ section.news {
   display: inline-block; }
   .about .social-icons .twitter, .contact .social-icons .twitter {
     position: absolute;
-    -webkit-transform: translate(-1%, -54%);
-    -ms-transform: translate(-1%, -54%);
     transform: translate(-1%, -54%); }
     .about .social-icons .twitter:hover svg, .contact .social-icons .twitter:hover svg {
       fill: #1da1f4; }
   .about .social-icons .fb, .contact .social-icons .fb {
     position: absolute;
-    -webkit-transform: translate(-89%, -2%);
-    -ms-transform: translate(-89%, -2%);
     transform: translate(-89%, -2%); }
     .about .social-icons .fb:hover svg, .contact .social-icons .fb:hover svg {
       fill: #3b5998; }
@@ -866,15 +838,11 @@ footer {
         width: 10%; } }
     footer .social-icons .twitter {
       position: absolute;
-      -webkit-transform: translate(-61%, -53%);
-      -ms-transform: translate(-61%, -53%);
       transform: translate(-61%, -53%); }
       footer .social-icons .twitter:hover svg {
         fill: #1da1f4; }
     footer .social-icons .fb {
       position: absolute;
-      -webkit-transform: translate(-197%, -61%);
-      -ms-transform: translate(-197%, -61%);
       transform: translate(-197%, -61%); }
       footer .social-icons .fb:hover svg {
         fill: #3b5998; }
@@ -890,30 +858,16 @@ footer {
       display: inline-block; }
 
 .sticky-footer-body {
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
   display: flex;
   height: 100vh;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-  -webkit-flex-direction: column;
-  -ms-flex-direction: column;
   flex-direction: column; }
 
 .sticky-footer {
   margin-top: 85px;
-  -webkit-box-flex: 1;
-  -webkit-flex: 1;
-  -ms-flex: 1;
   flex: 1;
-  -webkit-flex-shrink: 0;
   flex-shrink: 0; }
 
 .page-content {
-  -webkit-box-flex: 1;
-  -webkit-flex: 1 0 auto;
-  -ms-flex: 1 0 auto;
   flex: 1 0 auto;
   -webkit-box-flex: 1;
   -ms-flex: 1 0 auto; }
@@ -955,17 +909,13 @@ footer {
   opacity: 0;
   padding: 0 3em;
   top: 40%;
-  -webkit-transform: translateY(-40%);
-  -ms-transform: translateY(-40%);
   transform: translateY(-40%);
-  -webkit-transition: all 0.4s ease-out;
   transition: all 0.4s ease-out;
   width: 100%;
   position: absolute; }
 
 @media screen and (min-width: 1024px) and (max-width: 1899px) {
   .home .home-hero {
-    -webkit-background-size: 121% !important;
     background-size: 121% !important;
     background-position: 0px -161px; }
   .home h1 {
@@ -975,14 +925,12 @@ footer {
     background-position: 0px -294px; } }
 @media screen and (min-width: 768px) and (max-width: 1023px) {
   .home .home-hero {
-    -webkit-background-size: 168% !important;
     background-size: 168% !important;
     background-position: -190px; }
   .home h1 {
     font-size: 35px; } }
 @media screen and (min-width: 2560px) {
   .home .home-hero {
-    -webkit-background-size: 122% !important;
     background-size: 122% !important;
     background-position: 0 -380px; } }
 
@@ -993,6 +941,7 @@ footer {
   .home-initiatives .item-4 .img-settings, .home-initiatives .item-4 .initiative-single {
     background-position: 10% !important; }
   .home-initiatives .col-1-3 {
+    width: -moz-calc(33.33% - 5px);
     width: -webkit-calc(33.33% - 5px);
     width: calc(33.33% - 5px);
     margin-right: 5px;
@@ -1003,10 +952,8 @@ footer {
     .home-initiatives .col-1-3 .img-settings, .home-initiatives .col-1-3 .initiative-single {
       width: 100%;
       overflow: hidden;
-      -webkit-transition-duration: 0.3s;
       transition-duration: 0.3s;
       position: relative;
-      -webkit-transition: all 0.6s ease-out;
       transition: all 0.6s ease-out; }
     @media only screen and (max-width: 1023px) and (-webkit-min-device-pixel-ratio: 1) and (-webkit-max-device-pixel-ratio: 2) {
       .home-initiatives .col-1-3 {
@@ -1027,24 +974,18 @@ footer {
     .home-initiatives .col-1-3 div[class*='overlay-']:after {
       opacity: 0;
       content: '';
-      -webkit-transition: all 0.4s ease-out;
       transition: all 0.4s ease-out;
       position: absolute; }
     .home-initiatives .col-1-3:hover .hover-link {
       opacity: 1;
-      -webkit-transition: all 0.4s ease-out;
       transition: all 0.4s ease-out;
       z-index: 999999; }
     .home-initiatives .col-1-3:hover .img-settings, .home-initiatives .col-1-3:hover .initiative-single {
       position: relative;
-      -webkit-transform: scale(1.1);
-      -ms-transform: scale(1.1);
       transform: scale(1.1);
-      -webkit-transition: all 0.4s ease-out;
       transition: all 0.4s ease-out;
       overflow: hidden; }
     .home-initiatives .col-1-3:hover div[class*='overlay-']:after {
-      -webkit-transition: all 0.4s ease-out;
       transition: all 0.4s ease-out;
       opacity: 0.9;
       content: '';
@@ -1058,12 +999,10 @@ footer {
     .home-initiatives .col-1-3:hover .overlay-blue:after {
       position: relative;
       background: #333447;
-      -webkit-transition: all 0.6s ease-out;
       transition: all 0.6s ease-out; }
     .home-initiatives .col-1-3:hover .overlay-red:after {
       position: relative;
       background: #761E2F;
-      -webkit-transition: all 0.6s ease-out;
       transition: all 0.6s ease-out; }
 
 @media handheld, only screen and (max-width: 767px) {
@@ -1077,7 +1016,6 @@ footer {
 .initiative-single {
   overflow: hidden;
   min-height: 640px;
-  -webkit-transition: all 0.6s ease-out;
   transition: all 0.6s ease-out; }
   @media screen and (max-width: 767px) {
     .initiative-single {
@@ -1099,13 +1037,11 @@ footer {
 @media screen and (min-width: 1023px) {
   .food-nutrition-and-rural-livelihoods-initiative .initiative-sub-hero {
     background-position-x: 80%;
-    -webkit-background-size: 114%;
     background-size: 114%;
     background-position-y: 28%; } }
 @media screen and (min-width: 768px) and (max-width: 1023px) {
   .food-nutrition-and-rural-livelihoods-initiative .initiative-sub-hero {
     background-position: -126px 45% !important;
-    -webkit-background-size: 130% !important;
     background-size: 130% !important; } }
 @media screen and (max-width: 767px) {
   .food-nutrition-and-rural-livelihoods-initiative .initiative-sub-hero {
@@ -1208,10 +1144,7 @@ footer {
       margin-bottom: 0; } }
   .flex-container:hover .initiative-single {
     position: relative;
-    -webkit-transform: scale(1.05);
-    -ms-transform: scale(1.05);
     transform: scale(1.05);
-    -webkit-transition: all 0.4s ease-out;
     transition: all 0.4s ease-out;
     overflow: hidden; }
   .flex-container:last-of-type {

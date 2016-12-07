@@ -191,11 +191,11 @@ nav {
     img {
         width: 220px;
         margin-left: 21px;
-        margin-top:5px;
+        margin-top:12px;
         @media screen and #{$brk-narrow} {
             width: 160px;
             margin-left: -13px;
-            margin-top: 5px;
+            margin-top: 12px;
         }
     }   
 }
