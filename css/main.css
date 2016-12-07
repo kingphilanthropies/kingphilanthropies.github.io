@@ -1112,9 +1112,8 @@ footer {
     background-blend-mode: soft-light;
     background-color: rgba(255, 255, 255, 0.4); } }
 .thrive-foundation-for-youth .initiative-sub-hero {
-  -webkit-background-size: 106%;
-  background-size: 106%;
-  background-position: 0% 52%; }
+  background-size: 125%;
+  background-position: 0% 40%; }
 
 @media screen and (min-width: 1024px) {
   .initiatives-hero {
@@ -1231,5 +1230,3 @@ footer {
   .flex-container .grid .initiative-blurb {
     margin: 10% 0 30% 0;
     line-height: 1.5; }
-
-/*# sourceMappingURL=main.css.map */
