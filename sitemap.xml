@@ -56,7 +56,7 @@ sitemap:
 
 
   {% for staffMember in site.data.contentful.spaces.proddata.staffMember %}
-
+    {% unless page.sitemap.exclude == "yes" %}
      <url>
       <loc>/staff-member/{{ site.data.contentful.spaces.proddata.staffMember[forloop.index0].url }}</loc>
       {% if page.sitemap.lastmod %}
@@ -77,11 +77,11 @@ sitemap:
         <priority>0.5</priority>
       {% endif %}
     </url>
-   
+     {% endunless %}
   {% endfor %}
 
   {% for founder in site.data.contentful.spaces.proddata.founder %}
-
+    {% unless page.sitemap.exclude == "yes" %}
     <url>
         <loc>/founders/{{ site.data.contentful.spaces.proddata.founder[forloop.index0].url }}</loc>
         {% if page.sitemap.lastmod %}
@@ -102,6 +102,6 @@ sitemap:
           <priority>0.5</priority>
         {% endif %}
     </url>
-     
+    {% endunless %}
   {% endfor %}
 </urlset>
