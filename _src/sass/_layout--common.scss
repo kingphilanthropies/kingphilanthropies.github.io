@@ -48,7 +48,7 @@ nav {
                     animation-duration: 0.3s;
                     animation-fill-mode: forwards;
                     animation-timing-function: ease;
-                    animation-delay: 0.5s
+                    animation-delay: 0.5s;
                 }
             }   
         }
@@ -577,6 +577,7 @@ footer {
 .sticky-footer-body {
     display: flex;
     height: 100vh;
+    height: 100%;
     flex-direction: column;
 }
 .sticky-footer {

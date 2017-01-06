@@ -874,6 +874,7 @@ footer {
   height: 100vh;
   -ms-flex-direction: column;
       flex-direction: column; }
+  height: 100%;
 
 .sticky-footer {
   margin-top: 85px;
@@ -1179,3 +1180,5 @@ footer {
   .flex-container .grid .initiative-blurb {
     margin: 10% 0 30% 0;
     line-height: 1.5; }
+
+/*# sourceMappingURL=main.css.map */
