@@ -22,19 +22,16 @@
 	@media screen and (min-width: 1024px) and (max-width: 1899px) {
 		.home-hero {
 			background-size: 121% !important;
-    		background-position: 0px -161px;
+    		background-position: 0px -130px;
 		}
 		h1 {
 			padding: 0 10%;
 		}
 	}
-	@media screen and (min-width: 1900px) {
-		background-position: 0px -294px;
-	}
 	@media screen and #{$brk-tablet-min} and #{$brk-wide} {
 		.home-hero {
-			background-size: 168% !important;
-    		background-position: -190px;
+			background-size: 140% !important;
+    		background-position: -183px;
 		}
 		h1 {
 			font-size: 35px;
