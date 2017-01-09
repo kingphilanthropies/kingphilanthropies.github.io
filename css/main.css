@@ -871,7 +871,6 @@ footer {
 .sticky-footer-body {
   display: -ms-flexbox;
   display: flex;
-  height: 100vh;
   -ms-flex-direction: column;
       flex-direction: column; }
   height: 100%;

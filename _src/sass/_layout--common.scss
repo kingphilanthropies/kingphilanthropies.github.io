@@ -575,8 +575,8 @@ footer {
     }
 }
 .sticky-footer-body {
-    display: flex;
     height: 100%;
+    display: flex;
     flex-direction: column;
 }
 .sticky-footer {
@@ -621,7 +621,6 @@ footer {
 }
 
 // IE 11 hacks
-
 //for SVG within img scaling 
 
 @media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
