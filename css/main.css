@@ -934,12 +934,9 @@ footer {
 @media screen and (min-width: 1024px) and (max-width: 1899px) {
   .home .home-hero {
     background-size: 121% !important;
-    background-position: 0px -130px; }
+    background-position: 0px -90px; }
   .home h1 {
     padding: 0 10%; } }
-@media screen and (min-width: 1900px) {
-  .home {
-    background-position: 0px -294px; } }
 @media screen and (min-width: 768px) and (max-width: 1023px) {
   .home .home-hero {
     background-size: 140% !important;
