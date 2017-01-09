@@ -933,13 +933,13 @@ footer {
 @media screen and (min-width: 1024px) and (max-width: 1899px) {
   .home .home-hero {
     background-size: 121% !important;
-    background-position: 0px -90px; }
+    background-position: 0px -161px; }
   .home h1 {
     padding: 0 10%; } }
 @media screen and (min-width: 768px) and (max-width: 1023px) {
   .home .home-hero {
-    background-size: 140% !important;
-    background-position: -183px; }
+    background-size: 168% !important;
+    background-position: -190px; }
   .home h1 {
     font-size: 35px; } }
 @media screen and (min-width: 2560px) {
