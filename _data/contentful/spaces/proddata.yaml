@@ -1,94 +1,200 @@
 ---
-letter:
+founder:
 - sys:
-    id: 97dlqP2NPyYAKYGegaQ20
-  year: '2016'
-  heroLetter:
-    title: Letter-Hero Edit-7-sized
-    url: //images.contentful.com/0cp1epmalnde/100qHcUMzOoYiYiG0O0I4G/0e81809d64dc2bac24c734cd4cbab460/Letter-Hero_Edit-7-sized.jpg
-  title: Solving extreme poverty
-  content: "# 1+1=3\n\nOver the past half century, we have been privileged to welcome
-    into our California home more than 50 students from across the globe, most of
-    whom came from afar to study at Stanford University.  We hosted these students
-    because we believe in the commandment to “love your neighbor as yourself” and
-    do our best to follow it.  Yet each of these students gave us so much more than
-    we gave them, broadening our world in ways we could never have dreamed.  Through
-    them, we truly came to understand that the word “neighbor” is not limited to those
-    who live side-by-side on the same street, or even to residents of the same town,
-    or citizens of a single country.   On the contrary, as the world shrinks with
-    astonishing speed, our neighbors are now everywhere on this earth. \n\nSadly,
-    many of our neighbors are struggling. \nNearly 10 percent of the world’s population
-    – 702 million people - live on $1.90 a day, or less, a bleak statistic that is
-    unconscionable to us.  Simply to survive at such an income level is a daily challenge
-    – to thrive, all but impossible.  Most of the people who live in extreme poverty
-    are in Sub-Saharan Africa and South Asia.  In 2015, Sub-Saharan Africa accounted
-    for nearly half of the global poor, with one in three of its people living in
-    extreme poverty and oftentimes lacking access even to electricity and clean water,
-    not to mention education and opportunity.  South Asia has seen the percentage
-    of extreme poor in its population decline to about 10 percent in recent years,
-    but that figure encompasses huge numbers of people.  \n\n![Letter From Founders
-    sized](//images.contentful.com/0cp1epmalnde/1SwJXONd7SEAuo2w2Kawwa/0d51b65748810dbb10b1b15c8e24ce2c/Letter_From_Founders_sized.jpg)\n\nWe
-    seek to address the tragedy of global poverty by fostering entrepreneurship that
-    will lead to job creation; supporting the development of future leaders and investing
-    in the development of our youth; and enhancing the food security, nutrition, and
-    rural livelihoods of the world’s poorest.  In choosing where and how to direct
-    our philanthropy, there is one “equation” we always keep in mind: 1 + 1 = 3.  This
-    guides us to adopt a systematic approach when seizing opportunities; we support
-    organizations that will take full advantage of all available collaboration opportunities,
-    create a positive cascading effect, and generate outsized impact. \n\n__Solving
-    Poverty by Job Creation:__\nThe Stanford Institute for Innovation in Developing
-    Economies, or Stanford Seed, was founded in partnership with the Stanford Graduate
-    School of Business to address extreme poverty through job creation by scaling
-    businesses.  It aims to build entrepreneurship from the bottom up in developing
-    economies, fostering a generation of successful entrepreneurs who will reach out
-    and guide the next generation.  Seed is an action-oriented program in which research
-    informs practice, creating a positive feedback loop between Stanford faculty and
-    entrepreneurs from developing nations who are actively working to scale their
-    enterprises.  Through its GDP Research Initiative, Seed supports research that
-    relates to poverty alleviation spanning disciplines across all of Stanford University,
-    including public health, education, law, political science, engineering, computer
-    science, and the environment, among others.\n\n__Providing Scholarships for Future
-    Leaders of the Developing World:__\nThe King Scholars program is based on a simple
-    premise – that those with direct experience of poverty are best positioned to
-    alleviate it.  It brings outstanding students from developing nations to leading
-    American colleges and universities (initially Dartmouth and the University of
-    Wisconsin) for a world-class education, extraordinary internship opportunities,
-    and the chance to participate in a leadership training program designed to support
-    careers related to poverty alleviation.  The Knight-Hennessy Scholars program
-    for graduate students at Stanford seeks to identify rising leaders from around
-    the world, expose them to real-life challenges, and better equip them to lead
-    ambitious change.  \n\n__Promoting Positive Youth Development for Disadvantaged
-    Youth:__\nThe Thrive Foundation for Youth guides disadvantaged youth to reach
-    their full potential by strengthening the presence and impact of caring adults
-    in their lives. It relies on partnership with successful programs and evidence-based
-    research pragmatically applied. In recent years, the Thrive Foundation for Youth
-    has invested its resources in changing the trajectory of the lives of disadvantaged
-    youth across the United States. Going forward, the Thrive Foundation for Youth
-    seeks opportunities to leverage best practices in youth development globally,
-    with a focus on youth growing up in poverty.\n\n__Alleviating Poverty by Combatting
-    Hunger and Malnutrition:__\nOur new Food, Nutrition, and Rural Livelihoods Initiative
-    seeks to alleviate extreme poverty by focusing on the more than 500 million people
-    who suffer from hunger and undernourishment in Sub-Saharan Africa and South Asia.
-    \ Malnutrition has many terrible effects, including stunted physical growth and
-    impaired brain development. But one of its greatest cruelties is the theft of
-    individual and collective potential – those who hover on the brink of starvation
-    can never break the grasp of poverty and illness, which then persist for generations.
-    \ Fortunately, there is ample evidence that reducing or eliminating malnutrition
-    leads to improvement in individual and societal health, education, earnings, and
-    even GDP. We have chosen to start this new initiative in Myanmar with a pilot
-    program to support outstanding organizations working in food, nutrition, and rural
-    livelihoods. We picked Myanmar because of need – the country has one of the highest
-    malnutrition rates in the Asia-Pacific region – and because the government has
-    committed itself to significant change. Subsequently, we will extend our efforts
-    to Sub-Saharan Africa and India.\n\nOur new initiative to combat extreme poverty
-    is built on the same three cornerstones as all our philanthropic endeavors: focus,
-    collaboration, and results.   In other words, adopt a laser-like focus on unmet
-    needs and work with others whenever possible – by walking together, we will all
-    walk farther.  The truth of this African proverb has guided us throughout our
-    lives, and it is in this spirit that we invite you to join us in the fight against
-    global poverty.  Together, we can achieve concrete results and an outsized impact;
-    1 + 1 = 3.  \n\n \n"
+    id: 1vSHrScMk0Ks288qGw8Q00
+  name: Dorothy J. King
+  url: dottie-king
+  order: 1
+  picture:
+    title: dottie
+    url: //images.contentful.com/0cp1epmalnde/3xdzwoALMkwKK2wGomIKqG/a3f91ce13e407380f460fd54b7abdf60/dottie.jpg
+  bio: |-
+    Dorothy “Dottie” King is, with her husband Robert “Bob” King, the co-founder of King Philanthropies.
+
+    Dottie grew up in Madison, Wisconsin where her father worked as a coach.  She graduated from the University of Wisconsin in 1958 with a major in child development. Dottie raised three children and partnered with Bob to launch R. Eliot King & Associates, an investment management company. She was for many years an active volunteer in the Parent Teacher Association, the Girl Scouts of America, the Packard Children’s Hospital at Stanford, and the Bechtel International House at Stanford.  She led church services in the San Mateo County Jail for fifteen years and served as an elder at Menlo Park Presbyterian Church.
+
+    Dottie plays an active role at King Philanthropies as a board member. When Dottie was young, her family hosted an international exchange student at their home in Madison.  She and Bob have continued this tradition for more than five decades by hosting international students studying at Stanford University. Sharing their home with students from around the globe has brought them much joy and given them a vast network of friends in many countries including China, Singapore, Japan, France, Sweden, and Estonia.
+
+    Dottie and Bob live in Menlo Park, California and Kennebunkport, Maine. They especially enjoy spending time with their three children and eight grandchildren.
+- sys:
+    id: 34H4PrGtrOq6awqKaqcaMK
+  name: Robert E. King
+  url: bob-king
+  order: 0
+  picture:
+    title: bob
+    url: //images.contentful.com/0cp1epmalnde/7c8tzgZWEgUyYwQqCIyiue/5efba7c4c27cdc620e9a07b8d246b653/bob.jpg
+  bio: "Robert “Bob” King is, with his wife Dorothy “Dottie” King, the co-founder
+    of King Philanthropies.\n\nBob grew up in Melrose, Massachusetts as the son of
+    a municipal bond salesman.  He received his B.A. in economics from Dartmouth College
+    in 1957 and graduated from Stanford Graduate School of Business in 1960.  He joined
+    the Wall Street brokerage and investment firm Shearson, Hammill & Co., working
+    in New York and San Francisco.  After 12 years at Shearson, Bob and Dottie together
+    established their own investment management company, R. Eliot King & Associates.
+    There, Bob developed a highly successful investment approach, identifying long-term
+    investment opportunities by focusing on fundamental change forces at work in the
+    world—political, social, economic and technological. Bob subsequently founded
+    Peninsula Capital and remains an active venture investor in domestic and international
+    companies.\n \nBob plays an active role at King Philanthropies as a board member.
+    He is a past elder at Menlo Park Presbyterian Church. Bob is a former alumni investment
+    manager for the Stanford Business School Trust, a former trustee of the Kennebunkport
+    Conservation Trust and a former Board member of Village Enterprise Fund. \n\nBob
+    and Dottie live in Menlo Park, California and Kennebunkport, Maine. They especially
+    enjoy spending time with their three children and eight grandchildren."
+staffMember:
+- sys:
+    id: 2PiL5zy2sg2qE0w4mG2ASM
+  name: Dana M. Nunn
+  url: dana-m-nunn
+  order: 3
+  jobTitle: Interim Executive Director for the Thrive Foundation for Youth
+  picture:
+    title: DNunn-Bio-Photo
+    url: //images.contentful.com/0cp1epmalnde/ejrGDHcKJMKC2kQU6wKA0/6b5b08c1d9a36b1779045c51e11b5844/DNunn-Bio-Photo.jpg
+  bio: "Dana is the Interim Executive Director for the Thrive Foundation for Youth,
+    a division of King Philanthropies. Dana is also the founder of Quantitative Marketing
+    Intelligence (QMI), a marketing consulting firm that provides quantitative and
+    strategic consulting services to clients in diverse industries. Prior to founding
+    QMI, Dana researched pricing optimization in an academic setting, implemented
+    product pricing strategies for several technology companies, and worked in management
+    consulting. Dana now enjoys applying her expertise in strategy and quantitative
+    methods to her passion for helping disadvantaged youth. Dana obtained a B.A. in
+    Economics and Government from Dartmouth College, an M.A. in Economics from Stanford
+    University, and a Ph.D. in Business from the Stanford Graduate School of Business.
+    \n"
+- sys:
+    id: 3nLovxrY9G2qqcYkKKYESq
+  name: Michael Slind
+  url: michael-slind
+  order: 4
+  jobTitle: Director of Communication
+  picture:
+    title: unnamed
+    url: //images.contentful.com/0cp1epmalnde/6WOxIm1agMA4wOYWiusoc/c8bb010309fd103a22f1c46452823dfe/unnamed.jpg
+  bio: "Michael is the Director of Communication of King Philanthropies. He has extensive
+    experience as a communication professional. From 2013 to 2016, he was the Senior
+    Editor of *Stanford Social Innovation Review*. Michael is also co-author, with
+    Boris Groysberg, of *Talk, Inc.: How Trusted Leaders Use Conversation to Power
+    Their Organizations* (Harvard Business Review Press, 2012). Previously, he worked
+    at Harvard Business School, where he wrote widely used case studies on corporate
+    strategy and entrepreneurial management. Earlier in his career, he served as the
+    Managing Editor and as a Senior Editor of *Fast Company* magazine. During his
+    tenure as its managing editor, Fast Company won a National Magazine Award for
+    general excellence. In addition, Michael has acted as an editorial consultant
+    for business author Tom Peters, among others. For Peters, he helped to develop
+    the books *Re-imagine!* (Dorling-Kindersley, 2003) and *The Little Big Things*
+    (HarperStudio, 2010). Michael earned a B.A. in history from the University of
+    Kansas and an M.A. in history from Cornell University. \n\n"
+- sys:
+    id: 1Zj3dr7LNKYqQ0usGUU8ws
+  name: Chanthi Lune
+  url: chanthi-lune
+  order: 2
+  jobTitle: Director of Finance, Investments, and Administration
+  picture:
+    title: chanthi
+    url: //images.contentful.com/0cp1epmalnde/6rcKFlQamQcAAIcOSmCqeE/8d3761769e03fdb7905fd49748fa1411/chanthi.jpg
+  bio: |
+    Chanthi is the Director of Finance, Investments, and Administration for King Philanthropies. She manages all aspects of finance for King Philanthropies, with particular focus on financial reporting, analysis and investments. Prior to joining King Philanthropies she worked as a legal contractor for several law firms practicing diverse areas of law, from intellectual property to securities litigation. Prior to law school, Chanthi worked in various finance capacities at three Wall Street firms—Robertson Stephens, Jefferies & Company, and Citi Smith Barney. Chanthi holds a B.A. in Political Science from the University of the Pacific and a J.D./M.B.A. from Gonzaga University. She is admitted to practice law in the state of California. She currently sits on the Board of AC Global Risk.
+- sys:
+    id: 6dzeg8xbNKG26GcQMU6oQO
+  name: Sandeep Patel
+  url: sandeep-patel
+  order: 6
+  jobTitle: Advisor, Food, Nutrition and Rural Livelihoods Initiative
+  picture:
+    title: SPatel-Bio-Photo
+    url: //images.contentful.com/0cp1epmalnde/M8gFZlKbU2ImCWQeqEsA8/6b5ee6a539908dac51bee6bea9a27679/SPatel-Bio-Photo.jpg
+  bio: |
+    Sandeep is a Managing Director at Barclays Capital, where he leads the food and
+    agriculture advisory effort globally. His expertise spans the full breadth of the food
+    value chain, including agricultural technology and inputs, origination and processing, protein production, food ingredients and nutrition and private label and branded packaged food. Prior to joining Barclays, Sandeep spent over ten years at Goldman Sachs in New York and India, where most recently he was Managing Director and Head of Corporate Finance/M&amp;A in the Mumbai office. Sandeep has along-standing interest in the intersection of poverty, food and agriculture, and environmental sustainability. His professional experience in this area includes work with numerous nonprofit organizations, foundations, and academic institutions. He led a comparative agricultural study in Kenya and Tanzania, with results published in Land Economics. Sandeep has a J.D. from Yale Law School, an M.S. in Economics from M.I.T., and a B.A. (summa cum laude) from Williams College. He was a Fulbright Scholar in India studying rural development and sustainability, a Jacob K. Javits Fellow at M.I.T., and was selected to be a fellow in the Aspen Institute’s inaugural leadership program in India.
+- sys:
+    id: LP5P1Sk0maOW0qEEcoWs6
+  name: Sonal Goyal
+  url: sonal-goyal
+  order: 7
+  jobTitle: Research Associate in Economic Development
+  picture:
+    title: sonal
+    url: //images.contentful.com/0cp1epmalnde/63nRqb4IDe4ou8u6sU4MkY/cd49acb98fea7a4e4020bd9d4e3cd5c1/sonal.jpg
+  bio: 'Sonal is a Research Associate in Economic Development for King Philanthropies.
+    Sonal worked previously in the Department of Impact Evaluation at the World Bank,
+    Morgan Stanley’s Public Finance division, Ashoka Changemakers, Innovate Delhi
+    Entrepreneurship Academy (a startup boot camp organized in New Delhi and funded
+    by Seed), and Motu Economic and Research Institute in New Zealand. She also conducted
+    field research in Ghana with the  Stanford Center for International Development.
+    Sonal graduated from Stanford University with a degree in Economics, where she
+    served on the National Advisory Board of the Haas Center for Public Service. She
+    is currently a Stanford Public Interest Network (SPIN) fellow at the Haas Center. '
+- sys:
+    id: 5ccUWnnuP6AyOoim4kwqwq
+  name: William F. Meehan III
+  url: william-f-meehan-iii
+  order: 1
+  jobTitle: Special Advisor
+  picture:
+    title: WMeehan-Bio-Photo
+    url: //images.contentful.com/0cp1epmalnde/5o6EjvzMnCK8GAqQsmqoSQ/e2642a85a21aaf969620ccf737210f7d/WMeehan-Bio-Photo.jpg
+  bio: William is the Lafayette Partners Lecturer in Strategic Management at the Stanford
+    University Graduate School of Business and a Director Emeritus of McKinsey & Company.
+    He is a sought-after writer, speaker, teacher and advisor on strategy, leadership,
+    governance, and performance measurement for non-profit organizations and philanthropists.
+    At Stanford, he also is a founding member of the Advisory Council of the Center
+    on Philanthropy and Civil Society, a faculty member of the Public Management Program
+    and the Center for Social Innovation, and a member of the Arts Advisory Council.
+    He developed and teaches a pioneering course in frontier markets private equity
+    and helped launch and shape the Stanford Institute for Innovation in Developing
+    Economies (Seed). He serves on the Board of GiveDirectly, and the North American
+    Council of Ashoka. A committed supporter of the arts and advisor to arts organizations,
+    he is also a long-serving Board member of the San Francisco Symphony and a member
+    of the Oregon Shakespeare Festival Endowment Board. He is a Special Advisor to
+    and Board member of King Philanthropies. He is former Chair of the United Way
+    of the Bay Area and Chairman-Emeritus of Guidestar. Meehan retired from McKinsey
+    Company in December 2008 after a career of over 30 years.
+- sys:
+    id: 2jCPHXPzMMAe8yugIQu6AU
+  name: Devin Bruckner
+  url: devin-bruckner
+  order: 5
+  jobTitle: Director of Research and Special Projects
+  picture:
+    title: DBruckner-Bio-Photo
+    url: //images.contentful.com/0cp1epmalnde/5kN5ptIgfugI6csaYiy8mc/2c00bed6c3d536d21efeaa8bde6631e2/DBruckner-Bio-Photo.jpg
+  bio: "Devin is a Director of Research and Special Projects with King Philanthropies.
+    She brings 15 years of experience in nonprofit management and consulting, including
+    work with McKinsey & Company, the Gates Foundation, and the Kravis Prize in Nonprofit
+    Leadership. Focused on international development and global poverty alleviation,
+    her work has included strategic planning, grantee due diligence, program management,
+    impact assessment, and financial and market analysis.  Devin spent two years in
+    Peru and significant time in East Africa working in economic development.  Devin
+    graduated Summa Cum Laude from Claremont McKenna College with a B.A. in Economics.
+    \n"
+- sys:
+    id: 2PgSSfabpeaIEKw28a6Smy
+  name: Kim Starkey Jonker
+  url: kim-starkey-jonker
+  order: 0
+  jobTitle: President and CEO
+  picture:
+    title: KJonker
+    url: //images.contentful.com/0cp1epmalnde/1NZE85LkCgmaooeSmgsoc/cd4c50a6d3d9b4bef383957a77551f0f/KJonker_Bio_Photo2.jpg
+  bio: |
+    Kim is the President and CEO of King Philanthropies. She brings more than 25 years of experience in the social sector, most recently as an advisor and consultant to nonprofits, philanthropists and foundations on topics of strategy, impact evaluation, board governance, and organizational effectiveness. A recognized thought leader in the sector, Kim is a frequent contributor to the Stanford Social Innovation Review (SSIR) and served as a Visiting Practitioner at Stanford’s Center for Philanthropy and Civil Society (PACS). Previously, Kim was executive director of the Henry R. Kravis Prize in Nonprofit Leadership. She was a management consultant at McKinsey & Company in the San Francisco and Los Angeles offices, and a Farber Fellow at REDF. A Harry S. Truman Scholar, Kim holds an M.B.A. from Stanford, a M.Sc. in Economics for Development from Oxford, and a M.Sc. in International Relations from the London School of Economics.
 newsPost:
+- sys:
+    id: 3MsfKxCTNmqyI0oO6es6ea
+  order: 4
+  title: $10 million gift expands faculty and research to help youth flourish
+  source: University of Madison-Wisconsin - 2015
+  content: |
+    “With a $10 million gift from 1958 UW–Madison alumna Dorothy “Dottie” Jones King and her husband, Robert “Bob” Eliot King, the university will be able to recruit new interdisciplinary faculty that focus on children and well-being to the center and the school.
+    “We’re thrilled to collaborate with UW–Madison in our determination to help disadvantaged youth reach their full potential,” says Dottie Jones King. “We believe the work of Richard Davidson and his colleagues at the center will have a tremendous impact and help thousands — if not millions — of youth thrive.”
+  color: light-grey
+  sourceLogo:
+    title: uwcrest web shadow-sized
+    url: //images.contentful.com/0cp1epmalnde/4P8xunZG1ywoIui4QMWEkI/daabf65dae28192c1edf055e5d6d0924/uwcrest_web_shadow-sized.gif
+  link: http://news.wisc.edu/10-million-gift-expands-faculty-and-research-to-help-youth-flourish/
 - sys:
     id: 3zsxDXsluEueCcu2maqg6C
   order: 2
@@ -103,19 +209,6 @@ newsPost:
     title: photo-sized
     url: //images.contentful.com/0cp1epmalnde/5W43j1dy9yYyyK4Ym04Cgw/ad4609f3a88cea0627a6742ccc641152/photo-sized.jpg
   link: http://www.philanthropyroundtable.org/topic/donor_intent/big_bets_and_the_aspiration_gap
-- sys:
-    id: 3MsfKxCTNmqyI0oO6es6ea
-  order: 4
-  title: $10 million gift expands faculty and research to help youth flourish
-  source: University of Madison-Wisconsin - 2015
-  content: |
-    “With a $10 million gift from 1958 UW–Madison alumna Dorothy “Dottie” Jones King and her husband, Robert “Bob” Eliot King, the university will be able to recruit new interdisciplinary faculty that focus on children and well-being to the center and the school.
-    “We’re thrilled to collaborate with UW–Madison in our determination to help disadvantaged youth reach their full potential,” says Dottie Jones King. “We believe the work of Richard Davidson and his colleagues at the center will have a tremendous impact and help thousands — if not millions — of youth thrive.”
-  color: light-grey
-  sourceLogo:
-    title: uwcrest web shadow-sized
-    url: //images.contentful.com/0cp1epmalnde/4P8xunZG1ywoIui4QMWEkI/daabf65dae28192c1edf055e5d6d0924/uwcrest_web_shadow-sized.gif
-  link: http://news.wisc.edu/10-million-gift-expands-faculty-and-research-to-help-youth-flourish/
 - sys:
     id: CTOKHXg6n6KIOUcaUeAWI
   order: 2
@@ -171,129 +264,7 @@ newsPost:
     sys:
       id: 46GnezyqnSAUIkAcCc8iiw
   link: http://news.wisc.edu/scholarship-to-prepare-international-students-for-global-development-leadership/
-boardMember:
-- sys:
-    id: 89vfYItxQIeM2sUic4OcE
-  name: Dorothy J. King
-  picture:
-    sys:
-      id: 1ZXQIfpSZyeqy4w4uu06wk
-  memberOrder: 1
-- sys:
-    id: 2Kdw4D8Ngc6GO6uqgwIwae
-  name: William F. Meehan III
-  picture:
-    sys:
-      id: 1ZXQIfpSZyeqy4w4uu06wk
-  memberOrder: 3
-- sys:
-    id: sDJ60A5Me4OkiagsiWyM4
-  name: Robert E. King
-  picture:
-    sys:
-      id: 1ZXQIfpSZyeqy4w4uu06wk
-  memberOrder: 0
-- sys:
-    id: 4HuDlxe4kUY8WCi4CaQSUe
-  name: Kim Starkey Jonker
-  picture:
-    sys:
-      id: 1ZXQIfpSZyeqy4w4uu06wk
-  memberOrder: 2
-founder:
-- sys:
-    id: 1vSHrScMk0Ks288qGw8Q00
-  name: Dorothy J. King
-  url: dottie-king
-  order: 1
-  picture:
-    title: dottie
-    url: //images.contentful.com/0cp1epmalnde/3xdzwoALMkwKK2wGomIKqG/a3f91ce13e407380f460fd54b7abdf60/dottie.jpg
-  bio: |-
-    Dorothy “Dottie” King is, with her husband Robert “Bob” King, the co-founder of King Philanthropies.
-
-    Dottie grew up in Madison, Wisconsin where her father worked as a coach.  She graduated from the University of Wisconsin in 1958 with a major in child development. Dottie raised three children and partnered with Bob to launch R. Eliot King & Associates, an investment management company. She was for many years an active volunteer in the Parent Teacher Association, the Girl Scouts of America, the Packard Children’s Hospital at Stanford, and the Bechtel International House at Stanford.  She led church services in the San Mateo County Jail for fifteen years and served as an elder at Menlo Park Presbyterian Church.
-
-    Dottie plays an active role at King Philanthropies as a board member. When Dottie was young, her family hosted an international exchange student at their home in Madison.  She and Bob have continued this tradition for more than five decades by hosting international students studying at Stanford University. Sharing their home with students from around the globe has brought them much joy and given them a vast network of friends in many countries including China, Singapore, Japan, France, Sweden, and Estonia.
-
-    Dottie and Bob live in Menlo Park, California and Kennebunkport, Maine. They especially enjoy spending time with their three children and eight grandchildren.
-- sys:
-    id: 34H4PrGtrOq6awqKaqcaMK
-  name: Robert E. King
-  url: bob-king
-  order: 0
-  picture:
-    title: bob
-    url: //images.contentful.com/0cp1epmalnde/7c8tzgZWEgUyYwQqCIyiue/5efba7c4c27cdc620e9a07b8d246b653/bob.jpg
-  bio: "Robert “Bob” King is, with his wife Dorothy “Dottie” King, the co-founder
-    of King Philanthropies.\n\nBob grew up in Melrose, Massachusetts as the son of
-    a municipal bond salesman.  He received his B.A. in economics from Dartmouth College
-    in 1957 and graduated from Stanford Graduate School of Business in 1960.  He joined
-    the Wall Street brokerage and investment firm Shearson, Hammill & Co., working
-    in New York and San Francisco.  After 12 years at Shearson, Bob and Dottie together
-    established their own investment management company, R. Eliot King & Associates.
-    There, Bob developed a highly successful investment approach, identifying long-term
-    investment opportunities by focusing on fundamental change forces at work in the
-    world—political, social, economic and technological. Bob subsequently founded
-    Peninsula Capital and remains an active venture investor in domestic and international
-    companies.\n \nBob plays an active role at King Philanthropies as a board member.
-    He is a past elder at Menlo Park Presbyterian Church. Bob is a former alumni investment
-    manager for the Stanford Business School Trust, a former trustee of the Kennebunkport
-    Conservation Trust and a former Board member of Village Enterprise Fund. \n\nBob
-    and Dottie live in Menlo Park, California and Kennebunkport, Maine. They especially
-    enjoy spending time with their three children and eight grandchildren."
 initiatives:
-- sys:
-    id: 5hSEDZl4WQEgCOyiIiAwEE
-  initiativeTitle: King Scholars Leadership Program
-  url: king-scholars
-  heroSingleInitiative:
-    title: King Hero-sized
-    url: //images.contentful.com/0cp1epmalnde/1VeI5AQ5hO6200YOIO6sw6/d9aee05ab4084398375be588583fe128/King_Hero-sized.jpg
-  heroTitleColor: color-gold-light
-  order: 1
-  thumbImage:
-    title: homepage.knight.hennesey.option1-sized
-    url: //images.contentful.com/0cp1epmalnde/5I2GRDtAD6mY4Gs6iug6GK/9df855d116221c6c03c165ce401c31c9/homepage.knight.hennesey.option1-sized.jpg
-  hoverText: Exceptional students committed to changing the world
-  initiativeBlurb: 'The King Scholars program is built on a simple premise: poverty
-    alleviation can be best achieved by those who have direct experience of it. '
-  initiativeSubtitle: Exceptional students committed to changing the world
-  theOpportunity: |
-    The King Scholars program is built on a simple premise: poverty alleviation can be best achieved by those who have direct experience of it. So in 2012, when Bob and Dottie King set out to train and equip a new generation of leaders to alleviate poverty across the globe, they looked to those who had themselves grown up in poverty. The Kings recognized that emerging leaders could be identified as early as high school and provided with a world-class college education and leadership training that would prepare them to employ game-changing solutions in poverty alleviation. King Scholars have grown up in poverty and know whereof they speak.  They demonstrate a passionate commitment to leading future poverty alleviation efforts in their home countries and are uniquely positioned to effect significant change.
-  statementGalleryTopRight: '24 scholars and growing  '
-  statementGalleryBottomLeft: Scholarships for future leaders of the developing world
-  ourFocusImage1:
-    title: 20160919-King-Scholars-EB-031-size
-    url: //images.contentful.com/0cp1epmalnde/3lhsNb99iwmikKgGIOamOg/94bf6bc0acdea639ccfd07f36283fcf7/20160919-King-Scholars-EB-031-size.jpg
-  ourFocusImage2:
-    title: King 1-sized
-    url: //images.contentful.com/0cp1epmalnde/3aDpCz65TWUkQeQG4u8cwo/e91e2ecf22b66432c6667c7dc09dd94b/King_1-sized.jpg
-  ourFocusImage3:
-    title: IMG 3087 mosaic-sized
-    url: //images.contentful.com/0cp1epmalnde/fnWeuR1kicGO8wuOIiUuS/eaab8b0c17b739b58ef76a713b7e0588/IMG_3087_mosaic-sized.jpg
-  ourFocusImage4:
-    title: King-Scholar Mosaic3-sized
-    url: //images.contentful.com/0cp1epmalnde/3X0gXzPZbquSkq64Yo2muC/f7bb8051c2e636043878dd6904856eff/King-Scholar_Mosaic3-sized.jpg
-  theInitiativeText: "The King Scholars program aims to alleviate global poverty by
-    bringing exceptional students from developing nations to leading US universities
-    for a world-class college education, extraordinary internship opportunities, and
-    participation in a unique leadership training program designed for future careers
-    related to poverty alleviation.  King Scholars come from poverty circumstances
-    and are selected for their drive, talent, and commitment to address poverty in
-    their home countries. They are awarded full scholarships to attend select US universities
-    and receive extensive support that begins before they even arrive on campus, with
-    pre-orientation services, and carries them through their entire college career
-    with ongoing academic mentoring and summer internships in fields related to poverty
-    alleviation.\n \nThe King Scholars program was launched at Dartmouth College in
-    2012 and expanded in 2015 with a total gift of $36 million to fund 24 students
-    per year at scale (6 students in each class).  In conjunction with the Morgridge
-    family, King Philanthropies is in the process of expanding the program with a
-    $36 million gift to fund 24 students per year at scale (6 students in each class)
-    at the University of Wisconsin-Madison beginning in 2017. These King-Morgridge
-    Scholars will have the opportunity to engage with the Willis L. Jones Leadership
-    Center at UW, named after Dottie King’s beloved father.\n"
-  moreAboutUrl: http://www.kingscholars.com/
 - sys:
     id: 41Xcii4e0ooe0OsoMa8gaS
   initiativeTitle: Knight-Hennessy Scholars
@@ -355,58 +326,6 @@ initiatives:
     Program, a distinctive training and development curriculum in which all Knight-Hennessy
     Scholars will participate to complement their core degree studies. \n"
   moreAboutUrl: ' https://knight-hennessy.stanford.edu/'
-- sys:
-    id: TFfzQqIzsIC04WuISimi6
-  initiativeTitle: Thrive Foundation For Youth
-  url: thrive-foundation-for-youth
-  heroSingleInitiative:
-    title: Thrive Edit Hero-sized
-    url: //images.contentful.com/0cp1epmalnde/2tzbYVH7uUwOU460agUwyk/c703c292848ff94d3fa02e05b1802aab/Thrive_Edit_Hero-sized.jpg
-  heroTitleColor: color-blue
-  order: 4
-  thumbImage:
-    title: homepage.thrive-copy-3-sized
-    url: //images.contentful.com/0cp1epmalnde/1sSQNEaHTS4q6IyM6GCG2c/9990e5f57ed640b24e2cea22fc841ce3/homepage.thrive-copy-3-sized.jpg
-  hoverText: The full potential of youth unleashed
-  initiativeBlurb: Over 15 years ago, Bob and Dottie King and their adult children
-    agreed on their family’s philanthropic commitment to help youth to realize their
-    full potential, or to “thrive.”
-  initiativeSubtitle: The full potential of youth unleashed
-  theOpportunity: "Over 15 years ago, Bob and Dottie King and their adult children
-    agreed on their family’s philanthropic commitment to help youth to realize their
-    full potential, or to “thrive.”  They focused their attention in the field of
-    positive youth development, which intentionally highlights the assets, interests
-    and abilities of youth and adolescents, rather than emphasizing the negative outcomes
-    that youth need to avoid.  By investing in quality research as well as on-the-ground
-    experience, the Thrive Foundation for Youth has meaningfully contributed to the
-    advancement of the field of Positive Youth Development.  In this regard, the Kings
-    have used their resources to create opportunities to bridge research and practice
-    in youth development.\n \nMore than 20% of America’s 42 million youth live below
-    the federal poverty line, and nearly half of American youth live below 2x the
-    federal poverty line.  Evidence suggests that being poor makes it more difficult
-    to thrive, impacting the academic achievement, employment opportunities, exposure
-    to violence, and mental and physical health of youth.  In recent years, the Thrive
-    Foundation has invested its resources in changing the trajectory of the lives
-    of disadvantaged youth across the United States. Going forward, as a division
-    of King Philanthropies, the Thrive Foundation seeks opportunities to leverage
-    best practices in youth development globally."
-  statementGalleryTopRight: Bridging research and practice
-  statementGalleryBottomLeft: 'Caring adults for disadvantaged youth   '
-  ourFocusImage1:
-    title: Thrive Edit 2-sized
-    url: //images.contentful.com/0cp1epmalnde/huxJxXcKZMQkos2sUMYQu/a6a000d7562132c94a99b848bf00502b/Thrive_Edit_2-sized.jpg
-  ourFocusImage2:
-    title: Thrive Edit 4-sized
-    url: //images.contentful.com/0cp1epmalnde/3B2WzFn1iwSouGycAakqCs/32b0dbe27bae392e9948eb4de4cb1ccd/Thrive_Edit_4-sized.jpg
-  ourFocusImage3:
-    title: Thrive Edit 1-sized
-    url: //images.contentful.com/0cp1epmalnde/flXBnlmD7iuaWCOU26iQM/7056663702f735792f1e0feae2c53c65/Thrive_Edit_1-sized.jpg
-  ourFocusImage4:
-    title: Thrive Edit 3-sized
-    url: //images.contentful.com/0cp1epmalnde/XqQk1DRjkQegOY0MuMWCC/b2d6d9cddf85f1de6ba5d274f73a3a67/Thrive_Edit_3-sized.jpg
-  theInitiativeText: |
-    The Thrive Foundation guides disadvantaged youth to reach their full potential by strengthening the presence and impact of caring adults in their lives. The foundation partners with successful programs in which caring adults support adolescent youth, and in which evidence-based research is applied in practical ways. The current work is built on earlier research in positive youth development and invests in the critical relationship between young people and the caring adults in their lives. Through continued research and ongoing implementation, the Thrive Foundation continues its strategy of investing in high-impact youth-serving organizations, identifying best practices, and amplifying what works.
-  moreAboutUrl: http://www.thrivefoundation.org/
 - sys:
     id: 5dgRKiDKuQEEIwgKoyAEyo
   initiativeTitle: Stanford Seed
@@ -518,146 +437,213 @@ initiatives:
     url: //images.contentful.com/0cp1epmalnde/16qOZ4Z3hYYAGQ4cAOMswu/29986b27d4c414c797c95185efbee32a/IMG_4363-sized.jpg
   theInitiativeText: |
     Recognizing the importance of both agriculture and nutrition to improve the livelihoods of the rural poor, in early 2017 King Philanthropies will launch a pilot supporting best-in-class organizations working in food, nutrition, and rural livelihoods. The first phase of our pilot will focus on Myanmar, with subsequent efforts focused on East Africa and South Asia.
-staffMember:
 - sys:
-    id: 5ccUWnnuP6AyOoim4kwqwq
-  name: William F. Meehan III
-  url: william-f-meehan-iii
+    id: 5hSEDZl4WQEgCOyiIiAwEE
+  initiativeTitle: King Scholars Leadership Program
+  url: king-scholars
+  heroSingleInitiative:
+    title: King Hero-sized
+    url: //images.contentful.com/0cp1epmalnde/1VeI5AQ5hO6200YOIO6sw6/d9aee05ab4084398375be588583fe128/King_Hero-sized.jpg
+  heroTitleColor: color-gold-light
   order: 1
-  jobTitle: Special Advisor
-  picture:
-    title: WMeehan-Bio-Photo
-    url: //images.contentful.com/0cp1epmalnde/5o6EjvzMnCK8GAqQsmqoSQ/e2642a85a21aaf969620ccf737210f7d/WMeehan-Bio-Photo.jpg
-  bio: William is the Lafayette Partners Lecturer in Strategic Management at the Stanford
-    University Graduate School of Business and a Director Emeritus of McKinsey & Company.
-    He is a sought-after writer, speaker, teacher and advisor on strategy, leadership,
-    governance, and performance measurement for non-profit organizations and philanthropists.
-    At Stanford, he also is a founding member of the Advisory Council of the Center
-    on Philanthropy and Civil Society, a faculty member of the Public Management Program
-    and the Center for Social Innovation, and a member of the Arts Advisory Council.
-    He developed and teaches a pioneering course in frontier markets private equity
-    and helped launch and shape the Stanford Institute for Innovation in Developing
-    Economies (Seed). He serves on the Board of GiveDirectly, and the North American
-    Council of Ashoka. A committed supporter of the arts and advisor to arts organizations,
-    he is also a long-serving Board member of the San Francisco Symphony and a member
-    of the Oregon Shakespeare Festival Endowment Board. He is a Special Advisor to
-    and Board member of King Philanthropies. He is former Chair of the United Way
-    of the Bay Area and Chairman-Emeritus of Guidestar. Meehan retired from McKinsey
-    Company in December 2008 after a career of over 30 years.
+  thumbImage:
+    title: homepage.knight.hennesey.option1-sized
+    url: //images.contentful.com/0cp1epmalnde/5I2GRDtAD6mY4Gs6iug6GK/9df855d116221c6c03c165ce401c31c9/homepage.knight.hennesey.option1-sized.jpg
+  hoverText: Exceptional students committed to changing the world
+  initiativeBlurb: 'The King Scholars program is built on a simple premise: poverty
+    alleviation can be best achieved by those who have direct experience of it. '
+  initiativeSubtitle: Exceptional students committed to changing the world
+  theOpportunity: |
+    The King Scholars program is built on a simple premise: poverty alleviation can be best achieved by those who have direct experience of it. So in 2012, when Bob and Dottie King set out to train and equip a new generation of leaders to alleviate poverty across the globe, they looked to those who had themselves grown up in poverty. The Kings recognized that emerging leaders could be identified as early as high school and provided with a world-class college education and leadership training that would prepare them to employ game-changing solutions in poverty alleviation. King Scholars have grown up in poverty and know whereof they speak.  They demonstrate a passionate commitment to leading future poverty alleviation efforts in their home countries and are uniquely positioned to effect significant change.
+  statementGalleryTopRight: '24 scholars and growing  '
+  statementGalleryBottomLeft: Scholarships for future leaders of the developing world
+  ourFocusImage1:
+    title: 20160919-King-Scholars-EB-031-size
+    url: //images.contentful.com/0cp1epmalnde/3lhsNb99iwmikKgGIOamOg/94bf6bc0acdea639ccfd07f36283fcf7/20160919-King-Scholars-EB-031-size.jpg
+  ourFocusImage2:
+    title: King 1-sized
+    url: //images.contentful.com/0cp1epmalnde/3aDpCz65TWUkQeQG4u8cwo/e91e2ecf22b66432c6667c7dc09dd94b/King_1-sized.jpg
+  ourFocusImage3:
+    title: IMG 3087 mosaic-sized
+    url: //images.contentful.com/0cp1epmalnde/fnWeuR1kicGO8wuOIiUuS/eaab8b0c17b739b58ef76a713b7e0588/IMG_3087_mosaic-sized.jpg
+  ourFocusImage4:
+    title: King-Scholar Mosaic3-sized
+    url: //images.contentful.com/0cp1epmalnde/3X0gXzPZbquSkq64Yo2muC/f7bb8051c2e636043878dd6904856eff/King-Scholar_Mosaic3-sized.jpg
+  theInitiativeText: |-
+    The King Scholars program aims to alleviate global poverty by bringing exceptional students from developing nations to leading US universities for a world-class college education, extraordinary internship opportunities, and participation in a unique leadership training program designed for future careers related to poverty alleviation.  King Scholars come from poverty circumstances and are selected for their drive, talent, and commitment to addressing poverty in their home countries. They are awarded full scholarships to attend select US universities and receive extensive support that begins before they even arrive on campus, with pre-orientation services, and carries them through their entire college career with ongoing academic mentoring and summer internships in fields related to poverty alleviation.
+
+    The King Scholars program was launched at Dartmouth College in 2012 and expanded in 2015. Today, thanks to a total gift of $36 million, the program at Dartmouth funds 24 students per year (6 students in each class). In 2017, King Philanthropies—in conjunction with the Morgridge family—launched the program at the University of Wisconsin-Madison (UMW). Drawing on a total gift of $36 million, the program will eventually fund 24 UMW students per year (6 students in each class). These students, known as King-Morgridge Scholars, will have the opportunity to engage with the Willis L. Jones Leadership Center, a facility at UMW named after Dottie King’s beloved father.
+  moreAboutUrl: http://www.kingscholars.com/
 - sys:
-    id: 2PiL5zy2sg2qE0w4mG2ASM
-  name: Dana M. Nunn
-  url: dana-m-nunn
-  order: 3
-  jobTitle: Interim Executive Director for the Thrive Foundation for Youth
-  picture:
-    title: DNunn-Bio-Photo
-    url: //images.contentful.com/0cp1epmalnde/ejrGDHcKJMKC2kQU6wKA0/6b5b08c1d9a36b1779045c51e11b5844/DNunn-Bio-Photo.jpg
-  bio: "Dana is the Interim Executive Director for the Thrive Foundation for Youth,
-    a division of King Philanthropies. Dana is also the founder of Quantitative Marketing
-    Intelligence (QMI), a marketing consulting firm that provides quantitative and
-    strategic consulting services to clients in diverse industries. Prior to founding
-    QMI, Dana researched pricing optimization in an academic setting, implemented
-    product pricing strategies for several technology companies, and worked in management
-    consulting. Dana now enjoys applying her expertise in strategy and quantitative
-    methods to her passion for helping disadvantaged youth. Dana obtained a B.A. in
-    Economics and Government from Dartmouth College, an M.A. in Economics from Stanford
-    University, and a Ph.D. in Business from the Stanford Graduate School of Business.
-    \n"
-- sys:
-    id: 2jCPHXPzMMAe8yugIQu6AU
-  name: Devin Bruckner
-  url: devin-bruckner
-  order: 5
-  jobTitle: Director of Research and Special Projects
-  picture:
-    title: DBruckner-Bio-Photo
-    url: //images.contentful.com/0cp1epmalnde/5kN5ptIgfugI6csaYiy8mc/2c00bed6c3d536d21efeaa8bde6631e2/DBruckner-Bio-Photo.jpg
-  bio: "Devin is a Director of Research and Special Projects with King Philanthropies.
-    She brings 15 years of experience in nonprofit management and consulting, including
-    work with McKinsey & Company, the Gates Foundation, and the Kravis Prize in Nonprofit
-    Leadership. Focused on international development and global poverty alleviation,
-    her work has included strategic planning, grantee due diligence, program management,
-    impact assessment, and financial and market analysis.  Devin spent two years in
-    Peru and significant time in East Africa working in economic development.  Devin
-    graduated Summa Cum Laude from Claremont McKenna College with a B.A. in Economics.
-    \n"
-- sys:
-    id: 3nLovxrY9G2qqcYkKKYESq
-  name: Michael Slind
-  url: michael-slind
+    id: TFfzQqIzsIC04WuISimi6
+  initiativeTitle: Thrive Foundation For Youth
+  url: thrive-foundation-for-youth
+  heroSingleInitiative:
+    title: Thrive Edit Hero-sized
+    url: //images.contentful.com/0cp1epmalnde/2tzbYVH7uUwOU460agUwyk/c703c292848ff94d3fa02e05b1802aab/Thrive_Edit_Hero-sized.jpg
+  heroTitleColor: color-blue
   order: 4
-  jobTitle: Director of Communication
-  picture:
-    title: unnamed
-    url: //images.contentful.com/0cp1epmalnde/6WOxIm1agMA4wOYWiusoc/c8bb010309fd103a22f1c46452823dfe/unnamed.jpg
-  bio: "Michael is the Director of Communication of King Philanthropies. He has extensive
-    experience as a communication professional. From 2013 to 2016, he was the Senior
-    Editor of *Stanford Social Innovation Review*. Michael is also co-author, with
-    Boris Groysberg, of *Talk, Inc.: How Trusted Leaders Use Conversation to Power
-    Their Organizations* (Harvard Business Review Press, 2012). Previously, he worked
-    at Harvard Business School, where he wrote widely used case studies on corporate
-    strategy and entrepreneurial management. Earlier in his career, he served as the
-    Managing Editor and as a Senior Editor of *Fast Company* magazine. During his
-    tenure as its managing editor, Fast Company won a National Magazine Award for
-    general excellence. In addition, Michael has acted as an editorial consultant
-    for business author Tom Peters, among others. For Peters, he helped to develop
-    the books *Re-imagine!* (Dorling-Kindersley, 2003) and *The Little Big Things*
-    (HarperStudio, 2010). Michael earned a B.A. in history from the University of
-    Kansas and an M.A. in history from Cornell University. \n\n"
+  thumbImage:
+    title: homepage.thrive-copy-3-sized
+    url: //images.contentful.com/0cp1epmalnde/1sSQNEaHTS4q6IyM6GCG2c/9990e5f57ed640b24e2cea22fc841ce3/homepage.thrive-copy-3-sized.jpg
+  hoverText: The full potential of youth unleashed
+  initiativeBlurb: Over 15 years ago, Bob and Dottie King and their adult children
+    agreed on their family’s philanthropic commitment to help youth to realize their
+    full potential, or to “thrive.”
+  initiativeSubtitle: The full potential of youth unleashed
+  theOpportunity: "Over 15 years ago, Bob and Dottie King and their adult children
+    agreed on their family’s philanthropic commitment to help youth to realize their
+    full potential, or to “thrive.”  They focused their attention in the field of
+    positive youth development, which intentionally highlights the assets, interests
+    and abilities of youth and adolescents, rather than emphasizing the negative outcomes
+    that youth need to avoid.  By investing in quality research as well as on-the-ground
+    experience, the Thrive Foundation for Youth has meaningfully contributed to the
+    advancement of the field of Positive Youth Development.  In this regard, the Kings
+    have used their resources to create opportunities to bridge research and practice
+    in youth development.\n \nMore than 20% of America’s 42 million youth live below
+    the federal poverty line, and nearly half of American youth live below 2x the
+    federal poverty line.  Evidence suggests that being poor makes it more difficult
+    to thrive, impacting the academic achievement, employment opportunities, exposure
+    to violence, and mental and physical health of youth.  In recent years, the Thrive
+    Foundation has invested its resources in changing the trajectory of the lives
+    of disadvantaged youth across the United States. Going forward, as a division
+    of King Philanthropies, the Thrive Foundation seeks opportunities to leverage
+    best practices in youth development globally."
+  statementGalleryTopRight: Bridging research and practice
+  statementGalleryBottomLeft: 'Caring adults for disadvantaged youth   '
+  ourFocusImage1:
+    title: Thrive Edit 2-sized
+    url: //images.contentful.com/0cp1epmalnde/huxJxXcKZMQkos2sUMYQu/a6a000d7562132c94a99b848bf00502b/Thrive_Edit_2-sized.jpg
+  ourFocusImage2:
+    title: Thrive Edit 4-sized
+    url: //images.contentful.com/0cp1epmalnde/3B2WzFn1iwSouGycAakqCs/32b0dbe27bae392e9948eb4de4cb1ccd/Thrive_Edit_4-sized.jpg
+  ourFocusImage3:
+    title: Thrive Edit 1-sized
+    url: //images.contentful.com/0cp1epmalnde/flXBnlmD7iuaWCOU26iQM/7056663702f735792f1e0feae2c53c65/Thrive_Edit_1-sized.jpg
+  ourFocusImage4:
+    title: Thrive Edit 3-sized
+    url: //images.contentful.com/0cp1epmalnde/XqQk1DRjkQegOY0MuMWCC/b2d6d9cddf85f1de6ba5d274f73a3a67/Thrive_Edit_3-sized.jpg
+  theInitiativeText: |
+    The Thrive Foundation guides disadvantaged youth to reach their full potential by strengthening the presence and impact of caring adults in their lives. The foundation partners with successful programs in which caring adults support adolescent youth, and in which evidence-based research is applied in practical ways. The current work is built on earlier research in positive youth development and invests in the critical relationship between young people and the caring adults in their lives. Through continued research and ongoing implementation, the Thrive Foundation continues its strategy of investing in high-impact youth-serving organizations, identifying best practices, and amplifying what works.
+  moreAboutUrl: http://www.thrivefoundation.org/
+boardMember:
 - sys:
-    id: 1Zj3dr7LNKYqQ0usGUU8ws
-  name: Chanthi Lune
-  url: chanthi-lune
-  order: 2
-  jobTitle: Director of Finance, Investments, and Administration
+    id: sDJ60A5Me4OkiagsiWyM4
+  name: Robert E. King
   picture:
-    title: chanthi
-    url: //images.contentful.com/0cp1epmalnde/6rcKFlQamQcAAIcOSmCqeE/8d3761769e03fdb7905fd49748fa1411/chanthi.jpg
-  bio: |
-    Chanthi is the Director of Finance, Investments, and Administration for King Philanthropies. She manages all aspects of finance for King Philanthropies, with particular focus on financial reporting, analysis and investments. Prior to joining King Philanthropies she worked as a legal contractor for several law firms practicing diverse areas of law, from intellectual property to securities litigation. Prior to law school, Chanthi worked in various finance capacities at three Wall Street firms—Robertson Stephens, Jefferies & Company, and Citi Smith Barney. Chanthi holds a B.A. in Political Science from the University of the Pacific and a J.D./M.B.A. from Gonzaga University. She is admitted to practice law in the state of California. She currently sits on the Board of AC Global Risk.
+    sys:
+      id: 1ZXQIfpSZyeqy4w4uu06wk
+  memberOrder: 0
 - sys:
-    id: 6dzeg8xbNKG26GcQMU6oQO
-  name: Sandeep Patel
-  url: sandeep-patel
-  order: 6
-  jobTitle: Advisor, Food, Nutrition and Rural Livelihoods Initiative
+    id: 89vfYItxQIeM2sUic4OcE
+  name: Dorothy J. King
   picture:
-    title: SPatel-Bio-Photo
-    url: //images.contentful.com/0cp1epmalnde/M8gFZlKbU2ImCWQeqEsA8/6b5ee6a539908dac51bee6bea9a27679/SPatel-Bio-Photo.jpg
-  bio: |
-    Sandeep is a Managing Director at Barclays Capital, where he leads the food and
-    agriculture advisory effort globally. His expertise spans the full breadth of the food
-    value chain, including agricultural technology and inputs, origination and processing, protein production, food ingredients and nutrition and private label and branded packaged food. Prior to joining Barclays, Sandeep spent over ten years at Goldman Sachs in New York and India, where most recently he was Managing Director and Head of Corporate Finance/M&amp;A in the Mumbai office. Sandeep has along-standing interest in the intersection of poverty, food and agriculture, and environmental sustainability. His professional experience in this area includes work with numerous nonprofit organizations, foundations, and academic institutions. He led a comparative agricultural study in Kenya and Tanzania, with results published in Land Economics. Sandeep has a J.D. from Yale Law School, an M.S. in Economics from M.I.T., and a B.A. (summa cum laude) from Williams College. He was a Fulbright Scholar in India studying rural development and sustainability, a Jacob K. Javits Fellow at M.I.T., and was selected to be a fellow in the Aspen Institute’s inaugural leadership program in India.
+    sys:
+      id: 1ZXQIfpSZyeqy4w4uu06wk
+  memberOrder: 1
 - sys:
-    id: LP5P1Sk0maOW0qEEcoWs6
-  name: Sonal Goyal
-  url: sonal-goyal
-  order: 7
-  jobTitle: Research Associate in Economic Development
+    id: 2Kdw4D8Ngc6GO6uqgwIwae
+  name: William F. Meehan III
   picture:
-    title: sonal
-    url: //images.contentful.com/0cp1epmalnde/63nRqb4IDe4ou8u6sU4MkY/cd49acb98fea7a4e4020bd9d4e3cd5c1/sonal.jpg
-  bio: 'Sonal is a Research Associate in Economic Development for King Philanthropies.
-    Sonal worked previously in the Department of Impact Evaluation at the World Bank,
-    Morgan Stanley’s Public Finance division, Ashoka Changemakers, Innovate Delhi
-    Entrepreneurship Academy (a startup boot camp organized in New Delhi and funded
-    by Seed), and Motu Economic and Research Institute in New Zealand. She also conducted
-    field research in Ghana with the  Stanford Center for International Development.
-    Sonal graduated from Stanford University with a degree in Economics, where she
-    served on the National Advisory Board of the Haas Center for Public Service. She
-    is currently a Stanford Public Interest Network (SPIN) fellow at the Haas Center. '
+    sys:
+      id: 1ZXQIfpSZyeqy4w4uu06wk
+  memberOrder: 3
 - sys:
-    id: 2PgSSfabpeaIEKw28a6Smy
+    id: 4HuDlxe4kUY8WCi4CaQSUe
   name: Kim Starkey Jonker
-  url: kim-starkey-jonker
-  order: 0
-  jobTitle: President and CEO
   picture:
-    title: KJonker
-    url: //images.contentful.com/0cp1epmalnde/1NZE85LkCgmaooeSmgsoc/cd4c50a6d3d9b4bef383957a77551f0f/KJonker_Bio_Photo2.jpg
-  bio: |
-    Kim is the President and CEO of King Philanthropies. She brings more than 25 years of experience in the social sector, most recently as an advisor and consultant to nonprofits, philanthropists and foundations on topics of strategy, impact evaluation, board governance, and organizational effectiveness. A recognized thought leader in the sector, Kim is a frequent contributor to the Stanford Social Innovation Review (SSIR) and served as a Visiting Practitioner at Stanford’s Center for Philanthropy and Civil Society (PACS). Previously, Kim was executive director of the Henry R. Kravis Prize in Nonprofit Leadership. She was a management consultant at McKinsey & Company in the San Francisco and Los Angeles offices, and a Farber Fellow at REDF. A Harry S. Truman Scholar, Kim holds an M.B.A. from Stanford, a M.Sc. in Economics for Development from Oxford, and a M.Sc. in International Relations from the London School of Economics.
+    sys:
+      id: 1ZXQIfpSZyeqy4w4uu06wk
+  memberOrder: 2
+letter:
+- sys:
+    id: 97dlqP2NPyYAKYGegaQ20
+  year: '2016'
+  heroLetter:
+    title: Letter-Hero Edit-7-sized
+    url: //images.contentful.com/0cp1epmalnde/100qHcUMzOoYiYiG0O0I4G/0e81809d64dc2bac24c734cd4cbab460/Letter-Hero_Edit-7-sized.jpg
+  title: Solving extreme poverty
+  content: "# 1+1=3\n\nOver the past half century, we have been privileged to welcome
+    into our California home more than 50 students from across the globe, most of
+    whom came from afar to study at Stanford University.  We hosted these students
+    because we believe in the commandment to “love your neighbor as yourself” and
+    do our best to follow it.  Yet each of these students gave us so much more than
+    we gave them, broadening our world in ways we could never have dreamed.  Through
+    them, we truly came to understand that the word “neighbor” is not limited to those
+    who live side-by-side on the same street, or even to residents of the same town,
+    or citizens of a single country.   On the contrary, as the world shrinks with
+    astonishing speed, our neighbors are now everywhere on this earth. \n\nSadly,
+    many of our neighbors are struggling. \nNearly 10 percent of the world’s population
+    – 702 million people - live on $1.90 a day, or less, a bleak statistic that is
+    unconscionable to us.  Simply to survive at such an income level is a daily challenge
+    – to thrive, all but impossible.  Most of the people who live in extreme poverty
+    are in Sub-Saharan Africa and South Asia.  In 2015, Sub-Saharan Africa accounted
+    for nearly half of the global poor, with one in three of its people living in
+    extreme poverty and oftentimes lacking access even to electricity and clean water,
+    not to mention education and opportunity.  South Asia has seen the percentage
+    of extreme poor in its population decline to about 10 percent in recent years,
+    but that figure encompasses huge numbers of people.  \n\n![Letter From Founders
+    sized](//images.contentful.com/0cp1epmalnde/1SwJXONd7SEAuo2w2Kawwa/0d51b65748810dbb10b1b15c8e24ce2c/Letter_From_Founders_sized.jpg)\n\nWe
+    seek to address the tragedy of global poverty by fostering entrepreneurship that
+    will lead to job creation; supporting the development of future leaders and investing
+    in the development of our youth; and enhancing the food security, nutrition, and
+    rural livelihoods of the world’s poorest.  In choosing where and how to direct
+    our philanthropy, there is one “equation” we always keep in mind: 1 + 1 = 3.  This
+    guides us to adopt a systematic approach when seizing opportunities; we support
+    organizations that will take full advantage of all available collaboration opportunities,
+    create a positive cascading effect, and generate outsized impact. \n\n__Solving
+    Poverty by Job Creation:__\nThe Stanford Institute for Innovation in Developing
+    Economies, or Stanford Seed, was founded in partnership with the Stanford Graduate
+    School of Business to address extreme poverty through job creation by scaling
+    businesses.  It aims to build entrepreneurship from the bottom up in developing
+    economies, fostering a generation of successful entrepreneurs who will reach out
+    and guide the next generation.  Seed is an action-oriented program in which research
+    informs practice, creating a positive feedback loop between Stanford faculty and
+    entrepreneurs from developing nations who are actively working to scale their
+    enterprises.  Through its GDP Research Initiative, Seed supports research that
+    relates to poverty alleviation spanning disciplines across all of Stanford University,
+    including public health, education, law, political science, engineering, computer
+    science, and the environment, among others.\n\n__Providing Scholarships for Future
+    Leaders of the Developing World:__\nThe King Scholars program is based on a simple
+    premise – that those with direct experience of poverty are best positioned to
+    alleviate it.  It brings outstanding students from developing nations to leading
+    American colleges and universities (initially Dartmouth and the University of
+    Wisconsin) for a world-class education, extraordinary internship opportunities,
+    and the chance to participate in a leadership training program designed to support
+    careers related to poverty alleviation.  The Knight-Hennessy Scholars program
+    for graduate students at Stanford seeks to identify rising leaders from around
+    the world, expose them to real-life challenges, and better equip them to lead
+    ambitious change.  \n\n__Promoting Positive Youth Development for Disadvantaged
+    Youth:__\nThe Thrive Foundation for Youth guides disadvantaged youth to reach
+    their full potential by strengthening the presence and impact of caring adults
+    in their lives. It relies on partnership with successful programs and evidence-based
+    research pragmatically applied. In recent years, the Thrive Foundation for Youth
+    has invested its resources in changing the trajectory of the lives of disadvantaged
+    youth across the United States. Going forward, the Thrive Foundation for Youth
+    seeks opportunities to leverage best practices in youth development globally,
+    with a focus on youth growing up in poverty.\n\n__Alleviating Poverty by Combatting
+    Hunger and Malnutrition:__\nOur new Food, Nutrition, and Rural Livelihoods Initiative
+    seeks to alleviate extreme poverty by focusing on the more than 500 million people
+    who suffer from hunger and undernourishment in Sub-Saharan Africa and South Asia.
+    \ Malnutrition has many terrible effects, including stunted physical growth and
+    impaired brain development. But one of its greatest cruelties is the theft of
+    individual and collective potential – those who hover on the brink of starvation
+    can never break the grasp of poverty and illness, which then persist for generations.
+    \ Fortunately, there is ample evidence that reducing or eliminating malnutrition
+    leads to improvement in individual and societal health, education, earnings, and
+    even GDP. We have chosen to start this new initiative in Myanmar with a pilot
+    program to support outstanding organizations working in food, nutrition, and rural
+    livelihoods. We picked Myanmar because of need – the country has one of the highest
+    malnutrition rates in the Asia-Pacific region – and because the government has
+    committed itself to significant change. Subsequently, we will extend our efforts
+    to Sub-Saharan Africa and India.\n\nOur new initiative to combat extreme poverty
+    is built on the same three cornerstones as all our philanthropic endeavors: focus,
+    collaboration, and results.   In other words, adopt a laser-like focus on unmet
+    needs and work with others whenever possible – by walking together, we will all
+    walk farther.  The truth of this African proverb has guided us throughout our
+    lives, and it is in this spirit that we invite you to join us in the fight against
+    global poverty.  Together, we can achieve concrete results and an outsized impact;
+    1 + 1 = 3.  \n\n \n"
 pages:
 - sys:
     id: 6sv7GrmAfK6WkYMeSK4sCo
