@@ -266,6 +266,43 @@ newsPost:
   link: http://news.wisc.edu/scholarship-to-prepare-international-students-for-global-development-leadership/
 initiatives:
 - sys:
+    id: 5hSEDZl4WQEgCOyiIiAwEE
+  initiativeTitle: King Scholars Leadership Program
+  url: king-scholars
+  heroSingleInitiative:
+    title: King Hero-sized
+    url: //images.contentful.com/0cp1epmalnde/1VeI5AQ5hO6200YOIO6sw6/d9aee05ab4084398375be588583fe128/King_Hero-sized.jpg
+  heroTitleColor: color-gold-light
+  order: 1
+  thumbImage:
+    title: homepage.knight.hennesey.option1-sized
+    url: //images.contentful.com/0cp1epmalnde/5I2GRDtAD6mY4Gs6iug6GK/9df855d116221c6c03c165ce401c31c9/homepage.knight.hennesey.option1-sized.jpg
+  hoverText: Exceptional students committed to changing the world
+  initiativeBlurb: 'The King Scholars program is built on a simple premise: poverty
+    alleviation can be best achieved by those who have direct experience of it. '
+  initiativeSubtitle: Exceptional students committed to changing the world
+  theOpportunity: |
+    The King Scholars program is built on a simple premise: poverty alleviation can be best achieved by those who have direct experience of it. So in 2012, when Bob and Dottie King set out to train and equip a new generation of leaders to alleviate poverty across the globe, they looked to those who had themselves grown up in poverty. The Kings recognized that emerging leaders could be identified as early as high school and provided with a world-class college education and leadership training that would prepare them to employ game-changing solutions in poverty alleviation. King Scholars have grown up in poverty and know whereof they speak. They demonstrate a passionate commitment to leading future poverty alleviation efforts in their home countries and are uniquely positioned to effect significant change.
+  statementGalleryTopRight: '24 scholars and growing  '
+  statementGalleryBottomLeft: Scholarships for future leaders of the developing world
+  ourFocusImage1:
+    title: 20160919-King-Scholars-EB-031-size
+    url: //images.contentful.com/0cp1epmalnde/3lhsNb99iwmikKgGIOamOg/94bf6bc0acdea639ccfd07f36283fcf7/20160919-King-Scholars-EB-031-size.jpg
+  ourFocusImage2:
+    title: King 1-sized
+    url: //images.contentful.com/0cp1epmalnde/3aDpCz65TWUkQeQG4u8cwo/e91e2ecf22b66432c6667c7dc09dd94b/King_1-sized.jpg
+  ourFocusImage3:
+    title: IMG 3087 mosaic-sized
+    url: //images.contentful.com/0cp1epmalnde/fnWeuR1kicGO8wuOIiUuS/eaab8b0c17b739b58ef76a713b7e0588/IMG_3087_mosaic-sized.jpg
+  ourFocusImage4:
+    title: King-Scholar Mosaic3-sized
+    url: //images.contentful.com/0cp1epmalnde/3X0gXzPZbquSkq64Yo2muC/f7bb8051c2e636043878dd6904856eff/King-Scholar_Mosaic3-sized.jpg
+  theInitiativeText: |-
+    The King Scholars program aims to alleviate global poverty by bringing exceptional students from developing nations to leading US universities for a world-class college education, extraordinary internship opportunities, and participation in a unique leadership training program designed for future careers related to poverty alleviation. King Scholars come from poverty circumstances and are selected for their drive, talent, and commitment to addressing poverty in their home countries. They are awarded full scholarships to attend select US universities, and they receive extensive support that begins before they even arrive on campus, with pre-orientation services, and carries them through their entire college career with  academic mentoring and summer internships in fields related to poverty alleviation.
+
+    The King Scholars program was launched at Dartmouth College in 2012 and expanded in 2015. Today, thanks to a total gift of $36 million, the program at Dartmouth funds 24 students per year (6 students in each class). In 2017, King Philanthropies—in conjunction with the Morgridge family—launched the program at the University of Wisconsin-Madison (UMW). Drawing on a total gift of $36 million, the program will eventually fund 24 UMW students per year (6 students in each class). These students, known as King-Morgridge Scholars, will have the opportunity to engage with the Willis L. Jones Leadership Center, a facility at UMW named after Dottie King’s beloved father.
+  moreAboutUrl: http://www.kingscholars.com/
+- sys:
     id: 41Xcii4e0ooe0OsoMa8gaS
   initiativeTitle: Knight-Hennessy Scholars
   url: knight-hennessy-scholars
@@ -437,43 +474,6 @@ initiatives:
     url: //images.contentful.com/0cp1epmalnde/16qOZ4Z3hYYAGQ4cAOMswu/29986b27d4c414c797c95185efbee32a/IMG_4363-sized.jpg
   theInitiativeText: |
     Recognizing the importance of both agriculture and nutrition to improve the livelihoods of the rural poor, in early 2017 King Philanthropies will launch a pilot supporting best-in-class organizations working in food, nutrition, and rural livelihoods. The first phase of our pilot will focus on Myanmar, with subsequent efforts focused on East Africa and South Asia.
-- sys:
-    id: 5hSEDZl4WQEgCOyiIiAwEE
-  initiativeTitle: King Scholars Leadership Program
-  url: king-scholars
-  heroSingleInitiative:
-    title: King Hero-sized
-    url: //images.contentful.com/0cp1epmalnde/1VeI5AQ5hO6200YOIO6sw6/d9aee05ab4084398375be588583fe128/King_Hero-sized.jpg
-  heroTitleColor: color-gold-light
-  order: 1
-  thumbImage:
-    title: homepage.knight.hennesey.option1-sized
-    url: //images.contentful.com/0cp1epmalnde/5I2GRDtAD6mY4Gs6iug6GK/9df855d116221c6c03c165ce401c31c9/homepage.knight.hennesey.option1-sized.jpg
-  hoverText: Exceptional students committed to changing the world
-  initiativeBlurb: 'The King Scholars program is built on a simple premise: poverty
-    alleviation can be best achieved by those who have direct experience of it. '
-  initiativeSubtitle: Exceptional students committed to changing the world
-  theOpportunity: |
-    The King Scholars program is built on a simple premise: poverty alleviation can be best achieved by those who have direct experience of it. So in 2012, when Bob and Dottie King set out to train and equip a new generation of leaders to alleviate poverty across the globe, they looked to those who had themselves grown up in poverty. The Kings recognized that emerging leaders could be identified as early as high school and provided with a world-class college education and leadership training that would prepare them to employ game-changing solutions in poverty alleviation. King Scholars have grown up in poverty and know whereof they speak.  They demonstrate a passionate commitment to leading future poverty alleviation efforts in their home countries and are uniquely positioned to effect significant change.
-  statementGalleryTopRight: '24 scholars and growing  '
-  statementGalleryBottomLeft: Scholarships for future leaders of the developing world
-  ourFocusImage1:
-    title: 20160919-King-Scholars-EB-031-size
-    url: //images.contentful.com/0cp1epmalnde/3lhsNb99iwmikKgGIOamOg/94bf6bc0acdea639ccfd07f36283fcf7/20160919-King-Scholars-EB-031-size.jpg
-  ourFocusImage2:
-    title: King 1-sized
-    url: //images.contentful.com/0cp1epmalnde/3aDpCz65TWUkQeQG4u8cwo/e91e2ecf22b66432c6667c7dc09dd94b/King_1-sized.jpg
-  ourFocusImage3:
-    title: IMG 3087 mosaic-sized
-    url: //images.contentful.com/0cp1epmalnde/fnWeuR1kicGO8wuOIiUuS/eaab8b0c17b739b58ef76a713b7e0588/IMG_3087_mosaic-sized.jpg
-  ourFocusImage4:
-    title: King-Scholar Mosaic3-sized
-    url: //images.contentful.com/0cp1epmalnde/3X0gXzPZbquSkq64Yo2muC/f7bb8051c2e636043878dd6904856eff/King-Scholar_Mosaic3-sized.jpg
-  theInitiativeText: |-
-    The King Scholars program aims to alleviate global poverty by bringing exceptional students from developing nations to leading US universities for a world-class college education, extraordinary internship opportunities, and participation in a unique leadership training program designed for future careers related to poverty alleviation.  King Scholars come from poverty circumstances and are selected for their drive, talent, and commitment to addressing poverty in their home countries. They are awarded full scholarships to attend select US universities and receive extensive support that begins before they even arrive on campus, with pre-orientation services, and carries them through their entire college career with ongoing academic mentoring and summer internships in fields related to poverty alleviation.
-
-    The King Scholars program was launched at Dartmouth College in 2012 and expanded in 2015. Today, thanks to a total gift of $36 million, the program at Dartmouth funds 24 students per year (6 students in each class). In 2017, King Philanthropies—in conjunction with the Morgridge family—launched the program at the University of Wisconsin-Madison (UMW). Drawing on a total gift of $36 million, the program will eventually fund 24 UMW students per year (6 students in each class). These students, known as King-Morgridge Scholars, will have the opportunity to engage with the Willis L. Jones Leadership Center, a facility at UMW named after Dottie King’s beloved father.
-  moreAboutUrl: http://www.kingscholars.com/
 - sys:
     id: TFfzQqIzsIC04WuISimi6
   initiativeTitle: Thrive Foundation For Youth

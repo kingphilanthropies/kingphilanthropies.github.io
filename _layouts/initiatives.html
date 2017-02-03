@@ -56,7 +56,9 @@ group: "initiatives"
 		<div class="col-8-12 center">
 			<h3 class="color-olive">the initiative</h3>
 			<span class="color-olive center-text">&mdash;</span>
-			<p class="color-olive">{{ page.contentful_fields.theInitiativeText | markdownify }}</p>
+			<div style="color:#D1B894 !important">
+				<p class="color-olive">{{ page.contentful_fields.theInitiativeText | markdownify }}</p>
+			</div>
 			<div class="col-1-2 {% if page.contentful_fields.moreAboutUrl == nil or page.contentful_fields.moreAboutUrl == '' %} center {% endif %}">
 				<p class="button olive-blue"><a href="/initiatives" style="display: block;">View All King Initiatives</a></p>
 			</div>
