@@ -402,6 +402,10 @@ section.dark-red .email-signup-form {
     section.dark-red .email-signup-form input[type=text]:hover, section.dark-red .email-signup-form input[type=email]:hover, section.dark-red .email-signup-form textarea:hover {
       box-shadow: 0px 0px 5px #E8D9C5;
       border: 1px solid #E8D9C5; }
+    @media handheld, only screen and (max-width: 767px) {
+      section.dark-red .email-signup-form input[type=text], section.dark-red .email-signup-form input[type=email], section.dark-red .email-signup-form textarea {
+        width: 100%;
+        margin-bottom: 5px; } }
   section.dark-red .email-signup-form input[type=submit] {
     background-color: #D1B894;
     font-family: "Open Sans", Helvetica, sans-serif;
@@ -447,6 +451,10 @@ footer .email-signup-form {
     footer .email-signup-form input[type=email]:hover {
       box-shadow: 0px 0px 5px #333447;
       border: 1px solid #333447; }
+    @media handheld, only screen and (max-width: 767px) {
+      footer .email-signup-form input[type=email] {
+        width: 100%;
+        margin-bottom: 5px; } }
   footer .email-signup-form input[type=submit] {
     background-color: #333447;
     font-family: "Open Sans", Helvetica, sans-serif;
