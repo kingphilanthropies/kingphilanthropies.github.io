@@ -48,7 +48,7 @@ $(document).ready(function(){
         $(this).html(string);
     });
 
-    $("#mc-embedded-subscribe-form").submit(function(e) {
+    $(".email-signup-form").submit(function(e) {
       e.preventDefault();
       var $form = $(this);
 

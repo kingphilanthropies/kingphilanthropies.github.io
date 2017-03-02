@@ -36,7 +36,7 @@ $assets-path			: '/assets/img/';
 @mixin input-glow($glow-color, $border-color) { // Gives a glow effect around text inputs
     @include transition(all 0.4s ease-in-out 0s); // Glow appears slowly
     border: 1px solid $border-color; // Set "invisible" border so field width doesn't change when clicked
-    padding: 3px;
+    padding: 5px 10px;
     outline: none; // Remove Chrome's default input style
 
     &:focus { // Glow when input field is clicked
