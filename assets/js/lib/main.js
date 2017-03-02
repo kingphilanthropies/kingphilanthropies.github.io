@@ -47,4 +47,14 @@ $(document).ready(function(){
         string = string.replace(/ ([^ ]*)$/,'&nbsp;$1');
         $(this).html(string);
     });
+
+    $("#mc-embedded-subscribe-form").submit(function(e) {
+      e.preventDefault();
+
+      var $form = $(this);
+      $.post($form.attr("action"), $form.serialize()).then(function() {
+        $('.newslettersignup').html('<h2 class="subtle">Thank you for your interest in King Philanthropies</h2><h2 class="subtle">We will update you soon on our work.</h2>');
+      });
+
+    });
 });

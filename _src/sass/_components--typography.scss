@@ -23,6 +23,9 @@ h2 {
 	@media screen and #{$brk-narrow} {
 		font-size: 18px;
 	}
+	&.subtle {
+		font-size:22px;
+	}
 }
 
 h3, h4, p, p.caption, p.button, a, ul, li {
