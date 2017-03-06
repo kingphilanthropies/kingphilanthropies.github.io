@@ -13,7 +13,9 @@ permalink: /:title
 exclude: ['_sass', '_src', '_grunt', 'node_modules', 'Gruntfile.js', 'package.json', 'README.md', 'Gemfile']
 
 # Enabling gems
-gems: [jekyll-contentful]
+gems: [
+"jekyll-contentful"
+]
 
 defaults:
   -

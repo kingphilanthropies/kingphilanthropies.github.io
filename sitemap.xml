@@ -53,4 +53,55 @@ sitemap:
     </url>
     {% endunless %}
   {% endfor %}
+
+
+  {% for staffMember in site.data.contentful.spaces.proddata.staffMember %}
+    {% unless page.sitemap.exclude == "yes" %}
+     <url>
+      <loc>/staff-member/{{ site.data.contentful.spaces.proddata.staffMember[forloop.index0].url }}</loc>
+      {% if page.sitemap.lastmod %}
+        <lastmod>{{ page.sitemap.lastmod | date: "%Y-%m-%d" }}</lastmod>
+      {% elsif page.date %}
+        <lastmod>{{ page.date | date_to_xmlschema }}</lastmod>
+      {% else %}
+        <lastmod>{{ site.time | date_to_xmlschema }}</lastmod>
+      {% endif %}
+      {% if page.sitemap.changefreq %}
+        <changefreq>{{ page.sitemap.changefreq }}</changefreq>
+      {% else %}
+        <changefreq>monthly</changefreq>
+      {% endif %}
+      {% if page.sitemap.priority %}
+        <priority>{{ page.sitemap.priority }}</priority>
+      {% else %}
+        <priority>0.5</priority>
+      {% endif %}
+    </url>
+     {% endunless %}
+  {% endfor %}
+
+  {% for founder in site.data.contentful.spaces.proddata.founder %}
+    {% unless page.sitemap.exclude == "yes" %}
+    <url>
+        <loc>/founders/{{ site.data.contentful.spaces.proddata.founder[forloop.index0].url }}</loc>
+        {% if page.sitemap.lastmod %}
+          <lastmod>{{ page.sitemap.lastmod | date: "%Y-%m-%d" }}</lastmod>
+        {% elsif page.date %}
+          <lastmod>{{ page.date | date_to_xmlschema }}</lastmod>
+        {% else %}
+          <lastmod>{{ site.time | date_to_xmlschema }}</lastmod>
+        {% endif %}
+        {% if page.sitemap.changefreq %}
+          <changefreq>{{ page.sitemap.changefreq }}</changefreq>
+        {% else %}
+          <changefreq>monthly</changefreq>
+        {% endif %}
+        {% if page.sitemap.priority %}
+          <priority>{{ page.sitemap.priority }}</priority>
+        {% else %}
+          <priority>0.5</priority>
+        {% endif %}
+    </url>
+    {% endunless %}
+  {% endfor %}
 </urlset>

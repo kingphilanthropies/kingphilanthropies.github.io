@@ -1,0 +1,85 @@
+// GENERAL
+.email-signup-form { 
+	input[type=text], input[type=email], textarea {
+		@include transition(.3s);
+	    height: 38px;
+	    display: inline-block;
+	    padding: 5px 10px;
+		font-family: $stack-sans-serif;
+		font-size: 16px;
+		vertical-align: top;
+	}
+	label {
+		display: none;
+	}
+	input[type=submit] {
+		@include transition(.3s);
+	    display: inline-block;
+	    padding: 9px 25px;
+	    cursor: pointer;
+	    text-transform: uppercase;
+	    font-size:13px;
+	    letter-spacing: 1px;
+	    text-decoration: none;
+	}
+}
+
+// HOME PAGE SUBSCRIBE
+section.dark-red {
+	.email-signup-form {
+		text-align: center;
+		@include placeholder-style(#955c67);
+		input[type=text], input[type=email], textarea {
+			width: 30%;
+			@include input-glow($gold-light, $olive);
+			background-color: $dark-red;
+		    color: $olive;
+		    margin-right: 1%;
+			@media handheld, only screen and #{$brk-narrow} {
+				width:100%;
+				margin-bottom: 5px;
+			}
+		}
+		input[type=submit] {
+			background-color:$olive;
+			font-family: $stack-sans-serif;
+		    border: 1px solid $blue;
+		    color: $blue;
+		    margin: 20px auto 0 auto;
+		    display: block;
+		    &:hover {
+		    	background: lighten($olive,10%);
+		    }
+		}
+	}
+}
+
+// FOOTER SUBSCRIBE
+footer .email-signup-form {
+	text-align: center;
+	padding-bottom:20px;
+	@include placeholder-style(#955c67);
+	input[type=text] {
+		display: none;
+	}
+	input[type=email] {
+		@include input-glow($blue, $blue);
+	    background-color: $light-grey;
+	    color: $olive;
+	    width:35%;
+    	@media handheld, only screen and #{$brk-narrow} {
+			width:100%;
+			margin-bottom: 5px;
+		}
+	}
+	input[type=submit] {
+		background-color:$blue;
+		font-family: $stack-sans-serif;
+	    border: 1px solid $blue;
+	    color: $olive;
+	    &:hover {
+	    	background: $olive;
+    		color: $blue;
+	    }
+	}
+}

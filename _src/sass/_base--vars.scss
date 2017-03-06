@@ -23,10 +23,53 @@ $assets-path			: '/assets/img/';
 // Mixins
 @mixin transition($length) {
 	transition: all $length ease-out;
+	-webkit-transition: all $length ease-out;
+	-moz-transition: all $length  ease-out;
+	-ms-transition: all $length  ease-out;
+	-o-transition: all $length  ease-out;
 }
 
 @mixin translateY($percent) {
     transform: translateY($percent); 
+}
+
+@mixin input-glow($glow-color, $border-color) { // Gives a glow effect around text inputs
+    @include transition(all 0.4s ease-in-out 0s); // Glow appears slowly
+    border: 1px solid $border-color; // Set "invisible" border so field width doesn't change when clicked
+    padding: 5px 10px;
+    outline: none; // Remove Chrome's default input style
+
+    &:focus { // Glow when input field is clicked
+        box-shadow: 0px 0px 5px $glow-color;
+        border: 1px solid $glow-color;
+    }
+
+    &:hover { // Glow when input field is hovered over
+        box-shadow: 0px 0px 5px $glow-color;
+        border: 1px solid $glow-color;
+    }
+}
+
+
+@mixin placeholder-style($color){
+	::placeholder {
+		color: $color !important;
+	} 
+	:placeholder-shown {
+		color: $color !important;
+	}
+	::-webkit-input-placeholder {
+		color: $color;
+	} 
+	::-moz-placeholder {
+		color: $color;
+	} 
+	:-ms-input-placeholder {
+		color: $color;
+	} 
+	:-moz-placeholder {
+		color: $color;
+	}	
 }
 
 // Media Query Breakpoints

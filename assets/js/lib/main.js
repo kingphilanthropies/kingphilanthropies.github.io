@@ -47,4 +47,26 @@ $(document).ready(function(){
         string = string.replace(/ ([^ ]*)$/,'&nbsp;$1');
         $(this).html(string);
     });
+
+    $(".email-signup-form").submit(function(e) {
+      e.preventDefault();
+      var $form = $(this);
+
+        $.ajax({
+            dataType: 'jsonp',
+            contentType: "application/json; charset=utf-8",
+            type: $form.attr('method'),
+            url: $form.attr('action'),
+            data: $form.serialize(),
+            cache : false,
+            error : function(err) { alert("Could not connect to the registration server. Please try again later."); },
+            success : function(data) {
+                if (data.result != "success") {
+                    $('.newslettersignup').html(data.msg);
+                } else {
+                    $('.newslettersignup').html('<h2 class="subtle">Thank you for your interest in King Philanthropies.<br/>We will update you soon on our work.<h2></h2>');
+                }
+            }
+        });
+    });
 });
