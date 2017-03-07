@@ -1,10 +1,14 @@
 <footer class="site-footer">
-
+ 
   <div class="wrapper">
-  <div class="grid">
-    <div class="col-1-1 newslettersignup">
+  <div class="grid">        
+    <div class="col-1-1 newslettersignup"> 
         <h2 class="subtle">Learn more about the work of King Philanthropies.</h2>
-        {% include mailchimp.html %}
+        <div class="email-signup-form"> 
+          <input type="email" placeholder="Your Email Address" value="" name="EMAIL" class="required email">
+          <input type="submit" value="Sign Up" name="subscribe" class="button" id="modal-trigger">
+        </div>
+
     </div>
   </div>
   	<div class="grid center-vertical">
@@ -37,4 +41,13 @@
 
 </script>
 <script src="/assets/js/lib/jquery.min.js"></script>
+<script src="/assets/js/lib/picoModal.js"></script>
 <script src="/assets/js/lib/main.js"></script>
+
+<script type="text/javascript">
+    var modal = picoModal( `
+      <p>Thank you for your interest in King Philanthropies.<br/>
+      We will u pdate you soon on our work.</p> 
+      {% include mailchimp.html %} 
+      `);
+</script>

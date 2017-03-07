@@ -6,7 +6,7 @@
 	    display: inline-block;
 	    padding: 5px 10px;
 		font-family: $stack-sans-serif;
-		font-size: 16px;
+		font-size: 14px;
 		vertical-align: top;
 	}
 	label {
@@ -30,7 +30,7 @@ section.dark-red {
 		text-align: center;
 		@include placeholder-style(#955c67);
 		input[type=text], input[type=email], textarea {
-			width: 30%;
+			width: 23%;
 			@include input-glow($gold-light, $olive);
 			background-color: $dark-red;
 		    color: $olive;
@@ -55,13 +55,10 @@ section.dark-red {
 }
 
 // FOOTER SUBSCRIBE
-footer .email-signup-form {
+footer .email-signup-form, .pico-content {
 	text-align: center;
 	padding-bottom:20px;
 	@include placeholder-style(#955c67);
-	input[type=text] {
-		display: none;
-	}
 	input[type=email] {
 		@include input-glow($blue, $blue);
 	    background-color: $light-grey;
@@ -81,5 +78,31 @@ footer .email-signup-form {
 	    	background: $olive;
     		color: $blue;
 	    }
+	}
+}
+ 
+.pico-content {
+	.pico-close {
+	    top: 10px !important;
+	    right: 15px !important;
+	    font-size:38px !important;
+	    background: #fff !important;
+	}
+	padding:40px !important;
+	input[type=email] {
+		display: none;
+	}
+	input[type=submit] {
+		margin-top: 20px;
+		display: block;
+		margin:5px auto;
+	}
+	input[type=text] {
+		@include input-glow($blue, $blue);
+		width: 175px;
+	}
+	input.input-organization {
+		width: 354px;
+		margin:5px auto;
 	}
 }

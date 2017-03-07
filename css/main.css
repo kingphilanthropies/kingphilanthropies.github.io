@@ -351,7 +351,7 @@ body {
   display: inline-block;
   padding: 5px 10px;
   font-family: "Open Sans", Helvetica, sans-serif;
-  font-size: 16px;
+  font-size: 14px;
   vertical-align: top; }
 .email-signup-form label {
   display: none; }
@@ -384,7 +384,7 @@ section.dark-red .email-signup-form {
   section.dark-red .email-signup-form :-moz-placeholder {
     color: #955c67; }
   section.dark-red .email-signup-form input[type=text], section.dark-red .email-signup-form input[type=email], section.dark-red .email-signup-form textarea {
-    width: 30%;
+    width: 23%;
     transition: all all 0.4s ease-in-out 0s ease-out;
     -webkit-transition: all all 0.4s ease-in-out 0s ease-out;
     -moz-transition: all all 0.4s ease-in-out 0s ease-out;
@@ -416,24 +416,22 @@ section.dark-red .email-signup-form {
     section.dark-red .email-signup-form input[type=submit]:hover {
       background: #e0d0b8; }
 
-footer .email-signup-form {
+footer .email-signup-form, .pico-content {
   text-align: center;
   padding-bottom: 20px; }
-  footer .email-signup-form ::placeholder {
+  footer .email-signup-form ::placeholder, .pico-content ::placeholder {
     color: #955c67 !important; }
-  footer .email-signup-form :placeholder-shown {
+  footer .email-signup-form :placeholder-shown, .pico-content :placeholder-shown {
     color: #955c67 !important; }
-  footer .email-signup-form ::-webkit-input-placeholder {
+  footer .email-signup-form ::-webkit-input-placeholder, .pico-content ::-webkit-input-placeholder {
     color: #955c67; }
-  footer .email-signup-form ::-moz-placeholder {
+  footer .email-signup-form ::-moz-placeholder, .pico-content ::-moz-placeholder {
     color: #955c67; }
-  footer .email-signup-form :-ms-input-placeholder {
+  footer .email-signup-form :-ms-input-placeholder, .pico-content :-ms-input-placeholder {
     color: #955c67; }
-  footer .email-signup-form :-moz-placeholder {
+  footer .email-signup-form :-moz-placeholder, .pico-content :-moz-placeholder {
     color: #955c67; }
-  footer .email-signup-form input[type=text] {
-    display: none; }
-  footer .email-signup-form input[type=email] {
+  footer .email-signup-form input[type=email], .pico-content input[type=email] {
     transition: all all 0.4s ease-in-out 0s ease-out;
     -webkit-transition: all all 0.4s ease-in-out 0s ease-out;
     -moz-transition: all all 0.4s ease-in-out 0s ease-out;
@@ -445,24 +443,57 @@ footer .email-signup-form {
     background-color: #f7f7f6;
     color: #D1B894;
     width: 35%; }
-    footer .email-signup-form input[type=email]:focus {
+    footer .email-signup-form input[type=email]:focus, .pico-content input[type=email]:focus {
       box-shadow: 0px 0px 5px #333447;
       border: 1px solid #333447; }
-    footer .email-signup-form input[type=email]:hover {
+    footer .email-signup-form input[type=email]:hover, .pico-content input[type=email]:hover {
       box-shadow: 0px 0px 5px #333447;
       border: 1px solid #333447; }
     @media handheld, only screen and (max-width: 767px) {
-      footer .email-signup-form input[type=email] {
+      footer .email-signup-form input[type=email], .pico-content input[type=email] {
         width: 100%;
         margin-bottom: 5px; } }
-  footer .email-signup-form input[type=submit] {
+  footer .email-signup-form input[type=submit], .pico-content input[type=submit] {
     background-color: #333447;
     font-family: "Open Sans", Helvetica, sans-serif;
     border: 1px solid #333447;
     color: #D1B894; }
-    footer .email-signup-form input[type=submit]:hover {
+    footer .email-signup-form input[type=submit]:hover, .pico-content input[type=submit]:hover {
       background: #D1B894;
       color: #333447; }
+
+.pico-content {
+  padding: 40px !important; }
+  .pico-content .pico-close {
+    top: 10px !important;
+    right: 15px !important;
+    font-size: 38px !important;
+    background: #fff !important; }
+  .pico-content input[type=email] {
+    display: none; }
+  .pico-content input[type=submit] {
+    margin-top: 20px;
+    display: block;
+    margin: 5px auto; }
+  .pico-content input[type=text] {
+    transition: all all 0.4s ease-in-out 0s ease-out;
+    -webkit-transition: all all 0.4s ease-in-out 0s ease-out;
+    -moz-transition: all all 0.4s ease-in-out 0s ease-out;
+    -ms-transition: all all 0.4s ease-in-out 0s ease-out;
+    -o-transition: all all 0.4s ease-in-out 0s ease-out;
+    border: 1px solid #333447;
+    padding: 5px 10px;
+    outline: none;
+    width: 175px; }
+    .pico-content input[type=text]:focus {
+      box-shadow: 0px 0px 5px #333447;
+      border: 1px solid #333447; }
+    .pico-content input[type=text]:hover {
+      box-shadow: 0px 0px 5px #333447;
+      border: 1px solid #333447; }
+  .pico-content input.input-organization {
+    width: 354px;
+    margin: 5px auto; }
 
 h1 {
   font-family: "Playfair Display", Times, serif;

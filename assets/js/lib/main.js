@@ -48,25 +48,42 @@ $(document).ready(function(){
         $(this).html(string);
     });
 
-    $(".email-signup-form").submit(function(e) {
-      e.preventDefault();
-      var $form = $(this);
 
-        $.ajax({
-            dataType: 'jsonp',
-            contentType: "application/json; charset=utf-8",
-            type: $form.attr('method'),
-            url: $form.attr('action'),
-            data: $form.serialize(),
-            cache : false,
-            error : function(err) { alert("Could not connect to the registration server. Please try again later."); },
-            success : function(data) {
-                if (data.result != "success") {
-                    $('.newslettersignup').html(data.msg);
-                } else {
-                    $('.newslettersignup').html('<h2 class="subtle">Thank you for your interest in King Philanthropies.<br/>We will update you soon on our work.<h2></h2>');
-                }
-            }
-        });
+
+    
+    $("#modal-trigger").on('click', function(e) {
+        e.preventDefault();
+        var email = $('footer .email-signup-form input[type=email]').val(); 
+        modal.show();
+        $('.pico-content #mc_embed_signup_scroll input[type=email]').val(email);
+        addEmailSubscriptionEventListener();
     });
+
+
+
+    function addEmailSubscriptionEventListener(){
+        $(".email-signup-form").submit(function(e) {
+          e.preventDefault();
+          var $form = $(this);
+
+            $.ajax({
+                dataType: 'jsonp',
+                contentType: "application/json; charset=utf-8",
+                type: $form.attr('method'),
+                url: $form.attr('action'),
+                data: $form.serialize(),
+                cache : false,
+                error : function(err) { alert("Could not connect to the registration server. Please try again later."); },
+                success : function(data) {
+                    if (data.result != "success") {
+                        $('.newslettersignup').html(`<p style="text-align:center;">` + data.msg + `</p>`);
+                     modal.close();
+                    } else {
+                        $('.newslettersignup').html('<h2 class="subtle">Thank you for your interest in King Philanthropies.<br/>We will update you soon on our work.<h2></h2>');
+                        modal.close();
+                    }
+                }
+            });
+        });
+   };
 });
