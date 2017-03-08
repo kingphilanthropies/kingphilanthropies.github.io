@@ -451,6 +451,64 @@ initiatives:
     Scholars will participate to complement their core degree studies. \n"
   moreAboutUrl: ' https://knight-hennessy.stanford.edu/'
 - sys:
+    id: TFfzQqIzsIC04WuISimi6
+  initiativeTitle: Thrive Foundation For Youth
+  url: thrive-foundation-for-youth
+  heroSingleInitiative:
+    title: Thrive Edit Hero-sized
+    description: 
+    url: //images.contentful.com/0cp1epmalnde/2tzbYVH7uUwOU460agUwyk/c703c292848ff94d3fa02e05b1802aab/Thrive_Edit_Hero-sized.jpg
+  heroTitleColor: color-blue
+  order: 4
+  thumbImage:
+    title: homepage.thrive-copy-3-sized
+    description: 
+    url: //images.contentful.com/0cp1epmalnde/1sSQNEaHTS4q6IyM6GCG2c/9990e5f57ed640b24e2cea22fc841ce3/homepage.thrive-copy-3-sized.jpg
+  hoverText: The full potential of youth unleashed
+  initiativeBlurb: Over 15 years ago, Bob and Dottie King and their adult children
+    agreed on their family’s philanthropic commitment to help youth to realize their
+    full potential, or to “thrive.”
+  initiativeSubtitle: The full potential of youth unleashed
+  theOpportunity: "Over 15 years ago, Bob and Dottie King and their adult children
+    agreed on their family’s philanthropic commitment to help youth to realize their
+    full potential, or to “thrive.”  They focused their attention in the field of
+    positive youth development, which intentionally highlights the assets, interests
+    and abilities of youth and adolescents, rather than emphasizing the negative outcomes
+    that youth need to avoid.  By investing in quality research as well as on-the-ground
+    experience, the Thrive Foundation for Youth has meaningfully contributed to the
+    advancement of the field of Positive Youth Development.  In this regard, the Kings
+    have used their resources to create opportunities to bridge research and practice
+    in youth development.\n \nMore than 20% of America’s 42 million youth live below
+    the federal poverty line, and nearly half of American youth live below 2x the
+    federal poverty line.  Evidence suggests that being poor makes it more difficult
+    to thrive, impacting the academic achievement, employment opportunities, exposure
+    to violence, and mental and physical health of youth.  In recent years, the Thrive
+    Foundation has invested its resources in changing the trajectory of the lives
+    of disadvantaged youth across the United States. Going forward, as a division
+    of King Philanthropies, the Thrive Foundation seeks opportunities to leverage
+    best practices in youth development globally."
+  statementGalleryTopRight: Bridging research and practice
+  statementGalleryBottomLeft: 'Caring adults for disadvantaged youth   '
+  ourFocusImage1:
+    title: Thrive Edit 2-sized
+    description: 
+    url: //images.contentful.com/0cp1epmalnde/huxJxXcKZMQkos2sUMYQu/a6a000d7562132c94a99b848bf00502b/Thrive_Edit_2-sized.jpg
+  ourFocusImage2:
+    title: Thrive Edit 4-sized
+    description: 
+    url: //images.contentful.com/0cp1epmalnde/3B2WzFn1iwSouGycAakqCs/32b0dbe27bae392e9948eb4de4cb1ccd/Thrive_Edit_4-sized.jpg
+  ourFocusImage3:
+    title: Thrive Edit 1-sized
+    description: 
+    url: //images.contentful.com/0cp1epmalnde/flXBnlmD7iuaWCOU26iQM/7056663702f735792f1e0feae2c53c65/Thrive_Edit_1-sized.jpg
+  ourFocusImage4:
+    title: Thrive Edit 3-sized
+    description: 
+    url: //images.contentful.com/0cp1epmalnde/XqQk1DRjkQegOY0MuMWCC/b2d6d9cddf85f1de6ba5d274f73a3a67/Thrive_Edit_3-sized.jpg
+  theInitiativeText: |
+    The Thrive Foundation guides disadvantaged youth to reach their full potential by strengthening the presence and impact of caring adults in their lives. The foundation partners with successful programs in which caring adults support adolescent youth, and in which evidence-based research is applied in practical ways. The current work is built on earlier research in positive youth development and invests in the critical relationship between young people and the caring adults in their lives. Through continued research and ongoing implementation, the Thrive Foundation continues its strategy of investing in high-impact youth-serving organizations, identifying best practices, and amplifying what works.
+  moreAboutUrl: http://www.thrivefoundation.org/
+- sys:
     id: 38MJ5Pvhf2WAacs8EMcAmE
   initiativeTitle: Food, Nutrition and Rural Livelihoods Initiative
   url: food-nutrition-and-rural-livelihoods-initiative
@@ -521,64 +579,7 @@ initiatives:
     url: //images.contentful.com/0cp1epmalnde/16qOZ4Z3hYYAGQ4cAOMswu/29986b27d4c414c797c95185efbee32a/IMG_4363-sized.jpg
   theInitiativeText: |
     Recognizing the importance of both agriculture and nutrition to improve the livelihoods of the rural poor, in early 2017 King Philanthropies will launch a pilot supporting best-in-class organizations working in food, nutrition, and rural livelihoods. The first phase of our pilot will focus on Myanmar, with subsequent efforts focused on East Africa and South Asia.
-- sys:
-    id: TFfzQqIzsIC04WuISimi6
-  initiativeTitle: Thrive Foundation For Youth
-  url: thrive-foundation-for-youth
-  heroSingleInitiative:
-    title: Thrive Edit Hero-sized
-    description: 
-    url: //images.contentful.com/0cp1epmalnde/2tzbYVH7uUwOU460agUwyk/c703c292848ff94d3fa02e05b1802aab/Thrive_Edit_Hero-sized.jpg
-  heroTitleColor: color-blue
-  order: 4
-  thumbImage:
-    title: homepage.thrive-copy-3-sized
-    description: 
-    url: //images.contentful.com/0cp1epmalnde/1sSQNEaHTS4q6IyM6GCG2c/9990e5f57ed640b24e2cea22fc841ce3/homepage.thrive-copy-3-sized.jpg
-  hoverText: The full potential of youth unleashed
-  initiativeBlurb: Over 15 years ago, Bob and Dottie King and their adult children
-    agreed on their family’s philanthropic commitment to help youth to realize their
-    full potential, or to “thrive.”
-  initiativeSubtitle: The full potential of youth unleashed
-  theOpportunity: "Over 15 years ago, Bob and Dottie King and their adult children
-    agreed on their family’s philanthropic commitment to help youth to realize their
-    full potential, or to “thrive.”  They focused their attention in the field of
-    positive youth development, which intentionally highlights the assets, interests
-    and abilities of youth and adolescents, rather than emphasizing the negative outcomes
-    that youth need to avoid.  By investing in quality research as well as on-the-ground
-    experience, the Thrive Foundation for Youth has meaningfully contributed to the
-    advancement of the field of Positive Youth Development.  In this regard, the Kings
-    have used their resources to create opportunities to bridge research and practice
-    in youth development.\n \nMore than 20% of America’s 42 million youth live below
-    the federal poverty line, and nearly half of American youth live below 2x the
-    federal poverty line.  Evidence suggests that being poor makes it more difficult
-    to thrive, impacting the academic achievement, employment opportunities, exposure
-    to violence, and mental and physical health of youth.  In recent years, the Thrive
-    Foundation has invested its resources in changing the trajectory of the lives
-    of disadvantaged youth across the United States. Going forward, as a division
-    of King Philanthropies, the Thrive Foundation seeks opportunities to leverage
-    best practices in youth development globally."
-  statementGalleryTopRight: Bridging research and practice
-  statementGalleryBottomLeft: 'Caring adults for disadvantaged youth   '
-  ourFocusImage1:
-    title: Thrive Edit 2-sized
-    description: 
-    url: //images.contentful.com/0cp1epmalnde/huxJxXcKZMQkos2sUMYQu/a6a000d7562132c94a99b848bf00502b/Thrive_Edit_2-sized.jpg
-  ourFocusImage2:
-    title: Thrive Edit 4-sized
-    description: 
-    url: //images.contentful.com/0cp1epmalnde/3B2WzFn1iwSouGycAakqCs/32b0dbe27bae392e9948eb4de4cb1ccd/Thrive_Edit_4-sized.jpg
-  ourFocusImage3:
-    title: Thrive Edit 1-sized
-    description: 
-    url: //images.contentful.com/0cp1epmalnde/flXBnlmD7iuaWCOU26iQM/7056663702f735792f1e0feae2c53c65/Thrive_Edit_1-sized.jpg
-  ourFocusImage4:
-    title: Thrive Edit 3-sized
-    description: 
-    url: //images.contentful.com/0cp1epmalnde/XqQk1DRjkQegOY0MuMWCC/b2d6d9cddf85f1de6ba5d274f73a3a67/Thrive_Edit_3-sized.jpg
-  theInitiativeText: |
-    The Thrive Foundation guides disadvantaged youth to reach their full potential by strengthening the presence and impact of caring adults in their lives. The foundation partners with successful programs in which caring adults support adolescent youth, and in which evidence-based research is applied in practical ways. The current work is built on earlier research in positive youth development and invests in the critical relationship between young people and the caring adults in their lives. Through continued research and ongoing implementation, the Thrive Foundation continues its strategy of investing in high-impact youth-serving organizations, identifying best practices, and amplifying what works.
-  moreAboutUrl: http://www.thrivefoundation.org/
+  moreAboutUrl: https://assets.contentful.com/0cp1epmalnde/690Ehh2aJygC0mgMimaSuM/6e0ea292e716a30a2dea978a063520dd/KP_Myanmar_announcemenet.pdf
 boardMember:
 - sys:
     id: sDJ60A5Me4OkiagsiWyM4

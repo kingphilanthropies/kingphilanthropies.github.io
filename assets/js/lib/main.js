@@ -48,7 +48,8 @@ $(document).ready(function(){
         $(this).html(string);
     });
 
-
+    // Homepage newsletter
+    addEmailSubscriptionEventListener();
 
     
     $("#modal-trigger").on('click', function(e) {
